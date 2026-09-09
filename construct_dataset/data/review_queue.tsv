@@ -1,0 +1,75 @@
+# 사람이 봐야 할 항목. 고칠 것은 overrides.tsv 에 같은 id 로 적는다. 다시 merge 하면 여기서 사라진다.
+id	de	level	ipa	ko	reasons
+ander	ander-	a1		다른, 또 하나의	no_ipa
+bank	die Bank	a1	baŋk	은행, 벤치	plural_mismatch goethe=Banken wikt=Bänke
+beamte	der Beamte	a1	bəˈʔamtə	공무원	article_mismatch goethe=der wikt=die
+best	best-	a1		가장 좋은, 최고의	no_ipa
+bus	der Bus	a1	bœs	버스	plural_mismatch goethe=Busse wikt=Buses
+erwachsene	der Erwachsene	a1	ɛɐ̯ˈvaksənə	어른, 성인	article_mismatch goethe=der wikt=die
+jed	jed-	a1		각각의, 모든	no_ipa
+jugendliche	der Jugendliche	a1	ˈjuːɡn̩tlɪçə	청소년	article_mismatch goethe=der wikt=die
+weg-sein	weg sein	a1		가고 없다, 떠나고 없다	no_ipa
+zu-sein	zu sein	a1		닫혀 있다	no_ipa
+verwandte	der Verwandte	a1	fɛɐ̯ˈvantə	친척	article_mismatch goethe=der wikt=die
+was-fuer-ein	was für ein	a1		어떤, 무슨 종류의	no_ipa
+wort	das Wort	a1	vɔʁt	단어, 말	plural_mismatch goethe=Wörter wikt=Worte
+auf-jeden	auf jeden/keinen Fal	a2		반드시, 결코 ~않다	no_ipa
+chefin	die Chefin	a2	ˈʃɛfɪn	여자 상사, 여사장	plural_mismatch goethe=Chefinne wikt=Chefinnen
+dar-bsp-darauf	da(r) (Bsp. darauf	a2		그것에, 그것에 대해	no_ipa
+einverstanden-sein	einverstanden sein	a2		동의하다, 찬성하다	no_ipa
+einzel	einzel-	a2		개별의, 단독의, 혼자의	no_ipa
+erkaeltet-sein	erkältet sein	a2		감기에 걸리다	no_ipa
+erlaubt-sein	erlaubt sein	a2		허용되다, 허가되다	no_ipa
+ist-abgefahren	ist (ab)gefahren	a2		출발하다, 떠나다	no_ipa
+ist-gefallen	ist gefallen	a2		떨어지다	no_ipa
+fertig-sein	fertig sein	a2		다 되다, 준비되다, 끝나다	no_ipa
+fit-sein	fit sein	a2		건강하다, 컨디션이 좋다	no_ipa
+geburts-jahr	Geburts-(jahr	a2		출생 연도, 출생지, 생일	no_ipa
+gueltig-sein	gültig sein	a2		유효하다	no_ipa
+museum	das Museum	a2	muˈzeːʊm	박물관, 미술관	plural_mismatch goethe=Museeen wikt=Museen
+star	der Star	a2	ʃtaːɐ̯	스타	plural_mismatch goethe=Stars wikt=Stare
+unterwegs-sein	unterwegs sein	a2		가는 중이다, 외출 중이다	no_ipa
+verabredet-sein	verabredet sein	a2		약속이 있다	no_ipa
+wer-wen	wer (wen	a2		누구	no_ipa
+zurueck-fahren	zurück- (fahren	a2		돌아가다, 돌려주다, 돌아오다	no_ipa
+abwart	der Abwart	b1		관리인	no_ipa
+angehoerige	der Angehörige	b1	ˈanɡəˌhøːʁɪɡə	가족, 친척	article_mismatch goethe=der wikt=die
+bankomat-karte	die Bankomat-Karte	b1		현금카드, 직불카드	no_ipa
+beid	beid-	b1		둘 다, 양쪽 다	no_ipa
+bekannte	der Bekannte	b1	bəˈkantə	지인, 아는 사람	article_mismatch goethe=der wikt=die
+bescheid-geben	Bescheid geben	b1		알려주다, 통보하다	no_ipa
+besonder	besonder-	b1		특별한	no_ipa
+ein-bisschen	ein bisschen	b1		조금, 약간	no_ipa
+broetli	das Brötli	b1		롤빵, 작은 빵	no_ipa
+e-card	die e-card	b1		전자건강보험카드	no_ipa
+entweder-oder	entweder ... oder	b1		~이든지 ~이든지	no_ipa
+im-freien	im Freien	b1		야외에서, 밖에서	no_ipa
+friseurin	der Friseurin	b1	fʁiˈzøːʁɪn	미용사	article_mismatch goethe=der wikt=die
+sich-etwas-gefallen-lassen	sich etwas gefallen lassen	b1		참다, 감수하다	no_ipa
+runterwerfen	runterwerfen	b1		아래로 던지다	no_ipa
+je-desto	je … desto …	b1		~할수록 더 ~하다	no_ipa
+kranke	der Kranke	b1	ˈkʁaŋkə	환자, 병자	article_mismatch goethe=der wikt=die
+kriminal-die-kriminalpolizei	Kriminal- die Kriminalpolizei	b1		형사경찰, 수사경찰	no_ipa
+leid-tun	leid tun	b1		유감이다, 안됐다, 미안하다	no_ipa
+mobilbox	die Mobilbox	b1		음성사서함	no_ipa
+poulet	das Poulet	b1		닭고기	no_ipa
+x		b1		추측하다, 조언하다	no_ipa
+rueebli	das Rüebli	b1		당근	no_ipa
+sich-scheiden-lassen	sich scheiden lassen	b1		이혼하다	no_ipa
+schuelerin-2	der Schülerin	b1	ˈʃyːləʁɪn	여학생	article_mismatch goethe=der wikt=die
+schwieger	Schwieger-	b1		시-, 처-, 인척의	no_ipa
+sekretaerin	der Sekretärin	b1	zekʁeˈtɛːʁɪn	여비서	article_mismatch goethe=der wikt=die
+selb	selb-	b1		같은	no_ipa
+serviceangestellte	der Serviceangestellte	b1		서비스 직원, 접객원	no_ipa
+serviceangestellte-2	die Serviceangestellte	b1		서비스 직원, 접객원	no_ipa
+so-viel	so viel/so viel wie	b1		그렇게 많이, ~만큼	no_ipa
+sowohl-als-auch	sowohl … als auch	b1		~뿐만 아니라 ~도	no_ipa
+spezial	Spezial-	b1		특별한, 전용의	no_ipa
+studierende	der Studierende	b1	ʃtuˈdiːʁəndə	대학생, 학생(남/중성)	article_mismatch goethe=der wikt=die
+tee-ziehen-lassen	Tee ziehen lassen	b1		차를 우려내다	no_ipa
+tote	der Tote	b1	ˈtoːtə	사망자, 죽은 사람	article_mismatch goethe=der wikt=die
+um-zu	um … zu	b1		~하기 위해	no_ipa
+un	un-	b1		안~, 못~, 비~(부정의 뜻)	no_ipa
+versichertenkarte	die Versichertenkarte	b1		건강보험증, 보험 카드	no_ipa
+warmen-pullover	warmen Pullover	b1		따뜻한	no_ipa
+weder-noch	weder … noch	b1		~도 ~도 아닌	no_ipa

@@ -1,0 +1,3006 @@
+id	de	level	ko	note	model
+ab	ab	a1	~부터	3격 지배, 시작점	claude-fable-5-1
+aber	aber	a1	그러나, 하지만	문장 중간에도 옴	claude-fable-5-1
+abfahren	abfahren	a1	출발하다, 떠나다	분리동사, sein 완료	claude-fable-5-1
+abfahrt	die Abfahrt	a1	출발		claude-fable-5-1
+abgeben	abgeben	a1	제출하다, 맡기다	분리동사, 강변화	claude-fable-5-1
+abholen	abholen	a1	데리러 가다, 찾아오다	분리동사	claude-fable-5-1
+absender	der Absender	a1	발신인, 보낸 사람		claude-fable-5-1
+achtung	Achtung	a1	주의, 조심	감탄사처럼 씀	claude-fable-5-1
+adresse	die Adresse	a1	주소		claude-fable-5-1
+all	all-	a1	모든, 모두, 전부	alles 모든 것, alle 모두	claude-fable-5-1
+allein	allein	a1	혼자, 홀로	주로 부사로 씀	claude-fable-5-1
+also	also	a1	그러니까, 그럼, 자	영어 also 뜻 아님	claude-fable-5-1
+alt	alt	a1	나이가 ~인, 늙은, 오래된	Wie alt: 몇 살	claude-fable-5-1
+alter	das Alter	a1	나이, 연령		claude-fable-5-1
+an	an	a1	~에, ~옆에, ~에 붙어	3/4격, 요일·날짜는 am	claude-fable-5-1
+anbieten	anbieten	a1	권하다, 제공하다	분리동사, 강변화	claude-fable-5-1
+angebot	das Angebot	a1	특가, 할인, 제안	im Angebot: 할인 중	claude-fable-5-1
+ander	ander-	a1	다른, 또 하나의	형용사 어미 변화	claude-fable-5-1
+anfangen	anfangen	a1	시작하다, 시작되다	분리동사, 강변화	claude-fable-5-1
+anfang	der Anfang	a1	시작, 처음, 초	Anfang Juli: 7월 초	claude-fable-5-1
+anklicken	anklicken	a1	클릭하다	분리동사	claude-fable-5-1
+ankommen	ankommen	a1	도착하다	분리동사, sein 완료	claude-fable-5-1
+ankunft	die Ankunft	a1	도착		claude-fable-5-1
+ankreuzen	ankreuzen	a1	체크 표시하다, X표 하다	분리동사	claude-fable-5-1
+anmachen	anmachen	a1	켜다	분리동사, 구어	claude-fable-5-1
+anmelden	(sich) anmelden	a1	등록하다, 신청하다	재귀동사, 분리동사	claude-fable-5-1
+anmeldung	die Anmeldung	a1	등록, 신청, 접수처		claude-fable-5-1
+anrede	die Anrede	a1	호칭, 편지 첫인사		claude-fable-5-1
+anrufen	anrufen	a1	전화하다	분리동사, 4격 목적어	claude-fable-5-1
+anruf	der Anruf	a1	전화, 통화		claude-fable-5-1
+anrufbeantworter	der Anrufbeantworter	a1	자동 응답기		claude-fable-5-1
+ansage	die Ansage	a1	안내 방송, 공지		claude-fable-5-1
+anschluss	der Anschluss	a1	연결편, 접속, 연결	환승 연결편	claude-fable-5-1
+an-sein	an sein	a1	켜져 있다	구어	claude-fable-5-1
+antworten	antworten	a1	대답하다	사람은 3격	claude-fable-5-1
+antwort	die Antwort	a1	대답, 답변		claude-fable-5-1
+anzeige	die Anzeige	a1	광고, 신고	예문은 신문 광고	claude-fable-5-1
+anziehen	(sich) anziehen	a1	옷을 입다, 입다	재귀동사, 분리동사	claude-fable-5-1
+apartment	das Apartment	a1	아파트, 원룸	소형 주거	claude-fable-5-1
+apfel	der Apfel	a1	사과	복수형 움라우트	claude-fable-5-1
+appetit	der Appetit	a1	식욕	Guten Appetit 맛있게 드세요	claude-fable-5-1
+arbeiten	arbeiten	a1	일하다	als+직업: ~로 일하다	claude-fable-5-1
+arbeit	die Arbeit	a1	일, 노동, 직장		claude-fable-5-1
+arbeitslos	arbeitslos	a1	실직한, 실업 상태의		claude-fable-5-1
+arbeitsplatz	der Arbeitsplatz	a1	일자리, 직장, 작업 자리		claude-fable-5-1
+arm	der Arm	a1	팔		claude-fable-5-1
+arzt	der Arzt	a1	의사	여성형 Ärztin	claude-fable-5-1
+auch	auch	a1	~도, 또한		claude-fable-5-1
+auf	auf	a1	~위에, ~으로	3/4격, 이동은 4격	claude-fable-5-1
+auf-sein	auf sein	a1	열려 있다	구어	claude-fable-5-1
+aufstehen	aufstehen	a1	일어나다, 기상하다	분리동사, sein 완료	claude-fable-5-1
+aufzug	der Aufzug	a1	엘리베이터, 승강기		claude-fable-5-1
+auge	das Auge	a1	눈		claude-fable-5-1
+aus	aus	a1	~에서, ~출신의, ~로 만든	3격 지배	claude-fable-5-1
+ausflug	der Ausflug	a1	소풍, 나들이	einen Ausflug machen	claude-fable-5-1
+ausfuellen	ausfüllen	a1	작성하다, 기입하다	분리동사	claude-fable-5-1
+ausgang	der Ausgang	a1	출구		claude-fable-5-1
+auskunft	die Auskunft	a1	안내, 정보, 안내소		claude-fable-5-1
+ausland	das Ausland	a1	외국, 해외	ins Ausland: 해외로	claude-fable-5-1
+auslaender	der Ausländer	a1	외국인	여성형 Ausländerin	claude-fable-5-1
+auslaendisch	ausländisch	a1	외국의		claude-fable-5-1
+ausmachen	ausmachen	a1	끄다, 상관없다, 약속을 정하다	분리동사	claude-fable-5-1
+aussage	die Aussage	a1	진술, 발언, 문장		claude-fable-5-1
+aussehen	aussehen	a1	~하게 보이다, ~처럼 보이다	분리동사	claude-fable-5-1
+aus-sein	aus sein	a1	꺼져 있다, 끝나다	구어	claude-fable-5-1
+aussteigen	aussteigen	a1	내리다, 하차하다	분리동사, sein 완료	claude-fable-5-1
+ausweis	der Ausweis	a1	신분증		claude-fable-5-1
+ausziehen	(sich) ausziehen	a1	벗다, 이사 나가다	분리동사, 이사는 sein 완료	claude-fable-5-1
+auto	das Auto	a1	자동차		claude-fable-5-1
+autobahn	die Autobahn	a1	고속도로		claude-fable-5-1
+automat	der Automat	a1	자동판매기, 자동 기계	N-변화 명사	claude-fable-5-1
+automatisch	automatisch	a1	자동의, 자동으로		claude-fable-5-1
+baby	das Baby	a1	아기		claude-fable-5-1
+baeckerei	die Bäckerei	a1	빵집, 제과점		claude-fable-5-1
+bad	das Bad	a1	욕실, 목욕		claude-fable-5-1
+baden	baden	a1	목욕하다, 물놀이하다, 수영하다		claude-fable-5-1
+bahn	die Bahn	a1	철도, 기차, 전철		claude-fable-5-1
+bahnhof	der Bahnhof	a1	기차역		claude-fable-5-1
+bahnsteig	der Bahnsteig	a1	승강장, 플랫폼		claude-fable-5-1
+bald	bald	a1	곧, 머지않아		claude-fable-5-1
+balkon	der Balkon	a1	발코니		claude-fable-5-1
+banane	die Banane	a1	바나나		claude-fable-5-1
+bank	die Bank	a1	은행, 벤치	뜻에 따라 복수형 다름	claude-fable-5-1
+bar	bar	a1	현금으로	bar zahlen 현금 결제	claude-fable-5-1
+bauch	der Bauch	a1	배, 복부		claude-fable-5-1
+baum	der Baum	a1	나무		claude-fable-5-1
+beamte	der Beamte	a1	공무원	형용사 변화, 여성 Beamtin	claude-fable-5-1
+bedeuten	bedeuten	a1	의미하다, 뜻하다		claude-fable-5-1
+beginnen	beginnen	a1	시작하다, 시작되다	hat begonnen	claude-fable-5-1
+bei	bei	a1	~근처에, ~집에서, ~에서	3격 지배	claude-fable-5-1
+beide	beide	a1	둘 다, 양쪽의		claude-fable-5-1
+bein	das Bein	a1	다리		claude-fable-5-1
+beispiel	das Beispiel	a1	예, 보기	zum Beispiel=예를 들면	claude-fable-5-1
+zum-beispiel	zum Beispiel/z. B.	a1	예를 들면, 예컨대	약어 z. B.	claude-fable-5-1
+bekannt	bekannt	a1	유명한, 알려진, 아는		claude-fable-5-1
+der	der/die Bekannte	a1	아는 사람, 그, 그것	관사·관계대명사 예문 섞임	claude-fable-5-1
+bekommen	bekommen	a1	받다, 얻다, 구하다	완료: hat bekommen	claude-fable-5-1
+benutzen	benutzen	a1	사용하다, 이용하다		claude-fable-5-1
+beruf	der Beruf	a1	직업	von Beruf 직업이 ~인	claude-fable-5-1
+besetzt	besetzt	a1	사용 중인, 통화 중인, 차 있는		claude-fable-5-1
+besichtigen	besichtigen	a1	관람하다, 견학하다, 구경하다	비분리동사	claude-fable-5-1
+besser	besser	a1	더 좋은, 더 나은	gut의 비교급	claude-fable-5-1
+best	best-	a1	가장 좋은, 최고의	gut의 최상급, am besten	claude-fable-5-1
+bestellen	bestellen	a1	주문하다		claude-fable-5-1
+besuchen	besuchen	a1	방문하다, 찾아가다	4격 목적어	claude-fable-5-1
+bett	das Bett	a1	침대		claude-fable-5-1
+bezahlen	bezahlen	a1	지불하다, 값을 치르다		claude-fable-5-1
+bier	das Bier	a1	맥주		claude-fable-5-1
+bild	das Bild	a1	그림, 사진		claude-fable-5-1
+billig	billig	a1	싼, 저렴한		claude-fable-5-1
+birne	die Birne	a1	배	구어: 전구	claude-fable-5-1
+bis	bis	a1	~까지	4격 지배, 보통 관사 없이 씀	claude-fable-5-1
+bisschen	bisschen	a1	조금, 약간	ein bisschen 형태로 씀	claude-fable-5-1
+bitte	bitte	a1	제발, 부디, 천만에요	Bitte schön=여기 있어요	claude-fable-5-1
+bitte-2	die Bitte	a1	부탁, 요청		claude-fable-5-1
+bitten	bitten	a1	부탁하다, 청하다	um+4격, hat gebeten	claude-fable-5-1
+bitter	bitter	a1	쓴, 씁쓸한		claude-fable-5-1
+bleiben	bleiben	a1	머무르다, 남다	ist geblieben	claude-fable-5-1
+bleistift	der Bleistift	a1	연필		claude-fable-5-1
+blick	der Blick	a1	전망, 시선, 눈길		claude-fable-5-1
+blume	die Blume	a1	꽃		claude-fable-5-1
+bogen	der Bogen	a1	용지, 시트, 활	Antwortbogen=답안지	claude-fable-5-1
+boese	böse	a1	화난, 나쁜, 악한	böse auf+4격: ~에게 화난	claude-fable-5-1
+brauchen	brauchen	a1	필요하다, 필요로 하다	4격 목적어	claude-fable-5-1
+breit	breit	a1	넓은, 폭이 ~인		claude-fable-5-1
+brief	der Brief	a1	편지		claude-fable-5-1
+briefmarke	die Briefmarke	a1	우표		claude-fable-5-1
+bringen	bringen	a1	가져오다, 데려가다, 가져다주다	불규칙(hat gebracht)	claude-fable-5-1
+brot	das Brot	a1	빵	복수 Brote = 샌드위치 뜻도	claude-fable-5-1
+broetchen	das Brötchen	a1	롤빵, 작은 빵		claude-fable-5-1
+bruder	der Bruder	a1	형, 오빠, 남동생		claude-fable-5-1
+buch	das Buch	a1	책		claude-fable-5-1
+buchstabe	der Buchstabe	a1	글자, 문자	n-변화: den Buchstaben	claude-fable-5-1
+buchstabieren	buchstabieren	a1	철자를 말하다, 스펠링하다	-ieren 동사: ge- 없음	claude-fable-5-1
+bus	der Bus	a1	버스		claude-fable-5-1
+butter	die Butter	a1	버터		claude-fable-5-1
+cafe	das Café	a1	카페, 커피숍		claude-fable-5-1
+cd	die CD	a1	CD		claude-fable-5-1
+chef	der Chef	a1	상사, 사장, 우두머리	여성형 Chefin; '요리사' 아님	claude-fable-5-1
+circa	circa/ca.	a1	약, 대략	약어 ca.	claude-fable-5-1
+computer	der Computer	a1	컴퓨터		claude-fable-5-1
+da	da	a1	저기, 거기, 여기에	da sein: 와 있다, 있다	claude-fable-5-1
+dame	die Dame	a1	부인, 숙녀, 여성	Damen(복수)=여자 화장실 표시	claude-fable-5-1
+daneben	daneben	a1	그 옆에, 그 곁에	da+neben	claude-fable-5-1
+danken	danken	a1	감사하다, 고마워하다	3격 목적어(jm. danken)	claude-fable-5-1
+dank	der Dank	a1	감사, 사례	Vielen Dank! 고정 표현	claude-fable-5-1
+danke	danke	a1	고마워, 감사합니다	gleichfalls: 저도요	claude-fable-5-1
+dann	dann	a1	그러면, 그다음에, 그때		claude-fable-5-1
+datum	das Datum	a1	날짜, 일자	복수 Daten=데이터·자료	claude-fable-5-1
+dauern	dauern	a1	걸리다, 지속되다	Wie lange dauert…?	claude-fable-5-1
+dein	dein-	a1	너의	소유관사; 단독형 deins	claude-fable-5-1
+denn	denn	a1	왜냐하면, 그런데, 도대체	접속사(어순 불변)·의문 강조	claude-fable-5-1
+dich	dich	a1	너를	du의 4격; 재귀로도 씀	claude-fable-5-1
+dies	dies-	a1	이, 이것	정관사처럼 어미 변화	claude-fable-5-1
+dir	dir	a1	너에게	du의 3격	claude-fable-5-1
+disco	die Disco	a1	디스코텍, 클럽	Disko로도 씀	claude-fable-5-1
+doktor	der Doktor	a1	의사, 박사	구어로 의사; 약어 Dr.	claude-fable-5-1
+doppelzimmer	das Doppelzimmer	a1	2인실, 더블룸	↔ Einzelzimmer(1인실)	claude-fable-5-1
+dorf	das Dorf	a1	마을, 시골		claude-fable-5-1
+dort	dort	a1	거기, 저기	-hin 그리로, -her 거기서	claude-fable-5-1
+draussen	draußen	a1	밖에, 바깥에	↔ drinnen	claude-fable-5-1
+drucken	drucken	a1	인쇄하다, 프린트하다	drücken(누르다)과 구별	claude-fable-5-1
+drucker	der Drucker	a1	프린터, 인쇄기		claude-fable-5-1
+druecken	drücken	a1	누르다, 밀다, 꼭 끼다	drucken(인쇄하다)과 구별	claude-fable-5-1
+durch	durch	a1	~을 통해, ~을 지나	전치사, 4격 지배	claude-fable-5-1
+durchsage	die Durchsage	a1	안내 방송, 공지		claude-fable-5-1
+duerfen	dürfen	a1	~해도 된다, ~할 수 있다	화법조동사; 부정형은 금지	claude-fable-5-1
+durst	der Durst	a1	갈증, 목마름	Durst haben: 목이 마르다	claude-fable-5-1
+duschen	(sich) duschen	a1	샤워하다	sich 있어도 없어도 됨	claude-fable-5-1
+dusche	die Dusche	a1	샤워, 샤워기, 샤워실		claude-fable-5-1
+ecke	die Ecke	a1	모퉁이, 구석, 모서리	이동은 in die Ecke(4격)	claude-fable-5-1
+ehefrau	die Ehefrau	a1	아내, 부인	↔ Ehemann	claude-fable-5-1
+ehemann	der Ehemann	a1	남편	↔ Ehefrau	claude-fable-5-1
+ei	das Ei	a1	달걀, 알	복수 Eier	claude-fable-5-1
+eilig	eilig	a1	급한, 바쁜	es eilig haben: 서두르다	claude-fable-5-1
+ein	ein-	a1	하나, 한 사람, 어떤 사람	단독 사용 시 einer/eins	claude-fable-5-1
+einfach	einfach	a1	간단한, 쉬운, 편도의	표 살 때 '편도'; 부사 '그냥'	claude-fable-5-1
+eingang	der Eingang	a1	입구, 출입구	↔ Ausgang(출구)	claude-fable-5-1
+einkaufen	einkaufen	a1	쇼핑하다, 장을 보다	분리동사	claude-fable-5-1
+einladen	einladen	a1	초대하다, 대접하다, 한턱내다	분리동사(불규칙); zu+3격	claude-fable-5-1
+einladung	die Einladung	a1	초대		claude-fable-5-1
+einmal	einmal	a1	한 번, 언젠가	noch einmal: 다시 한 번	claude-fable-5-1
+einsteigen	einsteigen	a1	타다, 승차하다	분리동사, sein 완료	claude-fable-5-1
+eintritt	der Eintritt	a1	입장, 입장료		claude-fable-5-1
+einzelzimmer	das Einzelzimmer	a1	1인실, 싱글룸		claude-fable-5-1
+eltern	die Eltern	a1	부모	복수형만 씀	claude-fable-5-1
+e-mail	die E-Mail	a1	이메일		claude-fable-5-1
+empfaenger	der Empfänger	a1	수신인, 수취인		claude-fable-5-1
+empfehlen	empfehlen	a1	추천하다, 권하다	불규칙 empfiehlt, 사람 3격	claude-fable-5-1
+enden	enden	a1	끝나다		claude-fable-5-1
+ende	das Ende	a1	끝, 말	am Ende: ~끝에	claude-fable-5-1
+entschuldigen	entschuldigen	a1	용서하다, 사과하다	재귀형 sich ~ = 사과하다	claude-fable-5-1
+entschuldigung	die Entschuldigung	a1	사과, 용서	단독 사용: 실례합니다	claude-fable-5-1
+er	er	a1	그, 그는	남성 명사도 받음	claude-fable-5-1
+ergebnis	das Ergebnis	a1	결과, 성적		claude-fable-5-1
+erklaeren	erklären	a1	설명하다	sich(3격) ~: 이해되다	claude-fable-5-1
+erlauben	erlauben	a1	허락하다, 허가하다	사람은 3격	claude-fable-5-1
+erwachsene	der Erwachsene	a1	어른, 성인	형용사 변화 명사	claude-fable-5-1
+erzaehlen	erzählen	a1	이야기하다, 들려주다		claude-fable-5-1
+es	es	a1	그것, 그것은	비인칭 주어로도 씀	claude-fable-5-1
+essen	essen	a1	먹다, 식사하다	불규칙 isst, gegessen	claude-fable-5-1
+essen-2	das Essen	a1	음식, 식사		claude-fable-5-1
+euer	euer	a1	너희의	어미 앞에서 e 탈락(eure)	claude-fable-5-1
+fahren	fahren	a1	타고 가다, 운전하다, 가다	불규칙 fährt, sein 완료	claude-fable-5-1
+fahrer	der Fahrer	a1	운전사, 운전자	여성형 Fahrerin	claude-fable-5-1
+fahrkarte	die Fahrkarte	a1	승차권, 차표		claude-fable-5-1
+fahrrad	das Fahrrad	a1	자전거	복수 Fahrräder	claude-fable-5-1
+falsch	falsch	a1	틀린, 잘못된		claude-fable-5-1
+familie	die Familie	a1	가족		claude-fable-5-1
+familienname	der Familienname	a1	성, 성씨	2격 -ns, 복수 -n	claude-fable-5-1
+familienstand	der Familienstand	a1	혼인 상태, 결혼 여부	서류 항목	claude-fable-5-1
+farbe	die Farbe	a1	색깔, 색, 페인트		claude-fable-5-1
+fax	das Fax	a1	팩스		claude-fable-5-1
+feier	Feier-	a1	축하, 축제	합성어용, Feiertag=공휴일	claude-fable-5-1
+feiern	feiern	a1	축하하다, 파티하다		claude-fable-5-1
+fehlen	fehlen	a1	없다, 결석하다, 부족하다	3격: ~에게 없다/부족하다	claude-fable-5-1
+fehler	der Fehler	a1	실수, 잘못, 오류		claude-fable-5-1
+fernsehen	fernsehen	a1	텔레비전을 보다	분리동사, sieht fern	claude-fable-5-1
+fertig	fertig	a1	끝난, 준비된, 완성된	mit+3격: ~을 마치다	claude-fable-5-1
+feuer	das Feuer	a1	불, 화재	예문1: 담뱃불 관용구	claude-fable-5-1
+fieber	das Fieber	a1	열, 고열	Fieber haben: 열이 나다	claude-fable-5-1
+film	der Film	a1	영화, 필름		claude-fable-5-1
+finden	finden	a1	찾다, 발견하다, ~라고 생각하다	불규칙 fand, gefunden	claude-fable-5-1
+firma	die Firma	a1	회사	복수 Firmen	claude-fable-5-1
+fisch	der Fisch	a1	생선, 물고기		claude-fable-5-1
+flasche	die Flasche	a1	병		claude-fable-5-1
+fleisch	das Fleisch	a1	고기, 살		claude-fable-5-1
+fliegen	fliegen	a1	날다, 비행기로 가다	불규칙 flog, sein 완료	claude-fable-5-1
+abfliegen	abfliegen	a1	이륙하다, 비행기로 출발하다	분리동사, sein 완료	claude-fable-5-1
+abflug	der Abflug	a1	이륙, 출발		claude-fable-5-1
+flughafen	der Flughafen	a1	공항	복수 Flughäfen	claude-fable-5-1
+flugzeug	das Flugzeug	a1	비행기		claude-fable-5-1
+formular	das Formular	a1	서식, 양식, 신청서	ausfüllen: 작성하다	claude-fable-5-1
+foto	das Foto	a1	사진	Foto machen: 사진 찍다	claude-fable-5-1
+fragen	fragen	a1	묻다, 질문하다	묻는 사람은 4격	claude-fable-5-1
+frage	die Frage	a1	질문, 문제	infrage kommen: 고려되다	claude-fable-5-1
+frau	die Frau	a1	여자, 아내, ~씨	이름 앞에서 ~씨	claude-fable-5-1
+frei	frei	a1	빈, 자유로운, 무료의	frei haben: 쉬다	claude-fable-5-1
+freizeit	die Freizeit	a1	여가, 자유 시간		claude-fable-5-1
+fremd	fremd	a1	낯선, 외국의, 타지의	fremd hier: 이곳 초행	claude-fable-5-1
+freuen	(sich) freuen	a1	기뻐하다, 기대하다	재귀동사, auf+4격=기대하다	claude-fable-5-1
+freund	der Freund	a1	친구, 남자친구	여성형 Freundin	claude-fable-5-1
+frueher	früher	a1	예전에, 이전의, 더 이른	früh의 비교급	claude-fable-5-1
+fruehstuecken	frühstücken	a1	아침을 먹다	분리 안 됨, gefrühstückt	claude-fable-5-1
+fruehstueck	das Frühstück	a1	아침 식사		claude-fable-5-1
+fuehrung	die Führung	a1	안내 투어, 선두, 지도	in Führung liegen=선두	claude-fable-5-1
+fuer	für	a1	~을 위해, ~용의	4격 지배	claude-fable-5-1
+fuss	der Fuß	a1	발	zu Fuß=걸어서	claude-fable-5-1
+fussball	der Fußball	a1	축구, 축구공		claude-fable-5-1
+garten	der Garten	a1	정원, 뜰	복수 Gärten	claude-fable-5-1
+gast	der Gast	a1	손님	복수 Gäste	claude-fable-5-1
+geben	geben	a1	주다, 있다	es gibt+4격=~이 있다	claude-fable-5-1
+geboren	geboren	a1	태어난	ist/wurde geboren	claude-fable-5-1
+geburtsjahr	das Geburtsjahr	a1	출생 연도		claude-fable-5-1
+geburtsort	der Geburtsort	a1	출생지		claude-fable-5-1
+geburtstag	der Geburtstag	a1	생일		claude-fable-5-1
+gefallen	gefallen	a1	마음에 들다	동사, 3격 지배	claude-fable-5-1
+gegen	gegen	a1	~에 맞서, ~에 반대하여, ~에 부딪쳐	4격 지배; 시간은 '~쯤'	claude-fable-5-1
+gehen	gehen	a1	가다, 걷다, 되다	sein 완료; Wie geht's?	claude-fable-5-1
+gehoeren	gehören	a1	~의 것이다, 속하다	3격 지배	claude-fable-5-1
+geld	das Geld	a1	돈		claude-fable-5-1
+gemuese	das Gemüse	a1	채소	보통 단수로 씀	claude-fable-5-1
+gepaeck	das Gepäck	a1	짐, 수하물	단수로만 씀	claude-fable-5-1
+gerade	gerade	a1	지금, 막, 곧은	geradeaus=똑바로	claude-fable-5-1
+gerne	gern(e)	a1	기꺼이, 즐겨	lieber, am liebsten	claude-fable-5-1
+geschaeft	das Geschäft	a1	가게, 상점, 사업		claude-fable-5-1
+geschenk	das Geschenk	a1	선물		claude-fable-5-1
+geschwister	die Geschwister	a1	형제자매	복수형만 씀	claude-fable-5-1
+gespraech	das Gespräch	a1	대화, 면담, 통화		claude-fable-5-1
+gestern	gestern	a1	어제		claude-fable-5-1
+gestorben	gestorben	a1	죽은, 사망한	sterben의 과거분사	claude-fable-5-1
+getraenk	das Getränk	a1	음료		claude-fable-5-1
+gewicht	das Gewicht	a1	무게, 체중		claude-fable-5-1
+gewinnen	gewinnen	a1	이기다, 얻다, 당첨되다	gewann, hat gewonnen	claude-fable-5-1
+glas	das Glas	a1	유리잔, 유리	복수 Gläser	claude-fable-5-1
+glauben	glauben	a1	믿다, 생각하다	사람 목적어는 3격	claude-fable-5-1
+gleich	gleich	a1	같은, 곧, 똑같이	mir gleich=상관없어	claude-fable-5-1
+gleis	das Gleis	a1	선로, 플랫폼, 승강장		claude-fable-5-1
+glueck	das Glück	a1	행운, 행복	zum Glück=다행히	claude-fable-5-1
+gluecklich	glücklich	a1	행복한, 운 좋은		claude-fable-5-1
+glueckwunsch	der Glückwunsch	a1	축하	Herzlichen ~!=축하해요	claude-fable-5-1
+grad-celsius	Grad (Celsius)	a1	도	숫자 뒤 복수도 Grad	claude-fable-5-1
+gratulieren	gratulieren	a1	축하하다	3격 지배, zu+3격	claude-fable-5-1
+grillen	grillen	a1	그릴에 굽다, 바비큐하다		claude-fable-5-1
+gross	groß	a1	큰, 키가 큰, 넓은	größer, am größten	claude-fable-5-1
+groesse	die Größe	a1	크기, 치수, 키		claude-fable-5-1
+grosseltern	die Großeltern	a1	조부모	복수형만 씀	claude-fable-5-1
+grossmutter	die Großmutter	a1	할머니	구어 Oma	claude-fable-5-1
+grossvater	der Großvater	a1	할아버지	구어 Opa	claude-fable-5-1
+gruppe	die Gruppe	a1	그룹, 단체		claude-fable-5-1
+gruss	der Gruß	a1	인사, 안부	편지 맺음말은 복수 Grüße	claude-fable-5-1
+gueltig	gültig	a1	유효한		claude-fable-5-1
+guenstig	günstig	a1	저렴한, 유리한		claude-fable-5-1
+gut	gut	a1	좋은, 잘	besser, am besten	claude-fable-5-1
+haar	das Haar	a1	머리카락, 털	보통 복수 Haare	claude-fable-5-1
+haben	haben	a1	가지다, 있다	완료 조동사	claude-fable-5-1
+haehnchen	das Hähnchen	a1	닭고기, 통닭		claude-fable-5-1
+halbpension	die Halbpension	a1	조석식 포함 숙박	Vollpension=3식	claude-fable-5-1
+halle	die Halle	a1	홀, 회관, 전시관		claude-fable-5-1
+hallo	hallo	a1	안녕	구어, 친한 사이	claude-fable-5-1
+halten	halten	a1	정차하다, 들고 있다, 잡다	불규칙동사, 3인칭 hält	claude-fable-5-1
+haltestelle	die Haltestelle	a1	정류장		claude-fable-5-1
+hand	die Hand	a1	손	복수 Hände	claude-fable-5-1
+handy	das Handy	a1	휴대전화, 휴대폰	영어 아닌 독일식 조어	claude-fable-5-1
+haus	das Haus	a1	집, 건물	nach/zu Hause 집으로/집에	claude-fable-5-1
+hausaufgabe	die Hausaufgabe	a1	숙제	주로 복수로 씀	claude-fable-5-1
+hausfrau	die Hausfrau	a1	주부, 가정주부	남성형 Hausmann	claude-fable-5-1
+hausmann	der Hausmann	a1	남성 전업주부	여성형 Hausfrau	claude-fable-5-1
+heimat	die Heimat	a1	고향, 고국	Heimatland 고국	claude-fable-5-1
+heiraten	heiraten	a1	결혼하다	4격 목적어, mit 안 씀	claude-fable-5-1
+heissen	heißen	a1	~라고 불리다, 이름이 ~이다, 의미하다	불규칙동사	claude-fable-5-1
+helfen	helfen	a1	돕다	3격 목적어, 불규칙	claude-fable-5-1
+hell	hell	a1	밝은, 연한	반의어 dunkel	claude-fable-5-1
+herd	der Herd	a1	레인지, 화덕		claude-fable-5-1
+herr	der Herr	a1	~씨, 신사, 남성	n-변화: Herrn, Herren	claude-fable-5-1
+herzlich	herzlich	a1	진심 어린, 다정한	예문은 축하 관용구	claude-fable-5-1
+heute	heute	a1	오늘	ab heute 오늘부터	claude-fable-5-1
+hier	hier	a1	여기, 여기에	전화에서 Hier ist: ~입니다	claude-fable-5-1
+hilfe	die Hilfe	a1	도움, 구조	Hilfe! = 도와주세요!	claude-fable-5-1
+hinten	hinten	a1	뒤에, 뒤쪽에	반의어 vorne	claude-fable-5-1
+hobby	das Hobby	a1	취미	복수 Hobbys	claude-fable-5-1
+hoch	hoch	a1	높은	어미 붙으면 hoh- (hohe)	claude-fable-5-1
+hochzeit	die Hochzeit	a1	결혼식		claude-fable-5-1
+holen	holen	a1	가져오다, 불러오다, 데려오다		claude-fable-5-1
+hoeren	hören	a1	듣다, 들리다		claude-fable-5-1
+hotel	das Hotel	a1	호텔	복수 Hotels	claude-fable-5-1
+hund	der Hund	a1	개		claude-fable-5-1
+hunger	der Hunger	a1	배고픔, 허기	Hunger haben 배고프다	claude-fable-5-1
+ich	ich	a1	나, 나는		claude-fable-5-1
+ihr	ihr/ihm/ihn	a1	그녀에게, 그에게, 그를	3격 ihr/ihm, 4격 ihn	claude-fable-5-1
+immer	immer	a1	항상, 늘	immer noch 여전히	claude-fable-5-1
+in	in	a1	~에, ~안에, ~후에	장소 3격, 이동 4격	claude-fable-5-1
+information	die Information	a1	정보, 안내소		claude-fable-5-1
+international	international	a1	국제적인		claude-fable-5-1
+internet	das Internet	a1	인터넷	im Internet 인터넷에서	claude-fable-5-1
+ja	ja	a1	네, 예	문장 중간 ja는 강조	claude-fable-5-1
+jacke	die Jacke	a1	재킷, 웃옷, 점퍼		claude-fable-5-1
+jed	jed-	a1	각각의, 모든	정관사형 어미 변화, 단수	claude-fable-5-1
+jetzt	jetzt	a1	지금, 이제	bis jetzt 지금까지	claude-fable-5-1
+job	der Job	a1	일자리, 직장, 아르바이트	복수 Jobs	claude-fable-5-1
+jugendliche	der Jugendliche	a1	청소년	형용사 변화 명사	claude-fable-5-1
+jung	jung	a1	젊은, 어린	비교급 jünger	claude-fable-5-1
+junge	der Junge	a1	소년, 남자아이	n-변화: den Jungen	claude-fable-5-1
+kaffee	der Kaffee	a1	커피		claude-fable-5-1
+kaputt	kaputt	a1	고장 난, 망가진, 녹초가 된	kaputtgehen 망가지다	claude-fable-5-1
+karte	die Karte	a1	카드, 엽서, 메뉴판, 표	합성어로 뜻이 갈림	claude-fable-5-1
+kreditkarte	(Kredit)-Karte	a1	신용카드, 카드	mit Karte 카드로	claude-fable-5-1
+kartoffel	die Kartoffel	a1	감자		claude-fable-5-1
+kasse	die Kasse	a1	계산대, 금고	an der Kasse 계산대에서	claude-fable-5-1
+kaufen	kaufen	a1	사다, 구입하다	einkaufen: 장보다, 쇼핑하다	claude-fable-5-1
+kein	kein	a1	~이 없는, ~이 아닌	명사 부정; ein처럼 변화	claude-fable-5-1
+kennen	kennen	a1	알다, 알고 있다	경험으로 앎, wissen과 구별	claude-fable-5-1
+kennenlernen	kennenlernen	a1	알게 되다, 사귀다, 처음 만나다	분리동사; sich ~ 서로 만나다	claude-fable-5-1
+kind	das Kind	a1	아이, 자녀	복수 Kinder	claude-fable-5-1
+kindergarten	der Kindergarten	a1	유치원	복수 Kindergärten	claude-fable-5-1
+kino	das Kino	a1	영화관	ins Kino 영화관에	claude-fable-5-1
+kiosk	der Kiosk	a1	가판대, 매점		claude-fable-5-1
+klar	klar	a1	분명한, 명확한, 물론	Klar! 구어 '물론'	claude-fable-5-1
+klasse	die Klasse	a1	학급, 등급, 학년		claude-fable-5-1
+kleidung	die Kleidung	a1	옷, 의류	단수만 씀, 집합명사	claude-fable-5-1
+mehr	mehr	a1	더, 더 많이	viel의 비교급	claude-fable-5-1
+mein	mein	a1	나의, 내	소유관사, 격변화함	claude-fable-5-1
+meist	meist-	a1	대부분의, 대다수의	주로 die meisten 꼴	claude-fable-5-1
+mensch	der Mensch	a1	사람, 인간	n-변화 명사	claude-fable-5-1
+mieten	mieten	a1	빌리다, 임차하다	vermieten(빌려주다)과 구별	claude-fable-5-1
+miete	die Miete	a1	집세, 임대료		claude-fable-5-1
+milch	die Milch	a1	우유	복수형 없음	claude-fable-5-1
+mit	mit	a1	~와 함께, ~을 넣은, ~로	3격 지배	claude-fable-5-1
+mitbringen	mitbringen	a1	가져오다, 사 오다	분리동사	claude-fable-5-1
+mitkommen	mitkommen	a1	함께 가다, 같이 오다	분리동사	claude-fable-5-1
+mitmachen	mitmachen	a1	참여하다, 함께 하다	분리동사	claude-fable-5-1
+mitnehmen	mitnehmen	a1	데려가다, 가져가다	분리동사	claude-fable-5-1
+mitte	die Mitte	a1	가운데, 중앙, 중순		claude-fable-5-1
+moebel	die Möbel	a1	가구	복수형만 씀	claude-fable-5-1
+moechten	möchten	a1	~하고 싶다, ~을 원하다	mögen의 접속법2식, 정중함	claude-fable-5-1
+moegen	mögen	a1	좋아하다	화법조동사, ich mag	claude-fable-5-1
+moeglich	möglich	a1	가능한		claude-fable-5-1
+moment	der Moment	a1	순간, 잠깐	Einen Moment! 잠깐만요	claude-fable-5-1
+morgen	morgen	a1	내일	der Morgen(아침)과 구별	claude-fable-5-1
+muede	müde	a1	피곤한, 졸린		claude-fable-5-1
+mund	der Mund	a1	입	복수 Münder	claude-fable-5-1
+muessen	müssen	a1	~해야 한다	화법조동사, ich muss	claude-fable-5-1
+mutter	die Mutter	a1	어머니	복수 Mütter	claude-fable-5-1
+nach	nach	a1	~로, ~후에, ~지나	3격, 지명·집 방향에 씀	claude-fable-5-1
+naechst	nächst-	a1	다음의, 가장 가까운	nah의 최상급	claude-fable-5-1
+name	der Name	a1	이름, 성명	n-변화 명사, 2격 -ns	claude-fable-5-1
+nehmen	nehmen	a1	잡다, 고르다, 타다	불규칙, 약·음식에도 씀	claude-fable-5-1
+nein	nein	a1	아니요		claude-fable-5-1
+neu	neu	a1	새로운, 새		claude-fable-5-1
+nicht	nicht	a1	~않다, ~아니다	부정어, kein과 구별	claude-fable-5-1
+nichts	nichts	a1	아무것도, 아무것도 아님	뒤 형용사는 명사화(-es)	claude-fable-5-1
+nie	nie	a1	결코, 한 번도, 절대		claude-fable-5-1
+noch	noch	a1	아직, 더, 또		claude-fable-5-1
+normal	normal	a1	정상적인, 보통의		claude-fable-5-1
+nummer	die Nummer	a1	번호, 호수		claude-fable-5-1
+nur	nur	a1	오직, ~만, 단지		claude-fable-5-1
+oben	oben	a1	위에, 위층에		claude-fable-5-1
+obst	das Obst	a1	과일	집합명사, 복수형 없음	claude-fable-5-1
+oder	oder	a1	또는, 아니면	entweder ... oder	claude-fable-5-1
+oeffnen	öffnen	a1	열다, 개점하다	aufmachen과 같은 뜻	claude-fable-5-1
+geoeffnet	geöffnet	a1	열린, 영업 중인	öffnen의 과거분사	claude-fable-5-1
+oft	oft	a1	자주, 종종	비교급 öfter	claude-fable-5-1
+ohne	ohne	a1	~없이	4격 지배	claude-fable-5-1
+oma	die Oma	a1	할머니	구어, Großmutter	claude-fable-5-1
+opa	der Opa	a1	할아버지	구어, Großvater	claude-fable-5-1
+ordnung	die Ordnung	a1	정리, 질서, 순서	in Ordnung = 괜찮다	claude-fable-5-1
+ort	der Ort	a1	곳, 장소, 마을		claude-fable-5-1
+papier	das Papier	a1	종이, 서류	서류 뜻은 복수형	claude-fable-5-1
+papiere	die Papiere	a1	서류, 신분증	Papier의 복수형	claude-fable-5-1
+partner	der Partner	a1	파트너, 동반자, 동업자		claude-fable-5-1
+partnerin	die Partnerin	a1	여성 파트너, 여성 동반자	Partner의 여성형	claude-fable-5-1
+party	die Party	a1	파티	복수 Partys	claude-fable-5-1
+pass	der Pass	a1	여권	Reisepass의 줄임	claude-fable-5-1
+pause	die Pause	a1	휴식, 쉬는 시간	Pause machen	claude-fable-5-1
+plan	der Plan	a1	계획, 지도	Stadtplan = 시내 지도	claude-fable-5-1
+platz	der Platz	a1	자리, 좌석, 광장	Platz nehmen = 앉다	claude-fable-5-1
+polizei	die Polizei	a1	경찰	단수형만 씀	claude-fable-5-1
+pommes-frites	die Pommes frites	a1	감자튀김	복수형만 씀, 구어 Pommes	claude-fable-5-1
+post	die Post	a1	우체국, 우편물		claude-fable-5-1
+postleitzahl	die Postleitzahl	a1	우편번호	약어 PLZ	claude-fable-5-1
+klein	klein	a1	작은, 어린		claude-fable-5-1
+kochen	kochen	a1	요리하다, 끓다, 끓이다		claude-fable-5-1
+koffer	der Koffer	a1	여행 가방, 트렁크		claude-fable-5-1
+kollege	der Kollege	a1	동료	n-변화, 여성형 Kollegin	claude-fable-5-1
+kommen	kommen	a1	오다, 출신이다	sein 완료	claude-fable-5-1
+koennen	können	a1	~할 수 있다, ~할 줄 알다	화법조동사	claude-fable-5-1
+konto	das Konto	a1	계좌	복수 Konten	claude-fable-5-1
+kopf	der Kopf	a1	머리	im Kopf rechnen: 암산	claude-fable-5-1
+kosten	kosten	a1	값이 ~이다, 비용·시간이 들다		claude-fable-5-1
+krank	krank	a1	아픈, 병든		claude-fable-5-1
+kriegen	kriegen	a1	받다, 얻다, 잡다	구어, =bekommen	claude-fable-5-1
+kueche	die Küche	a1	부엌, 요리		claude-fable-5-1
+kuchen	der Kuchen	a1	케이크, 과자	Küche와 혼동 주의	claude-fable-5-1
+kugelschreiber	der Kugelschreiber	a1	볼펜	줄여서 Kuli	claude-fable-5-1
+kuehlschrank	der Kühlschrank	a1	냉장고		claude-fable-5-1
+kulturell	kulturell	a1	문화적인, 문화의		claude-fable-5-1
+sich-kuemmern	sich kümmern	a1	돌보다, 신경 쓰다	재귀동사, um + 4격	claude-fable-5-1
+kunde	der Kunde	a1	고객, 손님	n-변화, 여성형 Kundin	claude-fable-5-1
+kurs	der Kurs	a1	강좌, 코스		claude-fable-5-1
+kurz	kurz	a1	짧은, 잠깐	kurz vor: 직전에	claude-fable-5-1
+lachen	lachen	a1	웃다	lachen über + 4격	claude-fable-5-1
+laden	der Laden	a1	가게, 상점	복수 Läden	claude-fable-5-1
+land	das Land	a1	나라, 시골, 땅	auf dem Land: 시골에서	claude-fable-5-1
+lang	lang	a1	긴, 길이가 ~인		claude-fable-5-1
+lange	lange	a1	오래, 오랫동안	wie lange: 얼마나 오래	claude-fable-5-1
+langsam	langsam	a1	느린, 천천히, 서서히		claude-fable-5-1
+laufen	laufen	a1	걷다, 달리다, 상영되다	sein 완료, 강변화	claude-fable-5-1
+laut	laut	a1	시끄러운, 큰 소리의, ~에 따르면	전치사 laut: 3격/2격	claude-fable-5-1
+leben	leben	a1	살다, 살아 있다	wohnen과 구별	claude-fable-5-1
+leben-2	das Leben	a1	삶, 생활, 생명		claude-fable-5-1
+lebensmittel	die Lebensmittel	a1	식료품	복수형으로 씀	claude-fable-5-1
+ledig	ledig	a1	미혼의		claude-fable-5-1
+legen	legen	a1	놓다, 눕히다	장소 이동은 4격	claude-fable-5-1
+lehrer	der Lehrer	a1	교사, 선생님	여성형 Lehrerin	claude-fable-5-1
+leicht	leicht	a1	가벼운, 쉬운		claude-fable-5-1
+leider	leider	a1	유감스럽게도, 안타깝게도		claude-fable-5-1
+leise	leise	a1	조용한, 작은 소리의		claude-fable-5-1
+lernen	lernen	a1	배우다, 공부하다		claude-fable-5-1
+lesen	lesen	a1	읽다	강변화, du liest	claude-fable-5-1
+letzt	letzt-	a1	마지막의, 지난	항상 어미 붙여 씀	claude-fable-5-1
+leute	die Leute	a1	사람들	복수형만 씀	claude-fable-5-1
+licht	das Licht	a1	빛, 불, 조명	Licht anmachen: 불 켜다	claude-fable-5-1
+lieb	lieb-	a1	친애하는, 착한, 사랑스러운	편지 첫머리, lieber 참조	claude-fable-5-1
+lieben	lieben	a1	사랑하다		claude-fable-5-1
+lieber	lieber	a1	더 좋아하여, 차라리	gern의 비교급	claude-fable-5-1
+lieblings	Lieblings-	a1	가장 좋아하는	명사 앞에 붙여 씀	claude-fable-5-1
+lied	das Lied	a1	노래	복수 Lieder	claude-fable-5-1
+liegen	liegen	a1	누워 있다, 놓여 있다, 위치하다	위치는 3격, legen과 구별	claude-fable-5-1
+links	links	a1	왼쪽에, 왼쪽으로	nach links: 왼쪽으로	claude-fable-5-1
+lkw	der Lkw	a1	트럭, 화물차	Lastkraftwagen의 약자	claude-fable-5-1
+lokal	das Lokal	a1	음식점, 술집		claude-fable-5-1
+loesung	die Lösung	a1	해결책, 해답, 정답		claude-fable-5-1
+lustig	lustig	a1	재미있는, 우스운, 명랑한		claude-fable-5-1
+machen	machen	a1	하다, 만들다	macht nichts: 괜찮다	claude-fable-5-1
+maedchen	das Mädchen	a1	소녀, 여자아이	중성 명사	claude-fable-5-1
+man	man	a1	사람들, 누구나	부정대명사, 동사 3인칭 단수	claude-fable-5-1
+mann	der Mann	a1	남편, 남자	복수 Männer	claude-fable-5-1
+maennlich	männlich	a1	남성의, 남자의		claude-fable-5-1
+maschine	die Maschine	a1	기계, 비행기	합성어 Waschmaschine 등	claude-fable-5-1
+meer	das Meer	a1	바다	am Meer: 바닷가에서	claude-fable-5-1
+sein	sein	a1	~이다, 있다	불규칙, 완료형 조동사	claude-fable-5-1
+weg-sein	weg sein	a1	가고 없다, 떠나고 없다	구어	claude-fable-5-1
+zu-sein	zu sein	a1	닫혀 있다	구어, geschlossen	claude-fable-5-1
+seit	seit	a1	~부터, ~이래로	3격 지배, 접속사로도 씀	claude-fable-5-1
+selbststaendig	selbstständig	a1	자영업의, 독립적인, 자립적인		claude-fable-5-1
+sich	sich	a1	자기 자신을, 자기 자신에게	재귀대명사, 3인칭·존칭	claude-fable-5-1
+sie	sie	a1	그녀, 당신, 그들	대문자 Sie는 존칭	claude-fable-5-1
+sitzen	sitzen	a1	앉아 있다, 옷이 맞다	불규칙 saß, gesessen	claude-fable-5-1
+so	so	a1	이렇게, 그렇게, ~만큼	so … wie: ~만큼 ~한	claude-fable-5-1
+sofa	das Sofa	a1	소파		claude-fable-5-1
+sofort	sofort	a1	즉시, 당장	ab sofort: 지금부터	claude-fable-5-1
+sohn	der Sohn	a1	아들	복수 Söhne	claude-fable-5-1
+sollen	sollen	a1	~해야 하다, ~하라고 하다	화법조동사, 타인의 요구	claude-fable-5-1
+sonne	die Sonne	a1	해, 태양		claude-fable-5-1
+spaet	spät	a1	늦은, 늦게	wie spät=몇 시	claude-fable-5-1
+spaeter	später	a1	나중에, 후에	spät의 비교급	claude-fable-5-1
+speisekarte	die Speisekarte	a1	메뉴판, 차림표		claude-fable-5-1
+spielen	spielen	a1	놀다, 연주하다, 경기하다	악기·게임 이름은 관사 없이	claude-fable-5-1
+sport	der Sport	a1	스포츠, 운동	Sport machen: 운동하다	claude-fable-5-1
+sprache	die Sprache	a1	언어, 말		claude-fable-5-1
+sprechen	sprechen	a1	말하다, 이야기하다	불규칙, mit+3격	claude-fable-5-1
+stadt	die Stadt	a1	도시, 시내	복수 Städte	claude-fable-5-1
+stehen	stehen	a1	서 있다, 쓰여 있다	불규칙 stand, gestanden	claude-fable-5-1
+stelle	die Stelle	a1	일자리, 자리, 부분		claude-fable-5-1
+stellen	stellen	a1	세우다, 놓다	방향은 4격, sich stellen=서다	claude-fable-5-1
+stock	der Stock	a1	층	1. Stock=한국식 2층	claude-fable-5-1
+strasse	die Straße	a1	길, 거리, 도로		claude-fable-5-1
+strassenbahn	die Straßenbahn	a1	전차, 트램		claude-fable-5-1
+studieren	studieren	a1	대학에서 공부하다, 전공하다	대학 공부에만 씀	claude-fable-5-1
+studium	das Studium	a1	대학 공부, 학업	복수 Studien	claude-fable-5-1
+student	der Student	a1	대학생	여성형 Studentin, n-변화	claude-fable-5-1
+stunde	die Stunde	a1	시간, 수업 시간	Uhr는 시각, Stunde는 시간량	claude-fable-5-1
+suchen	suchen	a1	찾다, 구하다	4격 목적어	claude-fable-5-1
+tanzen	tanzen	a1	춤추다		claude-fable-5-1
+tasche	die Tasche	a1	가방, 주머니		claude-fable-5-1
+taxi	das Taxi	a1	택시	mit dem Taxi fahren	claude-fable-5-1
+tee	der Tee	a1	차		claude-fable-5-1
+teil	der Teil	a1	부분, 편	zum Teil: 부분적으로	claude-fable-5-1
+telefonieren	telefonieren	a1	전화 통화하다	mit+3격, anrufen과 구별	claude-fable-5-1
+telefon	das Telefon	a1	전화, 전화기		claude-fable-5-1
+termin	der Termin	a1	예약, 약속, 일정	병원·관공서 약속	claude-fable-5-1
+test	der Test	a1	시험, 테스트		claude-fable-5-1
+teuer	teuer	a1	비싼	비교급 teurer	claude-fable-5-1
+text	der Text	a1	글, 텍스트, 본문		claude-fable-5-1
+thema	das Thema	a1	주제, 테마	복수 Themen	claude-fable-5-1
+ticket	das Ticket	a1	표, 티켓		claude-fable-5-1
+tisch	der Tisch	a1	탁자, 식탁, 책상		claude-fable-5-1
+tochter	die Tochter	a1	딸	복수 Töchter	claude-fable-5-1
+toilette	die Toilette	a1	화장실		claude-fable-5-1
+tomate	die Tomate	a1	토마토		claude-fable-5-1
+tot	tot	a1	죽은		claude-fable-5-1
+treffen	(sich) treffen	a1	만나다, 마주치다	불규칙, 재귀형은 서로 만나다	claude-fable-5-1
+treppe	die Treppe	a1	계단		claude-fable-5-1
+trinken	trinken	a1	마시다	불규칙 trank, getrunken	claude-fable-5-1
+tschuess	tschüss	a1	안녕, 잘 가	헤어질 때, 구어	claude-fable-5-1
+tun	tun	a1	하다, 행하다	weh tun 아프다, leid tun 유감	claude-fable-5-1
+ueber	über	a1	~위에, ~을 넘어, ~이상	3·4격 지배, 이동은 4격	claude-fable-5-1
+uebernachten	übernachten	a1	묵다, 숙박하다	비분리동사, bei+3격	claude-fable-5-1
+ueberweisen	überweisen	a1	송금하다, 이체하다, 진료 의뢰하다	비분리동사, 불규칙	claude-fable-5-1
+uhr	die Uhr	a1	시, 시계	시각 표현엔 단수	claude-fable-5-1
+praktikum	das Praktikum	a1	인턴십, 실습	복수형 Praktika	claude-fable-5-1
+praxis	die Praxis	a1	병원, 진료소, 실제	복수형 Praxen	claude-fable-5-1
+preis	der Preis	a1	가격, 값, 상		claude-fable-5-1
+problem	das Problem	a1	문제		claude-fable-5-1
+prospekt	der Prospekt	a1	안내 책자, 팸플릿		claude-fable-5-1
+pruefung	die Prüfung	a1	시험	Prüfung bestehen=합격	claude-fable-5-1
+puenktlich	pünktlich	a1	정시의, 시간을 지키는	부사로도 씀	claude-fable-5-1
+rad-fahren	Rad fahren	a1	자전거를 타다	fährt Rad로 분리	claude-fable-5-1
+rauchen	rauchen	a1	담배를 피우다, 흡연하다	명사형 das Rauchen	claude-fable-5-1
+raum	der Raum	a1	방, 실, 공간	복수형 Räume	claude-fable-5-1
+rechnung	die Rechnung	a1	계산서, 청구서		claude-fable-5-1
+rechts	rechts	a1	오른쪽에, 오른쪽으로		claude-fable-5-1
+regnen	regnen	a1	비가 오다	비인칭 es regnet	claude-fable-5-1
+regen	der Regen	a1	비	bei Regen 비가 오면	claude-fable-5-1
+reis	der Reis	a1	쌀, 밥		claude-fable-5-1
+reisen	reisen	a1	여행하다	완료형 sein	claude-fable-5-1
+reise	die Reise	a1	여행		claude-fable-5-1
+reisebuero	das Reisebüro	a1	여행사		claude-fable-5-1
+reisefuehrer	der Reiseführer	a1	여행 안내서, 여행 가이드	책도 사람도 뜻함	claude-fable-5-1
+reparieren	reparieren	a1	수리하다, 고치다		claude-fable-5-1
+reparatur	die Reparatur	a1	수리		claude-fable-5-1
+restaurant	das Restaurant	a1	레스토랑, 식당		claude-fable-5-1
+rezeption	die Rezeption	a1	접수처, 프런트		claude-fable-5-1
+richtig	richtig	a1	올바른, 정확한, 맞는		claude-fable-5-1
+riechen	riechen	a1	냄새가 나다, 냄새를 맡다	nach+3격 ~냄새가 나다	claude-fable-5-1
+ruhig	ruhig	a1	조용한, 편하게, 얼마든지	예문 4는 불변화사 용법	claude-fable-5-1
+saft	der Saft	a1	주스, 즙		claude-fable-5-1
+sagen	sagen	a1	말하다	Sag mal=저기, 있잖아	claude-fable-5-1
+salat	der Salat	a1	샐러드, 상추		claude-fable-5-1
+salz	das Salz	a1	소금		claude-fable-5-1
+satz	der Satz	a1	문장	복수형 Sätze	claude-fable-5-1
+s-bahn	die S-Bahn	a1	에스반, 도시 철도	근교 전철	claude-fable-5-1
+schalter	der Schalter	a1	창구, 스위치		claude-fable-5-1
+scheinen	scheinen	a1	빛나다, ~인 것 같다	~인 것 같다: zu 부정사	claude-fable-5-1
+schicken	schicken	a1	보내다		claude-fable-5-1
+schild	das Schild	a1	표지판, 간판, 꼬리표	복수형 Schilder	claude-fable-5-1
+schinken	der Schinken	a1	햄		claude-fable-5-1
+schlafen	schlafen	a1	자다, 묵다	불규칙 schläft	claude-fable-5-1
+schlecht	schlecht	a1	나쁜, 안 좋은, 메스꺼운	1번 예문은 관용구	claude-fable-5-1
+schliessen	schließen	a1	닫다, 닫히다, 문을 닫다	과거분사 geschlossen	claude-fable-5-1
+geschlossen	geschlossen	a1	닫힌, 휴업의	schließen의 과거분사	claude-fable-5-1
+schluss	der Schluss	a1	끝, 마지막, 결말	Schluss machen 끝내다	claude-fable-5-1
+schluessel	der Schlüssel	a1	열쇠		claude-fable-5-1
+schmecken	schmecken	a1	맛이 나다, 맛있다	3격 사람: ~에게 맛있다	claude-fable-5-1
+schnell	schnell	a1	빠른, 빨리	부사로도 씀	claude-fable-5-1
+schon	schon	a1	이미, 벌써	schön과 혼동 주의	claude-fable-5-1
+schoen	schön	a1	아름다운, 좋은, 즐거운		claude-fable-5-1
+schrank	der Schrank	a1	장, 찬장, 옷장	복수형 Schränke	claude-fable-5-1
+schreiben	schreiben	a1	쓰다	과거분사 geschrieben	claude-fable-5-1
+schuh	der Schuh	a1	신발, 구두	보통 복수 Schuhe	claude-fable-5-1
+schule	die Schule	a1	학교		claude-fable-5-1
+schueler	der Schüler	a1	학생	초·중·고생, 대학생은 Student	claude-fable-5-1
+schwer	schwer	a1	무거운, 어려운, 힘든		claude-fable-5-1
+schwester	die Schwester	a1	언니·누나·여동생, 간호사	Schwester Anna=간호사	claude-fable-5-1
+schwimmen	schwimmen	a1	수영하다, 헤엄치다	완료형 ist geschwommen	claude-fable-5-1
+schwimmbad	das Schwimmbad	a1	수영장		claude-fable-5-1
+see	der See	a1	호수	die See는 바다	claude-fable-5-1
+sehen	sehen	a1	보다	불규칙 sieht/gesehen	claude-fable-5-1
+sehenswuerdigkeit	die Sehenswürdigkeit	a1	명소, 관광지	보통 복수로 씀	claude-fable-5-1
+sehr	sehr	a1	매우, 아주		claude-fable-5-1
+um	um	a1	~시에, ~둘레에, ~주위에	4격 지배	claude-fable-5-1
+umziehen	umziehen	a1	이사하다	분리동사, sein 완료	claude-fable-5-1
+und	und	a1	그리고, ~와		claude-fable-5-1
+unser	unser-	a1	우리의	소유관사, 어미 변화	claude-fable-5-1
+unten	unten	a1	아래에, 아래층에	nach unten = 아래로	claude-fable-5-1
+unter	unter	a1	~아래에, ~밑에	3·4격 지배, 이동은 4격	claude-fable-5-1
+unterricht	der Unterricht	a1	수업	보통 단수로 씀	claude-fable-5-1
+unterschreiben	unterschreiben	a1	서명하다	비분리동사, 과거분사 ge- 없음	claude-fable-5-1
+unterschrift	die Unterschrift	a1	서명, 사인		claude-fable-5-1
+urlaub	der Urlaub	a1	휴가	Urlaub machen/nehmen	claude-fable-5-1
+vater	der Vater	a1	아버지	복수 Väter	claude-fable-5-1
+verboten	verboten	a1	금지된	verbieten의 과거분사	claude-fable-5-1
+verdienen	verdienen	a1	벌다, ~할 자격이 있다		claude-fable-5-1
+verein	der Verein	a1	협회, 클럽, 동호회		claude-fable-5-1
+verheiratet	verheiratet	a1	결혼한, 기혼의	mit + 3격	claude-fable-5-1
+verkaufen	verkaufen	a1	팔다		claude-fable-5-1
+verkaeufer	der Verkäufer	a1	판매원, 점원	여성형 Verkäuferin	claude-fable-5-1
+vermieten	vermieten	a1	세놓다, 임대하다	mieten(빌리다)과 구별	claude-fable-5-1
+vermieter	der Vermieter	a1	집주인, 임대인	여성형 Vermieterin	claude-fable-5-1
+verstehen	verstehen	a1	이해하다, 알아듣다	불규칙, 비분리동사	claude-fable-5-1
+verwandte	der Verwandte	a1	친척	형용사 변화 명사	claude-fable-5-1
+viel	viel	a1	많이, 많은	viele + 복수명사	claude-fable-5-1
+vielleicht	vielleicht	a1	아마도, 혹시		claude-fable-5-1
+von	von	a1	~의, ~에서, ~로부터	3격 지배	claude-fable-5-1
+vor	vor	a1	~앞에, ~전에	3·4격 지배, 시간은 3격	claude-fable-5-1
+vorname	der Vorname	a1	이름	↔ Nachname(성)	claude-fable-5-1
+vorsicht	die Vorsicht	a1	조심, 주의	Vorsicht! = 조심!	claude-fable-5-1
+vorstellen	(sich) vorstellen	a1	소개하다, 상상하다	분리동사, 상상은 sich 3격	claude-fable-5-1
+vorwahl	die Vorwahl	a1	지역번호		claude-fable-5-1
+wandern	wandern	a1	하이킹하다, 도보 여행하다	sein 완료	claude-fable-5-1
+wann	wann	a1	언제		claude-fable-5-1
+warten	warten	a1	기다리다	auf + 4격	claude-fable-5-1
+warum	warum	a1	왜		claude-fable-5-1
+was	was	a1	무엇	구어 was = etwas	claude-fable-5-1
+was-fuer-ein	was für ein	a1	어떤, 무슨 종류의		claude-fable-5-1
+waschen	(sich) waschen	a1	씻다, 빨래하다	불규칙, 신체 부위는 sich 3격	claude-fable-5-1
+wasser	das Wasser	a1	물		claude-fable-5-1
+weh-tun	weh tun	a1	아프다	아픈 사람은 3격	claude-fable-5-1
+weiblich	weiblich	a1	여성의	↔ männlich	claude-fable-5-1
+wein	der Wein	a1	포도주, 와인		claude-fable-5-1
+weit	weit	a1	먼, 헐렁한, 넓은		claude-fable-5-1
+weiter	weiter	a1	계속, 더	동사 앞에 붙어 '계속 ~'	claude-fable-5-1
+welch	welch-	a1	어느, 어떤	정관사형 어미 변화	claude-fable-5-1
+welt	die Welt	a1	세계, 세상		claude-fable-5-1
+wenig	wenig	a1	적게, 조금, 적은		claude-fable-5-1
+wer	wer	a1	누구	wen(4격), wem(3격)	claude-fable-5-1
+werden	werden	a1	되다, ~일 것이다	불규칙, 미래 조동사	claude-fable-5-1
+wetter	das Wetter	a1	날씨		claude-fable-5-1
+wichtig	wichtig	a1	중요한		claude-fable-5-1
+wie	wie	a1	어떻게, ~처럼, ~만큼	so ... wie = ~만큼	claude-fable-5-1
+wiederholen	wiederholen	a1	반복하다, 되풀이하다	비분리동사, ge- 없음	claude-fable-5-1
+wiederhoeren	das Wiederhören	a1	안녕히 계세요	전화 작별, 예문은 관용구	claude-fable-5-1
+wiedersehen	das Wiedersehen	a1	재회, 안녕히 가세요	예문은 관용구	claude-fable-5-1
+wie-viel	wie viel	a1	얼마나, 몇	wie viele + 복수명사	claude-fable-5-1
+willkommen	willkommen	a1	환영하는	Herzlich ~! = 환영합니다	claude-fable-5-1
+wind	der Wind	a1	바람		claude-fable-5-1
+wir	wir	a1	우리		claude-fable-5-1
+wissen	wissen	a1	알다	불규칙(wusste), 사실을 알다	claude-fable-5-1
+wo	wo	a1	어디에, 어디서		claude-fable-5-1
+woher	woher	a1	어디에서, 어디로부터		claude-fable-5-1
+wohin	wohin	a1	어디로	방향·이동을 물음	claude-fable-5-1
+wohnen	wohnen	a1	살다, 거주하다		claude-fable-5-1
+wohnung	die Wohnung	a1	집, 아파트		claude-fable-5-1
+wollen	wollen	a1	~하고 싶다, 원하다	화법조동사	claude-fable-5-1
+wort	das Wort	a1	단어, 말	복수 Wörter/Worte 뜻 다름	claude-fable-5-1
+wunderbar	wunderbar	a1	훌륭한, 멋진		claude-fable-5-1
+zahlen	zahlen	a1	지불하다, 계산하다	식당 계산 요청 표현	claude-fable-5-1
+zeit	die Zeit	a1	시간, 때		claude-fable-5-1
+zurzeit	zurzeit	a1	현재, 지금	한 단어로 붙여 씀	claude-fable-5-1
+zeitung	die Zeitung	a1	신문	Zeitung lesen은 무관사	claude-fable-5-1
+zigarette	die Zigarette	a1	담배		claude-fable-5-1
+zimmer	das Zimmer	a1	방		claude-fable-5-1
+zoll	der Zoll	a1	세관, 관세		claude-fable-5-1
+zu	zu	a1	~로, ~에게, 너무	전치사는 3격, 부사는 '너무'	claude-fable-5-1
+zufrieden	zufrieden	a1	만족한	mit + 3격	claude-fable-5-1
+zug	der Zug	a1	기차, 열차		claude-fable-5-1
+zurueck	zurück	a1	되돌아, 뒤로	'und zurück' = 왕복	claude-fable-5-1
+zusammen	zusammen	a1	함께, 합쳐서	계산 시 '합쳐서'	claude-fable-5-1
+zwischen	zwischen	a1	~사이에	위치 3격, 이동 4격	claude-fable-5-1
+abschliessen	abschließen	a2	잠그다, 마치다	분리동사	claude-fable-5-1
+ahnung	die Ahnung	a2	짐작, 예감	keine Ahnung = 전혀 모름	claude-fable-5-1
+aktiv	aktiv	a2	활동적인, 적극적인		claude-fable-5-1
+aktuell	aktuell	a2	현재의, 최신의	'실제의' 뜻 아님	claude-fable-5-1
+als	als	a2	~보다, ~로서, ~했을 때	'때'는 과거 1회 사건	claude-fable-5-1
+ampel	die Ampel	a2	신호등		claude-fable-5-1
+aendern	ändern	a2	바꾸다, 변하다	재귀형은 '변하다'	claude-fable-5-1
+anders	anders	a2	다르게, 다른	anders als = ~와 다른	claude-fable-5-1
+angst	die Angst	a2	두려움, 걱정	Angst haben vor + 3격	claude-fable-5-1
+ansehen	ansehen	a2	보다, 바라보다, 관람하다	분리동사, 재귀 sich(3격)	claude-fable-5-1
+anzug	der Anzug	a2	정장, 양복		claude-fable-5-1
+apotheke	die Apotheke	a2	약국		claude-fable-5-1
+apparat	der Apparat	a2	기기, 장치	Fotoapparat = 카메라	claude-fable-5-1
+aergern	ärgern (sich)	a2	화내다, 짜증내다	재귀동사, über + 4격	claude-fable-5-1
+arm-2	arm	a2	가난한, 불쌍한		claude-fable-5-1
+artikel	der Artikel	a2	관사, 기사, 품목		claude-fable-5-1
+auf-jeden	auf jeden/keinen Fal	a2	반드시, 결코 ~않다	jeden=긍정, keinen=부정	claude-fable-5-1
+aufhoeren	aufhören	a2	그만두다, 멈추다, 끝나다	분리동사, mit + 3격	claude-fable-5-1
+aufmachen	aufmachen	a2	열다	분리동사, 구어	claude-fable-5-1
+aufpassen	aufpassen	a2	조심하다, 주의하다, 돌보다	분리동사, auf + 4격	claude-fable-5-1
+aufraeumen	aufräumen	a2	정리하다, 치우다	분리동사	claude-fable-5-1
+aufregend	aufregend	a2	흥미진진한, 짜릿한	현재분사형 형용사	claude-fable-5-1
+ausbildung	die Ausbildung	a2	직업 교육, 양성 과정	독일 직업훈련 제도	claude-fable-5-1
+ausgeben	ausgeben	a2	쓰다, 지출하다	분리동사, für + 4격	claude-fable-5-1
+ausgehen	ausgehen	a2	외출하다, 나가다, 꺼지다	분리동사, sein 완료	claude-fable-5-1
+auspacken	auspacken	a2	짐을 풀다, 꺼내다	분리동사	claude-fable-5-1
+ausruhen	ausruhen (sich)	a2	쉬다, 휴식하다	재귀동사, 분리동사	claude-fable-5-1
+ausser	außer	a2	~을 제외하고, ~외에	3격, außer Betrieb=고장	claude-fable-5-1
+ausserdem	außerdem	a2	그 밖에, 게다가		claude-fable-5-1
+ausserhalb	außerhalb	a2	~바깥에, 교외에	2격 또는 von + 3격	claude-fable-5-1
+aussprechen	aussprechen	a2	발음하다, 말로 표현하다	분리동사	claude-fable-5-1
+ausstellung	die Ausstellung	a2	전시회, 발급		claude-fable-5-1
+austragen	austragen	a2	배달하다	분리동사	claude-fable-5-1
+babysitter	der Babysitter	a2	베이비시터		claude-fable-5-1
+backen	backen	a2	굽다	bäckt/backt 둘 다 씀	claude-fable-5-1
+ball	der Ball	a2	공, 무도회		claude-fable-5-1
+band	die Band	a2	밴드, 악단	das Band(끈)와 구분	claude-fable-5-1
+basketball	der Basketball	a2	농구, 농구공		claude-fable-5-1
+basteln	basteln	a2	만들다, 공작하다	손으로 만드는 취미	claude-fable-5-1
+bauen	bauen	a2	짓다, 건설하다		claude-fable-5-1
+baustelle	die Baustelle	a2	공사장, 공사 현장		claude-fable-5-1
+beantworten	beantworten	a2	대답하다, 답하다, 답장하다	비분리동사, 4격 목적어	claude-fable-5-1
+bedanken	bedanken (sich)	a2	감사하다, 감사를 표하다	재귀동사, bei+3격 für+4격	claude-fable-5-1
+beeilen	beeilen (sich)	a2	서두르다	재귀동사	claude-fable-5-1
+beenden	beenden	a2	끝내다, 마치다	비분리동사	claude-fable-5-1
+begruenden	begründen	a2	이유를 말하다, 근거를 대다	비분리동사	claude-fable-5-1
+beliebt	beliebt	a2	인기 있는	bei+3격: ~에게 인기	claude-fable-5-1
+bequem	bequem	a2	편안한, 편리한		claude-fable-5-1
+beraten	beraten	a2	조언하다, 상담해 주다	불규칙, 4격 목적어	claude-fable-5-1
+berg	der Berg	a2	산	복수 die Berge	claude-fable-5-1
+berichten	berichten	a2	보도하다, 보고하다, 알리다	von+3격/über+4격	claude-fable-5-1
+beruehmt	berühmt	a2	유명한		claude-fable-5-1
+bescheid	der Bescheid	a2	통보, 결정, 소식	Bescheid geben: 알려주다	claude-fable-5-1
+beschreiben	beschreiben	a2	묘사하다, 설명하다	불규칙, 비분리동사	claude-fable-5-1
+beschweren	beschweren (sich)	a2	불평하다, 항의하다	재귀동사, über+4격	claude-fable-5-1
+besonders	besonders	a2	특히, 특별히	nicht besonders: 별로	claude-fable-5-1
+bestaetigen	bestätigen	a2	확인하다, 확인해 주다		claude-fable-5-1
+bestehen	bestehen	a2	합격하다, 구성되다, 존재하다	불규칙, aus+3격: 구성되다	claude-fable-5-1
+besuch	der Besuch	a2	방문, 손님	손님 뜻일 때도 단수	claude-fable-5-1
+bewerben	bewerben (sich)	a2	지원하다, 응모하다	재귀동사, um+4격, 불규칙	claude-fable-5-1
+bewoelkt	bewölkt	a2	흐린, 구름 낀		claude-fable-5-1
+wolke	die Wolke	a2	구름	복수 die Wolken	claude-fable-5-1
+bibliothek	die Bibliothek	a2	도서관		claude-fable-5-1
+blatt	das Blatt	a2	종이 한 장, 나뭇잎, 잎	복수 Blätter, 단위명사로도	claude-fable-5-1
+bloed	blöd	a2	바보 같은, 짜증 나는	구어	claude-fable-5-1
+blond	blond	a2	금발의		claude-fable-5-1
+bluse	die Bluse	a2	블라우스		claude-fable-5-1
+bohne	die Bohne	a2	콩	보통 복수 Bohnen	claude-fable-5-1
+braten	braten	a2	굽다, 부치다, 튀기다	불규칙: brät, gebraten	claude-fable-5-1
+brille	die Brille	a2	안경	안경 하나는 단수	claude-fable-5-1
+bruecke	die Brücke	a2	다리		claude-fable-5-1
+buchen	buchen	a2	예약하다	여행·항공권 예약	claude-fable-5-1
+bunt	bunt	a2	알록달록한, 다채로운		claude-fable-5-1
+buero	das Büro	a2	사무실	복수 Büros	claude-fable-5-1
+cafeteria	die Cafeteria	a2	카페테리아, 구내식당		claude-fable-5-1
+chatten	chatten	a2	채팅하다	영어식 발음, mit+3격	claude-fable-5-1
+chefin	die Chefin	a2	여자 상사, 여사장	Chef의 여성형	claude-fable-5-1
+club	der Club	a2	클럽, 동호회	Klub으로도 씀	claude-fable-5-1
+creme	die Creme	a2	크림	화장품·케이크 크림 모두	claude-fable-5-1
+dar-bsp-darauf	da(r) (Bsp. darauf	a2	그것에, 그것에 대해	da(r)+전치사, 모음 앞 dar-	claude-fable-5-1
+dabei	dabei	a2	지니고, 함께, 그때	dabei haben: 지니고 있다	claude-fable-5-1
+dafuer	dafür/dagegen sein	a2	찬성하다, 반대하다, 그것에	da+für/gegen 대명사부사	claude-fable-5-1
+damals	damals	a2	그 당시에, 그때		claude-fable-5-1
+dass	dass	a2	~라고, ~라는 것	종속접속사, 동사 문미	claude-fable-5-1
+datei	die Datei	a2	파일	컴퓨터 파일	claude-fable-5-1
+denken	denken	a2	생각하다	불규칙: dachte, gedacht	claude-fable-5-1
+deshalb	deshalb	a2	그래서, 그 때문에	접속부사, 뒤에 동사 도치	claude-fable-5-1
+deutlich	deutlich	a2	분명한, 또렷한, 명확한	부사로 '똑똑히'	claude-fable-5-1
+dick	dick	a2	뚱뚱한, 두꺼운		claude-fable-5-1
+ding	das Ding	a2	물건, 것	복수 Dinge, 구어	claude-fable-5-1
+direkt	direkt	a2	바로, 직접, 직행의		claude-fable-5-1
+disko	die Disko	a2	디스코텍, 클럽	Disco로도 씀	claude-fable-5-1
+diskutieren	diskutieren	a2	토론하다, 논의하다	über+4격 / mit+3격	claude-fable-5-1
+doch	doch	a2	아니 맞아, 좀, 정말	부정 의문에 긍정 답, 화법조사	claude-fable-5-1
+dringend	dringend	a2	긴급한, 급한		claude-fable-5-1
+drinnen	drinnen	a2	안에, 실내에	↔ draußen	claude-fable-5-1
+drueben	drüben	a2	저쪽에, 건너편에	da/dort drüben	claude-fable-5-1
+dumm	dumm	a2	멍청한, 어리석은		claude-fable-5-1
+dunkel	dunkel	a2	어두운, 짙은	어미 붙으면 dunkle	claude-fable-5-1
+duenn	dünn	a2	얇은, 마른		claude-fable-5-1
+durst-sing	der Durst (Sing.)	a2	갈증	단수만, Durst haben	claude-fable-5-1
+e-book	das E-Book	a2	전자책		claude-fable-5-1
+echt	echt	a2	진짜의, 정말	부사 '정말'은 구어	claude-fable-5-1
+einkaufszentrum	das Einkaufszentrum	a2	쇼핑센터		claude-fable-5-1
+einpacken	einpacken	a2	포장하다, 싸다, 챙기다	분리동사	claude-fable-5-1
+packt-ein	packt ein	a2	챙기다, 포장하다	einpacken 활용형	claude-fable-5-1
+steigt-ein	steigt ein	a2	타다, 승차하다	einsteigen 활용형	claude-fable-5-1
+eintragen	eintragen (sich)	a2	기입하다, 등록하다	분리동사, sich+in 4격	claude-fable-5-1
+traegt-ein	trägt ein	a2	기입하다, 등록하다	eintragen 활용형	claude-fable-5-1
+einverstanden-sein	einverstanden sein	a2	동의하다, 찬성하다	mit+3격	claude-fable-5-1
+einzel	einzel-	a2	개별의, 단독의, 혼자의	합성어 앞에 붙음	claude-fable-5-1
+einziehen	einziehen	a2	이사 오다, 입주하다	분리동사, sein 완료	claude-fable-5-1
+zieht-ein	zieht ein	a2	이사 오다, 입주하다	einziehen 활용형	claude-fable-5-1
+egal	egal	a2	상관없는, 아무래도 좋은	mir/dir egal	claude-fable-5-1
+eigen	eigen-	a2	자기 자신의, 고유한		claude-fable-5-1
+eigentlich	eigentlich	a2	원래는, 사실은, 도대체	질문에선 '그런데' 뉘앙스	claude-fable-5-1
+eis	das Eis	a2	아이스크림, 얼음		claude-fable-5-1
+einig	einig-	a2	몇몇의, 약간의	einige 형태로 씀	claude-fable-5-1
+endlich	endlich	a2	마침내, 드디어		claude-fable-5-1
+eng	eng	a2	꽉 끼는, 좁은, 긴밀한		claude-fable-5-1
+erdgeschoss	das Erdgeschoss	a2	1층	지상층, 한국식 1층	claude-fable-5-1
+erfahrung	die Erfahrung	a2	경험	Erfahrungen machen	claude-fable-5-1
+erinnern	erinnern (sich)	a2	기억하다, 상기시키다	재귀동사, an+4격	claude-fable-5-1
+erkaeltet-sein	erkältet sein	a2	감기에 걸리다	상태 표현	claude-fable-5-1
+erlaubt-sein	erlaubt sein	a2	허용되다, 허가되다		claude-fable-5-1
+erlaubnis	die Erlaubnis	a2	허가, 허락		claude-fable-5-1
+ermaessigung	die Ermäßigung	a2	할인, 감액		claude-fable-5-1
+erreichen	erreichen	a2	잡아타다, 연락이 닿다, 도달하다	4격 목적어	claude-fable-5-1
+erst	erst	a2	비로소, 겨우, 이제야	시간적 '아직 ~밖에'	claude-fable-5-1
+etwas	etwas	a2	무엇인가, 어떤 것, 조금	etwas anderes=다른 것	claude-fable-5-1
+fach	das Fach	a2	과목, 칸		claude-fable-5-1
+faehrt-ab	fährt (ab)	a2	출발하다, 떠나다	abfahren 활용형	claude-fable-5-1
+ist-abgefahren	ist (ab)gefahren	a2	출발하다, 떠나다	abfahren 완료형(sein)	claude-fable-5-1
+fahrplan	der Fahrplan	a2	시간표, 운행표		claude-fable-5-1
+fallen	fallen	a2	떨어지다, 내리다, 하락하다	sein 완료, fällt	claude-fable-5-1
+ist-gefallen	ist gefallen	a2	떨어지다	fallen 완료형(sein)	claude-fable-5-1
+fan	der Fan	a2	팬		claude-fable-5-1
+fantastisch	fantastisch	a2	환상적인, 굉장한		claude-fable-5-1
+fast	fast	a2	거의		claude-fable-5-1
+faul	faul	a2	게으른, 썩은		claude-fable-5-1
+feier-2	die Feier	a2	축하 행사, 파티, 축제	Feierabend=퇴근 시간	claude-fable-5-1
+fenster	das Fenster	a2	창문		claude-fable-5-1
+ferien	die Ferien	a2	방학, 휴가	복수형만 씀	claude-fable-5-1
+fernseher	der Fernseher	a2	텔레비전		claude-fable-5-1
+fertig-sein	fertig sein	a2	다 되다, 준비되다, 끝나다		claude-fable-5-1
+fest	das Fest	a2	축제, 파티, 명절	Frohes Fest!=명절 인사	claude-fable-5-1
+festival	das Festival	a2	페스티벌, 축제		claude-fable-5-1
+fett	fett	a2	기름진, 뚱뚱한		claude-fable-5-1
+fit-sein	fit sein	a2	건강하다, 컨디션이 좋다		claude-fable-5-1
+fleissig	fleißig	a2	부지런한, 성실한		claude-fable-5-1
+flohmarkt	der Flohmarkt	a2	벼룩시장	auf dem Flohmarkt	claude-fable-5-1
+flug	der Flug	a2	비행, 항공편		claude-fable-5-1
+fluss	der Fluss	a2	강		claude-fable-5-1
+fotoapparat	der Fotoapparat	a2	카메라, 사진기		claude-fable-5-1
+fotografieren	fotografieren	a2	사진을 찍다	과거분사 ge- 없음	claude-fable-5-1
+freiwillig	freiwillig	a2	자발적인, 자원하여		claude-fable-5-1
+fuehlen	fühlen (sich)	a2	느끼다, 기분이 들다, 만져 보다	재귀동사	claude-fable-5-1
+fuehrerschein	der Führerschein	a2	운전면허증	den Führerschein machen	claude-fable-5-1
+fundsachen	die Fundsachen	a2	분실물, 습득물	복수형만 씀	claude-fable-5-1
+furchtbar	furchtbar	a2	끔찍한, 몹시	부사로 '몹시'	claude-fable-5-1
+freundin	die Freundin	a2	친구, 여자 친구	여성형, 애인 뜻도 있음	claude-fable-5-1
+freundlich	freundlich	a2	친절한, 상냥한	zu + 3격: ~에게	claude-fable-5-1
+frisch	frisch	a2	신선한, 갓 ~한		claude-fable-5-1
+froh	froh	a2	기쁜, 즐거운	froh, dass… 자주 씀	claude-fable-5-1
+frueh	früh	a2	이른, 일찍	부사로도 씀	claude-fable-5-1
+gabel	die Gabel	a2	포크		claude-fable-5-1
+ganz	ganz	a2	온전한, 전체의, 아주	부사로 '아주, 꽤'	claude-fable-5-1
+garage	die Garage	a2	차고		claude-fable-5-1
+geburts-jahr	Geburts-(jahr	a2	출생 연도, 출생지, 생일	출생 관련 합성어	claude-fable-5-1
+geehrt	geehrt-	a2	존경하는	편지 서두 관용구	claude-fable-5-1
+gefaehrlich	gefährlich	a2	위험한		claude-fable-5-1
+gegenteil	das Gegenteil	a2	반대, 정반대	im Gegenteil: 반대로	claude-fable-5-1
+gegenueber	gegenüber	a2	~맞은편에, ~에 대해	3격 지배, 명사 뒤에도 옴	claude-fable-5-1
+gehalt	das Gehalt	a2	급여, 월급	복수 Gehälter	claude-fable-5-1
+geldboerse	die Geldbörse	a2	지갑		claude-fable-5-1
+genau	genau	a2	정확한, 정확히	부사로도 씀, '맞아요'	claude-fable-5-1
+genug	genug	a2	충분한, 충분히	불변화, 형용사 뒤에 옴	claude-fable-5-1
+geradeaus	geradeaus	a2	똑바로, 직진으로	길 안내	claude-fable-5-1
+geraet	das Gerät	a2	기기, 장치	예문은 Elektrogerät	claude-fable-5-1
+gericht	das Gericht	a2	요리, 법원	두 뜻 모두 중성	claude-fable-5-1
+gern	gern	a2	기꺼이, 즐겨	비교 lieber, am liebsten	claude-fable-5-1
+geschichte	die Geschichte	a2	이야기, 역사		claude-fable-5-1
+geschirr	das Geschirr	a2	식기, 그릇	집합명사, 단수로 씀	claude-fable-5-1
+gesicht	das Gesicht	a2	얼굴		claude-fable-5-1
+gesund	gesund	a2	건강한, 건강에 좋은		claude-fable-5-1
+gesundheit	die Gesundheit	a2	건강	재채기 때 'Gesundheit!'	claude-fable-5-1
+gewitter	das Gewitter	a2	뇌우, 천둥번개		claude-fable-5-1
+gitarre	die Gitarre	a2	기타	Gitarre spielen 무관사	claude-fable-5-1
+grippe	die Grippe	a2	독감		claude-fable-5-1
+gueltig-sein	gültig sein	a2	유효하다		claude-fable-5-1
+hals	der Hals	a2	목, 목구멍	Halsschmerzen 인후통	claude-fable-5-1
+hamburger	der Hamburger	a2	햄버거		claude-fable-5-1
+handtuch	das Handtuch	a2	수건	복수 Handtücher	claude-fable-5-1
+haengen	hängen	a2	걸려 있다, 걸다	자동사 강변화, 타동사 약변화	claude-fable-5-1
+hart	hart	a2	딱딱한, 힘든		claude-fable-5-1
+haesslich	hässlich	a2	못생긴, 보기 흉한		claude-fable-5-1
+hauptstadt	die Hauptstadt	a2	수도		claude-fable-5-1
+haushalt	der Haushalt	a2	가사, 살림	den Haushalt machen	claude-fable-5-1
+heft	das Heft	a2	공책, 노트		claude-fable-5-1
+heiss	heiß	a2	뜨거운, 더운	Mir ist heiß (3격)	claude-fable-5-1
+heizung	die Heizung	a2	난방, 난방기		claude-fable-5-1
+hemd	das Hemd	a2	셔츠, 와이셔츠	복수 Hemden	claude-fable-5-1
+her	her/her-/-her	a2	이리로, 이쪽으로	말하는 사람 쪽으로 이동	claude-fable-5-1
+heraus	heraus/raus	a2	밖으로	구어 raus, 분리전철	claude-fable-5-1
+herein	herein/rein	a2	안으로	구어 rein, 분리전철	claude-fable-5-1
+herstellen	herstellen	a2	제조하다, 생산하다	분리동사	claude-fable-5-1
+herunterladen	herunterladen	a2	다운로드하다	분리동사, 강변화	claude-fable-5-1
+himmel	der Himmel	a2	하늘		claude-fable-5-1
+hin	hin/hin-/-hin	a2	저리로, 그쪽으로	말하는 사람에게서 멀어짐	claude-fable-5-1
+hinter	hinter	a2	~뒤에, ~뒤로	장소 이동은 4격, 위치 3격	claude-fable-5-1
+hoffen	hoffen	a2	바라다, 희망하다	hoffen auf + 4격	claude-fable-5-1
+hoffentlich	hoffentlich	a2	바라건대, 부디		claude-fable-5-1
+homepage	die Homepage	a2	홈페이지, 웹사이트		claude-fable-5-1
+hose	die Hose	a2	바지	단수로 씀	claude-fable-5-1
+husten	husten	a2	기침하다		claude-fable-5-1
+idee	die Idee	a2	생각, 아이디어		claude-fable-5-1
+informieren	informieren (sich)	a2	알아보다, 알리다	재귀: sich über + 4격	claude-fable-5-1
+insel	die Insel	a2	섬	auf der Insel	claude-fable-5-1
+instrument	das Instrument	a2	악기, 도구		claude-fable-5-1
+intelligent	intelligent	a2	똑똑한, 지적인		claude-fable-5-1
+interesse	das Interesse	a2	관심, 흥미	복수 Interessen	claude-fable-5-1
+interessieren	interessieren (sich)	a2	관심을 가지다, 흥미를 끌다	재귀동사	claude-sonnet-5
+interessant	interessant	a2	흥미로운, 재미있는		claude-sonnet-5
+interview	das Interview	a2	인터뷰		claude-sonnet-5
+jeans	die Jeans	a2	청바지	복수형만 씀	claude-sonnet-5
+jeder	jeder	a2	각각의, 모든, 누구나		claude-sonnet-5
+jemand	jemand	a2	누군가, 누구		claude-sonnet-5
+joggen	joggen	a2	조깅하다		claude-sonnet-5
+jugendherberge	die Jugendherberge	a2	유스호스텔		claude-sonnet-5
+kalender	der Kalender	a2	달력, 일정표		claude-sonnet-5
+kalt	kalt	a2	추운, 차가운	Mir ist kalt: 3격	claude-sonnet-5
+schloss	das Schloss	a2	성, 자물쇠	두 뜻 다 중성	claude-sonnet-5
+schmerz	der Schmerz	a2	고통, 통증, 아픔		claude-sonnet-5
+schmutzig	schmutzig	a2	더러운, 지저분한		claude-sonnet-5
+schnee	der Schnee	a2	눈		claude-sonnet-5
+schneiden	schneiden (sich)	a2	자르다, 베다	재귀시 다치다	claude-sonnet-5
+schneien	schneien	a2	눈이 오다	비인칭동사	claude-sonnet-5
+schokolade	die Schokolade	a2	초콜릿		claude-sonnet-5
+schrecklich	schrecklich	a2	끔찍한, 무서운, 지독한		claude-sonnet-5
+schriftlich	schriftlich	a2	서면의, 문서로 된		claude-sonnet-5
+schuelerin	die Schülerin	a2	여학생		claude-sonnet-5
+schwach	schwach	a2	약한, 힘없는		claude-sonnet-5
+schwanger	schwanger	a2	임신한		claude-sonnet-5
+schwein	das Schwein	a2	돼지	돼지고기=Schweinefleisch	claude-sonnet-5
+schwierig	schwierig	a2	어려운, 힘든		claude-sonnet-5
+see-2	die See	a2	바다	여성명사, der See=호수	claude-sonnet-5
+seife	die Seife	a2	비누		claude-sonnet-5
+seite	die Seite	a2	페이지, 쪽, 옆, 편		claude-sonnet-5
+selbst	selbst	a2	스스로, 직접, 자신이	selber와 같음	claude-sonnet-5
+sendung	die Sendung	a2	방송, 프로그램, 발송물		claude-sonnet-5
+service	der Service	a2	서비스		claude-sonnet-5
+setzen	setzen (sich)	a2	놓다, 앉히다, 앉다	재귀동사	claude-sonnet-5
+sicher	sicher	a2	안전한, 확실한, 틀림없이		claude-sonnet-5
+singen	singen	a2	노래하다		claude-sonnet-5
+situation	die Situation	a2	상황		claude-sonnet-5
+ski	der Ski	a2	스키		claude-sonnet-5
+sogar	sogar	a2	심지어, ~조차		claude-sonnet-5
+sonnig	sonnig	a2	화창한, 맑은		claude-sonnet-5
+sonst	sonst	a2	그 밖에, 그렇지 않으면		claude-sonnet-5
+spannend	spannend	a2	흥미진진한, 긴장되는		claude-sonnet-5
+sparen	sparen	a2	절약하다, 저축하다		claude-sonnet-5
+spass	der Spaß	a2	재미, 즐거움	관용구 많음	claude-sonnet-5
+spazieren-gehen	spazieren gehen	a2	산책하다	분리동사	claude-sonnet-5
+spaziergang	der Spaziergang	a2	산책		claude-sonnet-5
+speichern	speichern	a2	저장하다		claude-sonnet-5
+spiel	das Spiel	a2	게임, 놀이, 경기		claude-sonnet-5
+sportlich	sportlich	a2	스포츠의, 운동을 좋아하는, 활동적인		claude-sonnet-5
+sportplatz	der Sportplatz	a2	운동장, 경기장		claude-sonnet-5
+sprechstunde	die Sprechstunde	a2	진료시간, 상담시간		claude-sonnet-5
+stadtplan	der Stadtplan	a2	시가지도, 도시 지도		claude-sonnet-5
+star	der Star	a2	스타		claude-sonnet-5
+stark	stark	a2	강한, 심한		claude-sonnet-5
+stattfinden	stattfinden	a2	열리다, 개최되다	분리동사	claude-sonnet-5
+sterben	sterben	a2	죽다		claude-sonnet-5
+stiefel	der Stiefel	a2	부츠, 장화		claude-sonnet-5
+stift	der Stift	a2	펜, 연필		claude-sonnet-5
+stipendium	das Stipendium	a2	장학금		claude-sonnet-5
+stockwerk	das Stockwerk	a2	층		claude-sonnet-5
+stoeren	stören	a2	방해하다		claude-sonnet-5
+strand	der Strand	a2	해변		claude-sonnet-5
+streiten	streiten (sich)	a2	다투다, 싸우다	재귀동사	claude-sonnet-5
+streng	streng	a2	엄격한		claude-sonnet-5
+stress	der Stress	a2	스트레스		claude-sonnet-5
+stressig	stressig	a2	스트레스가 많은		claude-sonnet-5
+stueck	das Stück	a2	조각, 개, 작품	수량 단위로도 씀	claude-sonnet-5
+studentin	die Studentin	a2	여대생		claude-sonnet-5
+stuhl	der Stuhl	a2	의자		claude-sonnet-5
+super	super	a2	최고의, 훌륭한, 대단한	구어	claude-sonnet-5
+supermarkt	der Supermarkt	a2	슈퍼마켓		claude-sonnet-5
+suppe	die Suppe	a2	수프		claude-sonnet-5
+surfen	surfen	a2	서핑하다, 인터넷 검색하다		claude-sonnet-5
+portion	die Portion	a2	1인분, (음식의) 양		claude-sonnet-5
+poster	das Poster	a2	포스터		claude-sonnet-5
+postkarte	die Postkarte	a2	엽서		claude-sonnet-5
+praktisch	praktisch	a2	실용적인, 편리한, 거의	부사로 '거의'	claude-sonnet-5
+preiswert	preiswert	a2	저렴한, 값싼		claude-sonnet-5
+privat	privat	a2	사적인, 개인적인		claude-sonnet-5
+pro	pro	a2	~당, ~마다		claude-sonnet-5
+probieren	probieren	a2	시도하다, 맛보다, 입어보다		claude-sonnet-5
+produkt	das Produkt	a2	제품, 상품		claude-sonnet-5
+programm	das Programm	a2	프로그램, 편성표		claude-sonnet-5
+projekt	das Projekt	a2	프로젝트, 계획		claude-sonnet-5
+pruefen	prüfen	a2	검사하다, 확인하다		claude-sonnet-5
+pullover	der Pullover	a2	스웨터		claude-sonnet-5
+putzen	putzen	a2	닦다, 청소하다	치아: 재귀동사	claude-sonnet-5
+qualitaet	die Qualität	a2	품질		claude-sonnet-5
+quiz	das Quiz	a2	퀴즈		claude-sonnet-5
+radio	das Radio	a2	라디오		claude-sonnet-5
+raten	raten	a2	조언하다, 추측하다	불규칙(rät)	claude-sonnet-5
+rathaus	das Rathaus	a2	시청		claude-sonnet-5
+raetsel	das Rätsel	a2	수수께끼		claude-sonnet-5
+rechnen	rechnen	a2	계산하다		claude-sonnet-5
+recht-haben	recht haben	a2	옳다, 맞다	recht haben로 씀	claude-sonnet-5
+reden	reden	a2	말하다, 이야기하다		claude-sonnet-5
+reich	reich	a2	부유한		claude-sonnet-5
+reifen	der Reifen	a2	타이어		claude-sonnet-5
+reihe	die Reihe	a2	줄, 열, 차례	an der Reihe: 차례	claude-sonnet-5
+reinigung	die Reinigung	a2	청소, 세탁소		claude-sonnet-5
+reiten	reiten	a2	(말을) 타다	이동동사(sein)	claude-sonnet-5
+renovieren	renovieren	a2	개조하다, 보수하다		claude-sonnet-5
+rentner	der Rentner	a2	은퇴자, 연금 수급자		claude-sonnet-5
+rentnerin	die Rentnerin	a2	은퇴자, 연금 수급자	여성형	claude-sonnet-5
+reservieren	reservieren	a2	예약하다		claude-sonnet-5
+rest	der Rest	a2	나머지		claude-sonnet-5
+rezept	das Rezept	a2	요리법, 처방전		claude-sonnet-5
+rind	das Rind	a2	소고기, 소		claude-sonnet-5
+ring	der Ring	a2	반지		claude-sonnet-5
+rock	der Rock	a2	치마		claude-sonnet-5
+romantisch	romantisch	a2	낭만적인		claude-sonnet-5
+rose	die Rose	a2	장미		claude-sonnet-5
+ruecken	der Rücken	a2	등		claude-sonnet-5
+rucksack	der Rucksack	a2	배낭		claude-sonnet-5
+rufen	rufen	a2	부르다, 외치다		claude-sonnet-5
+ruhe	die Ruhe	a2	고요, 휴식, 정적	in Ruhe: 관용구	claude-sonnet-5
+rund	rund	a2	둥근, 약, 대략	부사로 '약'	claude-sonnet-5
+rundgang	der Rundgang	a2	견학, 순회, 관람		claude-sonnet-5
+sache	die Sache	a2	물건, 일		claude-sonnet-5
+sammeln	sammeln	a2	모으다, 수집하다		claude-sonnet-5
+sauber	sauber	a2	깨끗한		claude-sonnet-5
+sauer	sauer	a2	신, 화난		claude-sonnet-5
+schade	schade	a2	아쉬운, 유감스러운	감탄사처럼 씀	claude-sonnet-5
+schaedlich	schädlich	a2	해로운		claude-sonnet-5
+schaffen	schaffen	a2	해내다, 성공하다		claude-sonnet-5
+scharf	scharf	a2	매운, 날카로운		claude-sonnet-5
+schenken	schenken	a2	선물하다		claude-sonnet-5
+schere	die Schere	a2	가위		claude-sonnet-5
+schiff	das Schiff	a2	배, 선박		claude-sonnet-5
+schimpfen	schimpfen	a2	잔소리하다, 불평하다	über/auf+4격	claude-sonnet-5
+schirm	der Schirm	a2	우산		claude-sonnet-5
+schlafzimmer	das Schlafzimmer	a2	침실		claude-sonnet-5
+schlimm	schlimm	a2	나쁜, 심각한		claude-sonnet-5
+kamera	die Kamera	a2	카메라		claude-sonnet-5
+kaese	der Käse	a2	치즈		claude-sonnet-5
+katze	die Katze	a2	고양이		claude-sonnet-5
+keller	der Keller	a2	지하실		claude-sonnet-5
+kenntnisse	die Kenntnisse	a2	지식, 능력, 실력	주로 복수형	claude-sonnet-5
+kette	die Kette	a2	목걸이, 사슬		claude-sonnet-5
+kirche	die Kirche	a2	교회		claude-sonnet-5
+klappen	klappen	a2	잘 되다, 성사되다		claude-sonnet-5
+klavier	das Klavier	a2	피아노		claude-sonnet-5
+kleid	das Kleid	a2	원피스, 드레스		claude-sonnet-5
+klug	klug	a2	똑똑한, 영리한		claude-sonnet-5
+kollegin	die Kollegin	a2	여자 동료	여성형	claude-sonnet-5
+komisch	komisch	a2	웃긴, 이상한		claude-sonnet-5
+kontakt	der Kontakt	a2	연락, 접촉		claude-sonnet-5
+kontrollieren	kontrollieren	a2	점검하다, 검사하다		claude-sonnet-5
+konzert	das Konzert	a2	콘서트, 연주회		claude-sonnet-5
+koerper	der Körper	a2	몸, 신체		claude-sonnet-5
+kosmetik	die Kosmetik	a2	화장품		claude-sonnet-5
+kostenlos	kostenlos	a2	무료의		claude-sonnet-5
+krankenhaus	das Krankenhaus	a2	병원		claude-sonnet-5
+krankenkasse	die Krankenkasse	a2	건강보험(조합)		claude-sonnet-5
+krankheit	die Krankheit	a2	병, 질병		claude-sonnet-5
+kredit	der Kredit	a2	대출, 신용		claude-sonnet-5
+kreuzung	die Kreuzung	a2	교차로		claude-sonnet-5
+krimi	der Krimi	a2	추리물, 범죄물		claude-sonnet-5
+kuehl	kühl	a2	시원한, 서늘한		claude-sonnet-5
+kultur	die Kultur	a2	문화		claude-sonnet-5
+kuemmern	kümmern (sich)	a2	돌보다, 신경 쓰다	재귀동사, 전치사 um	claude-sonnet-5
+kundin	die Kundin	a2	여자 고객	여성형	claude-sonnet-5
+kuendigen	kündigen	a2	그만두다, 해지하다		claude-sonnet-5
+kunst	die Kunst	a2	예술, 미술		claude-sonnet-5
+lampe	die Lampe	a2	램프, 전등		claude-sonnet-5
+landschaft	die Landschaft	a2	풍경, 경치		claude-sonnet-5
+langweilig	langweilig	a2	지루한		claude-sonnet-5
+lassen	lassen	a2	~하게 두다, 놓아두다, 시키다	사역동사	claude-sonnet-5
+leer	leer	a2	빈, 비어 있는		claude-sonnet-5
+leidtun	leidtun/leid tun	a2	유감이다, 미안하다	비인칭동사	claude-sonnet-5
+leihen	leihen	a2	빌려주다, 빌리다	문맥따라 뜻 반대	claude-sonnet-5
+liefern	liefern	a2	배달하다, 공급하다		claude-sonnet-5
+link	der Link	a2	링크		claude-sonnet-5
+loeffel	der Löffel	a2	숟가락		claude-sonnet-5
+luege	die Lüge	a2	거짓말		claude-sonnet-5
+luegen	lügen	a2	거짓말하다		claude-sonnet-5
+lust	die Lust	a2	~하고 싶은 마음, 욕구	Lust auf/zu 구문	claude-sonnet-5
+magen	der Magen	a2	위, 위장		claude-sonnet-5
+mailbox	die Mailbox	a2	음성사서함		claude-sonnet-5
+mal	mal / das Mal	a2	좀, 한번, 번	mal 부사/Mal 명사	claude-sonnet-5
+malen	malen	a2	그리다		claude-sonnet-5
+manch	manch-	a2	몇몇의, 어떤	어미변화	claude-sonnet-5
+manchmal	manchmal	a2	가끔, 때때로		claude-sonnet-5
+mannschaft	die Mannschaft	a2	팀		claude-sonnet-5
+mantel	der Mantel	a2	코트, 외투		claude-sonnet-5
+markt	der Markt	a2	시장		claude-sonnet-5
+medikament	das Medikament	a2	약, 약물		claude-sonnet-5
+meinen	meinen	a2	생각하다, 의미하다		claude-sonnet-5
+meinung	die Meinung	a2	의견, 견해	der Meinung sein 관용구	claude-sonnet-5
+meistens	meistens	a2	대개, 대부분		claude-sonnet-5
+menge	die Menge	a2	많음, 다량, 무리		claude-sonnet-5
+merken	merken	a2	기억하다, 알아차리다	재귀동사 sich merken	claude-sonnet-5
+messe	die Messe	a2	박람회		claude-sonnet-5
+messer	das Messer	a2	칼		claude-sonnet-5
+mindestens	mindestens	a2	적어도, 최소한		claude-sonnet-5
+mineralwasser	das Mineralwasser	a2	미네랄워터, 광천수		claude-sonnet-5
+mit-mitbringen	mit (+ mitbringen/-kommen/-machen/-nehmen/-spielen)	a2	함께, 같이	분리동사 접두사 mit-	claude-sonnet-5
+mitarbeiter	der Mitarbeiter	a2	직원, 동료		claude-sonnet-5
+mittagessen	das Mittagessen	a2	점심(식사)		claude-sonnet-5
+mittel	das Mittel	a2	약, 세제, 수단		claude-sonnet-5
+mobiltelefon	das Mobiltelefon	a2	휴대전화		claude-sonnet-5
+mode	die Mode	a2	유행, 패션		claude-sonnet-5
+modern	modern	a2	현대적인, 모던한		claude-sonnet-5
+motor	der Motor	a2	엔진, 모터		claude-sonnet-5
+motorroller	der Motorroller	a2	스쿠터		claude-sonnet-5
+muell	der Müll	a2	쓰레기		claude-sonnet-5
+museum	das Museum	a2	박물관, 미술관		claude-sonnet-5
+musik	die Musik	a2	음악		claude-sonnet-5
+muetze	die Mütze	a2	모자	챙 없는 모자	claude-sonnet-5
+nachbar	der Nachbar	a2	이웃(사람)	여성형 Nachbarin	claude-sonnet-5
+nachricht	die Nachricht	a2	뉴스, 메시지, 소식		claude-sonnet-5
+naechste	nächste	a2	다음의, 가장 가까운	최상급 형태	claude-sonnet-5
+naehe	die Nähe	a2	근처, 가까움		claude-sonnet-5
+nass	nass	a2	젖은		claude-sonnet-5
+natur	die Natur	a2	자연		claude-sonnet-5
+natuerlich	natürlich	a2	물론, 당연한	부사로도 씀	claude-sonnet-5
+neben	neben	a2	~옆에	3/4격 지배	claude-sonnet-5
+nebenan	nebenan	a2	옆집에, 바로 옆에		claude-sonnet-5
+neblig	neblig	a2	안개 낀		claude-sonnet-5
+nennen	nennen	a2	부르다, 이름 짓다	불규칙동사	claude-sonnet-5
+nervoes	nervös	a2	긴장한, 초조한		claude-sonnet-5
+nett	nett	a2	친절한, 상냥한		claude-sonnet-5
+niemand	niemand	a2	아무도		claude-sonnet-5
+nirgends	nirgends	a2	어디에도		claude-sonnet-5
+note	die Note	a2	성적, 음표		claude-sonnet-5
+notieren	notieren	a2	적다, 메모하다		claude-sonnet-5
+notiz	die Notiz	a2	메모, 쪽지		claude-sonnet-5
+notwendig	notwendig	a2	필요한		claude-sonnet-5
+nudel	die Nudel	a2	국수, 면	주로 복수형 사용	claude-sonnet-5
+nuetzlich	nützlich	a2	유용한		claude-sonnet-5
+offen	offen	a2	열린, 개방된		claude-sonnet-5
+ohr	das Ohr	a2	귀		claude-sonnet-5
+oel	das Öl	a2	기름, 오일		claude-sonnet-5
+online	online	a2	온라인의, 온라인으로		claude-sonnet-5
+orange	die Orange	a2	오렌지		claude-sonnet-5
+organisieren	organisieren	a2	조직하다, 준비하다		claude-sonnet-5
+paar	das Paar	a2	쌍, 켤레, 커플		claude-sonnet-5
+ein-paar	ein paar	a2	몇몇, 약간의		claude-sonnet-5
+packen	packen	a2	싸다, 꾸리다		claude-sonnet-5
+paket	das Paket	a2	소포, 꾸러미		claude-sonnet-5
+parfuem	das Parfüm	a2	향수		claude-sonnet-5
+park	der Park	a2	공원		claude-sonnet-5
+parken	parken	a2	주차하다		claude-sonnet-5
+passen	passen	a2	맞다, 어울리다, 편리하다	3격 목적어	claude-sonnet-5
+passieren	passieren	a2	일어나다, 발생하다	sein 지배	claude-sonnet-5
+passwort	das Passwort	a2	비밀번호		claude-sonnet-5
+person	die Person	a2	사람, 인		claude-sonnet-5
+pferd	das Pferd	a2	말		claude-sonnet-5
+pflanze	die Pflanze	a2	식물		claude-sonnet-5
+pizza	die Pizza	a2	피자		claude-sonnet-5
+plakat	das Plakat	a2	포스터, 벽보		claude-sonnet-5
+planen	planen	a2	계획하다		claude-sonnet-5
+ploetzlich	plötzlich	a2	갑자기		claude-sonnet-5
+suess	süß	a2	단, 귀여운		claude-sonnet-5
+suessigkeiten	die Süßigkeiten	a2	단 것, 사탕과자	복수형만 씀	claude-sonnet-5
+sympathisch	sympathisch	a2	호감이 가는, 마음에 드는		claude-sonnet-5
+tablet	das Tablet	a2	태블릿		claude-sonnet-5
+tablette	die Tablette	a2	알약		claude-sonnet-5
+tafel	die Tafel	a2	칠판, 게시판, (초콜릿) 한 판		claude-sonnet-5
+taschengeld	das Taschengeld	a2	용돈		claude-sonnet-5
+tasse	die Tasse	a2	잔, 컵		claude-sonnet-5
+austauschen	(aus)tauschen	a2	바꾸다, 교환하다	분리동사	claude-sonnet-5
+team	das Team	a2	팀		claude-sonnet-5
+teilen	teilen	a2	나누다, 공유하다	sich teilen: 나눠 맡다	claude-sonnet-5
+teilnehmen	teilnehmen	a2	참가하다, 참여하다	분리동사, an+3격	claude-sonnet-5
+teller	der Teller	a2	접시, (수프) 한 그릇		claude-sonnet-5
+tennis	das Tennis	a2	테니스		claude-sonnet-5
+theater	das Theater	a2	극장, 연극		claude-sonnet-5
+tief	tief	a2	깊은, 깊이		claude-sonnet-5
+tier	das Tier	a2	동물		claude-sonnet-5
+tipp	der Tipp	a2	조언, 정보		claude-sonnet-5
+titel	der Titel	a2	제목, 칭호		claude-sonnet-5
+toll	toll	a2	멋진, 굉장한	구어	claude-sonnet-5
+topf	der Topf	a2	냄비, 화분		claude-sonnet-5
+torte	die Torte	a2	케이크		claude-sonnet-5
+total	total	a2	완전히, 아주	구어체 부사	claude-sonnet-5
+tour	die Tour	a2	여행, 코스		claude-sonnet-5
+tourist	der Tourist	a2	관광객	남성형	claude-sonnet-5
+touristin	die Touristin	a2	관광객	여성형	claude-sonnet-5
+tragen	tragen	a2	나르다, 입다, 쓰다		claude-sonnet-5
+trainieren	trainieren	a2	훈련하다, 연습하다		claude-sonnet-5
+training	das Training	a2	훈련, 연습		claude-sonnet-5
+traum	der Traum	a2	꿈		claude-sonnet-5
+traeumen	träumen	a2	꿈꾸다		claude-sonnet-5
+traurig	traurig	a2	슬픈		claude-sonnet-5
+trocken	trocken	a2	마른, 건조한, 드라이한		claude-sonnet-5
+tschues	tschüs	a2	안녕(헤어질 때)	구어	claude-sonnet-5
+t-shirt	das T-Shirt	a2	티셔츠		claude-sonnet-5
+tuer	die Tür	a2	문		claude-sonnet-5
+typisch	typisch	a2	전형적인, ~다운		claude-sonnet-5
+ueben	üben	a2	연습하다		claude-sonnet-5
+ueberall	überall	a2	어디에나, 도처에		claude-sonnet-5
+uebermorgen	übermorgen	a2	모레		claude-sonnet-5
+uebersetzen	übersetzen	a2	번역하다		claude-sonnet-5
+uebersetzung	die Übersetzung	a2	번역		claude-sonnet-5
+umsteigen	umsteigen	a2	환승하다, 갈아타다	분리동사	claude-sonnet-5
+sich-umziehen	sich umziehen	a2	옷을 갈아입다	재귀·분리동사	claude-sonnet-5
+umzug	der Umzug	a2	이사		claude-sonnet-5
+unbedingt	unbedingt	a2	꼭, 반드시	부사처럼 쓰임	claude-sonnet-5
+unfall	der Unfall	a2	사고		claude-sonnet-5
+universitaet	die Universität	a2	대학교		claude-sonnet-5
+unterhalten	unterhalten (sich)	a2	이야기하다, 즐거운 시간을 보내다	재귀동사	claude-sonnet-5
+unterkunft	die Unterkunft	a2	숙소, 숙박시설		claude-sonnet-5
+unternehmen	unternehmen	a2	(무엇을) 하다, 시도하다	etwas와 함께 씀	claude-sonnet-5
+unterschied	der Unterschied	a2	차이		claude-sonnet-5
+untersuchen	untersuchen	a2	검사하다, 진찰하다		claude-sonnet-5
+unterwegs-sein	unterwegs sein	a2	가는 중이다, 외출 중이다		claude-sonnet-5
+verabredet-sein	verabredet sein	a2	약속이 있다		claude-sonnet-5
+veranstaltung	die Veranstaltung	a2	행사		claude-sonnet-5
+verbieten	verbieten / verboten sein	a2	금지하다	verboten sein: 금지되다	claude-sonnet-5
+vereinbaren	vereinbaren	a2	약속하다, 합의하다		claude-sonnet-5
+vergessen	vergessen	a2	잊다		claude-sonnet-5
+vergleichen	vergleichen	a2	비교하다		claude-sonnet-5
+zeigen	zeigen	a2	보여주다, 가리키다		claude-sonnet-5
+zeitschrift	die Zeitschrift	a2	잡지		claude-sonnet-5
+zelt	das Zelt	a2	텐트		claude-sonnet-5
+zentrum	das Zentrum	a2	중심, 중심가		claude-sonnet-5
+zettel	der Zettel	a2	쪽지, 메모지		claude-sonnet-5
+zeugnis	das Zeugnis	a2	성적표, 증명서		claude-sonnet-5
+ziel	das Ziel	a2	목표, 결승점		claude-sonnet-5
+zirkus	der Zirkus	a2	서커스		claude-sonnet-5
+zitrone	die Zitrone	a2	레몬		claude-sonnet-5
+zoo	der Zoo	a2	동물원		claude-sonnet-5
+zucker	der Zucker	a2	설탕		claude-sonnet-5
+zuerst	zuerst	a2	먼저, 처음에		claude-sonnet-5
+zuhoeren	zuhören	a2	귀 기울여 듣다	분리동사, +3격	claude-sonnet-5
+zuletzt	zuletzt	a2	마지막으로		claude-sonnet-5
+zumachen	zumachen	a2	닫다	분리동사	claude-sonnet-5
+zurueck-fahren	zurück- (fahren	a2	돌아가다, 돌려주다, 돌아오다	분리동사(zurück-)	claude-sonnet-5
+abschreiben	abschreiben	b1	베끼다, 옮겨 쓰다		claude-sonnet-5
+abitur	das Abitur	b1	아비투어, 대학입학자격시험		claude-sonnet-5
+ablehnen	ablehnen	b1	거절하다		claude-sonnet-5
+abbiegen	abbiegen	b1	방향을 틀다, 돌다		claude-sonnet-5
+abbildung	die Abbildung	b1	삽화, 그림		claude-sonnet-5
+abenteuer	das Abenteuer	b1	모험		claude-sonnet-5
+abmachen	abmachen	b1	합의하다, 약속하다		claude-sonnet-5
+abnehmen	abnehmen	b1	떼다, 제거하다, 살 빠지다		claude-sonnet-5
+abonnieren	abonnieren	b1	구독하다		claude-sonnet-5
+absagen	absagen	b1	취소하다		claude-sonnet-5
+abschluss	der Abschluss	b1	졸업, 수료		claude-sonnet-5
+abschnitt	der Abschnitt	b1	단락, 구간		claude-sonnet-5
+absenderin	die Absenderin	b1	발신인	여성형	claude-sonnet-5
+absicht	die Absicht	b1	의도		claude-sonnet-5
+abfall	der Abfall	b1	쓰레기		claude-sonnet-5
+abfalleimer	der Abfalleimer	b1	쓰레기통		claude-sonnet-5
+abgase	Abgase	b1	배기가스	복수형만 씀	claude-sonnet-5
+abhaengen	abhängen	b1	달려 있다, 좌우되다	von+3격과 함께	claude-sonnet-5
+abhaengig	abhängig	b1	의존적인, 종속된	von+3격과 함께	claude-sonnet-5
+abheben	abheben	b1	인출하다, 찾다		claude-sonnet-5
+absolut	absolut	b1	절대적인, 완전히		claude-sonnet-5
+abstimmen	abstimmen	b1	투표하다, 표결하다	über+4격과 함께	claude-sonnet-5
+abteilung	die Abteilung	b1	부서, 매장 코너		claude-sonnet-5
+abwart	der Abwart	b1	관리인	스위스 표현	claude-sonnet-5
+abwaerts	abwärts	b1	아래로		claude-sonnet-5
+abwaschen	abwaschen	b1	설거지하다, 씻다		claude-sonnet-5
+abwesend	abwesend	b1	부재중인, 결석한		claude-sonnet-5
+achten	achten	b1	주의하다, 유의하다	auf+4격과 함께	claude-sonnet-5
+aehnlich	ähnlich	b1	비슷한, 닮은		claude-sonnet-5
+aktion	die Aktion	b1	행사, 캠페인		claude-sonnet-5
+aktivitaet	die Aktivität	b1	활동		claude-sonnet-5
+alltaeglich	alltäglich	b1	일상적인, 평범한		claude-sonnet-5
+alphabet	das Alphabet	b1	알파벳		claude-sonnet-5
+als-ob	als ob	b1	마치 ~인 것처럼	접속법과 함께	claude-sonnet-5
+akzeptieren	akzeptieren	b1	받아들이다, 수용하다		claude-sonnet-5
+alarm	der Alarm	b1	경보, 알람		claude-sonnet-5
+alkohol	der Alkohol	b1	알코올, 술		claude-sonnet-5
+aller	aller-	b1	가장 ~한	최상급 강조 접두사	claude-sonnet-5
+allerdings	allerdings	b1	그렇지만, 다만		claude-sonnet-5
+allgemein	allgemein	b1	일반적인, 보편적인		claude-sonnet-5
+altenheim	das Altenheim	b1	양로원		claude-sonnet-5
+altersheim	das Altersheim	b1	양로원	= Altenheim	claude-sonnet-5
+alternativ	alternativ	b1	대안적인		claude-sonnet-5
+alternative	die Alternative	b1	대안		claude-sonnet-5
+verkehr	der Verkehr	a2	교통, 통행		claude-sonnet-5
+verkehrsmittel	das Verkehrsmittel	a2	교통수단		claude-sonnet-5
+verletzen	verletzen (sich)	a2	다치다, 다치게 하다	재귀동사	claude-sonnet-5
+verlieben	verlieben (sich)	a2	사랑에 빠지다	재귀동사(sich in+4격)	claude-sonnet-5
+verlieren	verlieren	a2	잃다, 잃어버리다		claude-sonnet-5
+verpassen	verpassen	a2	놓치다		claude-sonnet-5
+verreisen	verreisen	a2	여행을 떠나다, 여행 중이다	sein 완료	claude-sonnet-5
+verschieben	verschieben	a2	연기하다, 미루다		claude-sonnet-5
+verschieden	verschieden	a2	다른, 여러 가지의		claude-sonnet-5
+verspaetung	die Verspätung	a2	지연, 연착		claude-sonnet-5
+versuchen	versuchen	a2	시도하다, 노력하다		claude-sonnet-5
+vertrag	der Vertrag	a2	계약, 계약서		claude-sonnet-5
+vogel	der Vogel	a2	새		claude-sonnet-5
+voll	voll	a2	가득 찬, 꽉 찬, 전체의		claude-sonnet-5
+volleyball	der Volleyball	a2	배구		claude-sonnet-5
+vorbei	vorbei	a2	지나서, 지나간, 끝난	vorbeikommen: 들르다	claude-sonnet-5
+vorbereiten	vorbereiten	a2	준비하다	재귀동사(sich auf+4격)	claude-sonnet-5
+vorgestern	vorgestern	a2	그저께		claude-sonnet-5
+vorher	vorher	a2	미리, 그전에		claude-sonnet-5
+vorne	vorn(e)	a2	앞에, 앞쪽에		claude-sonnet-5
+vorschlag	der Vorschlag	a2	제안		claude-sonnet-5
+vorsichtig	vorsichtig	a2	조심스러운, 신중한		claude-sonnet-5
+vorwaerts	vorwärts	a2	앞으로		claude-sonnet-5
+wach	wach	a2	깨어 있는		claude-sonnet-5
+wagen	der Wagen	a2	차, 자동차, 객차		claude-sonnet-5
+waehlen	wählen	a2	(전화번호를) 누르다, 고르다, 투표하다		claude-sonnet-5
+wahr	wahr	a2	진실한, 사실인		claude-sonnet-5
+wahrscheinlich	wahrscheinlich	a2	아마도, ~일 것 같은	부사처럼도 씀	claude-sonnet-5
+wald	der Wald	a2	숲		claude-sonnet-5
+warm	warm	a2	따뜻한		claude-sonnet-5
+waesche	die Wäsche	a2	빨래, 세탁물		claude-sonnet-5
+webseite	die Webseite	a2	웹사이트		claude-sonnet-5
+wechseln	wechseln	a2	바꾸다, 교환하다, 환전하다		claude-sonnet-5
+wecken	wecken	a2	깨우다		claude-sonnet-5
+weg	weg/weg-	a2	없어진, 사라진, 가버린	분리동사 접두어로도 씀	claude-sonnet-5
+weg-2	der Weg	a2	길, 방법		claude-sonnet-5
+wegen	wegen	a2	~때문에		claude-sonnet-5
+wehtun	wehtun	a2	아프다, 아프게 하다	3격 목적어	claude-sonnet-5
+weich	weich	a2	부드러운		claude-sonnet-5
+weil	weil	a2	왜냐하면, ~때문에		claude-sonnet-5
+weinen	weinen	a2	울다		claude-sonnet-5
+welcher	welcher	a2	어느, 어떤	성·격에 따라 어미변화	claude-sonnet-5
+wenigstens	wenigstens	a2	적어도		claude-sonnet-5
+wenn	wenn	a2	만약 ~라면, ~할 때		claude-sonnet-5
+wer-wen	wer (wen	a2	누구	wen(4격), wem(3격)	claude-sonnet-5
+werkstatt	die Werkstatt	a2	정비소, 작업장		claude-sonnet-5
+wettbewerb	der Wettbewerb	a2	대회, 경쟁		claude-sonnet-5
+wieder	wieder	a2	다시		claude-sonnet-5
+windig	windig	a2	바람이 부는		claude-sonnet-5
+wirklich	wirklich	a2	정말로, 실제로	부사로도 씀	claude-sonnet-5
+witz	der Witz	a2	농담		claude-sonnet-5
+witzig	witzig	a2	재미있는, 우스운		claude-sonnet-5
+wohnzimmer	das Wohnzimmer	a2	거실		claude-sonnet-5
+workshop	der Workshop	a2	워크숍		claude-sonnet-5
+wunsch	der Wunsch	a2	소원, 바람, 요청		claude-sonnet-5
+wuenschen	wünschen	a2	바라다, 원하다, 기원하다		claude-sonnet-5
+wurst	die Wurst	a2	소시지		claude-sonnet-5
+zahl	die Zahl	a2	숫자, 수		claude-sonnet-5
+zahn	der Zahn	a2	이, 치아		claude-sonnet-5
+zeichnen	zeichnen	a2	그리다		claude-sonnet-5
+bericht	der Bericht	b1	보고서, 보도, 기사		claude-sonnet-5
+beruflich	beruflich	b1	직업상, 업무상		claude-sonnet-5
+berufstaetig	berufstätig	b1	취업한, 직장에 다니는		claude-sonnet-5
+beruhigen	beruhigen	b1	진정시키다, 안심시키다	sich beruhigen: 진정하다	claude-sonnet-5
+beschaedigen	beschädigen	b1	손상시키다, 파손하다		claude-sonnet-5
+beschaeftigen	beschäftigen	b1	종사하다, 고용하다, 몰두하다	sich~mit: 몰두하다	claude-sonnet-5
+beschaeftigung	die Beschäftigung	b1	일자리, 직업, 활동		claude-sonnet-5
+bescheid-sagen	Bescheid sagen	b1	알려주다, 통보하다	관용구	claude-sonnet-5
+bescheid-geben	Bescheid geben	b1	알려주다, 통보하다	관용구	claude-sonnet-5
+beschliessen	beschließen	b1	결정하다, 결의하다		claude-sonnet-5
+beschraenken	beschränken	b1	제한하다		claude-sonnet-5
+sich-beschweren	sich beschweren	b1	불평하다, 항의하다	재귀동사, über+4격	claude-sonnet-5
+besetzen	besetzen	b1	차지하다, 점유하다, 통화중이다	besetzt: 사용중/통화중	claude-sonnet-5
+besitzen	besitzen	b1	소유하다, 가지고 있다		claude-sonnet-5
+besonder	besonder-	b1	특별한	형용사 어미변화 주의	claude-sonnet-5
+besorgen	besorgen	b1	구하다, 마련하다		claude-sonnet-5
+besprechen	besprechen	b1	논의하다, 상의하다		claude-sonnet-5
+besprechung	die Besprechung	b1	회의, 논의		claude-sonnet-5
+besserung	die Besserung	b1	호전, 회복	Gute Besserung!는 관용구	claude-sonnet-5
+bestaetigung	die Bestätigung	b1	확인, 확인서		claude-sonnet-5
+bestimmt	bestimmt	b1	확실히, 틀림없이, 특정한		claude-sonnet-5
+bestrafen	bestrafen	b1	처벌하다, 벌주다		claude-sonnet-5
+sich-beteiligen	sich beteiligen	b1	참여하다, 동참하다	재귀동사, an+3격	claude-sonnet-5
+betrag	der Betrag	b1	금액		claude-sonnet-5
+betreuen	betreuen	b1	돌보다, 보살피다		claude-sonnet-5
+betreuer	der Betreuer	b1	돌보는 사람, 담당자		claude-sonnet-5
+betreuerin	die Betreuerin	b1	돌보는 사람(여성), 담당자		claude-sonnet-5
+betreuung	die Betreuung	b1	돌봄, 보살핌		claude-sonnet-5
+betrieb	der Betrieb	b1	회사, 사업체, 가동	in/außer Betrieb: 가동중/정지	claude-sonnet-5
+betriebsrat	der Betriebsrat	b1	노사협의회, 직장평의회		claude-sonnet-5
+betriebsraetin	die Betriebsrätin	b1	노사협의회 위원(여성)		claude-sonnet-5
+betruegen	betrügen	b1	속이다, 배신하다		claude-sonnet-5
+betrunken	betrunken	b1	술 취한		claude-sonnet-5
+bevoelkerung	die Bevölkerung	b1	인구, 주민		claude-sonnet-5
+bevor	bevor	b1	~하기 전에	종속접속사	claude-sonnet-5
+bewegen	bewegen	b1	움직이다	재귀 sich bewegen	claude-sonnet-5
+bewegung	die Bewegung	b1	운동, 움직임		claude-sonnet-5
+beweisen	beweisen	b1	증명하다, 입증하다		claude-sonnet-5
+beweis	der Beweis	b1	증거		claude-sonnet-5
+sich-bewerben	sich bewerben	b1	지원하다, 응모하다	재귀동사, um+4격	claude-sonnet-5
+bewerbung	die Bewerbung	b1	지원, 지원서		claude-sonnet-5
+bewohner	der Bewohner	b1	거주자, 주민		claude-sonnet-5
+bewohnerin	die Bewohnerin	b1	거주자(여성), 주민		claude-sonnet-5
+beziehung	die Beziehung	b1	관계		claude-sonnet-5
+bieten	bieten	b1	제공하다, 제시하다	bot, geboten	claude-sonnet-5
+bildschirm	der Bildschirm	b1	화면, 모니터		claude-sonnet-5
+billett	das Billett	b1	표, 승차권	스위스·오스트리아식	claude-sonnet-5
+biologie	die Biologie	b1	생물학		claude-sonnet-5
+bio	Bio-	b1	유기농	합성어 접두어	claude-sonnet-5
+biologisch	bio(logisch)	b1	유기농의, 생물학의		claude-sonnet-5
+bisher	bisher	b1	지금까지		claude-sonnet-5
+ein-bisschen	ein bisschen	b1	조금, 약간		claude-sonnet-5
+blass	blass	b1	창백한		claude-sonnet-5
+blind	blind	b1	눈이 먼, 맹인의		claude-sonnet-5
+blitzen	blitzen	b1	번개가 치다, 번쩍이다	비인칭 es blitzt	claude-sonnet-5
+blitz	der Blitz	b1	번개, 플래시		claude-sonnet-5
+bloss	bloß	b1	그냥, 단지, 제발	강조 부사	claude-sonnet-5
+bluehen	blühen	b1	꽃이 피다, 번성하다		claude-sonnet-5
+bluten	bluten	b1	피가 나다, 출혈하다		claude-sonnet-5
+blut	das Blut	b1	피, 혈액		claude-sonnet-5
+ausstellen	ausstellen	b1	전시하다, 발급하다		claude-sonnet-5
+aussuchen	(sich etwas) aussuchen	b1	고르다, 골라내다	재귀동사	claude-sonnet-5
+auswaehlen	auswählen	b1	고르다, 선택하다		claude-sonnet-5
+auswahl	die Auswahl	b1	선택, 구색		claude-sonnet-5
+autor	der Autor	b1	작가, 저자		claude-sonnet-5
+bar-2	die Bar	b1	바, 술집		claude-sonnet-5
+bart	der Bart	b1	수염		claude-sonnet-5
+badewanne	die Badewanne	b1	욕조		claude-sonnet-5
+u-bahn	die U-Bahn	b1	지하철		claude-sonnet-5
+batterie	die Batterie	b1	건전지, 배터리		claude-sonnet-5
+bau	der Bau	b1	건축, 건물, 공사		claude-sonnet-5
+bauer	der Bauer	b1	농부		claude-sonnet-5
+beachten	beachten	b1	주의하다, 준수하다		claude-sonnet-5
+ballett	das Ballett	b1	발레		claude-sonnet-5
+bancomat	der Bancomat/Bankomat	b1	현금인출기	오스트리아·스위스어	claude-sonnet-5
+bankleitzahl	die Bankleitzahl	b1	은행 코드		claude-sonnet-5
+bankomat-karte	die Bankomat-Karte	b1	현금카드, 직불카드	오스트리아어	claude-sonnet-5
+beamtin	die Beamtin	b1	공무원	여성형	claude-sonnet-5
+beantragen	beantragen	b1	신청하다		claude-sonnet-5
+sich-bedanken	sich bedanken	b1	감사 인사를 하다	재귀동사	claude-sonnet-5
+bedarf	der Bedarf	b1	필요, 수요		claude-sonnet-5
+bedeutung	die Bedeutung	b1	의미, 뜻		claude-sonnet-5
+bedienen	bedienen	b1	응대하다, 조작하다		claude-sonnet-5
+bedienungsanleitung	die Bedienungsanleitung	b1	사용 설명서		claude-sonnet-5
+bedingung	die Bedingung	b1	조건		claude-sonnet-5
+sich-beeilen	sich beeilen	b1	서두르다	재귀동사	claude-sonnet-5
+sich-befinden	sich befinden	b1	위치하다, 있다	재귀동사	claude-sonnet-5
+befreit	befreit	b1	면제된	befreien 분사형	claude-sonnet-5
+befriedigend	befriedigend	b1	만족스러운		claude-sonnet-5
+begegnen	begegnen	b1	마주치다, 만나다	3격 지배	claude-sonnet-5
+begeistert	begeistert	b1	열광한, 감격한		claude-sonnet-5
+beginn	der Beginn	b1	시작		claude-sonnet-5
+begleiten	begleiten	b1	동행하다, 배웅하다		claude-sonnet-5
+begrenzt	begrenzt	b1	제한된		claude-sonnet-5
+begruendung	die Begründung	b1	이유, 근거		claude-sonnet-5
+begruessen	begrüßen	b1	인사하다, 환영하다		claude-sonnet-5
+behalten	behalten	b1	간직하다, 보관하다		claude-sonnet-5
+behandeln	behandeln	b1	치료하다, 대하다		claude-sonnet-5
+behaupten	behaupten	b1	주장하다	재귀형: 자기주장하다	claude-sonnet-5
+behindern	behindern	b1	방해하다, 지장을 주다	behindert: 장애가 있는	claude-sonnet-5
+behoerde	die Behörde	b1	관청, 당국		claude-sonnet-5
+beid	beid-	b1	둘 다, 양쪽 다	어미변화 주의	claude-sonnet-5
+beinahe	beinahe	b1	거의		claude-sonnet-5
+beissen	beißen	b1	물다		claude-sonnet-5
+beitrag	der Beitrag	b1	기여, 회비, 보험료		claude-sonnet-5
+bekannte	der Bekannte	b1	지인, 아는 사람	형용사 변화 명사(남)	claude-sonnet-5
+bekannte-2	die Bekannte	b1	지인, 아는 사람	형용사 변화 명사(여)	claude-sonnet-5
+bekannt-geben	bekannt geben	b1	알리다, 공고하다	분리동사	claude-sonnet-5
+beleg	der Beleg	b1	영수증, 증빙 서류		claude-sonnet-5
+beleidigen	beleidigen	b1	모욕하다, 화나게 하다	beleidigt: 화난	claude-sonnet-5
+bemerken	bemerken	b1	알아차리다, 언급하다		claude-sonnet-5
+sich-bemuehen	sich bemühen	b1	노력하다, 애쓰다	재귀동사	claude-sonnet-5
+benoetigen	benötigen	b1	필요로 하다		claude-sonnet-5
+benzin	das Benzin	b1	휘발유		claude-sonnet-5
+beobachten	beobachten	b1	관찰하다, 목격하다		claude-sonnet-5
+beratung	die Beratung	b1	상담		claude-sonnet-5
+berechnen	berechnen	b1	계산하다, 청구하다		claude-sonnet-5
+bereich	der Bereich	b1	분야, 영역, 구역		claude-sonnet-5
+bereit	bereit	b1	준비된		claude-sonnet-5
+bereits	bereits	b1	이미, 벌써		claude-sonnet-5
+dienst	der Dienst	b1	근무, 당직, 업무		claude-sonnet-5
+diskussion	die Diskussion	b1	토론, 논의		claude-sonnet-5
+distanz	die Distanz	b1	거리		claude-sonnet-5
+dokument	das Dokument	b1	문서, 서류		claude-sonnet-5
+donnern	donnern	b1	천둥치다, 굉음을 내다		claude-sonnet-5
+donner	der Donner	b1	천둥		claude-sonnet-5
+doppelt	doppelt	b1	두 배의, 이중의		claude-sonnet-5
+doppel	Doppel-	b1	더블, 이중	합성어 전철	claude-sonnet-5
+diesmal	diesmal	b1	이번에는		claude-sonnet-5
+digital	digital	b1	디지털의		claude-sonnet-5
+diplom	das Diplom	b1	졸업장, 학위증		claude-sonnet-5
+direktor	der Direktor	b1	원장, 교장, 이사		claude-sonnet-5
+diskothek	die Diskothek	b1	디스코텍, 클럽		claude-sonnet-5
+dorthin	dorthin	b1	그곳으로		claude-sonnet-5
+dose	die Dose	b1	캔, 통조림		claude-sonnet-5
+dreck	der Dreck	b1	먼지, 때, 오물	예문3은 관용구(참견 말라는 뜻)	claude-sonnet-5
+drehen	drehen	b1	돌리다, 돌다, ~을 중심으로 돌아가다	재귀동사 sich drehen	claude-sonnet-5
+drin	drin	b1	안에, 속에	drinnen의 구어 축약형	claude-sonnet-5
+droge	die Droge	b1	마약, 약물		claude-sonnet-5
+drogerie	die Drogerie	b1	드러그스토어, 잡화점		claude-sonnet-5
+druck	der Druck	b1	압력, 누름		claude-sonnet-5
+durcheinander	durcheinander	b1	뒤죽박죽, 엉망으로		claude-sonnet-5
+durchschnitt	der Durchschnitt	b1	평균		claude-sonnet-5
+durchschnittlich	durchschnittlich	b1	평균의, 평균적으로		claude-sonnet-5
+durstig	durstig	b1	목마른		claude-sonnet-5
+duzen	duzen	b1	너라고 부르다, 반말하다	재귀동사 sich duzen	claude-sonnet-5
+eben	eben	b1	방금, 바로, 그냥	예문2는 강조 불변화사	claude-sonnet-5
+ebenfalls	ebenfalls	b1	마찬가지로, 역시		claude-sonnet-5
+ebenso	ebenso	b1	마찬가지로, 그렇게		claude-sonnet-5
+e-card	die e-card	b1	전자건강보험카드	오스트리아식 건강보험증	claude-sonnet-5
+eilen	eilen	b1	서두르다, 급하다		claude-sonnet-5
+eile	die Eile	b1	서두름, 급함	in Eile sein 관용구	claude-sonnet-5
+ec-karte	die ec-Karte/EC-Karte	b1	직불카드, 체크카드		claude-sonnet-5
+eck	das Eck	b1	구석, 모퉁이	오스트리아·구어(=die Ecke)	claude-sonnet-5
+eckig	eckig	b1	각진, 모난		claude-sonnet-5
+einbahnstrasse	die Einbahnstraße	b1	일방통행로		claude-sonnet-5
+einbrechen	einbrechen	b1	침입하다, 몰래 들어가다		claude-sonnet-5
+einbrecher	der Einbrecher	b1	침입자, 강도		claude-sonnet-5
+einbrecherin	die Einbrecherin	b1	여성 침입자, 여성 강도		claude-sonnet-5
+einbruch	der Einbruch	b1	침입, 절도		claude-sonnet-5
+eindeutig	eindeutig	b1	명확한, 분명한		claude-sonnet-5
+ehe	die Ehe	b1	결혼, 혼인		claude-sonnet-5
+ehepaar	das Ehepaar	b1	부부		claude-sonnet-5
+eher	eher	b1	더 일찍, 오히려, 차라리		claude-sonnet-5
+ehrlich	ehrlich	b1	정직한, 솔직한		claude-sonnet-5
+sich-eignen	sich eignen	b1	적합하다, 알맞다	재귀동사	claude-sonnet-5
+eindruck	der Eindruck	b1	인상		claude-sonnet-5
+einerseits	einerseits	b1	한편으로는	andererseits와 짝	claude-sonnet-5
+einfahrt	die Einfahrt	b1	진입로, 차고 입구		claude-sonnet-5
+einfallen	einfallen	b1	생각나다, 떠오르다	여격 구문(mir einfallen)	claude-sonnet-5
+einfall	der Einfall	b1	생각, 아이디어		claude-sonnet-5
+einfluss	der Einfluss	b1	영향		claude-sonnet-5
+beeinflussen	beeinflussen	b1	영향을 미치다		claude-sonnet-5
+einfuegen	einfügen	b1	삽입하다, 붙여넣다	분리동사	claude-sonnet-5
+einfuehren	einführen	b1	수입하다, 도입하다	분리동사	claude-sonnet-5
+einfuehrung	die Einführung	b1	도입, 입문, 서론		claude-sonnet-5
+einheitlich	einheitlich	b1	통일된, 획일적인		claude-sonnet-5
+sich-einigen	sich einigen	b1	합의하다, 의견 일치를 보다	재귀동사	claude-sonnet-5
+einkauf	der Einkauf	b1	구매, 장보기		claude-sonnet-5
+einkommen	das Einkommen	b1	소득, 수입		claude-sonnet-5
+boden	der Boden	b1	바닥, 땅, 토양		claude-sonnet-5
+boot	das Boot	b1	보트, 배		claude-sonnet-5
+botschaft	die Botschaft	b1	대사관, 메시지		claude-sonnet-5
+briefkasten	der Briefkasten	b1	우편함		claude-sonnet-5
+brieftraeger	der Briefträger	b1	우편배달부		claude-sonnet-5
+braten-2	der Braten	b1	구운 고기, 로스트		claude-sonnet-5
+briefumschlag	der Briefumschlag	b1	편지 봉투		claude-sonnet-5
+brieftasche	die Brieftasche	b1	지갑		claude-sonnet-5
+broschuere	die Broschüre	b1	브로슈어, 소책자		claude-sonnet-5
+brechen	brechen	b1	부러지다, 부러뜨리다, 깨다	예문은 재귀 표현	claude-sonnet-5
+breite	die Breite	b1	너비, 폭		claude-sonnet-5
+bremsen	bremsen	b1	브레이크를 밟다, 제동을 걸다		claude-sonnet-5
+bremse	die Bremse	b1	브레이크		claude-sonnet-5
+brennen	brennen	b1	타다, 불이 나다, 켜져 있다		claude-sonnet-5
+broetli	das Brötli	b1	롤빵, 작은 빵	스위스어(Brötchen)	claude-sonnet-5
+brust	die Brust	b1	가슴		claude-sonnet-5
+bub	der Bub	b1	소년, 남자아이	지역어(Junge)	claude-sonnet-5
+buchhandlung	die Buchhandlung	b1	서점		claude-sonnet-5
+buechse	die Büchse	b1	캔, 통조림		claude-sonnet-5
+buffet	das Buffet	b1	뷔페		claude-sonnet-5
+buehne	die Bühne	b1	무대		claude-sonnet-5
+burg	die Burg	b1	성		claude-sonnet-5
+buerger	der Bürger	b1	시민, 국민		claude-sonnet-5
+buergerin	die Bürgerin	b1	시민, 국민	여성형	claude-sonnet-5
+buerste	die Bürste	b1	솔, 브러시		claude-sonnet-5
+zahnbuerste	die Zahnbürste	b1	칫솔		claude-sonnet-5
+chance	die Chance	b1	기회, 가능성		claude-sonnet-5
+chic	chic/schick	b1	세련된, 멋진	스위스식 철자	claude-sonnet-5
+coiffeur	der Coiffeur	b1	미용사, 이발사	스위스어(Friseur)	claude-sonnet-5
+couch	die Couch	b1	소파		claude-sonnet-5
+cousin	der Cousin	b1	사촌	남성	claude-sonnet-5
+cousine	die Cousine	b1	사촌	여성	claude-sonnet-5
+couvert	das Couvert	b1	편지 봉투	스위스어(Umschlag)	claude-sonnet-5
+dach	das Dach	b1	지붕		claude-sonnet-5
+dagegen	dagegen	b1	그것에 부딪혀, 반대하여		claude-sonnet-5
+daher	daher	b1	그래서, 그러므로		claude-sonnet-5
+dahin	dahin	b1	그때까지, 그리로		claude-sonnet-5
+damit	damit	b1	~하기 위해, 그것으로	접속사/대명부사	claude-sonnet-5
+danach	danach	b1	그 다음에, 그 후에		claude-sonnet-5
+dankbar	dankbar	b1	감사한, 고마운		claude-sonnet-5
+darstellen	darstellen	b1	묘사하다, 설명하다, 나타내다		claude-sonnet-5
+darstellung	die Darstellung	b1	묘사, 서술, 표현		claude-sonnet-5
+dauer	die Dauer	b1	기간, 지속		claude-sonnet-5
+dauer-2	dauer	b1	장기적으로, 결국	auf Dauer 관용구	claude-sonnet-5
+dauernd	dauernd	b1	끊임없는, 계속되는, 항상	부사로도 씀	claude-sonnet-5
+decke	die Decke	b1	천장, 담요, 이불		claude-sonnet-5
+dekorieren	dekorieren	b1	장식하다, 꾸미다		claude-sonnet-5
+gedanke	der Gedanke	b1	생각, 사고, 아이디어	예문은 관용구	claude-sonnet-5
+denkmal	das Denkmal	b1	기념물, 기념비		claude-sonnet-5
+daten	die Daten	b1	데이터, 자료	복수형만 씀	claude-sonnet-5
+derselbe	derselbe	b1	같은, 동일한	정관사+selbe 변화	claude-sonnet-5
+dessert	das Dessert	b1	디저트, 후식		claude-sonnet-5
+deswegen	deswegen	b1	그래서, 그 때문에		claude-sonnet-5
+detail	das Detail	b1	세부 사항, 디테일		claude-sonnet-5
+diaet	die Diät	b1	다이어트, 식이요법		claude-sonnet-5
+dialekt	der Dialekt	b1	방언, 사투리		claude-sonnet-5
+dialog	der Dialog	b1	대화, 대화문		claude-sonnet-5
+dicht	dicht	b1	밀폐된, 촘촘한, 빽빽한	예문은 '밀폐된' 뜻	claude-sonnet-5
+dieb	der Dieb	b1	도둑		claude-sonnet-5
+dienen	dienen	b1	쓰이다, ~역할을 하다, 봉사하다	3격 목적어	claude-sonnet-5
+amt	das Amt	b1	관청, 기관, 직무		claude-sonnet-5
+sich-amuesieren	sich amüsieren	b1	즐기다, 재미있어하다	재귀동사	claude-sonnet-5
+alltag	der Alltag	b1	일상, 평상시		claude-sonnet-5
+analysieren	analysieren	b1	분석하다		claude-sonnet-5
+anbieter	der Anbieter	b1	제공자, 공급업체		claude-sonnet-5
+andererseits	andererseits	b1	다른 한편으로는	einerseits와 대응	claude-sonnet-5
+aenderung	die Änderung	b1	변경, 변화		claude-sonnet-5
+anerkennen	anerkennen	b1	인정하다	분리동사, 과거분사 예외형	claude-sonnet-5
+anfangs	anfangs	b1	처음에는		claude-sonnet-5
+angeben	angeben	b1	제시하다, 기재하다, 과시하다	분리동사	claude-sonnet-5
+angabe	die Angabe	b1	기재 사항, 정보	복수형으로 자주 씀	claude-sonnet-5
+angehoerige	der Angehörige	b1	가족, 친척	형용사 어미변화 명사	claude-sonnet-5
+angenehm	angenehm	b1	기분 좋은, 쾌적한		claude-sonnet-5
+aengstlich	ängstlich	b1	겁 많은, 불안한		claude-sonnet-5
+anhaben	anhaben	b1	입고 있다	분리동사	claude-sonnet-5
+ankuendigen	ankündigen	b1	예고하다, 알리다	분리동사	claude-sonnet-5
+anlage	die Anlage	b1	설비, 장치, 첨부 파일		claude-sonnet-5
+anleitung	die Anleitung	b1	설명서, 안내서		claude-sonnet-5
+annehmen	annehmen	b1	받아들이다, 추측하다	분리동사	claude-sonnet-5
+annonce	die Annonce	b1	광고, 공고	옛투, 주로 신문광고	claude-sonnet-5
+anschaffen	anschaffen	b1	구입하다, 장만하다	주로 재귀동사(3격)로 씀	claude-sonnet-5
+anschliessen	anschließen	b1	연결하다, 접속하다	분리동사	claude-sonnet-5
+anschnallen	anschnallen	b1	매다, 채우다	재귀동사로도 씀	claude-sonnet-5
+ansprechen	ansprechen	b1	말을 걸다, 마음에 들다	분리동사	claude-sonnet-5
+anspruch	der Anspruch	b1	권리, 청구권	전치사와 4격 함께 씀	claude-sonnet-5
+anstellen	anstellen	b1	켜다, 고용하다, 줄 서다	줄서다는 재귀동사	claude-sonnet-5
+aufgeben	aufgeben	b1	부치다, 포기하다	분리동사	claude-sonnet-5
+aufhalten	aufhalten	b1	머물다, 붙잡다, 지연시키다	머물다는 재귀동사	claude-sonnet-5
+aufheben	aufheben	b1	줍다, 보관하다	분리동사	claude-sonnet-5
+aufladen	aufladen	b1	충전하다, 싣다	분리동사	claude-sonnet-5
+aufloesen	auflösen	b1	녹이다, 용해하다, 해체하다		claude-sonnet-5
+aufmerksam	aufmerksam	b1	주의 깊은, 세심한	예문2는 관용구	claude-sonnet-5
+aufnehmen	aufnehmen	b1	받아들이다, 녹음하다, 녹화하다	분리동사	claude-sonnet-5
+aufnahme	die Aufnahme	b1	녹음, 촬영, 수용		claude-sonnet-5
+aufregen	aufregen	b1	화나게 하다, 흥분시키다	재귀동사=흥분하다	claude-sonnet-5
+auftrag	der Auftrag	b1	위임, 주문, 임무	예문1은 관용구	claude-sonnet-5
+auftreten	auftreten	b1	출연하다, 공연하다, 발생하다	분리동사	claude-sonnet-5
+aufwachen	aufwachen	b1	잠에서 깨다	분리동사	claude-sonnet-5
+aufwaerts	aufwärts	b1	위로, 상승세로		claude-sonnet-5
+ausgebildet	ausgebildet	b1	훈련된, 숙련된		claude-sonnet-5
+ausdrucken	ausdrucken	b1	출력하다, 인쇄하다	분리동사	claude-sonnet-5
+ausdruck	der Ausdruck	b1	표현, 출력물		claude-sonnet-5
+auseinander	auseinander	b1	떨어져서, 서로 떨어진		claude-sonnet-5
+ausfahrt	die Ausfahrt	b1	출구, 나들목		claude-sonnet-5
+ausfallen	ausfallen	b1	취소되다, 열리지 않다	분리동사	claude-sonnet-5
+ausgabe	die Ausgabe	b1	지출, 배급, 판		claude-sonnet-5
+augenblick	der Augenblick	b1	순간, 잠깐	예문3은 관용구	claude-sonnet-5
+ausgezeichnet	ausgezeichnet	b1	뛰어난, 훌륭한		claude-sonnet-5
+aushilfe	die Aushilfe	b1	임시 직원, 도우미		claude-sonnet-5
+auslaenderin	die Ausländerin	b1	외국인 여성	남성형은 별도 단어	claude-sonnet-5
+ausnahme	die Ausnahme	b1	예외		claude-sonnet-5
+ausreichen	ausreichen	b1	충분하다	분리동사	claude-sonnet-5
+ausreichend	ausreichend	b1	충분한		claude-sonnet-5
+ausrichten	ausrichten	b1	전달하다, 알려주다	분리동사	claude-sonnet-5
+ausschliessen	ausschließen	b1	배제하다, 제외하다	분리동사	claude-sonnet-5
+ausschliesslich	ausschließlich	b1	오로지, 전용의	부사로도 쓰임	claude-sonnet-5
+aussen	außen	b1	밖에서, 겉으로		claude-sonnet-5
+aeusserlich	äußerlich	b1	외용의, 외적인	의학 용어로도 씀	claude-sonnet-5
+aussicht	die Aussicht	b1	전망, 경치, 가능성		claude-sonnet-5
+aussprache	die Aussprache	b1	발음		claude-sonnet-5
+ergaenzen	ergänzen	b1	보충하다, 채워 넣다, 추가하다		claude-sonnet-5
+erhalten	erhalten	b1	받다, 유지하다		claude-sonnet-5
+erhoehen	erhöhen	b1	높이다, 인상하다, 증가하다	재귀형: 증가하다	claude-sonnet-5
+erhoehung	die Erhöhung	b1	인상, 증가		claude-sonnet-5
+sich-erholen	sich erholen	b1	회복하다, 쉬다	재귀동사	claude-sonnet-5
+erholung	die Erholung	b1	휴식, 회복		claude-sonnet-5
+erinnerung	die Erinnerung	b1	기억, 추억		claude-sonnet-5
+sich-erkaelten	sich erkälten	b1	감기에 걸리다	재귀동사	claude-sonnet-5
+erkaeltung	die Erkältung	b1	감기		claude-sonnet-5
+erkennen	erkennen	b1	알아보다, 인식하다, 깨닫다		claude-sonnet-5
+erklaerung	die Erklärung	b1	설명		claude-sonnet-5
+sich-erkundigen	sich erkundigen	b1	문의하다, 알아보다	재귀동사	claude-sonnet-5
+erleben	erleben	b1	경험하다, 체험하다		claude-sonnet-5
+erlebnis	das Erlebnis	b1	경험, 체험		claude-sonnet-5
+erledigen	erledigen	b1	처리하다, 해결하다		claude-sonnet-5
+erleichtern	erleichtern	b1	쉽게 하다, 완화하다, 안도하게 하다		claude-sonnet-5
+ernaehren	ernähren	b1	부양하다, 먹여 살리다	재귀동사: 먹다	claude-sonnet-5
+ernaehrung	die Ernährung	b1	영양, 식습관		claude-sonnet-5
+essig	der Essig	b1	식초		claude-sonnet-5
+etage	die Etage	b1	층		claude-sonnet-5
+etwa	etwa	b1	대략, 약, 혹시		claude-sonnet-5
+eventuell	eventuell	b1	혹시, 아마도	부사로도 씀	claude-sonnet-5
+ewig	ewig	b1	영원한, 끝없는	구어: 아주 오랫동안	claude-sonnet-5
+experte	der Experte	b1	전문가		claude-sonnet-5
+export	der Export	b1	수출		claude-sonnet-5
+extra	extra	b1	특별히, 별도로, 일부러		claude-sonnet-5
+extrem	extrem	b1	극도의, 극단적인		claude-sonnet-5
+fabrik	die Fabrik	b1	공장		claude-sonnet-5
+fachmann	der Fachmann	b1	전문가	남성형	claude-sonnet-5
+fachfrau	die Fachfrau	b1	여성 전문가	여성형	claude-sonnet-5
+fachleute	die Fachleute	b1	전문가들	복수형	claude-sonnet-5
+faehigkeit	die Fähigkeit	b1	능력		claude-sonnet-5
+faehre	die Fähre	b1	페리, 연락선		claude-sonnet-5
+fahrbahn	die Fahrbahn	b1	차도		claude-sonnet-5
+fahrzeug	das Fahrzeug	b1	차량, 탈것		claude-sonnet-5
+fair	fair	b1	공정한		claude-sonnet-5
+faktor	der Faktor	b1	요인, 지수		claude-sonnet-5
+fall	der Fall	b1	경우, 사건		claude-sonnet-5
+faschierte	das Faschierte	b1	다진 고기	오스트리아식 표현	claude-sonnet-5
+fasching	der Fasching	b1	사육제, 카니발	남독·오스트리아	claude-sonnet-5
+fasnacht	die Fasnacht	b1	사육제, 카니발	스위스·남서독일	claude-sonnet-5
+fassen	fassen	b1	잡다, 붙잡다, (결심을) 하다	관용구: 결심하다	claude-sonnet-5
+faellig	fällig	b1	만기가 된, 지불해야 할		claude-sonnet-5
+falls	falls	b1	만약 ~라면		claude-sonnet-5
+faulenzen	faulenzen	b1	빈둥거리다, 게으름 피우다		claude-sonnet-5
+fauteuil	der Fauteuil	b1	안락의자	오스트리아·스위스	claude-sonnet-5
+fangen	fangen	b1	잡다, 붙잡다		claude-sonnet-5
+fantasie	die Fantasie	b1	상상력, 공상		claude-sonnet-5
+feierabend	der Feierabend	b1	퇴근, 일과 후 시간		claude-sonnet-5
+feiertag	der Feiertag	b1	공휴일		claude-sonnet-5
+feld	das Feld	b1	밭, 들판		claude-sonnet-5
+fernbedienung	die Fernbedienung	b1	리모컨		claude-sonnet-5
+fett-2	das Fett	b1	지방		claude-sonnet-5
+feucht	feucht	b1	축축한, 습한		claude-sonnet-5
+feuerzeug	das Feuerzeug	b1	라이터		claude-sonnet-5
+feuerwehr	die Feuerwehr	b1	소방서, 소방대		claude-sonnet-5
+figur	die Figur	b1	몸매, 체형, (게임) 말		claude-sonnet-5
+finanzieren	finanzieren	b1	자금을 대다, 융자하다		claude-sonnet-5
+finanziell	finanziell	b1	재정적인, 금전적인		claude-sonnet-5
+festplatte	die Festplatte	b1	하드디스크		claude-sonnet-5
+gar	gar	b1	익은, 다 된	gar nicht=전혀 ~않다	claude-sonnet-5
+garantieren	garantieren	b1	보장하다, 보증하다		claude-sonnet-5
+garantie	die Garantie	b1	보증, 보증기간		claude-sonnet-5
+garderobe	die Garderobe	b1	휴대품 보관소, 겉옷		claude-sonnet-5
+gas	das Gas	b1	가스	Gas geben=가속하다	claude-sonnet-5
+gasthaus	das Gasthaus	b1	여관, 식당		claude-sonnet-5
+gaststaette	die Gaststätte	b1	음식점, 레스토랑		claude-sonnet-5
+gebaeude	das Gebäude	b1	건물		claude-sonnet-5
+gebaeck	das Gebäck	b1	과자, 구운빵	집합적, 단수만	claude-sonnet-5
+gebiet	das Gebiet	b1	지역, 분야		claude-sonnet-5
+gebirge	das Gebirge	b1	산맥, 산악지대		claude-sonnet-5
+geboren-werden	geboren werden	b1	태어나다	수동태 관용구	claude-sonnet-5
+gebrauchen	gebrauchen	b1	사용하다, 쓰다	gebraucht=중고의	claude-sonnet-5
+gebrauchsanweisung	die Gebrauchsanweisung	b1	사용설명서		claude-sonnet-5
+gebuehr	die Gebühr	b1	요금, 수수료		claude-sonnet-5
+geburt	die Geburt	b1	출생, 탄생		claude-sonnet-5
+gedicht	das Gedicht	b1	시		claude-sonnet-5
+geduld	die Geduld	b1	인내, 참을성		claude-sonnet-5
+geeignet	geeignet	b1	적합한, 알맞은		claude-sonnet-5
+gefahr	die Gefahr	b1	위험		claude-sonnet-5
+sich-etwas-gefallen-lassen	sich etwas gefallen lassen	b1	참다, 감수하다	재귀+4격, 관용구	claude-sonnet-5
+gefaengnis	das Gefängnis	b1	감옥, 교도소		claude-sonnet-5
+gefuehl	das Gefühl	b1	느낌, 감정		claude-sonnet-5
+gegner	der Gegner	b1	상대, 반대자		claude-sonnet-5
+geheimnis	das Geheimnis	b1	비밀		claude-sonnet-5
+geheim	geheim	b1	비밀의, 은밀한		claude-sonnet-5
+gegend	die Gegend	b1	지역, 근처		claude-sonnet-5
+gegensatz	der Gegensatz	b1	대조, 반대	im Gegensatz zu=~와 달리	claude-sonnet-5
+geldautomat	der Geldautomat	b1	현금인출기		claude-sonnet-5
+gegenstand	der Gegenstand	b1	물건, 대상		claude-sonnet-5
+gelegenheit	die Gelegenheit	b1	기회		claude-sonnet-5
+gelingen	gelingen	b1	성공하다, 잘 되다	3격 주어, sein완료	claude-sonnet-5
+gelten	gelten	b1	유효하다, ~로 통하다		claude-sonnet-5
+gemeinsam	gemeinsam	b1	함께, 공동의		claude-sonnet-5
+gemeinschaft	die Gemeinschaft	b1	공동체, 단체		claude-sonnet-5
+gemuetlich	gemütlich	b1	아늑한, 편안한		claude-sonnet-5
+genauso	genauso	b1	똑같이, 마찬가지로		claude-sonnet-5
+genehmigen	genehmigen	b1	승인하다, 허가하다		claude-sonnet-5
+generation	die Generation	b1	세대		claude-sonnet-5
+geniessen	genießen	b1	즐기다, 누리다		claude-sonnet-5
+genuegen	genügen	b1	충분하다, 족하다	3격 목적어	claude-sonnet-5
+gerecht	gerecht	b1	공정한, 공평한		claude-sonnet-5
+gering	gering	b1	적은, 미미한		claude-sonnet-5
+gesamt	gesamt-/Gesamt-	b1	전체의, 총-	복합어 접두사로도 씀	claude-sonnet-5
+geschehen	geschehen	b1	일어나다, 발생하다	Gern geschehen=천만에요	claude-sonnet-5
+geschieden	geschieden	b1	이혼한		claude-sonnet-5
+geschlecht	das Geschlecht	b1	성, 성별		claude-sonnet-5
+geschmack	der Geschmack	b1	맛, 취향		claude-sonnet-5
+geschwindigkeit	die Geschwindigkeit	b1	속도		claude-sonnet-5
+geschwindigkeitsbeschraenkung	die Geschwindigkeitsbeschränkung	b1	속도 제한		claude-sonnet-5
+gesellschaft	die Gesellschaft	b1	사회, 회사, 모임		claude-sonnet-5
+gesetz	das Gesetz	b1	법, 법률		claude-sonnet-5
+gespannt	gespannt	b1	궁금한, 기대하는		claude-sonnet-5
+gewalt	die Gewalt	b1	폭력, 힘		claude-sonnet-5
+gewerkschaft	die Gewerkschaft	b1	노동조합		claude-sonnet-5
+gewinn	der Gewinn	b1	이익, 당첨금		claude-sonnet-5
+gewissen	das Gewissen	b1	양심	schlechtes Gewissen=죄책감	claude-sonnet-5
+gewoehnen	gewöhnen	b1	익숙해지다, 적응시키다	재귀동사, an+4격	claude-sonnet-5
+gewohnheit	die Gewohnheit	b1	습관		claude-sonnet-5
+gewohnt	gewohnt	b1	익숙한		claude-sonnet-5
+einnehmen	einnehmen	b1	복용하다, 섭취하다, 차지하다	분리동사	claude-sonnet-5
+einnahme	die Einnahme	b1	수입, 매출, 복용		claude-sonnet-5
+einrichten	einrichten	b1	꾸미다, 마련하다, 설치하다	분리동사	claude-sonnet-5
+einrichtung	die Einrichtung	b1	가구, 시설, 기관		claude-sonnet-5
+einsam	einsam	b1	외로운, 쓸쓸한		claude-sonnet-5
+einschalten	einschalten	b1	켜다, 작동시키다	분리동사	claude-sonnet-5
+einschliesslich	einschließlich	b1	~을 포함하여	2격 지배	claude-sonnet-5
+einschreiben	das Einschreiben	b1	등기우편		claude-sonnet-5
+einsetzen	einsetzen	b1	투입하다, 배치하다, 힘쓰다	분리·재귀동사	claude-sonnet-5
+einstellen	einstellen	b1	고용하다, 조정하다, 맞추다	분리동사	claude-sonnet-5
+eintreten	eintreten	b1	가입하다, 들어가다, 발생하다	분리동사, sein완료	claude-sonnet-5
+einverstanden	einverstanden	b1	동의하는, 찬성하는	mit + 3격	claude-sonnet-5
+einwohner	der Einwohner	b1	주민, 거주자		claude-sonnet-5
+einwohnerin	die Einwohnerin	b1	여성 주민, 여성 거주자		claude-sonnet-5
+einzahlen	einzahlen	b1	입금하다, 납입하다	분리동사	claude-sonnet-5
+einzahlung	die Einzahlung	b1	입금, 납입		claude-sonnet-5
+einzeln	einzeln	b1	개별의, 낱개의, 각각의		claude-sonnet-5
+einzelheit	die Einzelheit	b1	세부사항, 자세한 내용	주로 복수형	claude-sonnet-5
+einzig	einzig-	b1	유일한, 단 하나의	어미변화 필요	claude-sonnet-5
+eisenbahn	die Eisenbahn	b1	철도, 기차		claude-sonnet-5
+elegant	elegant	b1	우아한, 세련된		claude-sonnet-5
+elektrisch	elektrisch	b1	전기의, 전기로 된		claude-sonnet-5
+elektronisch	elektronisch	b1	전자의, 전자식의		claude-sonnet-5
+empfangen	empfangen	b1	수신하다, 맞이하다, 접견하다		claude-sonnet-5
+endgueltig	endgültig	b1	최종적인, 확정적인		claude-sonnet-5
+energie	die Energie	b1	에너지, 힘, 기력		claude-sonnet-5
+enkel	der Enkel	b1	손자, 손주	손주 통칭	claude-sonnet-5
+enkelin	die Enkelin	b1	손녀		claude-sonnet-5
+entdecken	entdecken	b1	발견하다, 찾아내다		claude-sonnet-5
+entfernen	entfernen	b1	제거하다, 없애다, 떨어져 있다	entfernt=떨어진	claude-sonnet-5
+entfernung	die Entfernung	b1	거리		claude-sonnet-5
+entgegenkommen	entgegenkommen	b1	마주 오다, 양보하다, 편의를 봐주다	분리동사, 3격	claude-sonnet-5
+enthalten	enthalten	b1	포함하다, 함유하다		claude-sonnet-5
+entlang	entlang	b1	~을 따라	후치, 4격	claude-sonnet-5
+entlassen	entlassen	b1	퇴원시키다, 해고하다, 석방하다		claude-sonnet-5
+entlassung	die Entlassung	b1	해고, 퇴원, 석방		claude-sonnet-5
+entscheiden	entscheiden	b1	결정하다, 선택하다	sich~=선택하다	claude-sonnet-5
+entscheidung	die Entscheidung	b1	결정		claude-sonnet-5
+unentschieden	unentschieden	b1	무승부의, 미결정의		claude-sonnet-5
+sich-entschliessen	sich entschließen	b1	결심하다, 결정하다	재귀동사	claude-sonnet-5
+entsorgen	entsorgen	b1	처리하다, 폐기하다		claude-sonnet-5
+entspannend	entspannend	b1	편안한, 느긋한	entspannen 분사	claude-sonnet-5
+entstehen	entstehen	b1	생기다, 발생하다, 형성되다	완료형: sein	claude-sonnet-5
+enttaeuschen	enttäuschen	b1	실망시키다		claude-sonnet-5
+enttaeuschung	die Enttäuschung	b1	실망		claude-sonnet-5
+entweder-oder	entweder ... oder	b1	~이든지 ~이든지		claude-sonnet-5
+entwickeln	entwickeln	b1	발전하다, 개발하다	재귀동사도 있음	claude-sonnet-5
+entwicklung	die Entwicklung	b1	발전, 개발		claude-sonnet-5
+erde	die Erde	b1	흙, 땅, 지구		claude-sonnet-5
+erdapfel	der Erdapfel	b1	감자	오스트리아어	claude-sonnet-5
+ereignis	das Ereignis	b1	사건, 행사		claude-sonnet-5
+sich-ereignen	sich ereignen	b1	일어나다, 발생하다	재귀동사	claude-sonnet-5
+erfahren	erfahren	b1	알게 되다, 듣다, 경험하다		claude-sonnet-5
+erfinden	erfinden	b1	발명하다		claude-sonnet-5
+erfindung	die Erfindung	b1	발명, 발명품		claude-sonnet-5
+erfolg	der Erfolg	b1	성공		claude-sonnet-5
+erfolgreich	erfolgreich	b1	성공적인		claude-sonnet-5
+erforderlich	erforderlich	b1	필요한, 요구되는		claude-sonnet-5
+erfordern	erfordern	b1	요구하다, 필요로 하다		claude-sonnet-5
+erfuellen	erfüllen	b1	이행하다, 충족시키다, 들어주다		claude-sonnet-5
+gewoehnlich	gewöhnlich	b1	보통, 대개, 평범한	형용사가 부사로도 쓰임	claude-sonnet-5
+gewuerz	das Gewürz	b1	향신료, 양념		claude-sonnet-5
+giessen	gießen	b1	물을 주다, 붓다		claude-sonnet-5
+gift	das Gift	b1	독	영어 gift와 뜻 다름	claude-sonnet-5
+giftig	giftig	b1	독이 있는, 독성의		claude-sonnet-5
+glace	die Glace/Glacé	b1	아이스크림	스위스·오스트리아 표현	claude-sonnet-5
+glatt	glatt	b1	미끄러운, 매끈한		claude-sonnet-5
+gleichfalls	gleichfalls	b1	마찬가지로, 너도	인사 답례 표현	claude-sonnet-5
+gleichberechtigt	gleichberechtigt	b1	동등한 권리를 가진, 평등한		claude-sonnet-5
+gleichzeitig	gleichzeitig	b1	동시의, 동시에	부사로도 쓰임	claude-sonnet-5
+gold	das Gold	b1	금		claude-sonnet-5
+golf	Golf	b1	골프		claude-sonnet-5
+gott	der Gott	b1	신, 하느님	예문2는 관용구(감사합니다)	claude-sonnet-5
+grafik	die Grafik	b1	그래프, 도표		claude-sonnet-5
+gras	das Gras	b1	풀, 잔디		claude-sonnet-5
+gratulation	die Gratulation	b1	축하		claude-sonnet-5
+gratis	gratis	b1	무료로, 공짜로		claude-sonnet-5
+greifen	greifen	b1	잡다, 쥐다, 드세요	예문은 zugreifen 관용구	claude-sonnet-5
+grenze	die Grenze	b1	국경, 경계		claude-sonnet-5
+grillieren	grillieren	b1	그릴에 굽다, 바비큐하다	스위스 표현(=grillen)	claude-sonnet-5
+grill	der Grill	b1	그릴, 바비큐 도구		claude-sonnet-5
+gruenden	gründen	b1	설립하다, 창립하다		claude-sonnet-5
+grund	der Grund	b1	이유, 근거		claude-sonnet-5
+gruendlich	gründlich	b1	철저한, 꼼꼼한		claude-sonnet-5
+grundstueck	das Grundstück	b1	대지, 부지, 토지		claude-sonnet-5
+gruessen	grüßen	b1	인사하다, 안부를 전하다		claude-sonnet-5
+gucken	gucken	b1	보다, 살펴보다	구어	claude-sonnet-5
+gymnastik	die Gymnastik	b1	체조		claude-sonnet-5
+hackfleisch	das Hackfleisch	b1	다진 고기, 간 고기		claude-sonnet-5
+hafen	der Hafen	b1	항구		claude-sonnet-5
+hageln	hageln	b1	우박이 내리다	비인칭동사(es hagelt)	claude-sonnet-5
+halb	halb	b1	반의, 절반의	halb neun=8시 반	claude-sonnet-5
+halbtags	halbtags	b1	반나절로, 파트타임으로		claude-sonnet-5
+handel	der Handel	b1	무역, 거래, 상업		claude-sonnet-5
+haendler	der Händler	b1	상인, 판매자		claude-sonnet-5
+hassen	hassen	b1	미워하다, 싫어하다		claude-sonnet-5
+haeufig	häufig	b1	자주 있는, 흔한, 자주	부사로도 쓰임	claude-sonnet-5
+haupt	Haupt-	b1	주된, 본, 중심	합성어 앞에 붙는 접두어	claude-sonnet-5
+hauptbahnhof	der Hauptbahnhof	b1	중앙역		claude-sonnet-5
+hausmeister	der Hausmeister	b1	관리인, 수위		claude-sonnet-5
+held	der Held	b1	영웅		claude-sonnet-5
+heldin	die Heldin	b1	여자 영웅, 여주인공		claude-sonnet-5
+haut	die Haut	b1	피부		claude-sonnet-5
+heben	heben	b1	들다, 들어올리다		claude-sonnet-5
+hendel	das Hend(e)l	b1	통닭, 구운 닭고기	오스트리아 표현	claude-sonnet-5
+heim	heim	b1	집으로		claude-sonnet-5
+heim-2	das Heim	b1	집, 보금자리, 시설		claude-sonnet-5
+heimlich	heimlich	b1	몰래, 비밀스러운		claude-sonnet-5
+heimweh	das Heimweh	b1	향수병, 고향에 대한 그리움		claude-sonnet-5
+heizen	heizen	b1	난방하다, 데우다		claude-sonnet-5
+herausfinden	herausfinden	b1	알아내다, 찾아내다	분리동사	claude-sonnet-5
+herausforderung	die Herausforderung	b1	도전, 과제		claude-sonnet-5
+herkunft	die Herkunft	b1	출신, 유래		claude-sonnet-5
+hersteller	der Hersteller	b1	제조업체, 생산자		claude-sonnet-5
+herunterfahren	herunterfahren	b1	(컴퓨터를) 종료하다	분리동사	claude-sonnet-5
+herz	das Herz	b1	심장, 마음		claude-sonnet-5
+heutig	heutig	b1	오늘의, 현재의		claude-sonnet-5
+hierher	hierher	b1	이리로, 여기로		claude-sonnet-5
+runterwerfen	runterwerfen	b1	아래로 던지다	분리동사, 구어	claude-sonnet-5
+hinterlassen	hinterlassen	b1	남기다		claude-sonnet-5
+hinterher	hinterher	b1	그 후에, 나중에		claude-sonnet-5
+hinweisen	hinweisen	b1	지적하다, 알려 주다	auf+4격	claude-sonnet-5
+hinweis	der Hinweis	b1	힌트, 단서, 안내		claude-sonnet-5
+historisch	historisch	b1	역사적인		claude-sonnet-5
+hitze	die Hitze	b1	더위, 열기		claude-sonnet-5
+hoehe	die Höhe	b1	높이, 고도		claude-sonnet-5
+hochladen	hochladen	b1	업로드하다	분리동사	claude-sonnet-5
+hoechstens	höchstens	b1	많아야, 기껏해야		claude-sonnet-5
+hof	der Hof	b1	마당, 뜰		claude-sonnet-5
+bauernhof	der Bauernhof	b1	농장		claude-sonnet-5
+hoffnung	die Hoffnung	b1	희망		claude-sonnet-5
+hoeflich	höflich	b1	예의 바른, 공손한		claude-sonnet-5
+holz	das Holz	b1	나무, 목재		claude-sonnet-5
+honig	der Honig	b1	꿀		claude-sonnet-5
+hoerer	der Hörer	b1	청취자, 수화기		claude-sonnet-5
+huebsch	hübsch	b1	예쁜, 귀여운		claude-sonnet-5
+huegel	der Hügel	b1	언덕		claude-sonnet-5
+humor	der Humor	b1	유머, 유머 감각		claude-sonnet-5
+hungrig	hungrig	b1	배고픈		claude-sonnet-5
+hupen	hupen	b1	경적을 울리다		claude-sonnet-5
+husten-2	der Husten	b1	기침		claude-sonnet-5
+hut	der Hut	b1	모자		claude-sonnet-5
+huette	die Hütte	b1	오두막, 산장		claude-sonnet-5
+import	der Import	b1	수입		claude-sonnet-5
+indem	indem	b1	~함으로써		claude-sonnet-5
+individuell	individuell	b1	개별적인, 개인적인		claude-sonnet-5
+industrie	die Industrie	b1	산업		claude-sonnet-5
+infektion	die Infektion	b1	감염		claude-sonnet-5
+ingenieur	der Ingenieur	b1	기술자, 엔지니어		claude-sonnet-5
+inhalt	der Inhalt	b1	내용, 내용물		claude-sonnet-5
+ideal	ideal	b1	이상적인		claude-sonnet-5
+illegal	illegal	b1	불법의, 불법적인		claude-sonnet-5
+imbiss	der Imbiss	b1	간식, 간이식당		claude-sonnet-5
+inklusive	inklusive	b1	포함하여, 포함해서	전치사, 2격 지배	claude-sonnet-5
+innen	innen	b1	안에, 내부에		claude-sonnet-5
+inner	inner-	b1	내부의, 안의	형용사 접두어	claude-sonnet-5
+innerhalb	innerhalb	b1	~이내에, ~안에	2격 지배	claude-sonnet-5
+inserat	das Inserat	b1	광고	오스트리아어	claude-sonnet-5
+insgesamt	insgesamt	b1	총, 전부, 합계		claude-sonnet-5
+installieren	installieren	b1	설치하다		claude-sonnet-5
+institut	das Institut	b1	연구소, 기관		claude-sonnet-5
+integrieren	integrieren	b1	통합시키다, 융화되다	수동/재귀로 자주 씀	claude-sonnet-5
+integration	die Integration	b1	통합		claude-sonnet-5
+intelligenz	die Intelligenz	b1	지능		claude-sonnet-5
+intensiv	intensiv	b1	집중적인, 강도 높은		claude-sonnet-5
+intensivkurs	der Intensivkurs	b1	집중 과정		claude-sonnet-5
+interessiert	interessiert	b1	관심 있는, 흥미를 느끼는	an+3격	claude-sonnet-5
+interkulturell	interkulturell	b1	상호문화적인, 문화 간의		claude-sonnet-5
+inzwischen	inzwischen	b1	그사이, 그동안		claude-sonnet-5
+irgend	irgend-	b1	어떤, 아무	접두어	claude-sonnet-5
+irgendwann	irgendwann	b1	언젠가		claude-sonnet-5
+sich-irren	sich irren	b1	잘못 알다, 착각하다	재귀동사	claude-sonnet-5
+jause	die Jause	b1	간식	오스트리아어	claude-sonnet-5
+je	je	b1	~에 따라, ~마다		claude-sonnet-5
+je-desto	je … desto …	b1	~할수록 더 ~하다		claude-sonnet-5
+jederzeit	jederzeit	b1	언제든지		claude-sonnet-5
+jedes-mal	jedes Mal	b1	매번, 그때마다		claude-sonnet-5
+jedoch	jedoch	b1	그러나, 하지만		claude-sonnet-5
+jemals	jemals	b1	언젠가, 한 번이라도		claude-sonnet-5
+jeweils	jeweils	b1	각각, 그때그때		claude-sonnet-5
+festhalten	festhalten	b1	꽉 잡다, 붙잡다	재귀동사 가능	claude-sonnet-5
+festlegen	festlegen	b1	확정하다, 정하다	재귀동사 가능	claude-sonnet-5
+festnehmen	festnehmen	b1	체포하다	분리동사	claude-sonnet-5
+festsetzen	festsetzen	b1	정하다, 확정하다	분리동사	claude-sonnet-5
+feststehen	feststehen	b1	확정되다, 정해져 있다	분리동사	claude-sonnet-5
+feststellen	feststellen	b1	확인하다, 알아내다	분리동사	claude-sonnet-5
+finger	der Finger	b1	손가락		claude-sonnet-5
+flach	flach	b1	평평한, 얕은		claude-sonnet-5
+flaeche	die Fläche	b1	면적, 표면		claude-sonnet-5
+fleck	der Fleck	b1	얼룩, 자국		claude-sonnet-5
+fleischhauer	der Fleischhauer	b1	정육점 주인, 도축업자	오스트리아식 표현	claude-sonnet-5
+flexibel	flexibel	b1	유연한		claude-sonnet-5
+fliehen	fliehen	b1	도망치다, 피하다		claude-sonnet-5
+flucht	die Flucht	b1	도피, 탈출		claude-sonnet-5
+fliessen	fließen	b1	흐르다	완료시 sein	claude-sonnet-5
+fliessend	fließend	b1	유창한, 흐르는		claude-sonnet-5
+floete	die Flöte	b1	플루트, 피리		claude-sonnet-5
+flur	der Flur	b1	복도		claude-sonnet-5
+fluessigkeit	die Flüssigkeit	b1	액체, 수분		claude-sonnet-5
+folgen	folgen	b1	따르다, 뒤따르다	3격 목적어, sein완료	claude-sonnet-5
+folge	die Folge	b1	결과, 영향		claude-sonnet-5
+folgenden	folgenden	b1	다음의, 아래의	folgend의 변화형	claude-sonnet-5
+fordern	fordern	b1	요구하다		claude-sonnet-5
+forderung	die Forderung	b1	요구, 요청		claude-sonnet-5
+foerdern	fördern	b1	지원하다, 후원하다, 촉진하다		claude-sonnet-5
+foerderung	die Förderung	b1	지원, 후원, 장려		claude-sonnet-5
+form	die Form	b1	모양, 형태, 틀		claude-sonnet-5
+forschung	die Forschung	b1	연구		claude-sonnet-5
+fortbildung	die Fortbildung	b1	연수, 직업교육		claude-sonnet-5
+fortschritt	der Fortschritt	b1	진전, 발전		claude-sonnet-5
+fortsetzen	fortsetzen	b1	계속하다	분리동사	claude-sonnet-5
+fortsetzung	die Fortsetzung	b1	계속, 속편		claude-sonnet-5
+forum	das Forum	b1	포럼, 게시판		claude-sonnet-5
+fotograf	der Fotograf	b1	사진작가, 사진사		claude-sonnet-5
+fotografie	die Fotografie	b1	사진, 사진술		claude-sonnet-5
+frech	frech	b1	버릇없는, 무례한		claude-sonnet-5
+im-freien	im Freien	b1	야외에서, 밖에서	고정 표현	claude-sonnet-5
+freiheit	die Freiheit	b1	자유		claude-sonnet-5
+fressen	fressen	b1	먹다	동물에게만 씀	claude-sonnet-5
+sich-freuen	sich freuen	b1	기뻐하다, 좋아하다, 고대하다	재귀동사, 전치사에 따라 뜻 다름	claude-sonnet-5
+freude	die Freude	b1	기쁨, 즐거움		claude-sonnet-5
+freundschaft	die Freundschaft	b1	우정		claude-sonnet-5
+friede	der Friede	b1	평화	현대어는 Frieden 사용	claude-sonnet-5
+frieren	frieren	b1	춥다, 얼다	인칭/비인칭 둘다 가능	claude-sonnet-5
+friseur	der Friseur	b1	미용사, 이발사		claude-sonnet-5
+friseurin	der Friseurin	b1	미용사	Friseur의 여성형	claude-sonnet-5
+frisur	die Frisur	b1	머리 모양, 헤어스타일		claude-sonnet-5
+frist	die Frist	b1	기한, 마감일		claude-sonnet-5
+froehlich	fröhlich	b1	즐거운, 명랑한		claude-sonnet-5
+frucht	die Frucht	b1	과일, 열매		claude-sonnet-5
+fuehren	führen	b1	이끌다, 운영하다, 앞서다		claude-sonnet-5
+fuehrerausweis	der Führerausweis	b1	운전면허증	스위스식 표현	claude-sonnet-5
+fundbuero	das Fundbüro	b1	분실물 보관소		claude-sonnet-5
+funktionieren	funktionieren	b1	작동하다, 잘 되다		claude-sonnet-5
+fuerchten	(sich) fürchten	b1	무서워하다, 두려워하다	재귀동사, vor+3격	claude-sonnet-5
+fussgaenger	der Fußgänger	b1	보행자		claude-sonnet-5
+fussgaengerin	die Fußgängerin	b1	여성 보행자		claude-sonnet-5
+fuettern	füttern	b1	먹이를 주다		claude-sonnet-5
+galerie	die Galerie	b1	화랑, 미술관		claude-sonnet-5
+gang	der Gang	b1	복도, 기어, 코스		claude-sonnet-5
+kommunikation	die Kommunikation	b1	의사소통, 소통		claude-sonnet-5
+komplett	komplett	b1	완전한, 완전히, 전부		claude-sonnet-5
+kompliziert	kompliziert	b1	복잡한		claude-sonnet-5
+kompromiss	der Kompromiss	b1	타협, 절충		claude-sonnet-5
+konferenz	die Konferenz	b1	회의, 학회		claude-sonnet-5
+konfituere	die Konfitüre	b1	잼		claude-sonnet-5
+konflikt	der Konflikt	b1	갈등, 충돌		claude-sonnet-5
+koenig	der König	b1	왕		claude-sonnet-5
+konkurrenz	die Konkurrenz	b1	경쟁, 경쟁사, 경쟁자들		claude-sonnet-5
+konsulat	das Konsulat	b1	영사관		claude-sonnet-5
+konsumieren	konsumieren	b1	소비하다, 섭취하다		claude-sonnet-5
+girokonto	das Girokonto	b1	입출금 계좌, 지로 계좌		claude-sonnet-5
+kontrolle	die Kontrolle	b1	검사, 점검, 통제		claude-sonnet-5
+sich-konzentrieren	sich konzentrieren	b1	집중하다	재귀동사	claude-sonnet-5
+kopieren	kopieren	b1	복사하다		claude-sonnet-5
+kopie	die Kopie	b1	복사(본)		claude-sonnet-5
+kopierer	der Kopierer	b1	복사기		claude-sonnet-5
+korrekt	korrekt	b1	정확한, 올바른		claude-sonnet-5
+korridor	der Korridor	b1	복도		claude-sonnet-5
+korrigieren	korrigieren	b1	고치다, 수정하다, 교정하다		claude-sonnet-5
+kosten-2	die Kosten	b1	비용, 경비	복수형만 씀	claude-sonnet-5
+kostuem	das Kostüm	b1	의상, 코스튬, 분장		claude-sonnet-5
+kraft	die Kraft	b1	힘, 기운		claude-sonnet-5
+kraeftig	kräftig	b1	힘센, 건장한, 강한		claude-sonnet-5
+kraftfahrzeug	das Kraftfahrzeug	b1	자동차, 차량		claude-sonnet-5
+kraftwerk	das Kraftwerk	b1	발전소		claude-sonnet-5
+kranke	der Kranke	b1	환자, 병자	형용사 명사화	claude-sonnet-5
+kranke-2	die Kranke	b1	환자, 병자	형용사 명사화	claude-sonnet-5
+krankenpfleger	der Krankenpfleger	b1	남자 간호사		claude-sonnet-5
+krankenschwester	die Krankenschwester	b1	간호사		claude-sonnet-5
+krankenwagen	der Krankenwagen	b1	구급차		claude-sonnet-5
+kreativ	kreativ	b1	창의적인, 창조적인		claude-sonnet-5
+kreditkarte-2	die Kreditkarte	b1	신용카드		claude-sonnet-5
+kreis	der Kreis	b1	원, 구역		claude-sonnet-5
+kreuz	das Kreuz	b1	십자가, 표시		claude-sonnet-5
+krieg	der Krieg	b1	전쟁		claude-sonnet-5
+kriminal-die-kriminalpolizei	Kriminal- die Kriminalpolizei	b1	형사경찰, 수사경찰	Kriminal-은 접두어	claude-sonnet-5
+krise	die Krise	b1	위기		claude-sonnet-5
+kritisieren	kritisieren	b1	비판하다, 비난하다		claude-sonnet-5
+kritik	die Kritik	b1	비판, 비평, 평론		claude-sonnet-5
+kritisch	kritisch	b1	비판적인		claude-sonnet-5
+kuli	der Kuli	b1	볼펜	구어	claude-sonnet-5
+kuessen	küssen	b1	입맞추다, 키스하다		claude-sonnet-5
+kuendigung	die Kündigung	b1	해고, 해지, 퇴사 통보		claude-sonnet-5
+kuss	der Kuss	b1	키스, 입맞춤		claude-sonnet-5
+kueste	die Küste	b1	해안, 연안		claude-sonnet-5
+kuvert	das Kuvert	b1	봉투		claude-sonnet-5
+kuenstler	der Künstler	b1	예술가		claude-sonnet-5
+kuenstlerin	die Künstlerin	b1	예술가		claude-sonnet-5
+kuenstlich	künstlich	b1	인공적인, 인위적인		claude-sonnet-5
+kunststoff	der Kunststoff	b1	플라스틱, 합성수지		claude-sonnet-5
+kursleiter	der Kursleiter	b1	강사, 코스 진행자		claude-sonnet-5
+kursleiterin	die Kursleiterin	b1	강사, 코스 진행자		claude-sonnet-5
+kurve	die Kurve	b1	커브, 곡선		claude-sonnet-5
+kuerzlich	kürzlich	b1	최근에, 얼마 전에		claude-sonnet-5
+laecheln	lächeln	b1	미소짓다, 웃다		claude-sonnet-5
+lage	die Lage	b1	위치, 상황		claude-sonnet-5
+lager	das Lager	b1	창고, 캠프, 야영지		claude-sonnet-5
+landwirtschaft	die Landwirtschaft	b1	농업		claude-sonnet-5
+landen	landen	b1	착륙하다		claude-sonnet-5
+journalist	der Journalist	b1	기자		claude-sonnet-5
+journalistin	die Journalistin	b1	기자	여성형	claude-sonnet-5
+jugend	die Jugend	b1	청소년기, 청춘, 젊음		claude-sonnet-5
+kabel	das Kabel	b1	케이블, 전선		claude-sonnet-5
+kabine	die Kabine	b1	부스, 칸막이 공간, 객실	예문은 전화부스	claude-sonnet-5
+kaffeehaus	das Kaffeehaus	b1	카페, 커피숍		claude-sonnet-5
+kakao	der Kakao	b1	코코아		claude-sonnet-5
+kaelte	die Kälte	b1	추위, 냉기		claude-sonnet-5
+kaempfen	kämpfen	b1	싸우다, 투쟁하다		claude-sonnet-5
+kampf	der Kampf	b1	싸움, 투쟁, 전투		claude-sonnet-5
+kanal	der Kanal	b1	채널, 수로, 운하		claude-sonnet-5
+kandidat	der Kandidat	b1	후보자, 지원자, 수험생		claude-sonnet-5
+kanne	die Kanne	b1	주전자, 포트		claude-sonnet-5
+kantine	die Kantine	b1	구내식당		claude-sonnet-5
+kapitel	das Kapitel	b1	장(章), 챕터		claude-sonnet-5
+kaputtgehen	kaputtgehen	b1	고장 나다, 망가지다, 깨지다	분리동사	claude-sonnet-5
+kaeufer	der Käufer	b1	구매자, 매수인		claude-sonnet-5
+kaeuferin	die Käuferin	b1	구매자, 매수인	여성형	claude-sonnet-5
+kaum	kaum	b1	거의 ~않다, 겨우, 채 ~안 되는		claude-sonnet-5
+kaputtmachen	kaputtmachen	b1	고장 내다, 부수다, 망가뜨리다	분리동사	claude-sonnet-5
+karneval	der Karneval	b1	카니발, 사육제		claude-sonnet-5
+karotte	die Karotte	b1	당근		claude-sonnet-5
+karriere	die Karriere	b1	경력, 출세	예문은 관용구	claude-sonnet-5
+kellner	der Kellner	b1	웨이터, 종업원		claude-sonnet-5
+kellnerin	die Kellnerin	b1	웨이트리스, 종업원	여성형	claude-sonnet-5
+chipkarte	die Chipkarte	b1	칩카드, IC카드		claude-sonnet-5
+kassette	die Kassette	b1	카세트테이프		claude-sonnet-5
+kasten	der Kasten	b1	상자, 궤짝, 장(옷장)	장 뜻은 방언	claude-sonnet-5
+katalog	der Katalog	b1	카탈로그, 목록		claude-sonnet-5
+katastrophe	die Katastrophe	b1	재난, 참사, 재앙		claude-sonnet-5
+kennzeichen	das Kennzeichen	b1	번호판, 표시, 특징		claude-sonnet-5
+kerze	die Kerze	b1	양초, 초		claude-sonnet-5
+kindheit	die Kindheit	b1	어린 시절, 유년기		claude-sonnet-5
+kauf	der Kauf	b1	구매, 매입		claude-sonnet-5
+kiste	die Kiste	b1	상자, 궤짝		claude-sonnet-5
+kissen	das Kissen	b1	베개, 쿠션		claude-sonnet-5
+klagen	klagen	b1	불평하다, 하소연하다, 고소하다		claude-sonnet-5
+klingeln	klingeln	b1	울리다, 초인종을 누르다		claude-sonnet-5
+klingel	die Klingel	b1	초인종, 벨		claude-sonnet-5
+klingen	klingen	b1	들리다, ~하게 들리다		claude-sonnet-5
+klinik	die Klinik	b1	병원, 클리닉		claude-sonnet-5
+klopfen	klopfen	b1	두드리다, 노크하다		claude-sonnet-5
+kloss	der Kloß	b1	경단, 덤플링	북독일에서 씀	claude-sonnet-5
+klaeren	klären	b1	해결하다, 명확히 하다		claude-sonnet-5
+klasse-2	klasse	b1	멋진, 훌륭한, 최고의	구어체, 불변화	claude-sonnet-5
+klassenarbeit	die Klassenarbeit	b1	(학급) 시험, 필기시험		claude-sonnet-5
+knapp	knapp	b1	부족한, 빠듯한, 간신히		claude-sonnet-5
+kleben	kleben	b1	붙다, 붙이다		claude-sonnet-5
+kneipe	die Kneipe	b1	술집, 선술집	구어	claude-sonnet-5
+knie	das Knie	b1	무릎		claude-sonnet-5
+knochen	der Knochen	b1	뼈		claude-sonnet-5
+knoedel	der Knödel	b1	경단, 덤플링	남독일·오스트리아	claude-sonnet-5
+knopf	der Knopf	b1	단추, 버튼		claude-sonnet-5
+klettern	klettern	b1	오르다, 등반하다, 기어오르다		claude-sonnet-5
+klicken	klicken	b1	클릭하다		claude-sonnet-5
+klick	der Klick	b1	클릭		claude-sonnet-5
+klima	das Klima	b1	기후, 분위기		claude-sonnet-5
+klimaanlage	die Klimaanlage	b1	에어컨, 냉방장치		claude-sonnet-5
+koch	der Koch	b1	요리사		claude-sonnet-5
+koechin	die Köchin	b1	요리사	여성형	claude-sonnet-5
+landung	die Landung	b1	착륙		claude-sonnet-5
+laenge	die Länge	b1	길이		claude-sonnet-5
+laengst	längst	b1	이미 오래전에, 벌써		claude-sonnet-5
+sich-langweilen	sich langweilen	b1	지루해하다, 심심해하다	재귀동사	claude-sonnet-5
+langeweile	die Langeweile	b1	지루함, 심심함		claude-sonnet-5
+laerm	der Lärm	b1	소음, 시끄러움		claude-sonnet-5
+laster	der Laster	b1	트럭	Lastwagen 구어체	claude-sonnet-5
+laufwerk	das Laufwerk	b1	드라이브, 구동 장치	컴퓨터 용어	claude-sonnet-5
+laune	die Laune	b1	기분, 심기		claude-sonnet-5
+lautsprecher	der Lautsprecher	b1	스피커, 확성기		claude-sonnet-5
+lecker	lecker	b1	맛있는		claude-sonnet-5
+lebenslauf	der Lebenslauf	b1	이력서		claude-sonnet-5
+leder	das Leder	b1	가죽		claude-sonnet-5
+lehre	die Lehre	b1	직업훈련, 도제 수습, 교훈		claude-sonnet-5
+lehrstelle	die Lehrstelle	b1	수습 자리, 견습직		claude-sonnet-5
+lehrling	der Lehrling	b1	견습생, 수습생		claude-sonnet-5
+leid-tun	leid tun	b1	유감이다, 안됐다, 미안하다	관용구, 3격 필요	claude-sonnet-5
+leiden	leiden	b1	앓다, 고통받다, 시달리다	an/unter+3격	claude-sonnet-5
+leisten	leisten	b1	감당하다, 해내다, 제공하다	sich³: 여유가 되다	claude-sonnet-5
+leistung	die Leistung	b1	성과, 성적, 실적		claude-sonnet-5
+leiten	leiten	b1	이끌다, 지휘하다, 운영하다		claude-sonnet-5
+leitung	die Leitung	b1	관리, 운영; 회선; 배관, 선		claude-sonnet-5
+leiter	die Leiter	b1	사다리	der Leiter(지도자)와 다름	claude-sonnet-5
+lerner	der Lerner	b1	학습자		claude-sonnet-5
+lernerin	die Lernerin	b1	학습자(여성)		claude-sonnet-5
+leser	der Leser	b1	독자		claude-sonnet-5
+lexikon	das Lexikon	b1	백과사전, 사전		claude-sonnet-5
+liebe	die Liebe	b1	사랑		claude-sonnet-5
+lieferung	die Lieferung	b1	배달, 배송, 납품		claude-sonnet-5
+lift	der Lift	b1	엘리베이터, 리프트		claude-sonnet-5
+limonade	die Limonade	b1	레모네이드, 탄산음료		claude-sonnet-5
+linie	die Linie	b1	선, 노선		claude-sonnet-5
+link-2	link-	b1	왼쪽의	형용사 어미변화	claude-sonnet-5
+lippe	die Lippe	b1	입술		claude-sonnet-5
+liste	die Liste	b1	목록, 명단		claude-sonnet-5
+literatur	die Literatur	b1	문학		claude-sonnet-5
+loben	loben	b1	칭찬하다		claude-sonnet-5
+loch	das Loch	b1	구멍		claude-sonnet-5
+locker	locker	b1	느슨한, 편안한		claude-sonnet-5
+lohn	der Lohn	b1	임금, 급여		claude-sonnet-5
+sich-lohnen	sich lohnen	b1	가치가 있다, 보람이 있다	재귀동사	claude-sonnet-5
+los	los/los-	b1	출발해, 무슨 일이야	구어체 표현	claude-sonnet-5
+losfahren	losfahren	b1	출발하다	분리동사	claude-sonnet-5
+loeschen	löschen	b1	삭제하다, (불을) 끄다		claude-sonnet-5
+loesen	lösen	b1	풀다, 해결하다, 구매하다		claude-sonnet-5
+luft	die Luft	b1	공기		claude-sonnet-5
+magazin	das Magazin	b1	잡지		claude-sonnet-5
+mager	mager	b1	마른, 저지방의		claude-sonnet-5
+mahlzeit	die Mahlzeit	b1	식사		claude-sonnet-5
+mahnung	die Mahnung	b1	독촉장, 경고		claude-sonnet-5
+mal-2	das Mal	b1	번, 회		claude-sonnet-5
+marmelade	die Marmelade	b1	잼		claude-sonnet-5
+maler	der Maler	b1	화가, 페인트공		claude-sonnet-5
+material	das Material	b1	재료, 소재		claude-sonnet-5
+matura	die Matura	b1	대학입학자격시험	오스트리아/스위스	claude-sonnet-5
+mauer	die Mauer	b1	담, 벽		claude-sonnet-5
+maximal	maximal	b1	최대의, 최대한		claude-sonnet-5
+mangel	der Mangel	b1	부족, 결핍, 결함		claude-sonnet-5
+mechaniker	der Mechaniker	b1	정비공, 기계공		claude-sonnet-5
+medien	die Medien	b1	미디어, 언론	복수형만 씀	claude-sonnet-5
+medizin	die Medizin	b1	약, 의학		claude-sonnet-5
+mehl	das Mehl	b1	밀가루		claude-sonnet-5
+mehr-see-also-viel	mehr (see also viel)	b1	더, 더 많이	viel의 비교급	claude-sonnet-5
+mehrere	mehrere	b1	여러, 몇몇의		claude-sonnet-5
+mehrheit	die Mehrheit	b1	다수, 대다수		claude-sonnet-5
+markieren	markieren	b1	표시하다, 나타내다		claude-sonnet-5
+mehrwertsteuer	die Mehrwertsteuer	b1	부가가치세		claude-sonnet-5
+meinetwegen	meinetwegen	b1	상관없다, 그래도 좋다	허락·무관심 표현	claude-sonnet-5
+meister	der Meister	b1	장인, 명인, 우승자		claude-sonnet-5
+melden	melden	b1	신고하다, 알리다, 연락하다	sich멜덴=연락하다	claude-sonnet-5
+meldung	die Meldung	b1	보도, 소식, 신고		claude-sonnet-5
+mensa	die Mensa	b1	학생식당		claude-sonnet-5
+menschlich	menschlich	b1	인간적인, 인간의		claude-sonnet-5
+menue	das Menü	b1	메뉴, 정식		claude-sonnet-5
+merkwuerdig	merkwürdig	b1	이상한, 기묘한		claude-sonnet-5
+messen	messen	b1	재다, 측정하다	불규칙변화	claude-sonnet-5
+metall	das Metall	b1	금속		claude-sonnet-5
+methode	die Methode	b1	방법, 방식		claude-sonnet-5
+metropole	die Metropole	b1	대도시		claude-sonnet-5
+metzger	der Metzger	b1	정육점 주인		claude-sonnet-5
+mieter	der Mieter	b1	세입자, 임차인		claude-sonnet-5
+migrant	der Migrant	b1	이주민, 이민자		claude-sonnet-5
+migration	die Migration	b1	이주, 이민		claude-sonnet-5
+mild	mild	b1	순한, 온화한		claude-sonnet-5
+minderheit	die Minderheit	b1	소수, 소수자		claude-sonnet-5
+minimal	minimal	b1	최소의, 아주 적은		claude-sonnet-5
+mischen	mischen	b1	섞다, 혼합하다		claude-sonnet-5
+miss	miss-	b1	잘못-, 불-, 오해	부정적 의미 접두사	claude-sonnet-5
+mitarbeiterin	die Mitarbeiterin	b1	여직원, 여성 동료		claude-sonnet-5
+miteinander	miteinander	b1	서로, 함께		claude-sonnet-5
+mitglied	das Mitglied	b1	회원, 구성원		claude-sonnet-5
+mitteilen	mitteilen	b1	알리다, 통지하다	분리동사	claude-sonnet-5
+mitten	mitten	b1	한가운데에, 한창		claude-sonnet-5
+mittler	mittler-	b1	중간의, 가운데의	mittlere의 굴절형	claude-sonnet-5
+mittlerweile	mittlerweile	b1	그 사이에, 어느새		claude-sonnet-5
+moebel-2	das Möbel	b1	가구	복수형 자주 씀	claude-sonnet-5
+moebliert	möbliert	b1	가구가 딸린		claude-sonnet-5
+mobil	mobil/mobil-	b1	이동식의, 기동성 있는		claude-sonnet-5
+mobilbox	die Mobilbox	b1	음성사서함		claude-sonnet-5
+mobilitaet	die Mobilität	b1	이동성, 기동성		claude-sonnet-5
+modell	das Modell	b1	모델, 모형		claude-sonnet-5
+moeglichkeit	die Möglichkeit	b1	가능성, 방법		claude-sonnet-5
+moeglichst	möglichst	b1	가능한 한, 되도록		claude-sonnet-5
+moehre	die Möhre	b1	당근		claude-sonnet-5
+mond	der Mond	b1	달		claude-sonnet-5
+monitor	der Monitor	b1	모니터		claude-sonnet-5
+motorrad	das Motorrad	b1	오토바이		claude-sonnet-5
+muehe	die Mühe	b1	수고, 노력		claude-sonnet-5
+muellabfuhr	die Müllabfuhr	b1	쓰레기 수거		claude-sonnet-5
+muelltonne	die Mülltonne	b1	쓰레기통		claude-sonnet-5
+muendlich	mündlich	b1	구두의, 말로 하는		claude-sonnet-5
+muenze	die Münze	b1	동전		claude-sonnet-5
+musikalisch	musikalisch	b1	음악적인, 음악에 소질 있는		claude-sonnet-5
+musiker	der Musiker	b1	음악가		claude-sonnet-5
+musikerin	die Musikerin	b1	여성 음악가		claude-sonnet-5
+muskel	der Muskel	b1	근육		claude-sonnet-5
+mueesli	das Müesli/Müsli	b1	뮈슬리, 시리얼		claude-sonnet-5
+mut	der Mut	b1	용기		claude-sonnet-5
+mutig	mutig	b1	용감한		claude-sonnet-5
+nachdem	nachdem	b1	~한 후에, ~하고 나서	종속접속사	claude-sonnet-5
+ordnen	ordnen	b1	정리하다, 정돈하다		claude-sonnet-5
+ordner	der Ordner	b1	바인더, 파일철		claude-sonnet-5
+original	das Original	b1	원본, 원작		claude-sonnet-5
+original-2	original	b1	원본의, 원래의		claude-sonnet-5
+ozean	der Ozean	b1	대양, 바다		claude-sonnet-5
+paar-2	(ein) paar	b1	몇몇의, 약간의	무변화	claude-sonnet-5
+panne	die Panne	b1	고장, 문제		claude-sonnet-5
+paradeiser	der Paradeiser	b1	토마토	오스트리아어	claude-sonnet-5
+parallel	parallel	b1	평행한		claude-sonnet-5
+parkieren	parkieren	b1	주차하다	스위스어	claude-sonnet-5
+passagier	der Passagier	b1	승객		claude-sonnet-5
+passagierin	die Passagierin	b1	여성 승객		claude-sonnet-5
+passiv	passiv	b1	수동적인, 소극적인		claude-sonnet-5
+patient	der Patient	b1	환자		claude-sonnet-5
+patientin	die Patientin	b1	여성 환자		claude-sonnet-5
+pauschal	pauschal	b1	일괄적인, 패키지의		claude-sonnet-5
+pech	das Pech	b1	불운, 재수 없음		claude-sonnet-5
+pfeffer	der Pfeffer	b1	후추		claude-sonnet-5
+pflanzen	pflanzen	b1	심다		claude-sonnet-5
+pflaster	das Pflaster	b1	반창고		claude-sonnet-5
+pflaume	die Pflaume	b1	자두		claude-sonnet-5
+peinlich	peinlich	b1	난처한, 창피한		claude-sonnet-5
+pension	die Pension	b1	펜션, 하숙집, 연금		claude-sonnet-5
+pflegen	pflegen	b1	돌보다, 간호하다		claude-sonnet-5
+pfleger	der Pfleger	b1	간병인, 남자 간호사		claude-sonnet-5
+pflegerin	die Pflegerin	b1	여성 간병인, 여자 간호사		claude-sonnet-5
+pflicht	die Pflicht	b1	의무		claude-sonnet-5
+phantasie	die Phantasie/Fantasie	b1	상상력, 판타지		claude-sonnet-5
+picknick	das Picknick	b1	피크닉, 소풍		claude-sonnet-5
+pille	die Pille	b1	알약, 피임약		claude-sonnet-5
+pilz	der Pilz	b1	버섯		claude-sonnet-5
+pensionist	der Pensionist	b1	연금 생활자, 은퇴자	오스트리아어	claude-sonnet-5
+pensionistin	die Pensionistin	b1	여성 연금 생활자, 은퇴자	오스트리아어	claude-sonnet-5
+per	per	b1	~으로, ~을 통해		claude-sonnet-5
+perfekt	perfekt	b1	완벽한		claude-sonnet-5
+perron	der Perron	b1	플랫폼, 승강장	스위스어	claude-sonnet-5
+persoenlich	persönlich	b1	개인적인, 직접		claude-sonnet-5
+planung	die Planung	b1	계획, 기획		claude-sonnet-5
+personalien	die Personalien	b1	신상 정보, 인적사항	복수형만 씀	claude-sonnet-5
+personenstand	der Personenstand	b1	혼인 상태, 신분		claude-sonnet-5
+personal	das Personal	b1	직원, 인력		claude-sonnet-5
+pfanne	die Pfanne	b1	프라이팬		claude-sonnet-5
+plastik	das Plastik	b1	플라스틱		claude-sonnet-5
+politik	die Politik	b1	정치		claude-sonnet-5
+politiker	der Politiker	b1	정치인		claude-sonnet-5
+politikerin	die Politikerin	b1	여성 정치인		claude-sonnet-5
+politisch	politisch	b1	정치적인		claude-sonnet-5
+praesentation	die Präsentation	b1	발표, 프레젠테이션		claude-sonnet-5
+polizist	der Polizist	b1	경찰관		claude-sonnet-5
+polizistin	die Polizistin	b1	여성 경찰관		claude-sonnet-5
+populaer	populär	b1	인기 있는		claude-sonnet-5
+portemonnaie	das Portemonnaie/Portmonee	b1	지갑		claude-sonnet-5
+positiv	positiv	b1	긍정적인		claude-sonnet-5
+poestler	der Pöstler	b1	우편배달부	스위스어	claude-sonnet-5
+poestlerin	die Pöstlerin	b1	여성 우편배달부	스위스어	claude-sonnet-5
+presse	die Presse	b1	언론, 신문		claude-sonnet-5
+prima	prima	b1	훌륭한, 멋진	무변화	claude-sonnet-5
+poulet	das Poulet	b1	닭고기	스위스어	claude-sonnet-5
+praktikant	der Praktikant	b1	인턴, 실습생		claude-sonnet-5
+praktikantin	die Praktikantin	b1	여성 인턴, 실습생		claude-sonnet-5
+nachdenken	nachdenken	b1	생각하다, 숙고하다	분리동사, über+4격	claude-sonnet-5
+nachfrage	die Nachfrage	b1	수요, 문의		claude-sonnet-5
+nachher	nachher	b1	나중에, 그 후에		claude-sonnet-5
+nachhilfe	die Nachhilfe	b1	과외, 보충 수업		claude-sonnet-5
+nachschlagen	nachschlagen	b1	찾아보다, 참조하다	분리동사	claude-sonnet-5
+nachspeise	die Nachspeise	b1	디저트, 후식		claude-sonnet-5
+nachteil	der Nachteil	b1	단점, 불리한 점		claude-sonnet-5
+nachwuchs	der Nachwuchs	b1	후속 세대, 새끼, 자손	두 가지 뜻 다 쓰임	claude-sonnet-5
+nadel	die Nadel	b1	바늘		claude-sonnet-5
+nagel	der Nagel	b1	못, 손톱	복수형 Nägel	claude-sonnet-5
+nahe	nah(e)	b1	가까운	비교급 näher	claude-sonnet-5
+naehen	nähen	b1	꿰매다, 바느질하다		claude-sonnet-5
+sich-naehern	sich nähern	b1	다가가다, 접근하다	재귀동사, 3격 목적어	claude-sonnet-5
+nahrungsmittel	das Nahrungsmittel	b1	식품, 식량	주로 복수형	claude-sonnet-5
+naemlich	nämlich	b1	왜냐하면, 즉	이유를 뒤에서 부연	claude-sonnet-5
+nase	die Nase	b1	코		claude-sonnet-5
+national	national/national-	b1	국가의, 전국적인, 국민의		claude-sonnet-5
+nebel	der Nebel	b1	안개		claude-sonnet-5
+nebenbei	nebenbei	b1	부업으로, 동시에, 겸사겸사		claude-sonnet-5
+neffe	der Neffe	b1	조카(남자)	약변화 명사	claude-sonnet-5
+negativ	negativ	b1	부정적인		claude-sonnet-5
+nerv	der Nerv	b1	신경	관용구: auf die Nerven gehen	claude-sonnet-5
+netz	das Netz	b1	그물, 네트워크, 망	다의어	claude-sonnet-5
+netzwerk	das Netzwerk	b1	네트워크, 인맥		claude-sonnet-5
+neuigkeit	die Neuigkeit	b1	소식, 새 소식	주로 복수형	claude-sonnet-5
+neugierig	neugierig	b1	호기심 많은		claude-sonnet-5
+neulich	neulich	b1	최근에, 얼마 전에		claude-sonnet-5
+nichte	die Nichte	b1	조카(여자)		claude-sonnet-5
+nichtraucher	der Nichtraucher	b1	비흡연자		claude-sonnet-5
+niedrig	niedrig	b1	낮은		claude-sonnet-5
+nirgendwo	nirgendwo	b1	아무 데도 (없다)		claude-sonnet-5
+noch-mal	noch mal	b1	다시 한번, 또	구어체	claude-sonnet-5
+nochmals	nochmals	b1	다시, 재차		claude-sonnet-5
+normalerweise	normalerweise	b1	보통, 일반적으로		claude-sonnet-5
+not	Not-	b1	비상, 응급	복합어 접두사	claude-sonnet-5
+notruf	der Notruf	b1	비상 전화, 응급 신고		claude-sonnet-5
+noetig	nötig	b1	필요한		claude-sonnet-5
+nun	nun	b1	이제, 지금, 자	nun mal: 관용구	claude-sonnet-5
+nutzen	nutzen	b1	이용하다, 활용하다		claude-sonnet-5
+nuetzen	nützen	b1	도움이 되다, 쓸모 있다	nutzen과 유사	claude-sonnet-5
+ob	ob	b1	~인지	종속접속사, 정동사 후치	claude-sonnet-5
+ober	ober-	b1	급사장, 수석 웨이터	실제로는 명사 der Ober	claude-sonnet-5
+das	das/der (Schlag-)Obers	b1	휘핑크림	오스트리아어 표현	claude-sonnet-5
+obwohl	obwohl	b1	비록 ~이지만	종속접속사, 정동사 후치	claude-sonnet-5
+backofen	der (Back-)Ofen	b1	오븐		claude-sonnet-5
+oeffentlich	öffentlich	b1	공공의, 공개적인		claude-sonnet-5
+oeffentlichkeit	die Öffentlichkeit	b1	대중, 공중		claude-sonnet-5
+veroeffentlichen	veröffentlichen	b1	출판하다, 공개하다, 발표하다		claude-sonnet-5
+operation	die Operation	b1	수술		claude-sonnet-5
+opfer	das Opfer	b1	희생자, 피해자		claude-sonnet-5
+optimistisch	optimistisch	b1	낙관적인		claude-sonnet-5
+offenbar	offenbar	b1	분명히, 명백히		claude-sonnet-5
+offiziell	offiziell	b1	공식적인		claude-sonnet-5
+oeko-oekologisch	Öko- (ökologisch)	b1	친환경의, 생태의	복합어 접두사	claude-sonnet-5
+onkel	der Onkel	b1	삼촌, 아저씨		claude-sonnet-5
+oper	die Oper	b1	오페라		claude-sonnet-5
+operieren	operieren	b1	수술하다		claude-sonnet-5
+orchester	das Orchester	b1	오케스트라		claude-sonnet-5
+ordentlich	ordentlich	b1	단정한, 깔끔한, 성실한		claude-sonnet-5
+ordination	die Ordination	b1	진료실, 진료 시간	오스트리아어	claude-sonnet-5
+rekord	der Rekord	b1	기록, 신기록		claude-sonnet-5
+relativ	relativ	b1	상대적인, 비교적		claude-sonnet-5
+religion	die Religion	b1	종교		claude-sonnet-5
+rennen	rennen	b1	달리다, 뛰다	이동동사(sein)	claude-sonnet-5
+rente	die Rente	b1	연금		claude-sonnet-5
+retten	retten	b1	구하다, 구조하다		claude-sonnet-5
+richter	der Richter	b1	판사		claude-sonnet-5
+richtung	die Richtung	b1	방향		claude-sonnet-5
+in-rente-gehen	in Rente gehen/sein	b1	은퇴하다, 퇴직하다	gehen/sein 둘 다 씀	claude-sonnet-5
+riesig	riesig	b1	거대한, 엄청난, 매우		claude-sonnet-5
+risiko	das Risiko	b1	위험, 리스크		claude-sonnet-5
+roh	roh	b1	날것의, 익히지 않은		claude-sonnet-5
+backrohr	das (Back-)Rohr	b1	오븐	오스트리아어	claude-sonnet-5
+rolle	die Rolle	b1	역할, 배역	keine Rolle spielen 관용구	claude-sonnet-5
+roman	der Roman	b1	소설		claude-sonnet-5
+rueckfahrt	die Rückfahrt	b1	귀로, 돌아오는 길		claude-sonnet-5
+rueckkehr	die Rückkehr	b1	귀환, 돌아옴		claude-sonnet-5
+rueckwaerts	rückwärts	b1	뒤로, 뒤쪽으로		claude-sonnet-5
+ruecksicht	die Rücksicht	b1	배려, 고려	Rücksicht nehmen auf ~	claude-sonnet-5
+rueebli	das Rüebli	b1	당근	스위스 독일어	claude-sonnet-5
+rufnummer	die Rufnummer	b1	전화번호		claude-sonnet-5
+runde	die Runde	b1	바퀴, 라운드, 모임		claude-sonnet-5
+rundfahrt	die Rundfahrt	b1	일주 여행, 관광 투어		claude-sonnet-5
+saal	der Saal	b1	홀, 강당		claude-sonnet-5
+sack	der Sack	b1	자루, 포대		claude-sonnet-5
+schlagsahne	die (Schlag-)Sahne	b1	생크림, 휘핑크림		claude-sonnet-5
+saison	die Saison	b1	시즌, 성수기		claude-sonnet-5
+salbe	die Salbe	b1	연고		claude-sonnet-5
+salon	der Salon	b1	미용실, 살롱		claude-sonnet-5
+salzig	salzig	b1	짠, 짭짤한		claude-sonnet-5
+saemtliche	sämtliche	b1	모든, 온갖	sämtlich의 변화형	claude-sonnet-5
+sand	der Sand	b1	모래		claude-sonnet-5
+saenger	der Sänger	b1	가수		claude-sonnet-5
+saengerin	die Sängerin	b1	여가수		claude-sonnet-5
+satt	satt	b1	배부른		claude-sonnet-5
+schachtel	die Schachtel	b1	상자, 갑		claude-sonnet-5
+schaden	schaden	b1	해가 되다, 손해를 끼치다	+3격	claude-sonnet-5
+schaden-2	der Schaden	b1	손해, 피해		claude-sonnet-5
+schalten	schalten	b1	전환하다, 켜다/끄다, 변속하다	ein-/ausschalten은 분리동사	claude-sonnet-5
+schatten	der Schatten	b1	그림자, 그늘		claude-sonnet-5
+schaetzen	schätzen	b1	추측하다, 평가하다, 소중히 여기다		claude-sonnet-5
+schauen	schauen	b1	보다, 바라보다	zuschauen: 구경하다	claude-sonnet-5
+schaufenster	das Schaufenster	b1	쇼윈도, 진열장		claude-sonnet-5
+schauspieler	der Schauspieler	b1	배우		claude-sonnet-5
+schauspielerin	die Schauspielerin	b1	여배우		claude-sonnet-5
+scheibe	die Scheibe	b1	조각, 유리창		claude-sonnet-5
+sich-scheiden-lassen	sich scheiden lassen	b1	이혼하다	재귀동사	claude-sonnet-5
+scheidung	die Scheidung	b1	이혼		claude-sonnet-5
+schein	der Schein	b1	지폐		claude-sonnet-5
+schieben	schieben	b1	밀다		claude-sonnet-5
+schief	schief	b1	비스듬한, 기울어진		claude-sonnet-5
+schiessen	schießen	b1	쏘다, (골을) 넣다		claude-sonnet-5
+schlaf	der Schlaf	b1	잠, 수면		claude-sonnet-5
+schlagen	schlagen	b1	때리다, 이기다, 박동하다		claude-sonnet-5
+schnitzel	das Schnitzel	b1	슈니첼, 커틀릿		claude-sonnet-5
+schnupfen	der Schnupfen	b1	코감기, 비염		claude-sonnet-5
+schreck	der Schreck	b1	놀람, 충격		claude-sonnet-5
+aufschreiben	aufschreiben	b1	적다, 기록하다	분리동사	claude-sonnet-5
+schreiben-2	das Schreiben	b1	편지, 서류		claude-sonnet-5
+schreien	schreien	b1	소리치다, 울다		claude-sonnet-5
+produzieren	produzieren	b1	생산하다, 제작하다		claude-sonnet-5
+produktion	die Produktion	b1	생산, 제작		claude-sonnet-5
+professor	der Professor	b1	교수	여성형 Professorin	claude-sonnet-5
+profi	der Profi	b1	전문가, 프로	구어	claude-sonnet-5
+praesentieren	präsentieren	b1	발표하다, 제시하다		claude-sonnet-5
+profisportler	der Profisportler	b1	프로 운동선수		claude-sonnet-5
+quartier	das Quartier	b1	구역, 동네		claude-sonnet-5
+quittung	die Quittung	b1	영수증		claude-sonnet-5
+prost	Prost	b1	건배	감탄사로 사용	claude-sonnet-5
+protestieren	protestieren	b1	항의하다, 시위하다	gegen+4격	claude-sonnet-5
+protest	der Protest	b1	항의, 시위		claude-sonnet-5
+prozess	der Prozess	b1	재판, 소송, 과정		claude-sonnet-5
+publikum	das Publikum	b1	관객, 청중		claude-sonnet-5
+punkt	der Punkt	b1	정각, 마침표, 점, 사항	시각 앞: 정각	claude-sonnet-5
+puppe	die Puppe	b1	인형		claude-sonnet-5
+qualifikation	die Qualifikation	b1	자격, 능력		claude-sonnet-5
+rabatt	der Rabatt	b1	할인		claude-sonnet-5
+rad	das Rad	b1	바퀴, 자전거		claude-sonnet-5
+radfahrer	der Radfahrer	b1	자전거 타는 사람		claude-sonnet-5
+schlagrahm	der (Schlag-)Rahm	b1	휘핑크림, 생크림	스위스식 표현	claude-sonnet-5
+rand	der Rand	b1	가장자리, 변두리		claude-sonnet-5
+rasen	der Rasen	b1	잔디		claude-sonnet-5
+rasieren	(sich) rasieren	b1	면도하다	재귀동사	claude-sonnet-5
+x		b1	추측하다, 조언하다	예문에 다른 단어 섞여 있음	claude-sonnet-5
+rat	der Rat	b1	조언, 충고		claude-sonnet-5
+ratschlag	Ratschlag	b1	조언, 충고	복수형 Ratschläge	claude-sonnet-5
+raucher	der Raucher	b1	흡연자		claude-sonnet-5
+rauf	rauf/rauf-	b1	위로, 올라와	구어, 분리동사 접두사	claude-sonnet-5
+raus	raus/raus-	b1	밖으로, 나가	구어, 분리동사 접두사	claude-sonnet-5
+reagieren	reagieren	b1	반응하다	auf+4격	claude-sonnet-5
+reaktion	die Reaktion	b1	반응		claude-sonnet-5
+realisieren	realisieren	b1	실현하다, 실행하다		claude-sonnet-5
+realitaet	die Realität	b1	현실		claude-sonnet-5
+realistisch	realistisch	b1	현실적인		claude-sonnet-5
+recherche	die Recherche	b1	조사, 취재		claude-sonnet-5
+rechner	der Rechner	b1	컴퓨터, 계산기		claude-sonnet-5
+recht	das Recht	b1	법, 권리		claude-sonnet-5
+rechtlich	rechtlich	b1	법적인		claude-sonnet-5
+recht-2	recht	b1	괜찮은, 오른쪽의		claude-sonnet-5
+rechtzeitig	rechtzeitig	b1	제때의, 시간에 맞는		claude-sonnet-5
+rede	die Rede	b1	연설		claude-sonnet-5
+reduzieren	reduzieren	b1	줄이다, 감소시키다		claude-sonnet-5
+referat	das Referat	b1	발표, 리포트		claude-sonnet-5
+reform	die Reform	b1	개혁		claude-sonnet-5
+regal	das Regal	b1	선반, 책장		claude-sonnet-5
+regel	die Regel	b1	규칙		claude-sonnet-5
+regelmaessig	regelmäßig	b1	규칙적인, 정기적인		claude-sonnet-5
+regeln	regeln	b1	규제하다, 조정하다		claude-sonnet-5
+region	die Region	b1	지역		claude-sonnet-5
+regional	regional	b1	지역의, 지방의		claude-sonnet-5
+reichen	reichen	b1	충분하다, 지속되다		claude-sonnet-5
+reif	reif	b1	익은, 성숙한		claude-sonnet-5
+reihenfolge	die Reihenfolge	b1	순서		claude-sonnet-5
+rein	rein	b1	순수한, 깨끗한		claude-sonnet-5
+reinigen	reinigen	b1	청소하다, 세탁하다		claude-sonnet-5
+reportage	die Reportage	b1	르포, 보도		claude-sonnet-5
+reporter	der Reporter	b1	기자, 리포터		claude-sonnet-5
+reservierung	die Reservierung	b1	예약		claude-sonnet-5
+respekt	der Respekt	b1	존경, 존중	감탄사로도 씀	claude-sonnet-5
+reklame	die Reklame	b1	광고		claude-sonnet-5
+stilistisch	stilistisch	b1	문체상의, 문체적인		claude-sonnet-5
+still	still	b1	조용한, 고요한, 가만히 있는		claude-sonnet-5
+stehen-bleiben	stehen bleiben	b1	멈춰 서다, (시계가) 멈추다	분리동사	claude-sonnet-5
+stehlen	stehlen	b1	훔치다	3격(피해자)+4격(물건)	claude-sonnet-5
+steigen	steigen	b1	오르다, 올라가다, 증가하다	sein 지배	claude-sonnet-5
+stiege	die Stiege	b1	계단	오스트리아식(=Treppe)	claude-sonnet-5
+stiegenhaus	das Stiegenhaus	b1	계단실, 계단통	오스트리아식	claude-sonnet-5
+stimme	die Stimme	b1	목소리, 음성, (투표)표		claude-sonnet-5
+stimmen	stimmen	b1	맞다, 옳다, 투표하다		claude-sonnet-5
+stimmung	die Stimmung	b1	분위기, 기분		claude-sonnet-5
+stinken	stinken	b1	냄새나다, 악취가 나다		claude-sonnet-5
+stoff	der Stoff	b1	천, 소재, 물질		claude-sonnet-5
+stolz	stolz	b1	자랑스러운, 자부심 있는	auf+4격	claude-sonnet-5
+stoppen	stoppen	b1	멈추다, 세우다, 정지시키다		claude-sonnet-5
+stoerung	die Störung	b1	방해, 고장, 장애		claude-sonnet-5
+stossen	(sich) stoßen	b1	부딪히다, 찧다, 밀다	재귀동사, an+3격	claude-sonnet-5
+strafe	die Strafe	b1	벌, 형벌, 벌금		claude-sonnet-5
+strafbar	strafbar	b1	처벌 대상인, 형사처벌되는		claude-sonnet-5
+strafzettel	der Strafzettel	b1	(주차·교통) 딱지, 범칙금 고지서		claude-sonnet-5
+strecke	die Strecke	b1	거리, 구간, 노선		claude-sonnet-5
+streichholz	das Streichholz	b1	성냥		claude-sonnet-5
+streiken	streiken	b1	파업하다		claude-sonnet-5
+streik	der Streik	b1	파업		claude-sonnet-5
+streit	der Streit	b1	다툼, 싸움, 갈등		claude-sonnet-5
+strom	der Strom	b1	전기, 전류		claude-sonnet-5
+strumpf	der Strumpf	b1	양말, 스타킹		claude-sonnet-5
+studie	die Studie	b1	연구, 조사		claude-sonnet-5
+studierende	der Studierende	b1	대학생, 학생(남/중성)	형용사식 변화 명사	claude-sonnet-5
+studierende-2	die Studierende	b1	대학생, 학생(여성)	형용사식 변화 명사	claude-sonnet-5
+studio	das Studio	b1	스튜디오		claude-sonnet-5
+stufe	die Stufe	b1	계단, 단, 단계		claude-sonnet-5
+stumm	stumm	b1	말 못하는, 무언의, 무음의	auf stumm=음소거	claude-sonnet-5
+sturm	der Sturm	b1	폭풍, 폭풍우		claude-sonnet-5
+stuerzen	stürzen	b1	넘어지다, 떨어지다, 추락하다	sein 지배	claude-sonnet-5
+sucht	die Sucht	b1	중독		claude-sonnet-5
+suechtig	süchtig	b1	중독된	nach+3격	claude-sonnet-5
+suchtmittel	das Suchtmittel	b1	중독성 물질, 마약		claude-sonnet-5
+summe	die Summe	b1	합계, 총액, 금액		claude-sonnet-5
+symbol	das Symbol	b1	상징, 기호		claude-sonnet-5
+system	das System	b1	체계, 시스템		claude-sonnet-5
+szene	die Szene	b1	장면		claude-sonnet-5
+tabelle	die Tabelle	b1	표		claude-sonnet-5
+tagesablauf	der Tagesablauf	b1	일과, 하루 일정		claude-sonnet-5
+tal	das Tal	b1	계곡, 골짜기		claude-sonnet-5
+talent	das Talent	b1	재능		claude-sonnet-5
+tanken	tanken	b1	주유하다, 기름을 넣다		claude-sonnet-5
+tankstelle	die Tankstelle	b1	주유소		claude-sonnet-5
+tante	die Tante	b1	이모, 고모, 숙모		claude-sonnet-5
+tanz	der Tanz	b1	춤		claude-sonnet-5
+taschentuch	das Taschentuch	b1	손수건, 휴지		claude-sonnet-5
+tastatur	die Tastatur	b1	키보드, 자판		claude-sonnet-5
+taste	die Taste	b1	버튼, 키		claude-sonnet-5
+tat	die Tat	b1	행위, 행동		claude-sonnet-5
+taeter	der Täter	b1	범인, 가해자		claude-sonnet-5
+taeterin	die Täterin	b1	범인, 가해자	여성형	claude-sonnet-5
+taetigkeit	die Tätigkeit	b1	활동, 업무, 일		claude-sonnet-5
+tatsache	die Tatsache	b1	사실		claude-sonnet-5
+tatsaechlich	tatsächlich	b1	실제의, 사실인	부사로도 씀	claude-sonnet-5
+taub	taub	b1	귀먹은, 청각장애가 있는		claude-sonnet-5
+tauchen	tauchen	b1	잠수하다, 다이빙하다	완료형 sein/haben 혼용	claude-sonnet-5
+tauschen	tauschen	b1	바꾸다, 교환하다		claude-sonnet-5
+technik	die Technik	b1	기술		claude-sonnet-5
+technisch	technisch	b1	기술적인, 기술의		claude-sonnet-5
+technologie	die Technologie	b1	기술, 테크놀로지		claude-sonnet-5
+tee-ziehen-lassen	Tee ziehen lassen	b1	차를 우려내다	관용구	claude-sonnet-5
+teil-2	das Teil	b1	부품, 부분		claude-sonnet-5
+teilzeit	die Teilzeit	b1	시간제 근무		claude-sonnet-5
+teilnahme	die Teilnahme	b1	참가, 참여		claude-sonnet-5
+teilnehmer	der Teilnehmer	b1	참가자		claude-sonnet-5
+teilnehmerin	die Teilnehmerin	b1	참가자	여성형	claude-sonnet-5
+temperatur	die Temperatur	b1	온도, 기온		claude-sonnet-5
+tempo	das Tempo	b1	속도		claude-sonnet-5
+teppich	der Teppich	b1	카펫, 양탄자		claude-sonnet-5
+terminkalender	der Terminkalender	b1	일정표, 수첩		claude-sonnet-5
+terrasse	die Terrasse	b1	테라스		claude-sonnet-5
+testen	testen	b1	시험하다, 테스트하다		claude-sonnet-5
+theoretisch	theoretisch	b1	이론적인		claude-sonnet-5
+theorie	die Theorie	b1	이론		claude-sonnet-5
+therapie	die Therapie	b1	치료, 요법		claude-sonnet-5
+haustier	das Haustier	b1	애완동물, 반려동물		claude-sonnet-5
+tierpark	der Tierpark	b1	동물원		claude-sonnet-5
+tippen	tippen	b1	타이핑하다, 입력하다		claude-sonnet-5
+tradition	die Tradition	b1	전통		claude-sonnet-5
+traditionell	traditionell	b1	전통적인		claude-sonnet-5
+trainer	der Trainer	b1	트레이너, 코치		claude-sonnet-5
+trainerin	die Trainerin	b1	트레이너, 코치	여성형	claude-sonnet-5
+tod	der Tod	b1	죽음, 사망		claude-sonnet-5
+toedlich	tödlich	b1	치명적인		claude-sonnet-5
+tolerant	tolerant	b1	관대한, 너그러운		claude-sonnet-5
+tram	das Tram	b1	트램, 전차	스위스·오스트리아식	claude-sonnet-5
+traene	die Träne	b1	눈물		claude-sonnet-5
+transportieren	transportieren	b1	운송하다, 수송하다		claude-sonnet-5
+transport	der Transport	b1	운송, 수송		claude-sonnet-5
+tor	das Tor	b1	문, 대문, 골		claude-sonnet-5
+tote	der Tote	b1	사망자, 죽은 사람	형용사 명사화, 남성	claude-sonnet-5
+tote-2	die Tote	b1	사망자, 죽은 사람	형용사 명사화, 여성	claude-sonnet-5
+tourismus	der Tourismus	b1	관광, 관광업		claude-sonnet-5
+treffpunkt	der Treffpunkt	b1	만남의 장소, 집합 장소		claude-sonnet-5
+treiben	treiben	b1	하다, 몰다	Sport treiben=운동하다	claude-sonnet-5
+trennen	(sich) trennen	b1	헤어지다, 분리하다, 나누다	재귀동사	claude-sonnet-5
+trennung	die Trennung	b1	이별, 분리		claude-sonnet-5
+treppenhaus	das Treppenhaus	b1	계단실, 계단통		claude-sonnet-5
+treten	treten	b1	밟다, 차다	이동은 sein	claude-sonnet-5
+treu	treu	b1	충실한, 성실한		claude-sonnet-5
+trinkgeld	das Trinkgeld	b1	팁		claude-sonnet-5
+trocknen	trocknen	b1	말리다, 마르다	타동사 haben, 자동사 sein	claude-sonnet-5
+tropfen	die Tropfen	b1	물방울, (약)방울	주로 복수형	claude-sonnet-5
+trottoir	das Trottoir	b1	인도, 보도	스위스식 표현	claude-sonnet-5
+trotz	trotz	b1	~에도 불구하고		claude-sonnet-5
+trotzdem	trotzdem	b1	그럼에도 불구하고		claude-sonnet-5
+tuch	das Tuch	b1	천, 수건, 손수건		claude-sonnet-5
+turm	der Turm	b1	탑		claude-sonnet-5
+tuete	die Tüte	b1	봉지, 봉투		claude-sonnet-5
+typ	der Typ	b1	녀석, 사람, 유형		claude-sonnet-5
+uebung	die Übung	b1	연습, 훈련		claude-sonnet-5
+ueberfahren	überfahren	b1	치다, 치어 죽이다		claude-sonnet-5
+ueberhaupt	überhaupt	b1	전혀, 도대체		claude-sonnet-5
+ueberholen	überholen	b1	추월하다		claude-sonnet-5
+ueberlegen	überlegen	b1	생각하다, 숙고하다	재귀동사로도 씀	claude-sonnet-5
+uebernachtung	die Übernachtung	b1	숙박, 1박		claude-sonnet-5
+sosse	die Soße/Sauce	b1	소스		claude-sonnet-5
+souvenir	das Souvenir	b1	기념품		claude-sonnet-5
+soviel	soviel	b1	~아는 한, ~하는 한	soviel ich weiß=내가 아는 한	claude-sonnet-5
+so-viel	so viel/so viel wie	b1	그렇게 많이, ~만큼		claude-sonnet-5
+sowieso	sowieso	b1	어차피, 어쨌든		claude-sonnet-5
+sowohl-als-auch	sowohl … als auch	b1	~뿐만 아니라 ~도	상관접속사	claude-sonnet-5
+sozial	sozial	b1	사회적인, 사회의		claude-sonnet-5
+sozialarbeiter	der Sozialarbeiter	b1	사회복지사	예문은 여성형 사용	claude-sonnet-5
+sozialarbeiterin	die Sozialarbeiterin	b1	사회복지사		claude-sonnet-5
+sparsam	sparsam	b1	절약하는, 검소한, 경제적인		claude-sonnet-5
+spaetestens	spätestens	b1	늦어도		claude-sonnet-5
+speise	Speise-/Speise	b1	음식, 요리	Vor-/Nachspeise 등 복합어	claude-sonnet-5
+speisewagen	der Speisewagen	b1	식당차		claude-sonnet-5
+spezial	Spezial-	b1	특별한, 전용의	접두어, 복합어로만 씀	claude-sonnet-5
+spezialist	der Spezialist	b1	전문가	예문은 여성형 사용	claude-sonnet-5
+spezialistin	die Spezialistin	b1	전문가		claude-sonnet-5
+speziell	speziell	b1	특별한, 특수한		claude-sonnet-5
+spiegel	der Spiegel	b1	거울		claude-sonnet-5
+spieler	der Spieler	b1	선수, 경기자		claude-sonnet-5
+spielerin	die Spielerin	b1	선수, 경기자	예문은 남성형 사용	claude-sonnet-5
+spielplatz	der Spielplatz	b1	놀이터		claude-sonnet-5
+spielzeug	das Spielzeug	b1	장난감		claude-sonnet-5
+spitz	spitz	b1	뾰족한, 날카로운		claude-sonnet-5
+sportart	die Sportart	b1	스포츠 종목		claude-sonnet-5
+sportler	der Sportler	b1	운동선수	예문은 여성형 사용	claude-sonnet-5
+sportlerin	die Sportlerin	b1	운동선수		claude-sonnet-5
+fremdsprache	die Fremdsprache	b1	외국어		claude-sonnet-5
+muttersprache	die Muttersprache	b1	모국어		claude-sonnet-5
+zweitsprache	die Zweitsprache	b1	제2언어		claude-sonnet-5
+springen	springen	b1	뛰다, 점프하다, 뛰어들다	완료형은 sein	claude-sonnet-5
+spritze	die Spritze	b1	주사, 주사기		claude-sonnet-5
+spuelen	spülen	b1	설거지하다, 헹구다		claude-sonnet-5
+spur	die Spur	b1	차선, 흔적, 자취		claude-sonnet-5
+spueren	spüren	b1	느끼다, 감지하다		claude-sonnet-5
+stadion	das Stadion	b1	경기장, 스타디움		claude-sonnet-5
+staedtisch	städtisch	b1	시립의, 도시의		claude-sonnet-5
+stammen	stammen	b1	유래하다, 출신이다	aus/von+3격 지배	claude-sonnet-5
+staendig	ständig	b1	끊임없는, 지속적인, 항상		claude-sonnet-5
+standpunkt	der Standpunkt	b1	관점, 입장		claude-sonnet-5
+starten	starten	b1	출발하다, 이륙하다, 시작하다	완료형은 sein	claude-sonnet-5
+start	der Start	b1	출발, 이륙, 시작		claude-sonnet-5
+station	die Station	b1	정류장, 역, 병동		claude-sonnet-5
+statistik	die Statistik	b1	통계		claude-sonnet-5
+statistisch	statistisch	b1	통계의, 통계적인		claude-sonnet-5
+statt	statt	b1	~대신에	2격 지배 전치사	claude-sonnet-5
+stau	der Stau	b1	교통 정체, 정체		claude-sonnet-5
+staub	der Staub	b1	먼지		claude-sonnet-5
+staubsaugen	staubsaugen	b1	진공청소기로 청소하다	주로 부정형으로 씀	claude-sonnet-5
+stechen	stechen	b1	찌르다, 쏘다		claude-sonnet-5
+stecken	stecken	b1	꽂다, 넣다, 꽂혀 있다	자·타동사 둘 다	claude-sonnet-5
+steckdose	die Steckdose	b1	콘센트		claude-sonnet-5
+stecker	der Stecker	b1	플러그		claude-sonnet-5
+steil	steil	b1	가파른		claude-sonnet-5
+stein	der Stein	b1	돌		claude-sonnet-5
+stempel	der Stempel	b1	도장, 소인		claude-sonnet-5
+stern	der Stern	b1	별		claude-sonnet-5
+steuer	die Steuer	b1	세금	der Steuer(핸들)와 성 다름	claude-sonnet-5
+steward	der Steward	b1	남자 승무원, 스튜어드	예문은 여성형 사용	claude-sonnet-5
+stewardess	die Stewardess	b1	여승무원, 스튜어디스		claude-sonnet-5
+stil	der Stil	b1	스타일, 양식		claude-sonnet-5
+schrift	die Schrift	b1	글씨, 문자, 서체		claude-sonnet-5
+schriftsteller	der Schriftsteller	b1	작가, 소설가	여성형: Schriftstellerin	claude-sonnet-5
+schritt	der Schritt	b1	걸음, 단계	Schritt für Schritt: 단계별로	claude-sonnet-5
+schuld	die Schuld	b1	잘못, 책임	관사 없이 형용사처럼 씀	claude-sonnet-5
+schulden	die Schulden	b1	빚, 채무	복수형만 씀	claude-sonnet-5
+schuldig	schuldig	b1	빚진, 빚지고 있는, 유죄의	관용구: 빚지다	claude-sonnet-5
+schularbeit	die Schularbeit	b1	학교 시험, 숙제	오스트리아식 표현	claude-sonnet-5
+schuelerin-2	der Schülerin	b1	여학생	관사 오타: die로 써야	claude-sonnet-5
+schulter	die Schulter	b1	어깨		claude-sonnet-5
+schuessel	die Schüssel	b1	그릇, 사발		claude-sonnet-5
+schuetteln	schütteln	b1	흔들다		claude-sonnet-5
+schuetzen	schützen	b1	보호하다, 지키다	vor+3격 지배	claude-sonnet-5
+schutz	der Schutz	b1	보호		claude-sonnet-5
+schwammerl	das Schwammerl	b1	버섯	오스트리아식 표현	claude-sonnet-5
+schwangerschaft	die Schwangerschaft	b1	임신		claude-sonnet-5
+schweigen	schweigen	b1	침묵하다, 잠자코 있다		claude-sonnet-5
+schwieger	Schwieger-	b1	시-, 처-, 인척의	복합어 접두사로만 씀	claude-sonnet-5
+schwierigkeit	die Schwierigkeit	b1	어려움, 곤란		claude-sonnet-5
+schwitzen	schwitzen	b1	땀을 흘리다		claude-sonnet-5
+seitdem	seitdem	b1	그때부터, 그 이후로	접속사로도 씀	claude-sonnet-5
+sekretaer	der Sekretär	b1	비서		claude-sonnet-5
+sekretaerin	der Sekretärin	b1	여비서	관사 오타: die로 써야	claude-sonnet-5
+selb	selb-	b1	같은	derselbe 등에서 씀	claude-sonnet-5
+selbstverstaendlich	selbstverständlich	b1	당연한, 물론		claude-sonnet-5
+selten	selten	b1	드문, 드물게		claude-sonnet-5
+seltsam	seltsam	b1	이상한, 기이한		claude-sonnet-5
+semester	das Semester	b1	학기		claude-sonnet-5
+seminar	das Seminar	b1	세미나		claude-sonnet-5
+semmel	die Semmel	b1	빵, 롤빵	오스트리아·바이에른식	claude-sonnet-5
+senden	senden	b1	보내다, 방송하다	과거형 두 가지 있음	claude-sonnet-5
+sender	der Sender	b1	방송국, 채널		claude-sonnet-5
+senioren	die Senioren	b1	노인들, 시니어들	der Senior의 복수형	claude-sonnet-5
+senkrecht	senkrecht	b1	수직의, 수직으로		claude-sonnet-5
+serie	die Serie	b1	시리즈, 연속물		claude-sonnet-5
+serviceangestellte	der Serviceangestellte	b1	서비스 직원, 접객원	남성형	claude-sonnet-5
+serviceangestellte-2	die Serviceangestellte	b1	서비스 직원, 접객원	여성형	claude-sonnet-5
+sichtbar	sichtbar	b1	보이는, 눈에 띄는		claude-sonnet-5
+siegen	siegen	b1	승리하다, 이기다		claude-sonnet-5
+sieg	der Sieg	b1	승리		claude-sonnet-5
+sieger	der Sieger	b1	승자, 우승자		claude-sonnet-5
+siegerin	die Siegerin	b1	여자 우승자		claude-sonnet-5
+siezen	(sich) siezen	b1	존댓말을 쓰다, Sie라고 부르다	재귀동사	claude-sonnet-5
+sinken	sinken	b1	가라앉다, 내려가다, 줄다	완료형에 sein 씀	claude-sonnet-5
+sinn	der Sinn	b1	의미, 뜻, 소용		claude-sonnet-5
+sinnlos	sinnlos	b1	무의미한, 쓸데없는		claude-sonnet-5
+sinnvoll	sinnvoll	b1	의미 있는, 타당한		claude-sonnet-5
+sitz	der Sitz	b1	좌석, 자리		claude-sonnet-5
+sessel	der Sessel	b1	안락의자		claude-sonnet-5
+sicherheit	die Sicherheit	b1	안전, 안전성		claude-sonnet-5
+sichern	sichern	b1	저장하다, 백업하다, 확보하다		claude-sonnet-5
+sobald	sobald	b1	~하자마자	종속접속사	claude-sonnet-5
+socke	die Socke	b1	양말		claude-sonnet-5
+sodass	sodass	b1	그래서, ~하도록	종속접속사	claude-sonnet-5
+sogenannt	sogenannt-	b1	이른바, 소위		claude-sonnet-5
+solange	solange	b1	~하는 동안, ~하는 한	종속접속사	claude-sonnet-5
+solch	solch-	b1	그러한, 이러한	지시대명사	claude-sonnet-5
+sonderangebot	das Sonderangebot	b1	특가 상품, 특별 할인		claude-sonnet-5
+sondern	sondern	b1	그러나, ~이 아니라	품사표기 오류(접속사)	claude-sonnet-5
+sorgen	sorgen	b1	돌보다, 마련하다, 신경 쓰다	für+4격 지배	claude-sonnet-5
+sorge	die Sorge	b1	걱정, 근심		claude-sonnet-5
+versprechen	versprechen	b1	약속하다		claude-sonnet-5
+verstaendlich	verständlich	b1	이해할 수 있는, 이해되는		claude-sonnet-5
+verstaendnis	das Verständnis	b1	이해, 양해		claude-sonnet-5
+verstecken	(sich) verstecken	b1	숨기다, 숨다	재귀동사도 가능	claude-sonnet-5
+versuch	der Versuch	b1	실험, 시도		claude-sonnet-5
+verteilen	verteilen	b1	나누어 주다, 분배하다		claude-sonnet-5
+verwenden	verwenden	b1	사용하다, 쓰다		claude-sonnet-5
+verzeihen	verzeihen	b1	용서하다		claude-sonnet-5
+verzeihung	Verzeihung	b1	죄송합니다, 실례합니다	감탄사처럼 씀	claude-sonnet-5
+verzichten	verzichten	b1	포기하다, 단념하다	auf+4격	claude-sonnet-5
+video	das Video	b1	비디오, 영상		claude-sonnet-5
+vertrauen	vertrauen	b1	신뢰하다, 믿다	3격 지배	claude-sonnet-5
+vertrauen-2	das Vertrauen	b1	신뢰, 믿음		claude-sonnet-5
+vertreten	vertreten	b1	대신하다, 대표하다		claude-sonnet-5
+vertreter	der Vertreter	b1	대리인, 대표자		claude-sonnet-5
+vertreterin	die Vertreterin	b1	대리인, 대표자	Vertreter의 여성형	claude-sonnet-5
+vertretung	die Vertretung	b1	대리, 대행		claude-sonnet-5
+verurteilen	verurteilen	b1	유죄를 선고하다, 비난하다		claude-sonnet-5
+verwaltung	die Verwaltung	b1	행정, 관리		claude-sonnet-5
+verwandt	verwandt	b1	친척인, 관련된		claude-sonnet-5
+verwandte-2	die Verwandte	b1	친척	형용사 변화 명사	claude-sonnet-5
+verwechseln	verwechseln	b1	혼동하다, 착각하다		claude-sonnet-5
+viertel	das Viertel	b1	구역, 지역, 4분의 1		claude-sonnet-5
+virtuell	virtuell	b1	가상의		claude-sonnet-5
+virus	der Virus	b1	바이러스		claude-sonnet-5
+visitenkarte	die Visitenkarte	b1	명함		claude-sonnet-5
+visum	das Visum	b1	비자	복수형 Visa	claude-sonnet-5
+vitamin	das Vitamin	b1	비타민		claude-sonnet-5
+vollzeit	die Vollzeit	b1	전일제, 풀타임		claude-sonnet-5
+volleyball-2	Volleyball	b1	배구		claude-sonnet-5
+voellig	völlig	b1	완전한, 전적인		claude-sonnet-5
+voneinander	voneinander	b1	서로에게서, 서로		claude-sonnet-5
+vor-allem	vor allem	b1	무엇보다도, 특히		claude-sonnet-5
+voraus	voraus	b1	미리, 앞서	im Voraus=미리	claude-sonnet-5
+voraussetzung	die Voraussetzung	b1	전제 조건, 조건		claude-sonnet-5
+voraussichtlich	voraussichtlich	b1	예상되는, 아마		claude-sonnet-5
+vorbereitung	die Vorbereitung	b1	준비		claude-sonnet-5
+vorder	vorder-	b1	앞의, 앞쪽의	명사 앞에서만 씀	claude-sonnet-5
+vorfahrt	die Vorfahrt	b1	우선 통행권		claude-sonnet-5
+vorhaben	vorhaben	b1	계획하다, 예정하다	분리동사	claude-sonnet-5
+vorhin	vorhin	b1	아까, 조금 전에		claude-sonnet-5
+vorkommen	vorkommen	b1	일어나다, 생기다	분리동사	claude-sonnet-5
+vorlaeufig	vorläufig	b1	잠정적인, 임시의		claude-sonnet-5
+vorlesen	vorlesen	b1	읽어 주다, 낭독하다	분리동사	claude-sonnet-5
+vorn	vorn	b1	앞에, 앞쪽에	von vorne=처음부터	claude-sonnet-5
+vorort	der Vorort	b1	교외, 근교		claude-sonnet-5
+vorschlagen	vorschlagen	b1	제안하다	분리동사	claude-sonnet-5
+vorschrift	die Vorschrift	b1	규정, 규칙		claude-sonnet-5
+vorstellung	die Vorstellung	b1	상영, 공연, 상상		claude-sonnet-5
+vorstellungsgespraech	das Vorstellungsgespräch	b1	면접		claude-sonnet-5
+vorteil	der Vorteil	b1	장점, 이점		claude-sonnet-5
+vortrag	der Vortrag	b1	강연, 발표		claude-sonnet-5
+vorwurf	der Vorwurf	b1	비난, 질책	jm etw vorwerfen	claude-sonnet-5
+waagerecht	waagerecht	b1	수평의, 가로의		claude-sonnet-5
+wachsen	wachsen	b1	자라다, 성장하다		claude-sonnet-5
+ware	die Ware	b1	상품, 물품		claude-sonnet-5
+wahl	die Wahl	b1	선택, 선거		claude-sonnet-5
+wahnsinnig	wahnsinnig	b1	미친, 굉장히	구어, 부사로 강조	claude-sonnet-5
+wahrheit	die Wahrheit	b1	진실, 사실		claude-sonnet-5
+waehrend	während	b1	~하는 동안, ~중에	종속접속사·전치사(2격)	claude-sonnet-5
+vase	die Vase	b1	꽃병		claude-sonnet-5
+vegetarisch	vegetarisch	b1	채식의, 채식주의의		claude-sonnet-5
+velo	das Velo	b1	자전거	스위스식 표현	claude-sonnet-5
+verabreden	(sich) verabreden	b1	약속하다, 만나기로 하다	재귀동사	claude-sonnet-5
+verabredung	die Verabredung	b1	약속, 만남		claude-sonnet-5
+verabschieden	(sich) verabschieden	b1	작별 인사하다, 배웅하다	재귀동사	claude-sonnet-5
+abschied	der Abschied	b1	작별, 이별		claude-sonnet-5
+veraendern	(sich) verändern	b1	바꾸다, 변화시키다, 변하다	재귀동사	claude-sonnet-5
+verantwortlich	verantwortlich	b1	책임이 있는		claude-sonnet-5
+verantwortung	die Verantwortung	b1	책임		claude-sonnet-5
+verbessern	(sich) verbessern	b1	개선하다, 향상시키다, 나아지다	재귀동사	claude-sonnet-5
+verbot	das Verbot	b1	금지		claude-sonnet-5
+verbinden	verbinden	b1	붕대를 감다, 연결하다, 잇다	전화 연결도 씀	claude-sonnet-5
+verbindung	die Verbindung	b1	연결, 노선, 통화 상태		claude-sonnet-5
+verbrauchen	verbrauchen	b1	소비하다, 소모하다		claude-sonnet-5
+verbrecher	der Verbrecher	b1	범죄자		claude-sonnet-5
+verbrecherin	die Verbrecherin	b1	여성 범죄자		claude-sonnet-5
+verbrennen	(sich) verbrennen	b1	태우다, 화상을 입다, 데다	재귀동사	claude-sonnet-5
+verbringen	verbringen	b1	보내다	목적어는 시간	claude-sonnet-5
+verdacht	der Verdacht	b1	의심, 혐의		claude-sonnet-5
+verdaechtig	verdächtig	b1	의심스러운, 수상한		claude-sonnet-5
+vergangenheit	die Vergangenheit	b1	과거		claude-sonnet-5
+vergeblich	vergeblich	b1	헛된, 소용없는		claude-sonnet-5
+sich-vergnuegen	sich vergnügen	b1	즐기다, 즐겁게 놀다	재귀동사	claude-sonnet-5
+vergnuegen	das Vergnügen	b1	즐거움, 기쁨, 재미		claude-sonnet-5
+vergnuegt	vergnügt	b1	즐거운, 유쾌한		claude-sonnet-5
+vergroessern	vergrößern	b1	확대하다, 확장하다, 늘리다		claude-sonnet-5
+verhaften	verhaften	b1	체포하다		claude-sonnet-5
+sich-verhalten	sich verhalten	b1	행동하다, 처신하다	재귀동사	claude-sonnet-5
+verhalten	das Verhalten	b1	행동, 태도		claude-sonnet-5
+verhaeltnis	das Verhältnis	b1	관계		claude-sonnet-5
+verhindern	verhindern	b1	막다, 방지하다		claude-sonnet-5
+verlag	der Verlag	b1	출판사		claude-sonnet-5
+verlangen	verlangen	b1	요구하다, 청구하다, 부르다	전화로 찾다도 됨	claude-sonnet-5
+verlaengern	verlängern	b1	연장하다, 늘리다		claude-sonnet-5
+verlassen	verlassen	b1	떠나다, 믿다, 의지하다	sich verlassen auf=믿다	claude-sonnet-5
+sich-verlaufen	sich verlaufen	b1	길을 잃다	재귀동사	claude-sonnet-5
+verletzung	die Verletzung	b1	부상, 상처		claude-sonnet-5
+verlierer	der Verlierer	b1	패배자		claude-sonnet-5
+verliererin	die Verliererin	b1	여성 패배자		claude-sonnet-5
+verlust	der Verlust	b1	손실, 분실		claude-sonnet-5
+vermeiden	vermeiden	b1	피하다		claude-sonnet-5
+vermieterin	die Vermieterin	b1	여성 집주인, 임대인		claude-sonnet-5
+vermietung	die Vermietung	b1	임대		claude-sonnet-5
+vermissen	vermissen	b1	그리워하다		claude-sonnet-5
+vermittlung	die Vermittlung	b1	안내소, 중개소, 교환대		claude-sonnet-5
+vermuten	vermuten	b1	추측하다, 짐작하다		claude-sonnet-5
+vernuenftig	vernünftig	b1	이성적인, 분별 있는, 합리적인		claude-sonnet-5
+verpacken	verpacken	b1	포장하다		claude-sonnet-5
+verpflegen	verpflegen	b1	식사를 제공하다, 부양하다		claude-sonnet-5
+verpflichtet	verpflichtet	b1	의무가 있는	verpflichten의 분사형	claude-sonnet-5
+verraten	verraten	b1	누설하다, 배신하다, 드러내다		claude-sonnet-5
+verrueckt	verrückt	b1	미친, 정신 나간		claude-sonnet-5
+versammlung	die Versammlung	b1	모임, 집회		claude-sonnet-5
+versaeumen	versäumen	b1	놓치다		claude-sonnet-5
+verschreiben	verschreiben	b1	처방하다		claude-sonnet-5
+verschwinden	verschwinden	b1	사라지다, 없어지다		claude-sonnet-5
+versichern	versichern	b1	보험에 들다, 보증하다		claude-sonnet-5
+versichertenkarte	die Versichertenkarte	b1	건강보험증, 보험 카드		claude-sonnet-5
+versicherung	die Versicherung	b1	보험, 보험회사		claude-sonnet-5
+uebernehmen	übernehmen	b1	인수하다, 넘겨받다, 맡다		claude-sonnet-5
+ueberpruefen	überprüfen	b1	검토하다, 점검하다, 확인하다		claude-sonnet-5
+ueberqueren	überqueren	b1	건너다, 횡단하다		claude-sonnet-5
+ueberraschen	überraschen	b1	놀라게 하다	과거분사가 형용사처럼 쓰임	claude-sonnet-5
+ueberraschung	die Überraschung	b1	놀람, 뜻밖의 일, 서프라이즈		claude-sonnet-5
+ueberreden	überreden	b1	설득하다	jn zu etw 설득	claude-sonnet-5
+ueberschrift	die Überschrift	b1	제목, 표제		claude-sonnet-5
+uebersetzer	der Übersetzer	b1	번역가, 통역사	남성형	claude-sonnet-5
+uebersetzerin	die Übersetzerin	b1	번역가, 통역사	여성형	claude-sonnet-5
+ueberstunde	die Überstunde	b1	초과근무, 야근	주로 복수형	claude-sonnet-5
+uebertreiben	übertreiben	b1	과장하다, 지나치게 하다		claude-sonnet-5
+ueberweisung	die Überweisung	b1	계좌이체, 진료의뢰서	송금·소견서 두 뜻	claude-sonnet-5
+ueberzeugen	(sich) überzeugen	b1	설득하다, 확신시키다, 확신하다	재귀동사 가능	claude-sonnet-5
+ueberzeugung	die Überzeugung	b1	확신, 신념		claude-sonnet-5
+ueblich	üblich	b1	흔한, 보통의, 관례적인		claude-sonnet-5
+uebrig	übrig	b1	남은, 나머지의		claude-sonnet-5
+uebrigens	übrigens	b1	그런데, 그건 그렇고		claude-sonnet-5
+ufer	das Ufer	b1	강변, 기슭, 호숫가		claude-sonnet-5
+umarmen	umarmen	b1	포옹하다, 껴안다		claude-sonnet-5
+um-zu	um … zu	b1	~하기 위해	zu부정사 구문	claude-sonnet-5
+umdrehen	(sich) umdrehen	b1	돌리다, 뒤집다, 돌아보다	분리동사	claude-sonnet-5
+umfrage	die Umfrage	b1	설문조사, 여론조사		claude-sonnet-5
+umgebung	die Umgebung	b1	주변, 근처, 환경		claude-sonnet-5
+umgehen	umgehen	b1	다루다, 대처하다	mit+3격, 분리동사	claude-sonnet-5
+umgekehrt	umgekehrt	b1	반대의, 거꾸로		claude-sonnet-5
+umleitung	die Umleitung	b1	우회로, 우회		claude-sonnet-5
+umso	umso	b1	더욱더, 그럴수록	je~umso 구문	claude-sonnet-5
+umsonst	umsonst	b1	공짜로, 헛되이		claude-sonnet-5
+umtauschen	umtauschen	b1	교환하다, 환전하다	분리동사	claude-sonnet-5
+umtausch	der Umtausch	b1	교환		claude-sonnet-5
+umwelt	die Umwelt	b1	환경		claude-sonnet-5
+umweltschutz	der Umweltschutz	b1	환경보호		claude-sonnet-5
+uniform	die Uniform	b1	제복, 유니폼		claude-sonnet-5
+unterbrechen	unterbrechen	b1	중단시키다, 가로막다, 방해하다		claude-sonnet-5
+umweltverschmutzung	die Umweltverschmutzung	b1	환경오염		claude-sonnet-5
+un	un-	b1	안~, 못~, 비~(부정의 뜻)	형용사 부정 접두사	claude-sonnet-5
+unterhaltung	die Unterhaltung	b1	오락, 즐거움, 대화		claude-sonnet-5
+unterlagen	die Unterlagen	b1	서류, 자료	복수형만 씀	claude-sonnet-5
+unterlassen	unterlassen	b1	그만두다, 삼가다	격식체	claude-sonnet-5
+ungefaehr	ungefähr	b1	대략, 약		claude-sonnet-5
+ungewoehnlich	ungewöhnlich	b1	특이한, 이상한, 드문		claude-sonnet-5
+unglaublich	unglaublich	b1	믿을 수 없는, 놀라운		claude-sonnet-5
+unglueck	das Unglück	b1	불행, 사고, 재난		claude-sonnet-5
+unheimlich	unheimlich	b1	으스스한, 무서운, 엄청	구어 강조부사로도 씀	claude-sonnet-5
+unternehmer	der Unternehmer	b1	기업가, 사업가	남성형	claude-sonnet-5
+unternehmerin	die Unternehmerin	b1	기업가, 사업가	여성형	claude-sonnet-5
+unterrichten	unterrichten	b1	가르치다, 교육하다		claude-sonnet-5
+untersagt	untersagt	b1	금지된	과거분사, 형용사처럼 씀	claude-sonnet-5
+unterscheiden	unterscheiden	b1	구별하다, 구분하다		claude-sonnet-5
+unterschiedlich	unterschiedlich	b1	다른, 상이한, 다양한		claude-sonnet-5
+unterstreichen	unterstreichen	b1	밑줄을 긋다, 강조하다		claude-sonnet-5
+unterstuetzen	unterstützen	b1	지원하다, 돕다		claude-sonnet-5
+unterstuetzung	die Unterstützung	b1	지원, 도움		claude-sonnet-5
+untersuchung	die Untersuchung	b1	검사, 조사, 진찰		claude-sonnet-5
+unterwegs	unterwegs	b1	가는 중, 도중에, 이동 중		claude-sonnet-5
+urkunde	die Urkunde	b1	증서, 상장		claude-sonnet-5
+ursache	die Ursache	b1	원인		claude-sonnet-5
+verursachen	verursachen	b1	일으키다, 초래하다		claude-sonnet-5
+urspruenglich	ursprünglich	b1	원래, 본래		claude-sonnet-5
+urteil	das Urteil	b1	판단, 판결		claude-sonnet-5
+zange	die Zange	b1	펜치, 집게		claude-sonnet-5
+zeichen	das Zeichen	b1	신호, 표시, 기호		claude-sonnet-5
+verkehrszeichen	das Verkehrszeichen	b1	교통 표지판		claude-sonnet-5
+zeichnung	die Zeichnung	b1	그림, 도면		claude-sonnet-5
+zeile	die Zeile	b1	줄, 행		claude-sonnet-5
+ziehen	ziehen	b1	당기다, 이사하다, (바람이) 들어오다	이동 뜻엔 sein	claude-sonnet-5
+ziemlich	ziemlich	b1	꽤, 상당히		claude-sonnet-5
+zeitpunkt	der Zeitpunkt	b1	시점, 시기		claude-sonnet-5
+zelten	zelten	b1	캠핑하다, 야영하다		claude-sonnet-5
+zentral	zentral	b1	중심의, 중앙의		claude-sonnet-5
+zerstoeren	zerstören	b1	파괴하다		claude-sonnet-5
+zertifikat	das Zertifikat	b1	증명서, 자격증		claude-sonnet-5
+zeug	das Zeug/-zeug	b1	물건, 것들	구어	claude-sonnet-5
+zinsen-nur-pl	die Zinsen (nur Pl.)	b1	이자	복수형만 씀	claude-sonnet-5
+zivilstand	der Zivilstand	b1	혼인 상태, 신분	스위스식 표현	claude-sonnet-5
+zone	die Zone	b1	구역, 지대		claude-sonnet-5
+zeuge	der Zeuge	b1	증인, 목격자	남성형	claude-sonnet-5
+zeugin	die Zeugin	b1	증인, 목격자	여성형	claude-sonnet-5
+zubereiten	zubereiten	b1	준비하다, 조리하다	분리동사	claude-sonnet-5
+zufall	der Zufall	b1	우연, 우연의 일치		claude-sonnet-5
+zufaellig	zufällig	b1	우연한, 우연히, 혹시		claude-sonnet-5
+zuender	die Zünder	b1	성냥	스위스어, 성냥 뜻	claude-sonnet-5
+zuendholz	das Zündholz	b1	성냥		claude-sonnet-5
+zunehmen	zunehmen	b1	살찌다, 증가하다	분리동사	claude-sonnet-5
+zurechtkommen	zurechtkommen	b1	잘 해내다, 그럭저럭 지내다	분리동사	claude-sonnet-5
+zugang	der Zugang	b1	입구, 접근		claude-sonnet-5
+zugaenglich	zugänglich	b1	접근 가능한, 개방된		claude-sonnet-5
+zugehen	zugehen	b1	닫히다, 다가가다	분리동사	claude-sonnet-5
+zuhause	das Zuhause	b1	집, 보금자리		claude-sonnet-5
+zuhoerer	der Zuhörer	b1	청취자, 청중	남성형	claude-sonnet-5
+zuhoererin	die Zuhörerin	b1	청취자, 청중	여성형	claude-sonnet-5
+zukunft	die Zukunft	b1	미래, 장래		claude-sonnet-5
+zukuenftig	zukünftig	b1	미래의, 앞으로		claude-sonnet-5
+zumindest	zumindest	b1	적어도, 최소한		claude-sonnet-5
+zunaechst	zunächst	b1	우선, 먼저		claude-sonnet-5
+zusagen	zusagen	b1	승낙하다, 수락하다	분리동사	claude-sonnet-5
+zusammenarbeit	die Zusammenarbeit	b1	협력, 협업		claude-sonnet-5
+zusammenfassen	zusammenfassen	b1	요약하다	분리동사	claude-sonnet-5
+zusammenhang	der Zusammenhang	b1	연관성, 맥락		claude-sonnet-5
+zusaetzlich	zusätzlich	b1	추가의, 부가적인		claude-sonnet-5
+zuschauen	zuschauen	b1	구경하다, 지켜보다	분리동사	claude-sonnet-5
+zuschauer	der Zuschauer	b1	관객, 시청자	남성형	claude-sonnet-5
+zuschlag	der Zuschlag	b1	추가 요금, 할증료		claude-sonnet-5
+zustand	der Zustand	b1	상태		claude-sonnet-5
+zustaendig	zuständig	b1	담당하는, 책임 있는		claude-sonnet-5
+zustimmen	zustimmen	b1	동의하다, 찬성하다	분리동사	claude-sonnet-5
+zustimmung	die Zustimmung	b1	동의, 승인		claude-sonnet-5
+zutaten	die Zutaten	b1	재료	주로 복수형	claude-sonnet-5
+zuverlaessig	zuverlässig	b1	믿을 만한, 신뢰할 수 있는		claude-sonnet-5
+zwar	zwar	b1	비록 ~이지만, 즉	'und zwar'는 구체적으로	claude-sonnet-5
+zweck	der Zweck	b1	목적		claude-sonnet-5
+zweifeln	zweifeln	b1	의심하다		claude-sonnet-5
+zweifel	der Zweifel	b1	의심, 의문		claude-sonnet-5
+zwiebel	die Zwiebel	b1	양파		claude-sonnet-5
+zwingen	(sich) zwingen	b1	강요하다, 강제하다	재귀동사	claude-sonnet-5
+wand	die Wand	b1	벽		claude-sonnet-5
+wanderung	die Wanderung	b1	도보 여행, 하이킹		claude-sonnet-5
+warmen-pullover	warmen Pullover	b1	따뜻한	형용사 어미변화형	claude-sonnet-5
+waerme	die Wärme	b1	온기, 따뜻함, 열		claude-sonnet-5
+warnen	warnen	b1	경고하다, 주의를 주다		claude-sonnet-5
+waschmittel	das Waschmittel	b1	세제		claude-sonnet-5
+wecker	der Wecker	b1	자명종, 알람시계		claude-sonnet-5
+weder-noch	weder … noch	b1	~도 ~도 아닌	상관접속사	claude-sonnet-5
+weigern	(sich) weigern	b1	거부하다, 거절하다	재귀동사	claude-sonnet-5
+weise	-weise	b1	~하게, ~적으로	접미사, 부사형성	claude-sonnet-5
+weiterbildung	die Weiterbildung	b1	재교육, 계속교육		claude-sonnet-5
+weltweit	weltweit	b1	전 세계의, 전 세계적으로		claude-sonnet-5
+wenden	wenden	b1	돌리다, 방향을 바꾸다	약/강변화 모두 가능	claude-sonnet-5
+werbung	die Werbung	b1	광고		claude-sonnet-5
+werfen	werfen	b1	던지다		claude-sonnet-5
+werk	das Werk	b1	공장, 작품		claude-sonnet-5
+werkzeug	das Werkzeug	b1	도구, 연장		claude-sonnet-5
+wert	wert	b1	가치 있는		claude-sonnet-5
+wert-2	der Wert	b1	가치, 값, 중요성	구문:Wert legen auf	claude-sonnet-5
+wertlos	wertlos	b1	가치 없는, 쓸모없는		claude-sonnet-5
+wertvoll	wertvoll	b1	귀중한, 가치 있는		claude-sonnet-5
+weshalb	weshalb	b1	왜, 그런 이유로		claude-sonnet-5
+wetten	wetten	b1	내기하다, 장담하다	구어체 표현	claude-sonnet-5
+wetterbericht	der Wetterbericht	b1	일기예보		claude-sonnet-5
+wettervorhersage	die Wettervorhersage	b1	일기예보		claude-sonnet-5
+widersprechen	widersprechen	b1	반박하다, 모순되다	3격 지배	claude-sonnet-5
+wiederholung	die Wiederholung	b1	반복, 재시험		claude-sonnet-5
+wiegen	wiegen	b1	무게가 나가다, 무게를 달다		claude-sonnet-5
+wild	wild	b1	야생의, 거친, 사나운		claude-sonnet-5
+wiese	die Wiese	b1	초원, 풀밭		claude-sonnet-5
+wieso	wieso	b1	어째서, 왜		claude-sonnet-5
+wie-viele	wie viel(e)	b1	얼마나, 몇		claude-sonnet-5
+winken	winken	b1	손을 흔들다		claude-sonnet-5
+wirken	wirken	b1	효과가 있다, 작용하다		claude-sonnet-5
+wirkung	die Wirkung	b1	효과, 작용		claude-sonnet-5
+wirklichkeit	die Wirklichkeit	b1	현실, 실제	in Wirklichkeit=실제로	claude-sonnet-5
+wirt	der Wirt	b1	주인, 주인장		claude-sonnet-5
+wirtin	die Wirtin	b1	여주인, 안주인		claude-sonnet-5
+wirtschaft	die Wirtschaft	b1	경제		claude-sonnet-5
+wissen-2	das Wissen	b1	지식		claude-sonnet-5
+wissenschaft	die Wissenschaft	b1	학문, 과학		claude-sonnet-5
+wissenschaftler	der Wissenschaftler	b1	학자, 과학자		claude-sonnet-5
+wissenschaftlerin	die Wissenschaftlerin	b1	여성 학자, 여성 과학자		claude-sonnet-5
+wohl	wohl	b1	편안한, 좋은, 아마도	화법조사	claude-sonnet-5
+wohnort	der Wohnort	b1	거주지, 주소지		claude-sonnet-5
+wohnsitz	der Wohnsitz	b1	거주지, 주소		claude-sonnet-5
+wolle	die Wolle	b1	양모, 털실		claude-sonnet-5
+worueber	worüber	b1	무엇에 대해	의문부사	claude-sonnet-5
+worum	worum	b1	무엇에 관하여, 무엇을	의문부사	claude-sonnet-5
+woerterbuch	das Wörterbuch	b1	사전		claude-sonnet-5
+wunde	die Wunde	b1	상처		claude-sonnet-5
+wunder	das Wunder	b1	기적	kein Wunder=당연하다	claude-sonnet-5
+wunderschoen	wunderschön	b1	아주 아름다운, 멋진		claude-sonnet-5
+sich-wundern	sich wundern	b1	놀라다, 의아해하다	재귀동사	claude-sonnet-5
+wuetend	wütend	b1	화난, 격노한		claude-sonnet-5
+anzahl	die Anzahl	b1	수, 수효, 개수		claude-sonnet-5
+zahlreich	zahlreich	b1	수많은, 다수의		claude-sonnet-5
+zahlung	die Zahlung	b1	지불, 납부		claude-sonnet-5
+zaehlen	zählen	b1	세다, 계산하다, 의지하다	zählen auf=의지하다	claude-sonnet-5
+zahncreme	die Zahncreme/-pasta	b1	치약	-pasta도 사용	claude-sonnet-5
