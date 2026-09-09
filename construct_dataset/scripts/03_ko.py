@@ -79,7 +79,7 @@ def build_prompt(entries: list[dict], pos_hint: dict[str, str]) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--levels", default=",".join(LEVELS))
-    ap.add_argument("--backend", choices=["auto", "sdk", "cli"], default="auto")
+    ap.add_argument("--backend", choices=["auto", "sdk", "cli", "codex"], default="auto")
     ap.add_argument("--model", default=None, help="sdk 기본 claude-opus-5, cli 기본은 Claude Code 설정값")
     ap.add_argument("--effort", choices=["low", "medium", "high", "max"], default=None)
     ap.add_argument("--workers", type=int, default=2, help="동시에 보낼 요청 수")
@@ -106,7 +106,7 @@ def main() -> None:
         return
 
     backend = pick_backend(args.backend)
-    model_label = args.model or (SDK_MODEL if backend == "sdk" else "claude-code-default")
+    model_label = args.model or (SDK_MODEL if backend == "sdk" else f"{backend}-default")
     log(f"  backend={backend} model={model_label} workers={args.workers}")
 
     if not OVERRIDES.exists():

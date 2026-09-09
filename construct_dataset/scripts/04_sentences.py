@@ -17,7 +17,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 
-from common import LEVELS, SENTENCE_DRAFT, WORDLIST, log, read_jsonl, read_tsv
+from common import LEVELS, SENTENCE_DRAFT, WORDLIST, log, read_jsonl, read_tsv, write_tsv
 from ids import unique_sentences
 from llm import pick_backend, run_chunks
 
@@ -60,10 +60,25 @@ def build_prompt(entries: list[dict]) -> str:
     return f"다음 {len(items)}개 독일어 예문의 ko를 써라.\n" + json.dumps(items, ensure_ascii=False, indent=1)
 
 
+def read_drafts() -> list[dict]:
+    """중단된 두 실행이 겹쳤을 때도 id당 첫 성공 응답 하나만 남긴다."""
+    rows = read_tsv(SENTENCE_DRAFT)
+    unique = []
+    seen = set()
+    for row in rows:
+        if row["id"] not in seen:
+            unique.append(row)
+            seen.add(row["id"])
+    if len(unique) != len(rows):
+        write_tsv(SENTENCE_DRAFT, unique, DRAFT_FIELDS)
+        log(f"sentences: removed {len(rows) - len(unique)} duplicate draft rows")
+    return unique
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--levels", default=",".join(LEVELS))
-    ap.add_argument("--backend", choices=["auto", "sdk", "cli"], default="auto")
+    ap.add_argument("--backend", choices=["auto", "sdk", "cli", "codex"], default="auto")
     ap.add_argument("--model", default=None, help="sdk 기본 claude-sonnet-4-5, cli 기본은 Claude Code 설정값")
     ap.add_argument("--effort", choices=["low", "medium", "high", "max"], default="low")
     ap.add_argument("--workers", type=int, default=4, help="동시에 보낼 요청 수")
@@ -75,7 +90,7 @@ def main() -> None:
     levels = {level.strip().lower() for level in args.levels.split(",") if level.strip()}
     all_sentences = unique_sentences(read_jsonl(WORDLIST))
     entries = [entry for entry in all_sentences if entry["level"] in levels]
-    done = {row["id"] for row in read_tsv(SENTENCE_DRAFT)}
+    done = {row["id"] for row in read_drafts()}
     todo = [entry for entry in entries if entry["id"] not in done]
     if args.limit is not None:
         todo = todo[:args.limit]
@@ -93,7 +108,7 @@ def main() -> None:
         return
 
     backend = pick_backend(args.backend)
-    model_label = args.model or (SDK_MODEL if backend == "sdk" else "claude-code-default")
+    model_label = args.model or (SDK_MODEL if backend == "sdk" else f"{backend}-default")
     log(f"  backend={backend} model={model_label} effort={args.effort} workers={args.workers}")
 
     new_file = not SENTENCE_DRAFT.exists()

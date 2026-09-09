@@ -5,7 +5,9 @@ import json
 import os
 import shutil
 import subprocess
+import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 from typing import Callable, TypeVar
 
 from pydantic import BaseModel
@@ -85,6 +87,39 @@ def call_cli(
     return batch_type.model_validate(data["structured_output"]), label
 
 
+def call_codex(
+    prompt: str,
+    *,
+    system: str,
+    batch_type: type[BatchT],
+    model: str | None,
+) -> tuple[BatchT, str]:
+    """Codex CLI에 JSON 스키마를 맡기고 마지막 응답만 읽는다.
+
+    Codex는 Claude의 ``--effort`` 인자를 쓰지 않는다. 스키마 파일과 마지막
+    메시지는 임시 디렉터리에만 두고, 모델에는 읽기 전용 sandbox를 준다.
+    """
+    with tempfile.TemporaryDirectory(prefix="german-sentences-codex-") as tmp:
+        temp = Path(tmp)
+        schema = temp / "schema.json"
+        output = temp / "output.json"
+        schema.write_text(json.dumps(batch_type.model_json_schema()), encoding="utf-8")
+        cmd = [
+            "codex", "exec", "--ephemeral", "--sandbox", "read-only", "--color", "never",
+            "--output-schema", str(schema), "--output-last-message", str(output),
+        ]
+        if model:
+            cmd += ["--model", model]
+        cmd.append(f"{system}\n\n{prompt}\n\nJSON 외에는 아무것도 출력하지 마라.")
+        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+        if proc.returncode != 0:
+            detail = (proc.stderr.strip() or proc.stdout.strip())[:400]
+            raise RuntimeError(f"codex exit {proc.returncode}: {detail}")
+        if not output.exists():
+            raise RuntimeError("codex가 마지막 JSON 응답을 쓰지 않았다")
+        return batch_type.model_validate_json(output.read_text(encoding="utf-8")), (model or "codex-default")
+
+
 def run_chunks(
     entries: list[dict],
     *,
@@ -111,11 +146,17 @@ def run_chunks(
                 prompt, system=system, batch_type=batch_type,
                 model=model or sdk_model, effort=effort,
             )
-        else:
+        elif backend == "cli":
             batch, used = call_cli(
                 prompt, system=system, batch_type=batch_type,
                 model=model, effort=effort,
             )
+        elif backend == "codex":
+            batch, used = call_codex(
+                prompt, system=system, batch_type=batch_type, model=model,
+            )
+        else:
+            raise ValueError(f"unknown backend: {backend}")
         wanted = {entry["id"]: entry for entry in chunk}
         got_by_id = {}
         for item in batch.items:

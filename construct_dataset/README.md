@@ -23,7 +23,7 @@ Piper가 단어와 문장을 mp3로 읽는다.
 
 시작하기 전에 `git`, `curl`, `uv`, `ffmpeg`가 있어야 한다. 언어 모델은
 `ANTHROPIC_API_KEY`나 `ANTHROPIC_AUTH_TOKEN`이 설정되어 있거나, 로컬에서
-`claude` CLI를 실행할 수 있어야 한다.
+`claude` 또는 `codex` CLI를 실행할 수 있어야 한다.
 
 조건이 갖춰졌다면 저장소 루트에서 다음 한 줄로 전체 파이프라인을 실행한다.
 
@@ -87,6 +87,7 @@ make ko
 
 ```bash
 make ko KO_ARGS="--levels a1 --model sonnet --workers 4"
+make ko KO_ARGS="--levels a1 --backend codex --workers 4"
 ```
 
 ### 4. 예문을 한국어로 번역한다
@@ -101,11 +102,13 @@ make sentences
 
 ```bash
 make sentences SENTENCE_ARGS="--levels a1 --model sonnet --workers 4"
+make sentences SENTENCE_ARGS="--levels a1 --backend codex --workers 4"
 ```
 
-3·4단계는 API 자격 증명이 있으면 Anthropic SDK를 쓰고, 없으면 `claude` CLI를
-찾는다. 어느 쪽도 없다면 여기서 멈춘다. 이미 저장된 id는 다시 요청하지
-않으므로 중단 후 재실행해도 앞선 비용을 되풀이하지 않는다.
+3·4단계는 기본값 `auto`에서 API 자격 증명이 있으면 Anthropic SDK를 쓰고,
+없으면 `claude` CLI를 찾는다. `--backend codex`를 주면 Codex CLI를 쓴다.
+이미 저장된 id는 다시 요청하지 않으므로 중단 후 재실행해도 앞선 비용을
+되풀이하지 않는다.
 
 ### 5. 앱이 읽는 JSON을 만든다
 
