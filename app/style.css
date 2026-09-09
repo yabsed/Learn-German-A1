@@ -285,6 +285,28 @@ main {
 .ex-en { font-size: 13px; color: var(--faint); margin-top: 1px; }
 .ex-ko.veiled { color: transparent; background: var(--line); border-radius: 4px; cursor: pointer; }
 
+/* 예문의 절반 넘는 낱말에 링크가 걸린다. 파랗게 밑줄을 그으면 문장이 아니라
+   목록처럼 보이므로, 읽는 것을 방해하지 않을 만큼만 표시하고 손을 얹었을
+   때 드러나게 한다. */
+.ex-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+.ex-link:hover, .ex-link:focus-visible {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  outline: none;
+}
+/* 이 예문이 왜 여기 붙어 있는지 보이게 지금 보는 단어를 짚어 둔다. */
+.ex-here {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: 0 -2px;
+}
+
 .more {
   margin-top: 10px;
   background: none;

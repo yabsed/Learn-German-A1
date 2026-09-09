@@ -71,7 +71,9 @@ def link_audio(ids: list[str], out: Path) -> tuple[int, int, int]:
             missing += 1
             continue
         if target.exists():
-            if target.stat().st_size == source.stat().st_size:
+            # 같은 inode 면 이미 같은 파일이다. 크기로 견주면 다시 만든 mp3 가
+            # 우연히 같은 크기일 때 옛 링크가 남는다.
+            if target.stat().st_ino == source.stat().st_ino:
                 kept += 1
                 continue
             target.unlink()

@@ -63,9 +63,16 @@ class AudioTests(unittest.TestCase):
         audio = load_script("06_audio.py")
         words = [{"id": "backofen", "lemma": "Backofen", "level": "A1"}]
         sentences = [{"id": "s123", "de": "Guten Tag!", "level": "A1"}]
+        # 단어와 예문은 일부러 다른 속도를 쓴다
         self.assertEqual(
-            list(audio.work_items(words, sentences, {"a1"})),
-            [("backofen", "Backofen", True), ("s123", "Guten Tag!", False)],
+            list(audio.work_items(words, sentences, {"a1"},
+                                  word_scale=1.25, slow=1.8, sentence_scale=1.6)),
+            [("backofen", "Backofen", (1.25, 1.8)), ("s123", "Guten Tag!", (1.6,))],
+        )
+        # 예문 속도만 바꿨을 때 단어까지 다시 만들지 않기 위한 것
+        self.assertEqual(
+            [row[0] for row in audio.work_items(words, sentences, {"a1"}, only="sentences")],
+            ["s123"],
         )
 
     def test_final_word_examples_reference_sentences(self):

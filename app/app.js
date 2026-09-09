@@ -118,7 +118,59 @@ function fullForm(w) {
   return parts.join(' · ');
 }
 
-function exampleNode(sid, sentence) {
+/* ── 예문 속 낱말 잇기 ────────────────────────────────────────────── */
+
+/** 예문에 그대로 나타난 꼴만 단어에 잇는다. 굴절형은 잇지 않는다.
+ *
+ *  ist 를 sein 에, im 을 in 에 이으려면 형태소 분석기가 필요하다. 그것을
+ *  들이지 않은 것은 틀린 링크가 맞는 링크보다 해롭기 때문이다. 학습자가
+ *  누른 낱말이 엉뚱한 단어를 열면 그 다음부터는 링크를 믿지 않는다.
+ *  이 방식으로 예문의 98%에 링크가 하나 이상 붙는다. */
+let surfaces = null;
+
+function buildSurfaces() {
+  const index = new Map();
+  const put = (text, id) => {
+    const key = (text || '').toLowerCase();
+    if (key && !index.has(key)) index.set(key, id);
+  };
+  // 표제어를 먼저 다 넣는다. 복수형이 다른 단어의 표제어를 덮지 않게 하려는 것이다.
+  for (const w of app.words) put(w.lemma, w.id);
+  for (const w of app.words) if (w.plural) put(w.plural.split(/\s+/).pop(), w.id);
+  return index;
+}
+
+const WORD_RE = /[A-Za-zÄÖÜäöüß]+/g;
+
+/** 예문을 낱말 단위로 잘라 아는 것만 링크로 만든다. 지금 보고 있는 단어는
+ *  링크 대신 표시만 한다. 제자리로 가는 링크는 누를 이유가 없다. */
+function linkedSentence(text, currentId) {
+  const frag = document.createDocumentFragment();
+  let at = 0;
+  for (const m of text.matchAll(WORD_RE)) {
+    if (m.index > at) frag.append(text.slice(at, m.index));
+    const id = surfaces.get(m[0].toLowerCase());
+    if (!id) {
+      frag.append(m[0]);
+    } else if (id === currentId) {
+      const here = document.createElement('span');
+      here.className = 'ex-here';
+      here.textContent = m[0];
+      frag.append(here);
+    } else {
+      const link = document.createElement('a');
+      link.className = 'ex-link';
+      link.href = `#/word/${id}`;
+      link.textContent = m[0];
+      frag.append(link);
+    }
+    at = m.index + m[0].length;
+  }
+  if (at < text.length) frag.append(text.slice(at));
+  return frag;
+}
+
+function exampleNode(sid, sentence, currentId) {
   const row = document.createElement('div');
   row.className = 'ex';
 
@@ -132,7 +184,7 @@ function exampleNode(sid, sentence) {
   const body = document.createElement('div');
   const de = document.createElement('div');
   de.className = 'ex-de';
-  de.textContent = sentence.de;
+  de.append(linkedSentence(sentence.de, currentId));
   body.append(de);
 
   const ko = document.createElement('div');
@@ -154,12 +206,12 @@ function exampleNode(sid, sentence) {
   return row;
 }
 
-function fillExamples(container, ids, limit, moreBtn) {
+function fillExamples(container, ids, limit, moreBtn, currentId) {
   container.textContent = '';
   const shown = limit ? ids.slice(0, limit) : ids;
   for (const sid of shown) {
     const sentence = app.sentences[sid];
-    if (sentence) container.append(exampleNode(sid, sentence));
+    if (sentence) container.append(exampleNode(sid, sentence, currentId));
   }
   if (moreBtn) moreBtn.hidden = !limit || ids.length <= limit;
 }
@@ -207,7 +259,7 @@ function reveal() {
   $('back').hidden = false;
   $('face').dataset.open = '1';
   $('grade').hidden = false;
-  fillExamples($('examples'), w.ex, EXAMPLES_AT_FIRST, $('more-examples'));
+  fillExamples($('examples'), w.ex, EXAMPLES_AT_FIRST, $('more-examples'), w.id);
   if (app.settings.autoplay) play(w.id, $('play-word'));
 }
 
@@ -279,7 +331,7 @@ function renderList() {
     dot.dataset.box = String(card(w.id).box);
 
     row.append(left, dot);
-    row.addEventListener('click', () => openSheet(w));
+    row.addEventListener('click', () => { location.hash = `#/word/${w.id}`; });
     li.append(row);
     frag.append(li);
   }
@@ -329,7 +381,7 @@ function openSheet(w) {
 
   const examples = document.createElement('div');
   examples.className = 'examples';
-  fillExamples(examples, w.ex, 0, null);
+  fillExamples(examples, w.ex, 0, null, w.id);
   body.append(examples);
 
   $('sheet-wrap').hidden = false;
@@ -337,6 +389,30 @@ function openSheet(w) {
 }
 
 function closeSheet() { $('sheet-wrap').hidden = true; }
+
+/** 시트를 닫는 것은 뒤로 가는 것이다. 눌러 온 단어를 거슬러 올라가야
+ *  하므로 직접 닫지 않고 방문 기록을 하나 물린다. */
+function leaveSheet() {
+  if (location.hash.startsWith('#/word/')) history.back();
+  else closeSheet();
+}
+
+/* ── 주소 ─────────────────────────────────────────────────────────── */
+
+const VIEWS = ['practice', 'browse', 'stats'];
+
+/** 주소가 유일한 상태다. 무엇을 누르든 주소만 바꾸고 화면은 주소를 보고
+ *  그린다. 단어마다 주소가 있으므로 예문 속 낱말을 눌러 다른 단어로 건너뛴
+ *  자취가 그대로 방문 기록에 남고, 그 단어 하나만 따로 열어 둘 수도 있다. */
+function applyRoute() {
+  const parts = location.hash.replace(/^#\/?/, '').split('/');
+  if (parts[0] === 'word' && app.byId.has(parts[1])) {
+    openSheet(app.byId.get(parts[1]));
+    return;
+  }
+  closeSheet();
+  show(VIEWS.includes(parts[0]) ? parts[0] : 'practice');
+}
 
 /* ── 진도 ─────────────────────────────────────────────────────────── */
 
@@ -373,6 +449,9 @@ function renderStats() {
 /* ── 화면 전환 ────────────────────────────────────────────────────── */
 
 function show(view) {
+  // 시트를 닫고 돌아온 것뿐이라면 목록을 다시 그리지 않는다. 찾던 말과
+  // 스크롤 자리를 그대로 두려는 것이다.
+  const moved = app.view !== view;
   app.view = view;
   for (const tab of document.querySelectorAll('.tab')) {
     tab.setAttribute('aria-selected', String(tab.dataset.view === view));
@@ -380,9 +459,9 @@ function show(view) {
   $('view-practice').hidden = view !== 'practice';
   $('view-browse').hidden = view !== 'browse';
   $('view-stats').hidden = view !== 'stats';
-  if (view === 'browse') renderList();
+  if (view === 'browse' && moved) renderList();
   if (view === 'stats') renderStats();
-  window.scrollTo(0, 0);
+  if (moved) window.scrollTo(0, 0);
 }
 
 /* ── 오프라인 저장 ────────────────────────────────────────────────── */
@@ -432,11 +511,11 @@ function wireUp() {
 
   $('more-examples').addEventListener('click', () => {
     const w = app.byId.get(app.queue[app.at]);
-    fillExamples($('examples'), w.ex, 0, $('more-examples'));
+    fillExamples($('examples'), w.ex, 0, $('more-examples'), w.id);
   });
 
   for (const tab of document.querySelectorAll('.tab')) {
-    tab.addEventListener('click', () => show(tab.dataset.view));
+    tab.addEventListener('click', () => { location.hash = `#/${tab.dataset.view}`; });
   }
 
   $('settings-btn').addEventListener('click', () => {
@@ -464,8 +543,8 @@ function wireUp() {
     });
   }
 
-  $('sheet-close').addEventListener('click', closeSheet);
-  $('sheet-wrap').addEventListener('click', (e) => { if (e.target === $('sheet-wrap')) closeSheet(); });
+  $('sheet-close').addEventListener('click', leaveSheet);
+  $('sheet-wrap').addEventListener('click', (e) => { if (e.target === $('sheet-wrap')) leaveSheet(); });
 
   $('btn-offline').addEventListener('click', downloadAll);
   $('btn-reset').addEventListener('click', () => {
@@ -480,7 +559,7 @@ function wireUp() {
 
   document.addEventListener('keydown', (e) => {
     if (e.target.matches('input, select, textarea')) return;
-    if (!$('sheet-wrap').hidden) { if (e.key === 'Escape') closeSheet(); return; }
+    if (!$('sheet-wrap').hidden) { if (e.key === 'Escape') leaveSheet(); return; }
     if (app.view !== 'practice') return;
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); reveal(); }
     else if (e.key === '1') { if (!$('grade').hidden) grade(false); }
@@ -502,9 +581,21 @@ async function start() {
     return;
   }
   $('loading').hidden = true;
+  surfaces = buildSurfaces();
   wireUp();
   buildQueue();
   renderCard();
+
+  // 주소로 단어를 곧장 열고 들어온 것이라면 밑에 깔릴 뷰를 하나 먼저 쌓는다.
+  // 그래야 시트를 닫을 때 뒤로 갈 자리가 있다.
+  if (location.hash.startsWith('#/word/')) {
+    const target = location.hash;
+    history.replaceState(null, '', '#/browse');
+    show('browse');
+    history.pushState(null, '', target);
+  }
+  window.addEventListener('hashchange', applyRoute);
+  applyRoute();
 
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
     navigator.serviceWorker.register('sw.js').catch(() => { /* 없어도 앱은 돈다 */ });

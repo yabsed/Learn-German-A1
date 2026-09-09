@@ -6,7 +6,11 @@
  * 오디오를 셸에 섞지 않는 이유는 24 MB 를 첫 방문에 받게 하지 않기 위해서다. */
 
 const SHELL = 'lgv-shell-v1';
-const AUDIO = 'lgv-audio-v1';
+// mp3 는 같은 이름으로 내용만 바뀔 수 있다. 파일 이름이 원문의 해시라 읽는
+// 속도를 바꿔도 이름은 그대로이기 때문이다. 아래 활성화 단계가 이름이 다른
+// 캐시를 지우므로, 소리를 다시 만들었으면 이 번호를 올려야 한다.
+// v2: 예문을 length_scale 1.6 으로 다시 읽혔다.
+const AUDIO = 'lgv-audio-v2';
 
 const SHELL_FILES = [
   '.', 'index.html', 'style.css', 'app.js',
