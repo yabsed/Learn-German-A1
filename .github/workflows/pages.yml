@@ -1,0 +1,55 @@
+# app/ 을 GitHub Pages 로 올린다.
+#
+# app/data/ 와 app/audio/ 는 .gitignore 에 있다. 오디오 원본은
+# construct_dataset/data/audio/ 에 들어 있으므로, 여기서 7단계 스크립트만
+# 다시 돌려 app/ 을 채운 다음 통째로 올린다. 텍스트 파이프라인(1~5단계)은
+# 돌리지 않는다. words.json·sentences.json 이 이미 저장소에 있다.
+name: Deploy app to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 배포는 한 번에 하나만. 진행 중인 것은 끝까지 두고 대기 중인 것만 버린다.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: app/data 와 app/audio 를 만든다
+        run: python scripts/07_site.py --levels a1
+        working-directory: construct_dataset
+
+      - name: Jekyll 을 끈다
+        run: touch app/.nojekyll
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
