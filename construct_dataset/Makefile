@@ -6,6 +6,7 @@
 #   make ko KO_ARGS="--levels a1 --model sonnet --workers 4"
 #   make sentences SENTENCE_ARGS="--levels a1 --model sonnet --workers 4"
 #   make audio AUDIO_ARGS="--levels a1"  # 별도 TTS 환경을 준비하고 mp3 32k 생성
+#   make site       ../app/ 에 등급별 데이터와 오디오를 깐다
 
 PY            := .venv/bin/python
 AUDIO_PY      := tts_poc/.venv/bin/python
@@ -15,8 +16,9 @@ KAIKKI_URL    := https://kaikki.org/dewiktionary/raw-wiktextract-data.jsonl.gz
 KO_ARGS       ?=
 SENTENCE_ARGS ?=
 AUDIO_ARGS    ?= --levels a1
+SITE_ARGS     ?= --levels a1
 
-.PHONY: all setup setup-audio wordlist ipa ko sentences merge audio clean
+.PHONY: all setup setup-audio wordlist ipa ko sentences merge audio site clean
 
 all: wordlist ipa ko sentences merge
 
@@ -54,6 +56,9 @@ setup-audio: $(AUDIO_READY)    ## Piper 전용 가상환경·음성 모델. 텍�
 
 audio: merge $(AUDIO_READY)    ## 6단계: words/sentences의 id.mp3 (기본 A1, mp3 32k)
 	$(AUDIO_PY) scripts/06_audio.py $(AUDIO_ARGS)
+
+site: merge                    ## 7단계: ../app/data/{등급}.json 과 ../app/audio/ (하드링크)
+	$(PY) scripts/07_site.py $(SITE_ARGS)
 
 clean:                         ## 모델 초안·덤프·생성 비용이 큰 오디오는 지우지 않는다
 	rm -f data/wordlist.jsonl data/ipa.jsonl data/kaikki_matches.jsonl data/words.json data/sentences.json data/review_queue.tsv data/stats.json

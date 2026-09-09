@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>독일어 A1 발음 연습</title>
+<meta name="description" content="괴테 A1 단어 679개를 소리와 발음 기호로 익히는 연습기">
+<meta name="theme-color" content="#faf9f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14151a" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="A1 발음">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-row">
+    <h1><span class="badge">A1</span> 발음 연습</h1>
+    <button class="icon-btn" id="settings-btn" aria-label="설정" aria-expanded="false">⚙</button>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" class="tab" data-view="practice" aria-selected="true">연습</button>
+    <button role="tab" class="tab" data-view="browse" aria-selected="false">단어장</button>
+    <button role="tab" class="tab" data-view="stats" aria-selected="false">진도</button>
+  </nav>
+  <div class="daybar" id="daybar" hidden>
+    <div class="daybar-fill" id="daybar-fill"></div>
+  </div>
+</header>
+
+<div class="panel" id="settings-panel" hidden>
+  <label class="opt"><input type="checkbox" id="opt-autoplay" checked> 뜻을 열면 소리를 자동으로 낸다</label>
+  <label class="opt"><input type="checkbox" id="opt-english"> 예문에 영어도 보여 준다</label>
+  <label class="opt"><input type="checkbox" id="opt-hidekorean"> 예문 뜻은 눌러야 보인다</label>
+  <label class="opt">한 세션 분량
+    <select id="opt-session">
+      <option value="10">10개</option>
+      <option value="20" selected>20개</option>
+      <option value="40">40개</option>
+      <option value="0">끝까지</option>
+    </select>
+  </label>
+</div>
+
+<main>
+
+<!-- ── 연습 ───────────────────────────────────────── -->
+<section id="view-practice" class="view">
+  <p class="loading" id="loading">단어를 불러오는 중…</p>
+
+  <article class="card" id="card" hidden>
+    <div class="card-head">
+      <span class="pos" id="card-pos"></span>
+      <span class="counter" id="card-counter"></span>
+    </div>
+
+    <button class="face" id="face" aria-describedby="face-hint">
+      <span class="lemma" id="card-lemma"></span>
+      <span class="face-hint" id="face-hint">소리 내어 읽어 본 다음 눌러 보세요</span>
+    </button>
+
+    <div class="back" id="back" hidden>
+      <div class="full" id="card-full"></div>
+      <div class="ipa-row">
+        <span class="ipa" id="card-ipa"></span>
+        <button class="play" id="play-word"><span class="tri">▶</span> 듣기</button>
+      </div>
+      <p class="ko" id="card-ko"></p>
+      <p class="note" id="card-note" hidden></p>
+
+      <div class="examples" id="examples"></div>
+      <button class="more" id="more-examples" hidden>예문 더 보기</button>
+    </div>
+  </article>
+
+  <div class="grade" id="grade" hidden>
+    <button class="btn again" id="btn-again">아직이에요<kbd>1</kbd></button>
+    <button class="btn good" id="btn-good">알아요<kbd>2</kbd></button>
+  </div>
+
+  <div class="done" id="done" hidden>
+    <p class="done-title">오늘 몫을 끝냈습니다.</p>
+    <p class="done-sub" id="done-sub"></p>
+    <button class="btn wide" id="btn-more-session">더 하기</button>
+  </div>
+
+  <p class="keys">데스크톱에서는 <kbd>Space</kbd> 확인 · <kbd>1</kbd> 아직 · <kbd>2</kbd> 알아요 · <kbd>P</kbd> 다시 듣기</p>
+</section>
+
+<!-- ── 단어장 ─────────────────────────────────────── -->
+<section id="view-browse" class="view" hidden>
+  <div class="search-row">
+    <input type="search" id="search" placeholder="단어나 뜻으로 찾기" autocomplete="off" enterkeyhint="search">
+  </div>
+  <div class="chips" id="filters">
+    <button class="chip on" data-filter="all">전체</button>
+    <button class="chip" data-filter="new">안 본 것</button>
+    <button class="chip" data-filter="learning">익히는 중</button>
+    <button class="chip" data-filter="known">익힘</button>
+  </div>
+  <p class="hint" id="browse-count"></p>
+  <ul class="list" id="list"></ul>
+</section>
+
+<!-- ── 진도 ───────────────────────────────────────── -->
+<section id="view-stats" class="view" hidden>
+  <div class="tiles" id="tiles"></div>
+  <h2 class="h2">익힘 단계</h2>
+  <div class="bars" id="bars"></div>
+  <h2 class="h2">오프라인</h2>
+  <p class="hint">A1 오디오 3,264개는 약 26 MB입니다. 한 번 받아 두면 인터넷 없이도 소리가 납니다.</p>
+  <button class="btn wide" id="btn-offline">오디오 전부 내려받기</button>
+  <p class="hint" id="offline-status"></p>
+  <h2 class="h2">되돌리기</h2>
+  <button class="btn wide danger" id="btn-reset">학습 기록 지우기</button>
+</section>
+
+</main>
+
+<!-- 단어장에서 단어를 누르면 열리는 상세 -->
+<div class="sheet-wrap" id="sheet-wrap" hidden>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="단어 상세">
+    <button class="sheet-close" id="sheet-close" aria-label="닫기">✕</button>
+    <div id="sheet-body"></div>
+  </div>
+</div>
+
+<audio id="player" preload="none"></audio>
+<script src="app.js"></script>
+</body>
+</html>

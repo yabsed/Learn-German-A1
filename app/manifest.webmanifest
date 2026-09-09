@@ -1,0 +1,18 @@
+{
+  "name": "독일어 A1 발음 연습",
+  "short_name": "A1 발음",
+  "description": "괴테 A1 단어 679개를 소리와 발음 기호로 익힌다",
+  "lang": "ko",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf9f7",
+  "theme_color": "#faf9f7",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

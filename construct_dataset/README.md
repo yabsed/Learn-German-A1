@@ -141,6 +141,22 @@ make audio AUDIO_ARGS="--levels a1 --force"
 
 환경과 모델만 미리 준비하려면 `make setup-audio`를 실행한다.
 
+### 7. 앱이 쓸 자리로 옮긴다
+
+```bash
+make site
+```
+
+`words.json`과 `sentences.json`은 셋을 합쳐 3 MB 가까이 된다. 앱은 한 번에 한
+등급만 쓰므로 등급 하나만 담은 `../app/data/a1.json`을 따로 만들고, 오디오는
+복사하지 않고 하드링크로 건다. 같은 파일을 두 번 저장하지 않는다.
+
+```bash
+make site SITE_ARGS="--levels a1,a2,b1"
+```
+
+앱을 띄우는 것은 저장소 루트의 `make serve`다. 자세한 것은 [`app/README.md`](../app/README.md)에 있다.
+
 ## 아무 독일어나 바로 들어볼 수도 있다
 
 데이터셋에 넣지 않고 발음만 확인하고 싶을 때는 전체 파이프라인이 지나치다.
@@ -178,6 +194,7 @@ tts_poc/.venv/bin/python tools/say.py "Auf Wiedersehen!" --once
 | 4 | `scripts/04_sentences.py` | 단어 목록의 예문 | `data/sentence_draft.tsv` |
 | 5 | `scripts/05_merge.py` | 앞 단계 출력·수동 수정 | `data/words.json`, `data/sentences.json` |
 | 6 | `scripts/06_audio.py` | 최종 JSON 두 개 | `data/audio/{id}.mp3` |
+| 7 | `scripts/07_site.py` | 최종 JSON·오디오 | `../app/data/{등급}.json`, `../app/audio/` |
 
 ```text
 construct_dataset/
@@ -194,7 +211,8 @@ construct_dataset/
 │   ├── 03_ko.py
 │   ├── 04_sentences.py
 │   ├── 05_merge.py
-│   └── 06_audio.py
+│   ├── 06_audio.py
+│   └── 07_site.py
 ├── data/
 │   ├── overrides.tsv
 │   ├── words.json

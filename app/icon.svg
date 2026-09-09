@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="A1 발음 연습">
+  <rect width="512" height="512" rx="112" fill="#16181d"/>
+  <g fill="#a8332c">
+    <circle cx="214" cy="214" r="27"/>
+    <circle cx="298" cy="214" r="27"/>
+  </g>
+  <text x="256" y="404" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="300" fill="#faf9f7">a</text>
+</svg>
