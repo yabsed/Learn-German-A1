@@ -1,0 +1,2 @@
+# 6단계와 tools/say.py에서만 쓴다. 기본 파이프라인 환경과 분리해 설치한다.
+piper-tts[alignment]>=1.3.0

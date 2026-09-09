@@ -1,4 +1,4 @@
-"""네 단계 스크립트가 공유하는 경로와 입출력 도우미.
+"""데이터셋 스크립트가 공유하는 경로와 입출력 도우미.
 
 모든 경로는 construct_dataset/ 를 기준으로 잡는다. 어느 디렉터리에서 실행해도 같은 파일을 본다.
 """
@@ -22,10 +22,13 @@ WORDLIST = DATA / "wordlist.jsonl"          # 1단계: 표제어·관사·복수
 KAIKKI_GZ = RAW / "raw-wiktextract-data.jsonl.gz"
 KAIKKI_MATCHES = DATA / "kaikki_matches.jsonl"  # 2단계 중간: 덤프에서 건진 원본 항목(축약)
 IPA = DATA / "ipa.jsonl"                    # 2단계: id → IPA
-KO_DRAFT = DATA / "ko_draft.tsv"            # 3단계: 언어 모델이 쓴 한국어 뜻 초안
+KO_DRAFT = DATA / "ko_draft.tsv"            # 3단계: 언어 모델이 쓴 단어 뜻 초안
+SENTENCE_DRAFT = DATA / "sentence_draft.tsv"  # 4단계: 언어 모델이 쓴 예문 번역 초안
 OVERRIDES = DATA / "overrides.tsv"          # 사람이 고친 것. 관사·복수형·IPA·뜻 어느 열이든 채우면 그것이 이긴다.
-WORDS = DATA / "words.json"                 # 4단계: 앱이 읽는 최종 파일
-REVIEW = DATA / "review_queue.tsv"          # 4단계: 사람이 봐야 할 항목 목록
+WORDS = DATA / "words.json"                 # 5단계: 앱이 읽는 최종 단어 파일
+SENTENCES = DATA / "sentences.json"         # 5단계: 앱이 읽는 최종 예문 파일
+REVIEW = DATA / "review_queue.tsv"          # 5단계: 사람이 봐야 할 단어 목록
+AUDIO = DATA / "audio"                      # 6단계: words/sentences의 id.mp3
 
 
 def log(*args: object) -> None:

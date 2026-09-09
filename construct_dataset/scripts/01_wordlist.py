@@ -15,10 +15,10 @@ from __future__ import annotations
 
 import argparse
 import re
-import unicodedata
 from collections import OrderedDict
 
 from common import LEVELS, WORDLIST, WORDLIST_REPO, log, write_jsonl
+from ids import word_id
 
 ARTICLES = ("der", "die", "das")
 SENSE_RE = re.compile(r"\s*\((\d+)\)\s*$")                     # abholen(2)
@@ -125,12 +125,6 @@ def lookup_keys(lemma_part: str) -> list[str]:
     return keys
 
 
-def slugify(text: str) -> str:
-    text = text.translate(str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "Ä": "ae", "Ö": "oe", "Ü": "ue", "ß": "ss"}))
-    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
-    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-") or "x"
-
-
 def parse_headword(raw: str) -> list[dict]:
     """표제어 문자열 하나를 항목 dict 로. 드물게 두 표제어가 한 칸에 있어 list 를 돌려준다."""
     raw = raw.strip()
@@ -225,7 +219,7 @@ def build(levels: list[str]) -> list[dict]:
     seen: dict[str, int] = {}
     out = []
     for cur in merged.values():
-        base = slugify(cur["lemma"])
+        base = word_id(cur["lemma"])
         n = seen.get(base, 0) + 1
         seen[base] = n
         cur["id"] = base if n == 1 else f"{base}-{n}"

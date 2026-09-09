@@ -1,2 +1,0 @@
-# 음성 합성 본체. [alignment] 추가분은 음소별 타임스탬프에만 쓰인다.
-piper-tts[alignment]>=1.3.0

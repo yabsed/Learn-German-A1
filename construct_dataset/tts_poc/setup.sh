@@ -5,11 +5,12 @@ cd "$(dirname "$0")"
 
 PYTHON="${PYTHON:-python3}"
 VENV=".venv"
+ROOT="$(cd .. && pwd)"
 
 [ -d "$VENV" ] || "$PYTHON" -m venv "$VENV"
 "$VENV/bin/pip" install --quiet --upgrade pip
-"$VENV/bin/pip" install --quiet -r requirements.txt
-"$VENV/bin/python" synth.py --download-only
+"$VENV/bin/pip" install --quiet -r "$ROOT/requirements-audio.txt"
+"$VENV/bin/python" "$ROOT/tools/say.py" --download-only
 
 command -v ffmpeg >/dev/null || echo "경고: ffmpeg이 없다. mp3 대신 wav로 저장된다."
 
@@ -17,6 +18,6 @@ cat <<'MSG'
 
 준비 완료.
 
-  .venv/bin/python synth.py Vater "das Mädchen"
-  .venv/bin/python synth.py --file sample_words.txt --alignments
+  .venv/bin/python ../tools/say.py Vater "das Mädchen"
+  .venv/bin/python ../tools/say.py --file sample_words.txt --alignments
 MSG
