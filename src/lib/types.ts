@@ -14,6 +14,8 @@ export interface Word {
   ko: string;
   note?: string;
   pos?: string;
+  /** 표제어 외에 이 단어 상세로 연결할 수 있는 활용·복수형. */
+  variants?: string[];
   ex: string[];
 }
 

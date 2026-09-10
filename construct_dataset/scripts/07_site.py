@@ -46,6 +46,7 @@ def bundle(words: list[dict], sentences: list[dict], level: str) -> dict:
             "lemma": word["lemma"],
             "article": word["article"],
             "plural": word["plural"],
+            "variants": word.get("variants") or [],
             "ipa": word["ipa"],
             "ko": word["ko"],
             "note": word["note"],

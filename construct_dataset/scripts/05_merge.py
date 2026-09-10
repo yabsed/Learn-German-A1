@@ -39,6 +39,22 @@ from common import (
 )
 from ids import sentence_id, unique_sentences
 
+FORM_RE = re.compile(r"[A-Za-zÄÖÜäöüß]+")
+
+
+def variants(entry: dict, plural: str | None) -> list[str]:
+    """Return only source-declared forms that can safely resolve to this entry.
+
+    The Goethe ``forms`` field contains short paradigms (including separated
+    verbs).  Keeping its individual words supports links such as ``ruft`` →
+    ``anrufen`` and ``gefahren`` → ``losfahren`` without guessing from a stem.
+    """
+    forms = [entry["lemma"]]
+    if plural:
+        forms.append(plural)
+    forms.extend(FORM_RE.findall(entry.get("forms") or ""))
+    return list(dict.fromkeys(form for form in forms if len(form) > 1))
+
 
 def main() -> None:
     entries = read_jsonl(WORDLIST)
@@ -112,6 +128,7 @@ def main() -> None:
                 "lemma": entry["lemma"],
                 "article": article,
                 "plural": (f"die {plural}" if plural else None),
+                "variants": variants(entry, plural),
                 "level": level.upper(),
                 "ipa": ipa_value,
                 "ko": ko or None,

@@ -26,7 +26,7 @@
   let loading = $state(true);
   let error = $state('');
   let player: HTMLAudioElement;
-  let playingButton: HTMLButtonElement | undefined;
+  let playingId = $state<string>();
 
   let currentWord = $derived(byId.get(queue[index]));
   let remaining = $derived(words.filter((word) => !progress[word.id] || progress[word.id].due <= Date.now()).length);
@@ -60,17 +60,22 @@
     revealed = false;
   }
 
-  function play(id: string, button: HTMLButtonElement) {
-    playingButton?.classList.remove('on');
-    playingButton = button;
-    playingButton.classList.add('on');
+  function play(id: string, _button: HTMLButtonElement) {
+    if (playingId === id && !player.paused) {
+      player.pause();
+      return;
+    }
     player.src = `${contentBase}audio/${id}.mp3`;
-    player.play().catch(() => stopPlaying());
+    player.play().then(() => playingId = id).catch(() => stopPlaying());
   }
 
   function stopPlaying() {
-    playingButton?.classList.remove('on');
-    playingButton = undefined;
+    playingId = undefined;
+  }
+
+  function pauseAudio() {
+    if (!player.paused) player.pause();
+    stopPlaying();
   }
 
   function navigate(next: View) {
@@ -78,10 +83,15 @@
   }
 
   function openWord(id: string) {
+    // Opening a definition is navigation, never an audio trigger. It also
+    // prevents an already-playing card/example from following the user into
+    // the new sheet.
+    pauseAudio();
     location.hash = `#/word/${id}`;
   }
 
   function closeSheet() {
+    pauseAudio();
     if (location.hash.startsWith('#/word/')) history.back();
     else sheetWord = undefined;
   }
@@ -92,6 +102,7 @@
       sheetWord = byId.get(parts[1]);
       return;
     }
+    if (sheetWord) pauseAudio();
     sheetWord = undefined;
     if (parts[0] === 'practice' || parts[0] === 'browse' || parts[0] === 'stats') {
       if (view !== parts[0]) window.scrollTo(0, 0);
@@ -199,7 +210,7 @@
   {#if loading}<p class="loading">단어를 불러오는 중…</p>
   {:else if error}<p class="loading">{error}</p>
   {:else if view === 'practice'}
-    <Practice word={currentWord} {index} queueLength={queue.length} {doneToday} {remaining} {revealed} {settings} {sentences} {surfaces} onReveal={reveal} onGrade={grade} onMore={startSession} onPlay={play} onWord={openWord} />
+    <Practice word={currentWord} {index} queueLength={queue.length} {doneToday} {remaining} {revealed} {settings} {sentences} {surfaces} wordById={byId} {playingId} onReveal={reveal} onGrade={grade} onMore={startSession} onPlay={play} onWord={openWord} />
   {:else if view === 'browse'}
     <Browse {words} {progress} onWord={openWord} />
   {:else}
@@ -208,7 +219,7 @@
 </main>
 
 {#if sheetWord}
-  <WordSheet word={sheetWord} {sentences} {surfaces} {settings} onClose={closeSheet} onPlay={play} onWord={openWord} />
+  <WordSheet word={sheetWord} {sentences} {surfaces} wordById={byId} {settings} {playingId} onClose={closeSheet} onPlay={play} onWord={openWord} />
 {/if}
 
-<audio bind:this={player} preload="none" onended={stopPlaying} onerror={stopPlaying}></audio>
+<audio bind:this={player} preload="none" onended={stopPlaying} onpause={stopPlaying} onerror={stopPlaying}></audio>

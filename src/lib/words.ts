@@ -16,6 +16,12 @@ export function buildSurfaceIndex(words: Word[]): Map<string, string> {
   };
   for (const word of words) put(word.lemma, word.id);
   for (const word of words) put(word.plural?.split(/\s+/).at(-1), word.id);
+  // `variants` is generated from the source word list's explicitly supplied
+  // forms.  It deliberately wins neither over a lemma nor over a plural: an
+  // ambiguous surface should keep its more specific dictionary entry.
+  for (const word of words) {
+    for (const form of word.variants || []) put(form, word.id);
+  }
   return index;
 }
 

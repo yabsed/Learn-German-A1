@@ -298,6 +298,33 @@ main {
   border-bottom-color: var(--accent);
   outline: none;
 }
+.ex-link { position: relative; cursor: pointer; }
+.ex-link::after {
+  content: attr(data-gloss);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 7px);
+  z-index: 5;
+  width: max-content;
+  max-width: min(280px, calc(100vw - 48px));
+  transform: translateX(-50%);
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.35;
+  box-shadow: var(--shadow);
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .12s ease;
+}
+.ex-link:hover::after, .ex-link.preview::after {
+  opacity: 1;
+  visibility: visible;
+}
 /* 이 예문이 왜 여기 붙어 있는지 보이게 지금 보는 단어를 짚어 둔다. */
 .ex-here {
   color: var(--accent);
@@ -441,26 +468,32 @@ main {
   max-height: 88vh;
   overflow-y: auto;
   border-radius: 18px 18px 0 0;
-  padding: 20px var(--pad) calc(env(safe-area-inset-bottom) + 28px);
+  padding: 0 var(--pad) calc(env(safe-area-inset-bottom) + 28px);
   position: relative;
   animation: rise .22s ease;
 }
 @keyframes rise { from { transform: translateY(18px); opacity: .6; } }
 
 .sheet-close {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  min-width: 0;
+  height: auto;
+  padding: 0;
   color: var(--muted);
   line-height: 1;
 }
+.sheet-close span { font-size: 12px; margin-left: 2px; }
 
-.sheet-lemma { text-align: left; font-size: 38px; }
+.sheet-nav {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.sheet-lemma { text-align: left; font-size: 38px; padding-top: 18px; }
 
 /* ── 넓은 화면 ────────────────────────────────────── */
 
