@@ -34,12 +34,12 @@
  "sentences": {
   "entries": 6417,
   "ko": 6417,
-  "gloss": 300,
+  "gloss": 2427,
   "by_level": {
    "a1": {
     "entries": 2585,
     "ko": 2585,
-    "gloss": 300
+    "gloss": 2427
    },
    "a2": {
     "entries": 1639,
@@ -53,7 +53,7 @@
    }
   }
  },
- "gloss_review_queue": 6172,
+ "gloss_review_queue": 4366,
  "review_queue": 73,
  "review_reasons": {
   "no_ipa": 55,
