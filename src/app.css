@@ -298,33 +298,7 @@ main {
   border-bottom-color: var(--accent);
   outline: none;
 }
-.ex-link { position: relative; cursor: pointer; }
-.ex-link::after {
-  content: attr(data-gloss);
-  position: absolute;
-  left: 50%;
-  bottom: calc(100% + 7px);
-  z-index: 5;
-  width: max-content;
-  max-width: min(280px, calc(100vw - 48px));
-  transform: translateX(-50%);
-  padding: 5px 8px;
-  border-radius: 6px;
-  background: var(--ink);
-  color: var(--paper);
-  font-family: var(--sans);
-  font-size: 12px;
-  line-height: 1.35;
-  box-shadow: var(--shadow);
-  pointer-events: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .12s ease;
-}
-.ex-link:hover::after, .ex-link.preview::after {
-  opacity: 1;
-  visibility: visible;
-}
+.ex-link { cursor: pointer; }
 /* 이 예문이 왜 여기 붙어 있는지 보이게 지금 보는 단어를 짚어 둔다. */
 .ex-here {
   color: var(--accent);

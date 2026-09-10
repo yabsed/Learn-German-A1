@@ -17,23 +17,14 @@
 
   let { ids, sentences, currentId, surfaces, wordById, settings, playingId, limit = 0, onPlay, onWord }: Props = $props();
   let expanded = $state(false);
-  let previewKey = $state<string>();
   let shown = $derived(expanded || !limit ? ids : ids.slice(0, limit));
 
   $effect(() => {
     currentId;
     expanded = false;
-    previewKey = undefined;
   });
 
-  function openLinkedWord(event: MouseEvent, id: string, key: string) {
-    // Mouse users have already previewed the gloss by hovering. On touch, a
-    // first tap previews it and a second tap follows the link.
-    if (!window.matchMedia('(hover: hover)').matches && previewKey !== key) {
-      event.preventDefault();
-      previewKey = key;
-      return;
-    }
+  function openLinkedWord(event: MouseEvent, id: string) {
     event.preventDefault();
     onWord(id);
   }
@@ -51,16 +42,11 @@
               {#if part.current}<span class="ex-here">{part.text}</span>
               {:else if part.wordId && wordById.get(part.wordId)}
                 {@const target = wordById.get(part.wordId)!}
-                {@const preview = `${id}:${partIndex}`}
                 <a
-                  class:preview={previewKey === preview}
                   class="ex-link"
                   href={`#/word/${target.id}`}
-                  data-gloss={`${target.lemma} · ${target.ko}`}
                   aria-label={`${part.text}: ${target.ko}. 상세 보기`}
-                  onpointerenter={() => previewKey = preview}
-                  onfocus={() => previewKey = preview}
-                  onclick={(event) => openLinkedWord(event, target.id, preview)}
+                  onclick={(event) => openLinkedWord(event, target.id)}
                 >{part.text}</a>
               {:else}{part.text}{/if}
             {/each}
