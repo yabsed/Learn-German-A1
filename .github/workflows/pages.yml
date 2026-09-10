@@ -31,6 +31,18 @@ jobs:
         with:
           python-version: '3.13'
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Svelte 앱을 검사하고 빌드한다
+        run: |
+          npm ci
+          npm run check
+          npm test
+          npm run build
+
       - name: app/data 와 app/audio 를 만든다
         run: python scripts/07_site.py --levels a1
         working-directory: construct_dataset

@@ -2,9 +2,9 @@
 
 ## 괴테 A1 단어 679개를 화면에 하나씩 띄우고, 읽어 본 다음, 눌러서 확인한다
 
-`construct_dataset/` 이 재료를 만든다면 여기는 그것을 먹는 쪽이다. 프레임워크도
-빌드 도구도 없다. HTML 하나, CSS 하나, 자바스크립트 하나와 정적 파일 몇 개가
-전부이고, 서버는 파일을 내주는 일만 한다.
+`construct_dataset/` 이 재료를 만든다면 `src/`는 그것을 먹는 Svelte 앱이고,
+`app/`은 빌드된 정적 사이트다. 화면은 기능별 Svelte 컴포넌트로 나뉘고 학습
+일정·검색·저장 로직은 `src/lib/`의 TypeScript 모듈에 있다.
 
 단어가 뜨면 소리 내어 읽는다. 그다음 카드를 누르면 발음 기호와 원어민 속도의
 소리, 한국어 뜻, 그 단어가 실제로 쓰인 예문이 한꺼번에 나온다. 단어 소리는 보통
@@ -16,15 +16,15 @@
 저장소 루트에서 한 줄이면 된다.
 
 ```bash
-make serve
+npm install
+npm run dev
 ```
 
-이 명령은 데이터와 오디오를 `app/` 으로 옮긴 뒤 `http://localhost:8000` 에
-띄운다. 명령이 출력하는 두 번째 주소는 같은 와이파이에 있는 휴대폰에서 여는
-주소다. 브라우저에서 `file://` 로 `index.html` 을 그냥 열면 단어 파일을 읽지
-못한다. 반드시 서버로 열어야 한다.
+배포 결과를 확인하려면 `make serve`를 쓴다. 이 명령은 앱을 빌드하고 데이터와
+오디오를 `app/`으로 옮긴 뒤 `http://localhost:8000`에 띄운다. 브라우저에서
+`file://`로 `index.html`을 열면 단어 파일을 읽지 못한다.
 
-데이터만 다시 깔고 싶으면 `make site` 를 쓴다.
+데이터만 다시 깔고 싶으면 `make -C construct_dataset site`를 쓴다.
 
 ## 화면 셋
 
@@ -67,8 +67,7 @@ A1 오디오 3,264개, 약 26 MB다. 화면과 단어 파일은 처음 열 때 �
 
 ## 올리기
 
-`app/` 폴더 통째가 곧 사이트다. 빌드 단계가 없으므로 정적 호스팅이라면 어디든
-된다.
+`npm run build`가 `app/` 폴더에 배포할 정적 사이트를 만든다.
 
 ```bash
 make site                 # app/data 와 app/audio 를 채운다
@@ -91,16 +90,20 @@ make -C construct_dataset site SITE_ARGS="--levels a1,a2,b1"
 ```
 
 `app/data/` 에 `a2.json` 과 `b1.json` 이 생긴다. 앱이 등급을 고르게 하는 일은
-그다음이다. 지금 `app.js` 맨 위의 `LEVEL` 한 줄이 그 자리를 잡아 두고 있다.
+그다음이다. 지금 `src/lib/constants.ts`의 `LEVEL`이 그 자리를 잡아 두고 있다.
 
 <details>
 <summary>파일 구조 펼쳐 보기</summary>
 
 ```text
+src/
+├── App.svelte              앱 상태·라우팅·재생 조율
+├── components/             연습·단어장·진도·상세 화면
+├── lib/                    타입·라이트너 일정·검색·저장
+└── app.css                 휴대폰 우선 스타일
 app/
-├── index.html              화면 셋의 뼈대
-├── style.css               휴대폰을 먼저 맞추고 720px 부터 넓힌다
-├── app.js                  라이트너 예정, 재생, 목록, 진도
+├── index.html              Vite가 만든 진입 문서
+├── assets/                 묶고 최적화한 JavaScript와 CSS
 ├── sw.js                   셸 캐시와 오디오 캐시를 나눠 쓴다
 ├── manifest.webmanifest    홈 화면 설치
 ├── icon.svg · icon-192.png · icon-512.png

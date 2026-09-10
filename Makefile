@@ -8,7 +8,8 @@ PORT ?= 8000
 
 .PHONY: site serve data
 
-site:                          ## app/data/a1.json 과 app/audio/ 를 만든다
+site:                          ## Svelte 앱을 빌드하고 app/data/a1.json 과 app/audio/ 를 만든다
+	npm run build
 	$(MAKE) -C construct_dataset site
 
 serve: site                    ## 로컬 서버. 휴대폰에서는 같은 와이파이에서 이 컴퓨터 IP:8000 으로 연다
