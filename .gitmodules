@@ -1,3 +1,6 @@
 [submodule "construct_dataset/third_party/goethe-institute-wordlist"]
 	path = construct_dataset/third_party/goethe-institute-wordlist
 	url = https://github.com/ilkermeliksitki/goethe-institute-wordlist
+[submodule "data/third_party/German-A1-Notes"]
+	path = construct_dataset/third_party/German-A1-Notes
+	url = https://github.com/RezaeiSaber/German-A1-Notes.git
