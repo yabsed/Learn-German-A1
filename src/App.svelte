@@ -214,7 +214,7 @@
 
 <Header {view} {settings} {progressPercent} practiceFinished={!currentWord} onNavigate={navigate} onSettingsChange={updateSettings} />
 
-<main>
+<main class:notes-main={view === 'notes'}>
   {#if loading}<p class="loading">단어를 불러오는 중…</p>
   {:else if error}<p class="loading">{error}</p>
   {:else if view === 'practice'}

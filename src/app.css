@@ -156,6 +156,10 @@ main {
   padding: var(--pad) var(--pad) calc(env(safe-area-inset-bottom) + 40px);
 }
 
+@media (min-width: 800px) {
+  main.notes-main { max-width: 1120px; }
+}
+
 .loading, .hint { color: var(--muted); font-size: 14px; }
 .h2 { font-size: 14px; font-weight: 600; color: var(--muted); margin: 28px 0 10px; letter-spacing: .01em; }
 
