@@ -2,6 +2,8 @@ export interface Sentence {
   de: string;
   ko: string;
   en?: string;
+  /** [연속된 독일어 낱말 수, 그 범위의 문맥상 한국어 뜻]. */
+  g?: Array<[number, string]>;
 }
 
 export interface Word {

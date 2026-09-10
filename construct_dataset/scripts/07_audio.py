@@ -1,4 +1,4 @@
-"""6단계: words.json·sentences.json의 id로 mp3를 만든다.
+"""7단계: words.json·sentences.json의 id로 mp3를 만든다.
 
 단어는 lemma를 보통 속도와 느린 속도로 두 번 읽고, 예문은 보통 속도로 한
 번 읽는다. 파일명은 텍스트에서 만들지 않고 데이터셋의 id를 그대로 쓴다.
@@ -12,9 +12,9 @@
 예문은 1.6(초당 12.7자)으로 화자보다 느리다. 길어서 따라 읽으려면 그만큼
 여유가 필요하다. 이 값도 화자 본인의 발화 범위(초당 10~17자) 안에는 든다.
 
-실행  python scripts/06_audio.py --levels a1
-      python scripts/06_audio.py --levels a1,a2 --force
-      python scripts/06_audio.py --levels a1 --only sentences --force
+실행  python scripts/07_audio.py --levels a1
+      python scripts/07_audio.py --levels a1,a2 --force
+      python scripts/07_audio.py --levels a1 --only sentences --force
 """
 from __future__ import annotations
 

@@ -4,420 +4,2104 @@
   "de": "Ab morgen muss ich arbeiten.",
   "en": "I have to work from tomorrow.",
   "ko": "내일부터 일해야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~부터"
+   ],
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "일하다"
+   ]
+  ]
  },
  {
   "id": "sfe9ff817cb",
   "de": "Ab morgen muss ich wieder arbeiten.",
   "en": "From tomorrow, I have to work again.",
   "ko": "내일부터 다시 일해야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~부터"
+   ],
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "다시"
+   ],
+   [
+    1,
+    "일하다"
+   ]
+  ]
  },
  {
   "id": "s3eba3da1c2",
   "de": "Die Fahrt kostet ab Hamburg 200 Euro.",
   "en": "The trip costs 200 euros from Hamburg.",
   "ko": "그 여행은 함부르크에서 출발하면 200유로예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "여행"
+   ],
+   [
+    1,
+    "비용이 들다"
+   ],
+   [
+    1,
+    "~에서부터"
+   ],
+   [
+    1,
+    "함부르크"
+   ],
+   [
+    1,
+    "200"
+   ],
+   [
+    1,
+    "유로"
+   ]
+  ]
  },
  {
   "id": "s0d77cf7ac7",
   "de": "Ab nächster Woche bleibt unser Geschäft samstags geschlossen.",
   "en": "Starting next week, our store will be closed on Saturdays.",
   "ko": "다음 주부터 우리 가게는 토요일에 문을 닫아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~부터"
+   ],
+   [
+    1,
+    "다음"
+   ],
+   [
+    1,
+    "주"
+   ],
+   [
+    1,
+    "계속 ~이다"
+   ],
+   [
+    1,
+    "우리의"
+   ],
+   [
+    1,
+    "가게"
+   ],
+   [
+    1,
+    "토요일마다"
+   ],
+   [
+    1,
+    "닫힌"
+   ]
+  ]
  },
  {
   "id": "s397d2df512",
   "de": "Mein Bruder besucht uns ab und zu.",
   "en": "My brother visits us from time to time.",
   "ko": "형이 가끔 우리를 찾아와요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "형제"
+   ],
+   [
+    1,
+    "방문하다"
+   ],
+   [
+    1,
+    "우리에게"
+   ],
+   [
+    3,
+    "가끔"
+   ]
+  ]
  },
  {
   "id": "s8a490e323c",
   "de": "Ich bin oft im Büro, aber nur für wenige Stunden.",
   "en": "I am often in the office, but only for a few hours.",
   "ko": "저는 사무실에 자주 있지만, 몇 시간만 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "자주"
+   ],
+   [
+    1,
+    "~안에"
+   ],
+   [
+    1,
+    "사무실"
+   ],
+   [
+    1,
+    "하지만"
+   ],
+   [
+    1,
+    "단지"
+   ],
+   [
+    1,
+    "~을 위해"
+   ],
+   [
+    1,
+    "몇"
+   ],
+   [
+    1,
+    "시간"
+   ]
+  ]
  },
  {
   "id": "s472d6fcdd7",
   "de": "Heute kann ich nicht kommen, aber morgen habe ich Zeit.",
   "en": "Today I can’t come, but I have time tomorrow.",
   "ko": "오늘은 못 가지만, 내일은 시간이 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "오늘"
+   ],
+   [
+    1,
+    "할 수 있다"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "못"
+   ],
+   [
+    1,
+    "오다"
+   ],
+   [
+    1,
+    "하지만"
+   ],
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "시간"
+   ]
+  ]
  },
  {
   "id": "s88dbfa3aac",
   "de": "Wir haben nur eine kleine Wohnung, sind aber damit zufrieden.",
   "en": "We only have a small apartment, but we are satisfied with it.",
   "ko": "우리는 작은 집만 있지만, 그것에 만족해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "단지"
+   ],
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "작은"
+   ],
+   [
+    1,
+    "집"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "하지만"
+   ],
+   [
+    1,
+    "그것에"
+   ],
+   [
+    1,
+    "만족한"
+   ]
+  ]
  },
  {
   "id": "s00c56202fc",
   "de": "Es war sehr schön. Jetzt muss ich aber gehen.",
   "en": "It was very nice. Now, however, I have to go.",
   "ko": "아주 좋았어요. 그런데 이제 가야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "~였다"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "좋은"
+   ],
+   [
+    1,
+    "지금"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "하지만"
+   ],
+   [
+    1,
+    "가다"
+   ]
+  ]
  },
  {
   "id": "s372fe55b09",
   "de": "Das ist aber nett von dir.",
   "en": "That’s really nice of you.",
   "ko": "정말 친절하구나.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "정말"
+   ],
+   [
+    1,
+    "친절한"
+   ],
+   [
+    1,
+    "~에게서"
+   ],
+   [
+    1,
+    "너"
+   ]
+  ]
  },
  {
   "id": "sefd8874b98",
   "de": "Heute kann ich nicht, aber morgen ganz bestimmt.",
   "en": "I can’t today, but definitely tomorrow.",
   "ko": "오늘은 안 되지만, 내일은 확실히 돼요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "오늘"
+   ],
+   [
+    1,
+    "할 수 있다"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "못"
+   ],
+   [
+    1,
+    "하지만"
+   ],
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "확실히"
+   ]
+  ]
  },
  {
   "id": "s93e97a21f3",
   "de": "Es lag sehr viel Schnee, aber Enzo ist trotzdem mit dem Motorrad gefahren.",
   "en": "There was a lot of snow, but Enzo still rode his motorcycle.",
   "ko": "눈이 많이 쌓였지만, 엔초는 그래도 오토바이를 탔어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "쌓여 있었다"
+   ],
+   [
+    1,
+    "매우"
+   ],
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "눈"
+   ],
+   [
+    1,
+    "하지만"
+   ],
+   [
+    1,
+    "엔초"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "그래도"
+   ],
+   [
+    1,
+    "~을 타고"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "오토바이"
+   ],
+   [
+    1,
+    "탔다"
+   ]
+  ]
  },
  {
   "id": "sebd40486ef",
   "de": "Ich würde gerne kommen, aber es geht leider nicht.",
   "en": "I would like to come, but unfortunately, I can’t.",
   "ko": "가고 싶지만, 안타깝게도 안 돼요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "~하고 싶다"
+   ],
+   [
+    1,
+    "기꺼이"
+   ],
+   [
+    1,
+    "오다"
+   ],
+   [
+    1,
+    "하지만"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "가능하다"
+   ],
+   [
+    1,
+    "유감스럽게도"
+   ],
+   [
+    1,
+    "않다"
+   ]
+  ]
  },
  {
   "id": "s445ef1c72e",
   "de": "Darf ich dich zu einem Kaffee einladen? – Aber ja, sehr gern.",
   "en": "May I invite you for a coffee? – Oh yes, with pleasure.",
   "ko": "커피 한잔 사도 될까? – 물론이지, 아주 좋아.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~해도 되다"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "너를"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "커피"
+   ],
+   [
+    1,
+    "초대하다"
+   ],
+   [
+    2,
+    "물론이지"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "기꺼이"
+   ]
+  ]
  },
  {
   "id": "s37ea0d4a89",
   "de": "Du spielst aber gut Klavier.",
   "en": "You play the piano very well.",
   "ko": "너 피아노 정말 잘 치는구나.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "너"
+   ],
+   [
+    1,
+    "정말"
+   ],
+   [
+    1,
+    "잘"
+   ],
+   [
+    1,
+    "연주하다"
+   ],
+   [
+    1,
+    "피아노"
+   ]
+  ]
  },
  {
   "id": "se95eec5f10",
   "de": "Wir fahren um zwölf Uhr ab.",
   "en": "We leave at twelve o'clock.",
   "ko": "우리는 열두 시에 출발해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "~시에"
+   ],
+   [
+    1,
+    "열두"
+   ],
+   [
+    1,
+    "시"
+   ],
+   [
+    1,
+    "출발하다"
+   ]
+  ]
  },
  {
   "id": "sa6062c8937",
   "de": "Ich fahre mit dem Auto zur Arbeit.",
   "en": "I’m driving to work.",
   "ko": "저는 차로 출근해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "타고 가다"
+   ],
+   [
+    1,
+    "~을 이용해"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "자동차"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "일"
+   ]
+  ]
  },
  {
   "id": "s217feb2162",
   "de": "Unser Zug ist pünktlich abgefahren.",
   "en": "Our train departed on time.",
   "ko": "우리 기차는 정시에 출발했어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리의"
+   ],
+   [
+    1,
+    "기차"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "정시에"
+   ],
+   [
+    1,
+    "출발했다"
+   ]
+  ]
  },
  {
   "id": "s18f9cd05a9",
   "de": "Vor der Abfahrt rufe ich an.",
   "en": "Before departure, I'll call.",
   "ko": "출발 전에 전화할게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~전에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "출발"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "전화하다"
+   ],
+   [
+    1,
+    "전화를 걸다"
+   ]
+  ]
  },
  {
   "id": "s94113d3aeb",
   "de": "Wir haben noch zwanzig Minuten bis zur Abfahrt.",
   "en": "We still have twenty minutes until departure.",
   "ko": "출발까지 아직 20분 남았어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "20"
+   ],
+   [
+    1,
+    "분"
+   ],
+   [
+    2,
+    "~까지"
+   ],
+   [
+    1,
+    "출발"
+   ]
+  ]
  },
  {
   "id": "sb1840bc874",
   "de": "Es bleiben uns noch zwanzig Minuten bis zur Abfahrt.",
   "en": "We have twenty minutes left until departure.",
   "ko": "출발까지 우리에게 아직 20분이 남아 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "남아 있다"
+   ],
+   [
+    1,
+    "우리에게"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "20"
+   ],
+   [
+    1,
+    "분"
+   ],
+   [
+    1,
+    "~까지"
+   ],
+   [
+    1,
+    "~까지의"
+   ],
+   [
+    1,
+    "출발"
+   ]
+  ]
  },
  {
   "id": "sb7c4f6f59c",
   "de": "Ich muss meine Schlüssel abgeben.",
   "en": "I have to hand in my keys.",
   "ko": "저는 열쇠를 반납해야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "해야 해요"
+   ],
+   [
+    1,
+    "저의"
+   ],
+   [
+    1,
+    "열쇠를"
+   ],
+   [
+    1,
+    "반납하다"
+   ]
+  ]
  },
  {
   "id": "sf2fcc98cdc",
   "de": "Ich muss meinen Schlüssel an der Rezeption abgeben.",
   "en": "I have to leave my key at the reception.",
   "ko": "저는 열쇠를 프런트에 맡겨야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "열쇠"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "프런트"
+   ],
+   [
+    1,
+    "맡기다"
+   ]
+  ]
  },
  {
   "id": "s0e9efbb8a0",
   "de": "gibt ab",
   "en": "He/She hands in.",
   "ko": "제출해요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "제출해요"
+   ]
+  ]
  },
  {
   "id": "s8bd991b030",
   "de": "hat abgegeben",
   "en": "has handed in.",
   "ko": "제출했어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "제출했어요"
+   ]
+  ]
  },
  {
   "id": "s79aa843162",
   "de": "Ich soll dieses Päckchen bei Herrn Müller abgeben.",
   "en": "I should deliver this package to Mr. Müller.",
   "ko": "저는 이 소포를 뮐러 씨에게 전해 줘야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "소포"
+   ],
+   [
+    1,
+    "~에게"
+   ],
+   [
+    1,
+    "씨에게"
+   ],
+   [
+    1,
+    "뮐러"
+   ],
+   [
+    1,
+    "전해 주다"
+   ]
+  ]
  },
  {
   "id": "s9a0073fd6e",
   "de": "Wann kann ich den Schrank bei dir abholen?",
   "en": "When can I pick up the cabinet from you?",
   "ko": "그 장을 언제 너한테서 가져갈 수 있어?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "언제"
+   ],
+   [
+    1,
+    "할 수 있나요"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "장을"
+   ],
+   [
+    1,
+    "(사람)에게서"
+   ],
+   [
+    1,
+    "너에게서"
+   ],
+   [
+    1,
+    "가져가다"
+   ]
+  ]
  },
  {
   "id": "sf3a6ee7445",
   "de": "Wir müssen noch meinen Bruder abholen.",
   "en": "We still need to pick up my brother.",
   "ko": "우리는 형도 데리러 가야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "해야 해요"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "저의"
+   ],
+   [
+    1,
+    "형을"
+   ],
+   [
+    1,
+    "데리러 가다"
+   ]
+  ]
  },
  {
   "id": "sa6f18fc22f",
   "de": "Wann kann ich die Sachen bei dir abholen?",
   "en": "When can I pick up the things at your place?",
   "ko": "그 물건들을 언제 너한테서 가져갈 수 있어?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "언제"
+   ],
+   [
+    1,
+    "할 수 있나요"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "물건들을"
+   ],
+   [
+    1,
+    "(사람)에게서"
+   ],
+   [
+    1,
+    "너에게서"
+   ],
+   [
+    1,
+    "가져가다"
+   ]
+  ]
  },
  {
   "id": "sfa848ebd70",
   "de": "holt ab",
   "en": "picks up.",
   "ko": "데리러 가요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "데리러 가요"
+   ]
+  ]
  },
  {
   "id": "se30ba300d0",
   "de": "hat abgeholt",
   "en": "has picked up.",
   "ko": "데리러 갔어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "데리러 갔어요"
+   ]
+  ]
  },
  {
   "id": "s61830c8733",
   "de": "Meine Freundin hat mich vom Bahnhof abgeholt.",
   "en": "My friend picked me up from the train station.",
   "ko": "여자친구가 저를 역으로 마중 나왔어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "여자친구"
+   ],
+   [
+    1,
+    "~했다"
+   ],
+   [
+    1,
+    "나를"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "역"
+   ],
+   [
+    1,
+    "마중 나오다"
+   ]
+  ]
  },
  {
   "id": "s97fd0df956",
   "de": "Da ist ein Brief für dich ohne Absender.",
   "en": "There is a letter for you without a sender.",
   "ko": "보내는 사람 없는 편지가 너한테 하나 왔어.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "거기에"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "편지"
+   ],
+   [
+    1,
+    "~을 위한"
+   ],
+   [
+    1,
+    "너에게"
+   ],
+   [
+    1,
+    "~없이"
+   ],
+   [
+    1,
+    "발신인"
+   ]
+  ]
  },
  {
   "id": "s344a83f04c",
   "de": "Schicken Sie das Paket an den Absender zurück.",
   "en": "Send the package back to the sender.",
   "ko": "그 소포를 발신인에게 돌려보내세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "보내세요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "소포"
+   ],
+   [
+    1,
+    "~에게"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "발신인"
+   ],
+   [
+    1,
+    "돌려"
+   ]
+  ]
  },
  {
   "id": "sab92b1d4e7",
   "de": "Achtung! Das dürfen Sie nicht tun.",
   "en": "Attention! You must not do that.",
   "ko": "주의하세요! 그건 하시면 안 됩니다.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "주의"
+   ],
+   [
+    1,
+    "그것을"
+   ],
+   [
+    1,
+    "~해도 된다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "~하지 않다"
+   ],
+   [
+    1,
+    "하다"
+   ]
+  ]
  },
  {
   "id": "s0f2ffd24cd",
   "de": "Achtung an Gleis drei: Die Türen schließen. Der Zug fährt jetzt ab.",
   "en": "Attention at platform three: The doors are closing. The train is leaving now.",
   "ko": "3번 승강장에 알립니다. 문이 닫힙니다. 열차가 곧 출발합니다.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "주의"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "승강장"
+   ],
+   [
+    1,
+    "3"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "문들"
+   ],
+   [
+    1,
+    "닫히다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "열차"
+   ],
+   [
+    1,
+    "출발하다"
+   ],
+   [
+    1,
+    "지금"
+   ],
+   [
+    1,
+    "~에서 출발하다"
+   ]
+  ]
  },
  {
   "id": "s09e0c7ea9e",
   "de": "Achtung! Pass auf! Der Verkehr ist hier gefährlich.",
   "en": "Attention! Watch out! The traffic here is dangerous.",
   "ko": "주의! 조심해! 여기 교통이 위험해.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "주의"
+   ],
+   [
+    2,
+    "조심해"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "교통"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "여기"
+   ],
+   [
+    1,
+    "위험한"
+   ]
+  ]
  },
  {
   "id": "sbfb2ca0b73",
   "de": "Achtung, hier endet die Straße!",
   "en": "Attention, the road ends here!",
   "ko": "주의하세요, 여기서 길이 끝납니다!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "주의"
+   ],
+   [
+    1,
+    "여기"
+   ],
+   [
+    1,
+    "끝나다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "길이"
+   ]
+  ]
  },
  {
   "id": "s5cfaf51738",
   "de": "Können Sie mir seine Adresse sagen?",
   "en": "Could you tell me his address?",
   "ko": "그의 주소를 알려 주실 수 있나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "할 수 있나요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "저에게"
+   ],
+   [
+    1,
+    "그의"
+   ],
+   [
+    1,
+    "주소를"
+   ],
+   [
+    1,
+    "말하다"
+   ]
+  ]
  },
  {
   "id": "s43738bd62e",
   "de": "Können Sie mir Ihre Adresse geben?",
   "en": "Can you give me your address?",
   "ko": "주소를 알려 주실 수 있나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "할 수 있나요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "저에게"
+   ],
+   [
+    1,
+    "당신의"
+   ],
+   [
+    1,
+    "주소를"
+   ],
+   [
+    1,
+    "주다"
+   ]
+  ]
  },
  {
   "id": "sabbe5952ea",
   "de": "Hast du schon meine neue Adresse?",
   "en": "Do you have my new address?",
   "ko": "내 새 주소 벌써 알고 있어?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~을"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "벌써"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "새로운"
+   ],
+   [
+    1,
+    "주소를"
+   ]
+  ]
  },
  {
   "id": "s9e12b6436f",
   "de": "Alles Gute!",
   "en": "All the best!",
   "ko": "잘 지내세요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "잘 지내길"
+   ]
+  ]
  },
  {
   "id": "s8c7d7e2249",
   "de": "Das ist alles.",
   "en": "That's all.",
   "ko": "그게 전부예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "전부"
+   ]
+  ]
  },
  {
   "id": "s0d5c0db574",
   "de": "Sind alle da?",
   "en": "Is everyone here?",
   "ko": "다 왔나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~인가요"
+   ],
+   [
+    1,
+    "모두"
+   ],
+   [
+    1,
+    "와"
+   ]
+  ]
  },
  {
   "id": "s5fec3fc282",
   "de": "Alle Freunde kommen.",
   "en": "All friends are coming.",
   "ko": "친구들이 모두 와요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "모든"
+   ],
+   [
+    1,
+    "친구들이"
+   ],
+   [
+    1,
+    "와요"
+   ]
+  ]
  },
  {
   "id": "sa9548c280a",
   "de": "Hast du alles?",
   "en": "Do you have everything?",
   "ko": "다 챙겼어?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~을"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "모두"
+   ]
+  ]
  },
  {
   "id": "s276f77008c",
   "de": "Ich wünsche dir alles Gute!",
   "en": "I wish you all the best!",
   "ko": "모든 게 잘되길 바랄게.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "바라다"
+   ],
+   [
+    1,
+    "너에게"
+   ],
+   [
+    2,
+    "모든 일이 잘되길"
+   ]
+  ]
  },
  {
   "id": "s173173ebc0",
   "de": "Möchten Sie noch etwas? - Nein, danke. Das ist alles.",
   "en": "Would you like anything else? - No, thank you. That’s all.",
   "ko": "더 필요하신 거 있으세요? - 아니요, 괜찮아요. 그게 전부예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "원하시나요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "더"
+   ],
+   [
+    1,
+    "무언가"
+   ],
+   [
+    1,
+    "아니요"
+   ],
+   [
+    1,
+    "고마워요"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "전부"
+   ]
+  ]
  },
  {
   "id": "s0f097bd9b4",
   "de": "Sind alle da? - Nein, Rita fehlt noch.",
   "en": "Is everyone here? - No, Rita is still missing.",
   "ko": "다 왔나요? - 아니요, 리타가 아직 안 왔어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~인가요"
+   ],
+   [
+    1,
+    "모두"
+   ],
+   [
+    1,
+    "와"
+   ],
+   [
+    1,
+    "아니요"
+   ],
+   [
+    1,
+    "리타는"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "빠져 있어요"
+   ]
+  ]
  },
  {
   "id": "sac9768f0be",
   "de": "Sind alle Kinder da?",
   "en": "Are all the children here?",
   "ko": "아이들이 다 왔나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~인가요"
+   ],
+   [
+    1,
+    "모든"
+   ],
+   [
+    1,
+    "아이들이"
+   ],
+   [
+    1,
+    "와"
+   ]
+  ]
  },
  {
   "id": "sf8f217e1e6",
   "de": "Sonst noch (et)was? – Nein, danke. Das ist alles.",
   "en": "Anything else? – No, thank you. That’s all.",
   "ko": "더 필요한 거 있으세요? – 아니요, 괜찮아요. 그게 전부예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그 밖에"
+   ],
+   [
+    1,
+    "더"
+   ],
+   [
+    1,
+    "무언가"
+   ],
+   [
+    1,
+    "아니요"
+   ],
+   [
+    1,
+    "고마워요"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "전부"
+   ]
+  ]
  },
  {
   "id": "s373b3c16a0",
   "de": "Er kommt allein.",
   "en": "He comes alone.",
   "ko": "그는 혼자 와요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "와요"
+   ],
+   [
+    1,
+    "혼자"
+   ]
+  ]
  },
  {
   "id": "sb96eabcb36",
   "de": "Kommt seine Freundin mit? - Nein, er kommt allein.",
   "en": "Is his girlfriend coming? - No, he is coming alone.",
   "ko": "여자친구도 같이 오나요? - 아니요, 그는 혼자 와요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "오나요"
+   ],
+   [
+    1,
+    "그의"
+   ],
+   [
+    1,
+    "여자친구가"
+   ],
+   [
+    1,
+    "같이"
+   ],
+   [
+    1,
+    "아니요"
+   ],
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "와요"
+   ],
+   [
+    1,
+    "혼자"
+   ]
+  ]
  },
  {
   "id": "secad3bf327",
   "de": "Soll ich Ihnen/dir helfen? - Nein danke, ich schaffe das schon allein.",
   "en": "Should I help you? - No, thanks, I can manage it alone.",
   "ko": "도와드릴까요? - 아니요, 괜찮아요. 혼자 할 수 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~할까요"
+   ],
+   [
+    1,
+    "내가"
+   ],
+   [
+    1,
+    "당신께"
+   ],
+   [
+    1,
+    "너에게"
+   ],
+   [
+    1,
+    "돕다"
+   ],
+   [
+    1,
+    "아니요"
+   ],
+   [
+    1,
+    "고마워요"
+   ],
+   [
+    1,
+    "나는 해내요"
+   ],
+   [
+    1,
+    "그것을"
+   ],
+   [
+    1,
+    "벌써"
+   ],
+   [
+    1,
+    "혼자"
+   ]
+  ]
  },
  {
   "id": "se9a8e3b836",
   "de": "Ich gehe nicht gern allein spazieren.",
   "en": "I don’t like walking alone.",
   "ko": "저는 혼자 산책하는 걸 좋아하지 않아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "좋아하지 않다"
+   ],
+   [
+    1,
+    "즐겨"
+   ],
+   [
+    1,
+    "혼자"
+   ],
+   [
+    1,
+    "산책하다"
+   ]
+  ]
  },
  {
   "id": "sef854aba73",
   "de": "Soll ich Ihnen helfen? – Danke, ich schaffe es schon allein.",
   "en": "Should I help you? – No, thank you, I can manage on my own.",
   "ko": "도와드릴까요? – 고맙지만 혼자 할 수 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~해야 할까요"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "당신에게"
+   ],
+   [
+    1,
+    "돕다"
+   ],
+   [
+    1,
+    "고마워요"
+   ],
+   [
+    1,
+    "저는"
+   ],
+   [
+    2,
+    "해낼 수 있다"
+   ],
+   [
+    1,
+    "이미"
+   ],
+   [
+    1,
+    "혼자"
+   ]
+  ]
  },
  {
   "id": "s58616806d0",
   "de": "Es war sehr teuer. Allein das Essen hat schon über 50 Euro gekostet.",
   "en": "It was very expensive. The food alone cost over 50 euros.",
   "ko": "아주 비쌌어요. 식사만 해도 벌써 50유로가 넘었어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "였다"
+   ],
+   [
+    1,
+    "매우"
+   ],
+   [
+    1,
+    "비쌌다"
+   ],
+   [
+    1,
+    "오직"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "식사가"
+   ],
+   [
+    1,
+    "~했다"
+   ],
+   [
+    1,
+    "벌써"
+   ],
+   [
+    1,
+    "넘게"
+   ],
+   [
+    1,
+    "50"
+   ],
+   [
+    1,
+    "유로가"
+   ],
+   [
+    1,
+    "들었다"
+   ]
+  ]
  },
  {
   "id": "sbc754db4c7",
   "de": "Also, es ist so: …",
   "en": "Well, it is like this: …",
   "ko": "그러니까, 이런 거예요: …",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그러니까"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "이렇다"
+   ]
+  ]
  },
  {
   "id": "sb640c3a5d7",
   "de": "Er hat Zeit, also muss er uns helfen.",
   "en": "He has time, so he has to help us.",
   "ko": "그는 시간이 있으니까 우리를 도와야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "시간"
+   ],
+   [
+    1,
+    "그러니까"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "우리에게"
+   ],
+   [
+    1,
+    "돕다"
+   ]
+  ]
  },
  {
   "id": "sb7c607e7d8",
   "de": "Also, die Sache ist so: …",
   "en": "So, the thing is: …",
   "ko": "그러니까, 사정은 이래요: …",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그러니까"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "사정은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "이렇다"
+   ]
+  ]
  },
  {
   "id": "s4cf996976d",

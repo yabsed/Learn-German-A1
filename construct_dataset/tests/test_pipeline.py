@@ -60,7 +60,7 @@ class IdTests(unittest.TestCase):
 
 class AudioTests(unittest.TestCase):
     def test_work_items_uses_dataset_ids_and_word_lemmas(self):
-        audio = load_script("06_audio.py")
+        audio = load_script("07_audio.py")
         words = [{"id": "backofen", "lemma": "Backofen", "level": "A1"}]
         sentences = [{"id": "s123", "de": "Guten Tag!", "level": "A1"}]
         # 단어와 예문은 일부러 다른 속도를 쓴다
@@ -119,6 +119,60 @@ class LlmTests(unittest.TestCase):
             )
         self.assertEqual(call.call_count, 2)
         self.assertEqual(saved, [("a", "가"), ("b", "나")])
+
+
+class GlossTests(unittest.TestCase):
+    def test_span_counts_must_cover_every_german_word(self):
+        glosses = load_script("05_glosses.py")
+        sentence = {"de": "Ab morgen muss ich arbeiten."}
+        valid = glosses.GlossItem(
+            id="s1",
+            g=[
+                {"n": 1, "ko": "~부터"}, {"n": 1, "ko": "내일"},
+                {"n": 1, "ko": "~해야 한다"}, {"n": 1, "ko": "나는"},
+                {"n": 1, "ko": "일하다"},
+            ],
+        )
+        short = glosses.GlossItem(id="s1", g=[{"n": 2, "ko": "내일부터"}, {"n": 1, "ko": "~해야 한다"}])
+        self.assertTrue(glosses.valid_gloss(valid, sentence))
+        self.assertFalse(glosses.valid_gloss(short, sentence))
+
+    def test_prompt_reuses_translation_without_repeating_metadata(self):
+        glosses = load_script("05_glosses.py")
+        prompt = glosses.build_prompt([{
+            "id": "s1",
+            "de": "Ab morgen muss ich arbeiten.",
+            "ko": "내일부터 일해야 해요.",
+            "en": "I have to work starting tomorrow.",
+            "level": "a1",
+        }])
+        self.assertIn("s1\tAb morgen muss ich arbeiten.\t내일부터 일해야 해요.", prompt)
+        self.assertNotIn("I have to work", prompt)
+        self.assertNotIn("a1", prompt)
+
+    def test_merge_rejects_invalid_spans_and_flags_multiword_groups(self):
+        merge = load_script("06_merge.py")
+        sentence = {"de": "Wie geht es Ihnen?"}
+        self.assertEqual(merge.gloss_reasons(sentence, {"g": [[1, "어떻게"]]}), ["span_mismatch=1/4"])
+        self.assertEqual(merge.gloss_reasons(sentence, {"g": [[1, "어떻게"], [2, "지내세요"], [1, "선생님은"]]}), ["multiword"])
+
+    def test_numbers_are_counted_as_visible_gloss_tokens(self):
+        glosses = load_script("05_glosses.py")
+        item = glosses.GlossItem(id="s1", g=[
+            {"n": 3, "ko": "요금은"}, {"n": 2, "ko": "함부르크부터"},
+            {"n": 1, "ko": "200"}, {"n": 1, "ko": "유로"},
+        ])
+        self.assertTrue(glosses.valid_gloss(item, {"de": "Die Fahrt kostet ab Hamburg 200 Euro."}))
+
+    def test_long_clause_groups_are_rejected(self):
+        glosses = load_script("05_glosses.py")
+        item = glosses.GlossItem(id="s1", g=[{"n": 4, "ko": "혼자 해낼 수 있다"}])
+        self.assertFalse(glosses.valid_gloss(item, {"de": "Ich schaffe das allein."}))
+
+    def test_workbook_alternatives_count_as_one_token(self):
+        glosses = load_script("05_glosses.py")
+        self.assertEqual(glosses.word_count("Sonst noch (et)was per E-Mail?"), 5)
+        self.assertEqual(glosses.word_count("Soll ich Ihnen/dir helfen?"), 4)
 
 
 if __name__ == "__main__":

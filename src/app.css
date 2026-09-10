@@ -281,9 +281,40 @@ main {
 .ex-play.on { color: var(--accent); border-color: var(--accent); }
 
 .ex-de { font-family: var(--serif); font-size: 16.5px; line-height: 1.45; }
-.ex-ko { display: block; background: none; border: 0; padding: 0; text-align: left; font-size: 14.5px; color: var(--muted); margin-top: 2px; }
+.ex-ko { font-size: 14.5px; color: var(--muted); margin-top: 5px; }
 .ex-en { font-size: 13px; color: var(--faint); margin-top: 1px; }
-.ex-ko.veiled { color: transparent; background: var(--line); border-radius: 4px; cursor: pointer; }
+
+.ex-gloss-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 7px 11px;
+}
+.ex-gloss-pair {
+  display: inline-grid;
+  grid-template-rows: auto auto;
+  justify-items: start;
+  white-space: nowrap;
+}
+.ex-gloss-de { font-family: var(--serif); font-size: 16.5px; line-height: 1.35; }
+.ex-gloss-ko { color: var(--muted); font-size: 12.5px; line-height: 1.35; min-height: 1.35em; }
+.ex-gloss-ko.veiled {
+  color: transparent;
+  background: var(--line);
+  border-radius: 3px;
+  user-select: none;
+}
+.ex-reveal {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 3px 0;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  text-align: left;
+  font-size: 13px;
+}
 
 /* 예문의 절반 넘는 낱말에 링크가 걸린다. 파랗게 밑줄을 그으면 문장이 아니라
    목록처럼 보이므로, 읽는 것을 방해하지 않을 만큼만 표시하고 손을 얹었을

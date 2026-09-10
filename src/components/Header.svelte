@@ -41,7 +41,7 @@
   <div class="panel">
     <label class="opt"><input type="checkbox" checked={settings.autoplay} onchange={(e) => update('autoplay', e.currentTarget.checked)}> 뜻을 열면 소리를 자동으로 낸다</label>
     <label class="opt"><input type="checkbox" checked={settings.english} onchange={(e) => update('english', e.currentTarget.checked)}> 예문에 영어도 보여 준다</label>
-    <label class="opt"><input type="checkbox" checked={settings.hideKorean} onchange={(e) => update('hideKorean', e.currentTarget.checked)}> 예문 뜻은 눌러야 보인다</label>
+    <label class="opt"><input type="checkbox" checked={settings.hideKorean} onchange={(e) => update('hideKorean', e.currentTarget.checked)}> 예문 풀이는 눌러야 보인다</label>
     <label class="opt">한 세션 분량
       <select value={settings.session} onchange={(e) => update('session', Number(e.currentTarget.value))}>
         <option value="10">10개</option>

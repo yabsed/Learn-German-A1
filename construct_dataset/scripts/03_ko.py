@@ -3,7 +3,7 @@
 입력  data/wordlist.jsonl   (1단계)  표제어·등급·예문
       data/ipa.jsonl        (2단계, 있으면)  위키낱말사전 품사를 힌트로 같이 보낸다
 출력  data/ko_draft.tsv     id, de, level, ko, note, model  — 모델 초안. 다시 돌리면 이미 있는 id 는 건너뛴다.
-      data/overrides.tsv    사람이 고친 것. ko 열을 채우면 5단계에서 초안보다 우선한다. (관사·복수형·IPA 도 같은 파일)
+      data/overrides.tsv    사람이 고친 것. ko 열을 채우면 6단계에서 초안보다 우선한다. (관사·복수형·IPA 도 같은 파일)
 
 백엔드
   sdk   Anthropic Python SDK.  ANTHROPIC_API_KEY (또는 ANTHROPIC_AUTH_TOKEN) 이 있을 때. 기본 모델 claude-opus-5.
@@ -11,7 +11,7 @@
   auto  키가 있으면 sdk, 없으면 cli.  (기본)
 
 한 요청에 CHUNK 개 항목을 JSON 으로 보내고, 같은 개수의 {id, ko, note} 를 JSON 스키마로 강제해 받는다.
-답에서 빠진 id 는 모아서 한 번 더 묻는다. 그래도 없으면 비워 두고 5단계의 검수 목록에 오른다.
+답에서 빠진 id 는 모아서 한 번 더 묻는다. 그래도 없으면 비워 두고 6단계의 검수 목록에 오른다.
 
 실행  python scripts/03_ko.py                          # 전체, auto 백엔드
       python scripts/03_ko.py --levels a1 --workers 4
@@ -111,7 +111,7 @@ def main() -> None:
 
     if not OVERRIDES.exists():
         OVERRIDES.write_text(
-            "# 사람이 고친 것. 5단계에서 자동 생성값보다 우선한다. 빈 칸은 무시. de 는 참고용.\n"
+            "# 사람이 고친 것. 6단계에서 자동 생성값보다 우선한다. 빈 칸은 무시. de 는 참고용.\n"
             "# plural 은 관사 없이 (Väter), ipa 는 대괄호 없이 (ˈfaːtɐ).\n"
             + "\t".join(OVERRIDE_FIELDS) + "\n", encoding="utf-8")
 

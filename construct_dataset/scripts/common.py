@@ -24,11 +24,14 @@ KAIKKI_MATCHES = DATA / "kaikki_matches.jsonl"  # 2단계 중간: 덤프에서 �
 IPA = DATA / "ipa.jsonl"                    # 2단계: id → IPA
 KO_DRAFT = DATA / "ko_draft.tsv"            # 3단계: 언어 모델이 쓴 단어 뜻 초안
 SENTENCE_DRAFT = DATA / "sentence_draft.tsv"  # 4단계: 언어 모델이 쓴 예문 번역 초안
+GLOSS_DRAFT = DATA / "gloss_draft.jsonl"      # 5단계: 예문 낱말 범위 → 문맥상 한국어 뜻
+GLOSS_OVERRIDES = DATA / "gloss_overrides.jsonl"  # 사람이 고친 문맥 주석. 같은 id면 초안보다 우선한다.
+GLOSS_REVIEW = DATA / "gloss_review_queue.tsv"  # 6단계: 사람이 먼저 검수할 문맥 주석
 OVERRIDES = DATA / "overrides.tsv"          # 사람이 고친 것. 관사·복수형·IPA·뜻 어느 열이든 채우면 그것이 이긴다.
-WORDS = DATA / "words.json"                 # 5단계: 앱이 읽는 최종 단어 파일
-SENTENCES = DATA / "sentences.json"         # 5단계: 앱이 읽는 최종 예문 파일
-REVIEW = DATA / "review_queue.tsv"          # 5단계: 사람이 봐야 할 단어 목록
-AUDIO = DATA / "audio"                      # 6단계: words/sentences의 id.mp3
+WORDS = DATA / "words.json"                 # 6단계: 앱이 읽는 최종 단어 파일
+SENTENCES = DATA / "sentences.json"         # 6단계: 앱이 읽는 최종 예문 파일
+REVIEW = DATA / "review_queue.tsv"          # 6단계: 사람이 봐야 할 단어 목록
+AUDIO = DATA / "audio"                      # 7단계: words/sentences의 id.mp3
 
 
 def log(*args: object) -> None:

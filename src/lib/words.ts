@@ -1,11 +1,18 @@
 import type { Word } from './types';
 
 const WORD_RE = /[A-Za-zÄÖÜäöüß]+/g;
+const GLOSS_TOKEN_RE = /(?:\([A-Za-zÄÖÜäöüß]+\))?[A-Za-zÄÖÜäöüß]+(?:[-/][A-Za-zÄÖÜäöüß]+)*|\d+(?:[.,:]\d+)*/g;
 
 export interface SentencePart {
   text: string;
   wordId?: string;
   current?: boolean;
+}
+
+export interface GlossPart {
+  de: string;
+  ko: string;
+  parts: SentencePart[];
 }
 
 export function buildSurfaceIndex(words: Word[]): Map<string, string> {
@@ -37,4 +44,31 @@ export function sentenceParts(text: string, currentId: string, surfaces: Map<str
   }
   if (at < text.length) parts.push({ text: text.slice(at) });
   return parts;
+}
+
+export function glossParts(
+  text: string,
+  gloss: Array<[number, string]> | undefined,
+  currentId: string,
+  surfaces: Map<string, string>,
+): GlossPart[] {
+  if (!gloss?.length) return [];
+  const words = [...text.matchAll(GLOSS_TOKEN_RE)];
+  if (
+    gloss.some(([span, meaning]) => !Number.isInteger(span) || span < 1 || !meaning.trim())
+    || gloss.reduce((total, [span]) => total + span, 0) !== words.length
+  ) return [];
+
+  const groups: GlossPart[] = [];
+  let wordAt = 0;
+  for (const [span, meaning] of gloss) {
+    const first = words[wordAt];
+    const next = words[wordAt + span];
+    const start = wordAt === 0 ? 0 : (first.index ?? 0);
+    const end = next ? (next.index ?? text.length) : text.length;
+    const de = text.slice(start, end).trim();
+    groups.push({ de, ko: meaning.trim(), parts: sentenceParts(de, currentId, surfaces) });
+    wordAt += span;
+  }
+  return groups;
 }

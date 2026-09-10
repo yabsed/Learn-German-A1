@@ -1,10 +1,10 @@
-"""7단계: 앱이 읽을 등급별 묶음과 오디오를 app/ 으로 옮긴다.
+"""8단계: 앱이 읽을 등급별 묶음과 오디오를 app/ 으로 옮긴다.
 
 words.json·sentences.json 전체는 3 MB 가까이 된다. 앱은 한 번에 한 등급만
 쓰므로 등급 하나만 담은 파일을 따로 만든다. 오디오는 복사하지 않고 하드링크로
 걸어 같은 파일을 두 번 저장하지 않는다. 같은 파일 시스템이 아니면 복사한다.
 
-실행  python scripts/07_site.py --levels a1
+실행  python scripts/08_site.py --levels a1
 """
 from __future__ import annotations
 
@@ -38,7 +38,10 @@ def bundle(words: list[dict], sentences: list[dict], level: str) -> dict:
             sentence = by_id.get(example["id"])
             if sentence is None:
                 continue
-            used[sentence["id"]] = {"de": sentence["de"], "ko": sentence["ko"], "en": sentence["en"]}
+            packed = {"de": sentence["de"], "ko": sentence["ko"], "en": sentence["en"]}
+            if sentence.get("g"):
+                packed["g"] = sentence["g"]
+            used[sentence["id"]] = packed
             example_ids.append(sentence["id"])
         picked.append({
             "id": word["id"],

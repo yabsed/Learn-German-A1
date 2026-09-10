@@ -105,12 +105,23 @@ make sentences SENTENCE_ARGS="--levels a1 --model sonnet --workers 4"
 make sentences SENTENCE_ARGS="--levels a1 --backend codex --workers 4"
 ```
 
-3·4단계는 기본값 `auto`에서 API 자격 증명이 있으면 Anthropic SDK를 쓰고,
+3~5단계는 기본값 `auto`에서 API 자격 증명이 있으면 Anthropic SDK를 쓰고,
 없으면 `claude` CLI를 찾는다. `--backend codex`를 주면 Codex CLI를 쓴다.
 이미 저장된 id는 다시 요청하지 않으므로 중단 후 재실행해도 앞선 비용을
 되풀이하지 않는다.
 
-### 5. 앱이 읽는 JSON을 만든다
+### 5. 예문에 행간 문맥 뜻을 붙인다
+
+```bash
+make glosses GLOSS_ARGS="--levels a1 --model sonnet --workers 4"
+```
+
+이미 만든 자연스러운 한국어 번역을 다시 번역하지 않고, 독일어의 연속된
+낱말 범위와 그 범위의 짧은 문맥 뜻만 생성한다. 모델 출력은 `[낱말 수, 뜻]`
+배열이라 독일어 원문을 되풀이하지 않는다. 결과는 `data/gloss_draft.jsonl`에
+id별로 누적된다. `--limit 60 --dry-run`으로 실제 호출 없이 입력을 확인할 수 있다.
+
+### 6. 앱이 읽는 JSON을 만든다
 
 ```bash
 make merge
@@ -118,10 +129,12 @@ make merge
 
 앞 단계 산출물과 사람이 고친 `data/overrides.tsv`를 합쳐 `data/words.json`과
 `data/sentences.json`을 만든다. 발음이나 뜻 하나만 고친 뒤라면 1~4단계를
-다시 돌릴 필요 없이 이 명령만 실행하면 된다. 검토가 필요한 단어는
-`data/review_queue.tsv`에, 등급별 통계는 `data/stats.json`에 적힌다.
+다시 돌릴 필요 없이 이 명령만 실행하면 된다. 문맥 주석은
+`data/gloss_overrides.jsonl`의 같은 id가 자동 초안보다 우선한다. 검토가 필요한
+단어와 예문은 `data/review_queue.tsv`, `data/gloss_review_queue.tsv`에 적히고,
+등급별 통계는 `data/stats.json`에 적힌다.
 
-### 6. 단어와 문장을 mp3로 읽는다
+### 7. 단어와 문장을 mp3로 읽는다
 
 ```bash
 make audio
@@ -159,7 +172,7 @@ make audio AUDIO_ARGS="--levels a1 --force"
 
 환경과 모델만 미리 준비하려면 `make setup-audio`를 실행한다.
 
-### 7. 앱이 쓸 자리로 옮긴다
+### 8. 앱이 쓸 자리로 옮긴다
 
 ```bash
 make site
@@ -210,9 +223,10 @@ tts_poc/.venv/bin/python tools/say.py "Auf Wiedersehen!" --once
 | 2 | `scripts/02_ipa.py` | Kaikki 덤프 | `data/ipa.jsonl` |
 | 3 | `scripts/03_ko.py` | 단어 목록·IPA | `data/ko_draft.tsv` |
 | 4 | `scripts/04_sentences.py` | 단어 목록의 예문 | `data/sentence_draft.tsv` |
-| 5 | `scripts/05_merge.py` | 앞 단계 출력·수동 수정 | `data/words.json`, `data/sentences.json` |
-| 6 | `scripts/06_audio.py` | 최종 JSON 두 개 | `data/audio/{id}.mp3` |
-| 7 | `scripts/07_site.py` | 최종 JSON·오디오 | `../app/data/{등급}.json`, `../app/audio/` |
+| 5 | `scripts/05_glosses.py` | 독일어 예문·한국어 번역 | `data/gloss_draft.jsonl` |
+| 6 | `scripts/06_merge.py` | 앞 단계 출력·수동 수정 | `data/words.json`, `data/sentences.json` |
+| 7 | `scripts/07_audio.py` | 최종 JSON 두 개 | `data/audio/{id}.mp3` |
+| 8 | `scripts/08_site.py` | 최종 JSON·오디오 | `../app/data/{등급}.json`, `../app/audio/` |
 
 ```text
 construct_dataset/
@@ -228,11 +242,14 @@ construct_dataset/
 │   ├── 02_ipa.py
 │   ├── 03_ko.py
 │   ├── 04_sentences.py
-│   ├── 05_merge.py
-│   ├── 06_audio.py
-│   └── 07_site.py
+│   ├── 05_glosses.py
+│   ├── 06_merge.py
+│   ├── 07_audio.py
+│   └── 08_site.py
 ├── data/
 │   ├── overrides.tsv
+│   ├── gloss_draft.jsonl
+│   ├── gloss_overrides.jsonl
 │   ├── words.json
 │   ├── sentences.json
 │   └── audio/

@@ -115,8 +115,9 @@ app/
 
 | 파일 | 만드는 것 |
 |---|---|
-| `construct_dataset/scripts/05_merge.py` | `words.json`, `sentences.json` |
-| `construct_dataset/scripts/06_audio.py` | `data/audio/{id}.mp3` |
-| `construct_dataset/scripts/07_site.py` | `app/data/{등급}.json`, `app/audio/` |
+| `construct_dataset/scripts/05_glosses.py` | 예문의 행간 문맥 뜻 |
+| `construct_dataset/scripts/06_merge.py` | `words.json`, `sentences.json` |
+| `construct_dataset/scripts/07_audio.py` | `data/audio/{id}.mp3` |
+| `construct_dataset/scripts/08_site.py` | `app/data/{등급}.json`, `app/audio/` |
 
 </details>
