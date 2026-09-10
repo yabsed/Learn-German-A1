@@ -26,6 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: 해설서 서브모듈을 확인한다
+        run: test "$(find construct_dataset/third_party/German-A1-Notes -maxdepth 1 -name 'Lektion*.md' | wc -l)" -eq 13
 
       - uses: actions/setup-python@v5
         with:
