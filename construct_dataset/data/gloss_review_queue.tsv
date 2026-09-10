@@ -5,321 +5,125 @@ s445ef1c72e	a1	Darf ich dich zu einem Kaffee einladen? – Aber ja, sehr gern.	�
 s94113d3aeb	a1	Wir haben noch zwanzig Minuten bis zur Abfahrt.	출발까지 아직 20분 남았어요.	multiword
 s0e9efbb8a0	a1	gibt ab	제출해요	multiword
 s8bd991b030	a1	hat abgegeben	제출했어요	multiword
+s9a0073fd6e	a1	Wann kann ich den Schrank bei dir abholen?	그 장을 언제 너한테서 가져갈 수 있어?	multiword
+sa6f18fc22f	a1	Wann kann ich die Sachen bei dir abholen?	그 물건들을 언제 너한테서 가져갈 수 있어?	multiword
 sfa848ebd70	a1	holt ab	데리러 가요	multiword
 se30ba300d0	a1	hat abgeholt	데리러 갔어요	multiword
 s09e0c7ea9e	a1	Achtung! Pass auf! Der Verkehr ist hier gefährlich.	주의! 조심해! 여기 교통이 위험해.	multiword
 s9e12b6436f	a1	Alles Gute!	잘 지내세요!	multiword
 s276f77008c	a1	Ich wünsche dir alles Gute!	모든 게 잘되길 바랄게.	multiword
 sef854aba73	a1	Soll ich Ihnen helfen? – Danke, ich schaffe es schon allein.	도와드릴까요? – 고맙지만 혼자 할 수 있어요.	multiword
-s4cf996976d	a1	Er hat Zeit, also kann er uns helfen.	그는 시간이 있어요, 그러니까 우리를 도와줄 수 있어요.	no_gloss
-s0cdeb28aa9	a1	Irina hat Urlaub. Sie kann uns also helfen.	이리나는 휴가예요. 그러니까 우리를 도와줄 수 있어요.	no_gloss
-sfec0b08737	a1	Also wirklich, jetzt reicht es.	정말이지, 이제 그만하면 됐어요.	no_gloss
-s04517b600c	a1	Wie alt sind Sie?	연세가 어떻게 되세요?	no_gloss
-s10675f0a83	a1	Sie sehen aber nicht so alt aus.	그런데 그렇게 나이 들어 보이지는 않으세요.	no_gloss
-se6ef0cf092	a1	Mein Auto ist schon sehr alt.	제 차는 벌써 아주 오래됐어요.	no_gloss
-sfbdba3d99d	a1	Wir wohnen in einem sehr alten Haus.	우리는 아주 오래된 집에 살아요.	no_gloss
-s8ba3b6a5ac	a1	Köln ist eine alte Stadt.	쾰른은 오래된 도시예요.	no_gloss
-s80aa589f32	a1	Mein Computer ist schon sehr alt.	제 컴퓨터는 벌써 아주 오래됐어요.	no_gloss
-sfaa099aa70	a1	Wir wohnen in einem ganz alten Haus.	우리는 아주 오래된 집에 살아요.	no_gloss
-s9b766dcf8f	a1	Alter: 26 Jahre.	나이: 26세.	no_gloss
-s0904765441	a1	Alter: 18 Jahre.	나이: 18세.	no_gloss
-s2b765e6312	a1	Maria ist eine alte Freundin von mir.	마리아는 제 오랜 친구예요.	no_gloss
-s3906f124df	a1	Wir sind etwa im gleichen Alter.	우리는 나이가 거의 비슷해요.	no_gloss
-s42c00d012b	a1	Alter: 26 Jahre	나이: 26세	no_gloss
-sb9d077dcc1	a1	Fahren Sie an der nächsten Straße nach rechts.	다음 길에서 오른쪽으로 가세요.	no_gloss
-s8f45810895	a1	Wir treffen uns am Bahnhof.	우리는 역에서 만나요.	no_gloss
-s61d4c37263	a1	Am nächsten Montag geht es leider nicht.	다음 주 월요일은 아쉽지만 안 돼요.	no_gloss
-s32317a2f23	a1	Fahren Sie an der nächsten Kreuzung nach rechts.	다음 교차로에서 오른쪽으로 가세요.	no_gloss
+sfec0b08737	a1	Also wirklich, jetzt reicht es.	정말이지, 이제 그만하면 됐어요.	multiword
 s3ec26ba8ef	a1	Wir treffen uns am Bahnhof/am Kino/am Stand.	우리는 역에서/영화관에서/가판대에서 만나요.	no_gloss
 s35f9349535	a1	Das Licht war die ganze Nacht an.	불이 밤새 켜져 있었어요.	no_gloss
-s3acb0332c1	a1	Ich ziehe (mir) eine Jacke an.	저는 재킷을 입어요.	no_gloss
-sf43e00557b	a1	Er hat sein T-Shirt ausgezogen und ein Hemd angezogen.	그는 티셔츠를 벗고 셔츠를 입었어요.	no_gloss
 sf90b8708dc	a1	Die Nachbarn sind am Wochenende ausgezogen.	이웃들이 주말에 이사 나갔어요.	no_gloss
-s6cbbb81fdf	a1	Am Anfang war alles sehr schwierig.	처음에는 모든 게 아주 어려웠어요.	no_gloss
+s6cbbb81fdf	a1	Am Anfang war alles sehr schwierig.	처음에는 모든 게 아주 어려웠어요.	multiword
 sbee0582aef	a1	Dann sehen wir uns also am Dienstag.	그럼 화요일에 봐요.	no_gloss
 s54e429bba1	a1	Ich warte am Bahnhof auf dich.	역에서 널 기다릴게.	no_gloss
 s9392a08c0a	a1	Am besten, du gehst zur Information und fragst da.	제일 좋은 건 안내소에 가서 거기서 물어보는 거야.	no_gloss
-s62b9c4f3c5	a1	Was darf ich dir anbieten?	뭘 줄까?	no_gloss
-se08d075a72	a1	Darf ich Ihnen/dir ein Stück Kuchen anbieten?	케이크 한 조각 드릴까요?	no_gloss
-s4e74f30cdb	a1	bietet an	제공해요	no_gloss
-s87bf805261	a1	hat angeboten	제공했어요	no_gloss
-s18e54cad06	a1	Darf ich Ihnen etwas zu trinken anbieten?	마실 것 좀 드릴까요?	no_gloss
-se3210e8ad2	a1	Heute sind Sportschuhe im Angebot.	오늘은 운동화가 특가예요.	no_gloss
-sc77b9b67a7	a1	Heute sind Bananen im Angebot.	오늘은 바나나가 특가예요.	no_gloss
+s4e74f30cdb	a1	bietet an	제공해요	multiword
+s87bf805261	a1	hat angeboten	제공했어요	multiword
+s18e54cad06	a1	Darf ich Ihnen etwas zu trinken anbieten?	마실 것 좀 드릴까요?	multiword
+se3210e8ad2	a1	Heute sind Sportschuhe im Angebot.	오늘은 운동화가 특가예요.	multiword
+sc77b9b67a7	a1	Heute sind Bananen im Angebot.	오늘은 바나나가 특가예요.	multiword
 sbed835fd3f	a1	Stellenangebote finden Sie in der Zeitung oder im Internet.	구인 광고는 신문이나 인터넷에서 찾을 수 있어요.	no_gloss
 s68b6436671	a1	Ich habe in der Zeitung ein paar günstige Wohnungsangebote gelesen.	신문에서 저렴한 집 매물 몇 개를 읽었어요.	no_gloss
-s835c9ebf43	a1	Der Käse ist heute im Angebot.	치즈가 오늘 특가예요.	no_gloss
-s8d8552a392	a1	Willst du diese Jacke?	이 재킷 원해?	no_gloss
-sf3721e0562	a1	– Nein, ich möchte die andere.	– 아니요, 다른 걸로 할게요.	no_gloss
-s2d7a8f10f9	a1	Willst du diesen Mantel? – Nein, ich möchte den anderen.	이 코트 원해? – 아니, 다른 걸로 할래.	no_gloss
-s69d2028799	a1	Die anderen sind schon nach Hause gegangen.	다른 사람들은 벌써 집에 갔어요.	no_gloss
-s1774cdc8d7	a1	Bitte nicht alle auf einmal! Einer nach dem anderen.	한꺼번에 다 오지 마세요! 한 명씩요.	no_gloss
-sd1954f6de3	a1	Ich hätte gern ein anderes Auto.	저는 다른 차를 갖고 싶어요.	no_gloss
-s3169d58e5f	a1	Natascha hat unter anderem Chinesisch und Spanisch gelernt.	나타샤는 무엇보다도 중국어와 스페인어를 배웠어요.	no_gloss
-sbd3433fa48	a1	Hier fängt die Bahnhofstraße an.	여기서 반호프 거리가 시작돼요.	no_gloss
-s0f45fa5f44	a1	Der Unterricht fängt gleich an.	수업이 곧 시작돼요.	no_gloss
-s8e4e083e81	a1	Würden Sie bitte anfangen?	시작해 주시겠어요?	no_gloss
-sd1ba7e17eb	a1	Ich fange im Herbst meine Ausbildung an.	저는 가을에 직업 교육을 시작해요.	no_gloss
-s8041ca41ae	a1	Wann fängst du mit der Arbeit an?	너는 언제 일을 시작해?	no_gloss
-sa0810e6761	a1	Sie wohnt am Anfang der Straße.	그녀는 길 초입에 살아요.	no_gloss
-sf2ea0f72fe	a1	Wir machen Anfang Juli Urlaub.	우리는 7월 초에 휴가를 가요.	no_gloss
-seed08a95be	a1	Wie war der Film? – Ich habe nur den Anfang gesehen.	영화 어땠어요? – 저는 앞부분만 봤어요.	no_gloss
-sd871b5cbb6	a1	Am Anfang habe ich bei der Arbeit viele Fragen gestellt.	처음에는 직장에서 질문을 많이 했어요.	no_gloss
-sef30414420	a1	Mein Chef ist Anfang fünfzig.	제 상사는 50대 초반이에요.	no_gloss
-s85f978acfd	a1	Meine Mutter war von Anfang an dagegen, dass ich nach Berlin ziehe.	어머니는 제가 베를린으로 이사하는 걸 처음부터 반대하셨어요.	no_gloss
-s7ed65621f7	a1	Wir machen Anfang Juli Ferien.	우리는 7월 초에 휴가를 가요.	no_gloss
-sc17ad4896e	a1	Meine Freundin wohnt am Anfang der Straße.	제 여자친구는 길 초입에 살아요.	no_gloss
-sa909015bd8	a1	Da musst du dieses Wort anklicken.	거기서 이 단어를 클릭해야 해.	no_gloss
-s8df7aee783	a1	Du musst das Bild anklicken. Dann wird es größer.	그 그림을 클릭해야 해. 그러면 더 커져.	no_gloss
-sef9e6d79ad	a1	Wann kommt dieser Zug in Hamburg an?	이 기차는 함부르크에 언제 도착해요?	no_gloss
-s2ae939ce71	a1	Auf diesem Fahrplan steht nur die Ankunft der Züge.	이 운행 시간표에는 기차의 도착만 나와 있어요.	no_gloss
-sd3e6385a06	a1	ist angekommen	도착했어요	no_gloss
-s08cbade8ee	a1	Wann kommt der Zug in Hamburg an?	그 기차는 함부르크에 언제 도착해요?	no_gloss
-s8e614ac274	a1	Bei dem Spiel kommt es darauf an, schneller zu laufen als die anderen.	이 놀이에서는 다른 사람들보다 빨리 달리는 것이 중요해요.	no_gloss
+s835c9ebf43	a1	Der Käse ist heute im Angebot.	치즈가 오늘 특가예요.	multiword
+s69d2028799	a1	Die anderen sind schon nach Hause gegangen.	다른 사람들은 벌써 집에 갔어요.	multiword
+s1774cdc8d7	a1	Bitte nicht alle auf einmal! Einer nach dem anderen.	한꺼번에 다 오지 마세요! 한 명씩요.	multiword
+s3169d58e5f	a1	Natascha hat unter anderem Chinesisch und Spanisch gelernt.	나타샤는 무엇보다도 중국어와 스페인어를 배웠어요.	multiword
+sa0810e6761	a1	Sie wohnt am Anfang der Straße.	그녀는 길 초입에 살아요.	multiword
+sf2ea0f72fe	a1	Wir machen Anfang Juli Urlaub.	우리는 7월 초에 휴가를 가요.	multiword
+sef30414420	a1	Mein Chef ist Anfang fünfzig.	제 상사는 50대 초반이에요.	multiword
+s85f978acfd	a1	Meine Mutter war von Anfang an dagegen, dass ich nach Berlin ziehe.	어머니는 제가 베를린으로 이사하는 걸 처음부터 반대하셨어요.	multiword
+s7ed65621f7	a1	Wir machen Anfang Juli Ferien.	우리는 7월 초에 휴가를 가요.	multiword
+sc17ad4896e	a1	Meine Freundin wohnt am Anfang der Straße.	제 여자친구는 길 초입에 살아요.	multiword
 s43dd29a64e	a1	Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.	이 시간표에는 기차의 도착 시간만 나와 있어요.	no_gloss
-s62932228ef	a1	Gehen wir morgen zusammen in die Ausstellung?	우리 내일 같이 전시회에 갈까요?	no_gloss
-s3178f79d33	a1	Die Abfahrt ist um 0.55 Uhr, die Ankunft um 8.07 Uhr.	출발은 0시 55분, 도착은 8시 7분이에요.	no_gloss
-sd6780d76dd	a1	Gleich nach der Ankunft habe ich meine Eltern angerufen.	도착하자마자 부모님께 전화했어요.	no_gloss
-s73333d7c00	a1	Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.	양식의 여러 곳에 표시를 하셔야 해요.	no_gloss
-s89283da8af	a1	Mach bitte das Licht an!	불 좀 켜 줘!	no_gloss
-sd307fa3852	a1	macht an	켜요	no_gloss
-sa42a1ea879	a1	hat angemacht	켰어요	no_gloss
 s558c0617bb	a1	Wo kann ich mich anmelden?	어디에서 등록할 수 있어요?	no_gloss
-scdd4132fec	a1	Eine Anmeldung für diesen Kurs ist nicht mehr möglich.	이 강좌는 더 이상 등록할 수 없어요.	no_gloss
-s8454cb608b	a1	hat angemeldet	등록했어요	no_gloss
 s95a3b7cbbd	a1	Für diesen Kurs müssen Sie sich unbedingt vorher anmelden.	이 강좌는 반드시 미리 등록하셔야 해요.	no_gloss
-s48c9f55ae5	a1	Wo bekomme ich das Formular für die Anmeldung?	등록 양식은 어디에서 받을 수 있어요?	no_gloss
-s72f309d077	a1	Wo bekomme ich die Formulare für die Anmeldung?	등록 양식들은 어디에서 받을 수 있어요?	no_gloss
-s0a96b63368	a1	Die Anmeldung ist im Erdgeschoss, Zimmer 55.	접수처는 1층 55호실이에요.	no_gloss
-sa59ebbfdb8	a1	Schreiben Sie auch eine Anrede und einen Gruß.	호칭과 인사말도 쓰세요.	no_gloss
-sf555497ffe	a1	Du darfst im Brief die Anrede nicht vergessen.	편지에서 호칭을 잊으면 안 돼.	no_gloss
-s8e1c09bcae	a1	Kann man Sie anrufen?	당신에게 전화해도 될까요?	no_gloss
-s701cf9e262	a1	Peter ruft kurz seine Freundin an.	페터는 여자친구에게 잠깐 전화해요.	no_gloss
-s0515429e29	a1	Kann ich Sie heute Abend anrufen?	오늘 저녁에 전화드려도 될까요?	no_gloss
-sa3aae32af3	a1	hat angerufen	전화했어요	no_gloss
-sf70620b0b3	a1	Ich rufe Sie heute Abend an.	오늘 저녁에 전화드릴게요.	no_gloss
-sb52e14638a	a1	Sie bekommt viele Anrufe auf ihrem Handy.	그녀는 휴대폰으로 전화를 많이 받아요.	no_gloss
-s12ffbbabc1	a1	Eva bekommt viele Anrufe von ihrem Freund Juan.	에바는 친구 후안에게서 전화를 많이 받아요.	no_gloss
-sc9cd0406f0	a1	Ich warte auf einen Anruf aus Berlin.	저는 베를린에서 오는 전화를 기다리고 있어요.	no_gloss
+sa3aae32af3	a1	hat angerufen	전화했어요	multiword
 s1f7acb9f3e	a1	Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.	저희는 지금 자리에 없어요. 자동응답기에 말씀해 주세요.	no_gloss
-s711256fe4e	a1	Ich habe dir eine Nachricht auf den Anrufbeantworter gesprochen.	네 자동응답기에 메시지를 남겼어.	no_gloss
-s866d2d7539	a1	Hören Sie die Ansagen.	안내 방송을 들으세요.	no_gloss
-s9288be2ecc	a1	Achten Sie auf die Ansage am Bahnsteig.	승강장의 안내 방송에 주의하세요.	no_gloss
-sa59b3c0495	a1	In Mannheim haben Sie Anschluss nach Saarbrücken.	만하임에서 자르브뤼켄행으로 갈아탈 수 있어요.	no_gloss
-s2a2e7d1999	a1	Ist das die Anmeldung für einen Telefonanschluss?	이게 전화 회선 신청인가요?	no_gloss
-s04eae17f03	a1	In Stuttgart erreichen Sie alle Anschlüsse. Auch der Zug nach Paris wartet.	슈투트가르트에서 모든 연결편을 탈 수 있어요. 파리행 기차도 기다려요.	no_gloss
-sc2da866d74	a1	Gibt es in der Wohnung einen Waschmaschinenanschluss?	그 집에 세탁기 연결부가 있나요?	no_gloss
-s022afd167a	a1	Ich brauche in meiner Wohnung einen Telefonanschluss.	저는 집에 전화 회선이 필요해요.	no_gloss
-s697be21523	a1	Heute Nacht war das Licht an.	어젯밤에 불이 켜져 있었어요.	no_gloss
-s319bc5912e	a1	Das Licht ist noch an.	불이 아직 켜져 있어요.	no_gloss
 s7911539147	a1	Das Licht ist noch an/schon aus.	불이 아직 켜져 있어요. / 벌써 꺼졌어요.	no_gloss
-sf123b80dc7	a1	Er antwortet nicht.	그는 대답하지 않아요.	no_gloss
-s26c8259321	a1	hat geantwortet	대답했어요	no_gloss
-s1f9bba924e	a1	Er gibt leider keine Antwort.	그는 유감스럽게도 대답을 하지 않아요.	no_gloss
+s26c8259321	a1	hat geantwortet	대답했어요	multiword
 sd014e2f040	a1	Ich habe Ihre Anzeige in der Zeitung gelesen.	신문에서 당신의 광고를 읽었어요.	no_gloss
-sab405a4b09	a1	Ich muss mich noch anziehen.	저는 아직 옷을 입어야 해요.	no_gloss
-sf32680b17f	a1	Wir haben ein Apartment gemietet.	우리는 아파트를 하나 빌렸어요.	no_gloss
-s9f66d624cb	a1	Ein Pfund Äpfel bitte.	사과 한 파운드 주세요.	no_gloss
-sb5637beb90	a1	Ein Kilo Äpfel, bitte.	사과 1킬로 주세요.	no_gloss
-s8af8b72afe	a1	Guten Appetit!	맛있게 드세요!	no_gloss
-s0436e3db0f	a1	Wo arbeiten Sie?	어디에서 일하세요?	no_gloss
-se1e9c1fdfb	a1	Ich arbeite als Krankenschwester in einem Krankenhaus.	저는 병원에서 간호사로 일해요.	no_gloss
-s9a32106ddb	a1	Mein Bruder sucht Arbeit.	제 형은 일자리를 찾고 있어요.	no_gloss
+s8af8b72afe	a1	Guten Appetit!	맛있게 드세요!	multiword
 s7f7465c2cc	a1	Es gibt bei uns viele Leute, die schon lange arbeitslos sind.	우리 지역에는 오래 실업 상태인 사람들이 많아요.	no_gloss
-sd3b0b3d0a7	a1	Seit wann ist er schon arbeitslos?	그는 언제부터 실업 상태예요?	no_gloss
-s6bbe69490b	a1	An meinem Arbeitsplatz fehlt ein Drucker.	제 일하는 자리에는 프린터가 없어요.	no_gloss
-seb1627bdbd	a1	Mein Arm tut weh.	팔이 아파요.	no_gloss
-s2f1f93ec4e	a1	Morgen habe ich einen Termin bei meiner Ärztin.	내일 의사 선생님께 진료 예약이 있어요.	no_gloss
-s1b26f1c1fb	a1	Ich bin auch Spanier.	저도 스페인 사람이에요.	no_gloss
-s50edbdcd82	a1	Maria muss auch am Wochenende arbeiten.	마리아는 주말에도 일해야 해요.	no_gloss
+seb1627bdbd	a1	Mein Arm tut weh.	팔이 아파요.	multiword
 s46b14df98c	a1	Die Kinder spielen auf der Straße.	아이들이 길에서 놀아요.	no_gloss
-s50a3fda8ba	a1	Auf Wiedersehen.	안녕히 가세요.	no_gloss
-s0f4a310fce	a1	Das Wörterbuch liegt auf dem Tisch.	사전이 책상 위에 있어요.	no_gloss
-s43fd495e5b	a1	Am Samstag gehen wir auf eine Party.	토요일에 우리는 파티에 가요.	no_gloss
-s342ca3e5c3	a1	Meine Eltern wohnen auf dem Land.	부모님은 시골에 사세요.	no_gloss
-s43710630a9	a1	Auf dem Foto ist auch meine Schwester.	사진에 제 여동생도 있어요.	no_gloss
+s50a3fda8ba	a1	Auf Wiedersehen.	안녕히 가세요.	multiword
 s37146620a8	a1	Die Tür ist auf, kommen Sie rein!	문이 열려 있어요, 들어오세요!	no_gloss
-sdddda82ec4	a1	Hat das Geschäft noch auf?	가게가 아직 열려 있나요?	no_gloss
-se6ded63c0d	a1	Wie heißt das auf Deutsch?	이것은 독일어로 뭐라고 해요?	no_gloss
 s025447b8ec	a1	Du brauchst den Schlüssel nicht. Die Wohnung ist auf.	열쇠는 필요 없어. 집은 열려 있어.	no_gloss
-sa4356cbe08	a1	Das Fenster ist noch auf.	창문이 아직 열려 있어요.	no_gloss
-s1a09c472ca	a1	Ich muss immer um vier Uhr aufstehen.	저는 항상 4시에 일어나야 해요.	no_gloss
-sc5258c79bb	a1	Soll ich aufstehen?	제가 일어날까요?	no_gloss
-s89c788d0bc	a1	Ich stehe jeden Morgen um sieben Uhr auf.	저는 매일 아침 7시에 일어나요.	no_gloss
-s8104b0fde1	a1	steht auf	일어나요	no_gloss
-s70a68804c3	a1	ist aufgestanden	일어났어요	no_gloss
-s5fe3ab4582	a1	Ich stehe jeden Morgen um sechs Uhr auf.	저는 매일 아침 6시에 일어나요.	no_gloss
-see822bd2b6	a1	Sie brauchen nicht aufzustehen. Sie können sitzen bleiben.	일어나실 필요 없어요. 앉아 계셔도 돼요.	no_gloss
-s8f9204a755	a1	In diesem Haus gibt es keinen Aufzug.	이 건물에는 엘리베이터가 없어요.	no_gloss
-s55ff7ea634	a1	Der Aufzug ist leider kaputt.	유감스럽게도 엘리베이터가 고장 났어요.	no_gloss
-sf895f09685	a1	Im Büro ist leider der Aufzug kaputt.	유감스럽게도 사무실 엘리베이터가 고장 났어요.	no_gloss
-s1562b71452	a1	Er hat blaue Augen.	그는 파란 눈을 가지고 있어요.	no_gloss
-s7f1d51b7b4	a1	Mein rechtes Auge tut seit Sonntag weh.	일요일부터 오른쪽 눈이 아파요.	no_gloss
-s5b307138f4	a1	Meine beiden Kinder haben blaue Augen.	제 두 아이는 파란 눈이에요.	no_gloss
-s333cf75f88	a1	Er kommt aus Brasilien.	그는 브라질에서 왔어요.	no_gloss
-s62797a4be0	a1	Michele kommt aus Brasilien.	미셸은 브라질에서 왔어요.	no_gloss
+s8f9204a755	a1	In diesem Haus gibt es keinen Aufzug.	이 건물에는 엘리베이터가 없어요.	multiword
 s3cc4351d67	a1	Frau Müller geht immer um acht Uhr aus dem Haus.	뮐러 부인은 항상 8시에 집에서 나가요.	no_gloss
-s05ec524467	a1	Der Tisch ist aus Glas.	그 탁자는 유리로 되어 있어요.	no_gloss
-sd152ea212f	a1	Ich sehe nichts. Das Licht ist aus.	아무것도 안 보여요. 불이 꺼져 있어요.	no_gloss
 sf3bd4b3726	a1	Frau Müller geht jeden Morgen um 8 Uhr aus dem Haus.	뮐러 부인은 매일 아침 8시에 집에서 나가요.	no_gloss
 s3f6bcb5794	a1	Frau Özgen kommt aus der Türkei.	외즈겐 부인은 터키에서 왔어요.	no_gloss
-sb57e221548	a1	Die Möbel sind noch aus der Zeit um 1900.	그 가구는 아직 1900년경 시대의 것이에요.	no_gloss
-scd686f37b8	a1	Ich trage nur Pullover aus reiner Wolle.	저는 순모로 된 스웨터만 입어요.	no_gloss
-s10c3e06140	a1	Wir haben aus Liebe geheiratet.	우리는 사랑해서 결혼했어요.	no_gloss
-s54c2defc48	a1	Wann ist der Kurs aus?	수업은 언제 끝나요?	no_gloss
-sc6176cffa8	a1	Ich seh‘ nichts! Das Licht ist aus!	아무것도 안 보여요! 불이 꺼져 있어요!	no_gloss
-s50714fd0d9	a1	Morgen machen wir einen Ausflug nach Heidelberg.	내일 우리는 하이델베르크로 소풍을 가요.	no_gloss
-s87f926d325	a1	Morgen machen wir einen Ausflug nach Heidelberg/an die Ostsee.	내일 우리는 하이델베르크로, 발트해로 소풍을 가요.	no_gloss
-s196c5e5748	a1	Am Wochenende machen wir mit Freunden einen Ausflug nach Heidelberg.	주말에 우리는 친구들과 하이델베르크로 소풍을 가요.	no_gloss
-sb0066b2673	a1	Füllen Sie bitte dieses Formular aus.	이 양식을 작성해 주세요.	no_gloss
-sf92455f49d	a1	Füllen Sie/Füll bitte dieses Formular aus!	이 양식을 작성해 주세요!	no_gloss
-sbe191277d6	a1	füllt aus	작성해요	no_gloss
-s24df9a146c	a1	hat ausgefüllt	작성했어요	no_gloss
-sd7a87c0775	a1	Füllen Sie bitte dieses Formular aus!	이 양식을 작성해 주세요!	no_gloss
+sbe191277d6	a1	füllt aus	작성해요	multiword
+s24df9a146c	a1	hat ausgefüllt	작성했어요	multiword
 s1389a8521a	a1	Wo ist der Ausgang?	출구가 어디예요?	no_gloss
 sf69f8b71a7	a1	Entschuldigung, wo ist der Ausgang?	실례합니다, 출구가 어디예요?	no_gloss
 s29cb059478	a1	Wo ist der Ausgang bitte?	출구가 어디인가요?	no_gloss
-s36bb6a0675	a1	Können Sie mir eine Auskunft geben?	정보를 좀 알려주실 수 있나요?	no_gloss
+s36bb6a0675	a1	Können Sie mir eine Auskunft geben?	정보를 좀 알려주실 수 있나요?	multiword
 sad6f3da492	a1	Wo ist die Auskunft?	안내소가 어디예요?	no_gloss
-s6e871c781b	a1	Können Sie mir bitte eine Auskunft geben?	정보를 좀 알려주실 수 있을까요?	no_gloss
-s5f8f20b095	a1	Ich hätte gern eine Auskunft.	정보를 좀 알고 싶어요.	no_gloss
+s5f8f20b095	a1	Ich hätte gern eine Auskunft.	정보를 좀 알고 싶어요.	multiword
 s6f1f295d30	a1	Die Firma hat eine neue Nummer. Bitte, rufen Sie die Auskunft an.	그 회사는 번호가 새로 바뀌었어요. 안내 서비스에 전화해 보세요.	no_gloss
-s25afbfd2af	a1	Fahren Sie ins Ausland?	외국에 가시나요?	no_gloss
-sf0dd7e9c73	a1	Wir fahren im Urlaub meistens ins Ausland.	우리는 휴가 때 보통 외국에 가요.	no_gloss
-s1579ff2fcf	a1	Sind Sie Ausländerin?	외국인이세요?	no_gloss
-s039c7cfe94	a1	Viele Ausländer und Ausländerinnen lernen in der Volkshochschule Deutsch.	많은 외국인들이 시민대학에서 독일어를 배워요.	no_gloss
-s2144511955	a1	Leider habe ich nur ausländisches Geld.	아쉽게도 저는 외국 돈밖에 없어요.	no_gloss
-sfc3897ea8b	a1	Die ausländischen Studenten müssen zuerst einen Deutschkurs besuchen.	외국인 학생들은 먼저 독일어 강좌를 들어야 해요.	no_gloss
 s793e8731c9	a1	Mach bitte das Licht aus!	불 좀 꺼 줘!	no_gloss
-sa1cabe0cbc	a1	macht aus	끕니다	no_gloss
-s01949ed906	a1	hat ausgemacht	껐습니다	no_gloss
+sa1cabe0cbc	a1	macht aus	끕니다	multiword
+s01949ed906	a1	hat ausgemacht	껐습니다	multiword
 s90151f80f7	a1	Sie müssen leider warten. – Kein Problem. Das macht mir nichts aus.	죄송하지만 기다리셔야 해요. – 괜찮아요. 저는 상관없어요.	no_gloss
 s07f9717332	a1	Machen Sie bitte das Licht aus!	불 좀 꺼 주세요!	no_gloss
-sfb04a81ac6	a1	Wir hatten doch ausgemacht, dass du die Getränke besorgst.	네가 음료를 사 오기로 약속했잖아.	no_gloss
-sdf6bd569a2	a1	Haben Sie einen Termin ausgemacht?	예약을 하셨나요?	no_gloss
-s055a7ac247	a1	Ist die Aussage richtig oder falsch?	이 진술은 맞나요, 틀리나요?	no_gloss
+sfb04a81ac6	a1	Wir hatten doch ausgemacht, dass du die Getränke besorgst.	네가 음료를 사 오기로 약속했잖아.	multiword
 s756eb72e48	a1	Das sieht schön aus.	그건 예뻐 보여요.	no_gloss
-s91c92f7998	a1	Wie sieht er aus? - Groß und blond.	그는 어떻게 생겼어요? - 키가 크고 금발이에요.	no_gloss
-s8807f3cb24	a1	Sie sieht wie ihre Mutter aus.	그녀는 어머니를 닮았어요.	no_gloss
-scb142c838a	a1	hat ausgesehen	보였습니다	no_gloss
-sc9236d729d	a1	Sie sehen wieder besser aus. Sind Sie wieder gesund?	다시 좋아 보이시네요. 이제 건강해지셨어요?	no_gloss
-s538def6560	a1	Er sieht genauso aus wie sein Vater.	그는 아버지와 똑같이 생겼어요.	no_gloss
+s91c92f7998	a1	Wie sieht er aus? - Groß und blond.	그는 어떻게 생겼어요? - 키가 크고 금발이에요.	multiword
+scb142c838a	a1	hat ausgesehen	보였습니다	multiword
 s7de40a6499	a1	Es sieht so aus, als ob es bald regnen würde.	곧 비가 올 것처럼 보여요.	no_gloss
-s4ff3bbf78a	a1	Das Licht ist aus.	불이 꺼져 있어요.	no_gloss
-sc18ce203da	a1	Die Schule ist aus.	학교가 끝났어요.	no_gloss
 s3001d7e545	a1	Wo muss ich aussteigen?	저는 어디서 내려야 하나요?	no_gloss
 s428551313c	a1	Wo müssen wir aussteigen? – An der nächsten Haltestelle.	우리는 어디서 내려야 하나요? – 다음 정류장에서요.	no_gloss
-sdc0d68018f	a1	steigt aus	내립니다	no_gloss
-s028821e63f	a1	ist ausgestiegen	내렸습니다	no_gloss
-s8f33e65f13	a1	Hier ist mein Ausweis.	여기 제 신분증이요.	no_gloss
+sdc0d68018f	a1	steigt aus	내립니다	multiword
+s028821e63f	a1	ist ausgestiegen	내렸습니다	multiword
 saa5006b8ab	a1	Darf ich bitte mal Ihren Ausweis sehen? – Hier ist mein Ausweis.	신분증 좀 볼 수 있을까요? - 여기 제 신분증이요.	no_gloss
-sc1a5d7ecd0	a1	Darf ich mal Ihren Ausweis sehen?	신분증 좀 볼 수 있을까요?	no_gloss
-s124a0bf121	a1	Zieh die Schuhe aus, bitte!	신발 좀 벗어!	no_gloss
 sdc264e0f4d	a1	Willst du den Mantel nicht ausziehen?	코트 안 벗을래?	no_gloss
-s88d292d5d3	a1	Müllers sind schon vor vier Wochen ausgezogen.	뮐러네는 벌써 4주 전에 이사 나갔어요.	no_gloss
 s274e29bb82	a1	Er kommt mit dem Auto.	그는 차로 와요.	no_gloss
 sdcd4300dbf	a1	Er fährt mit dem Auto.	그는 차로 가요.	no_gloss
 s6261615eed	a1	Mario fährt mit dem Auto zur Arbeit.	마리오는 차로 출근해요.	no_gloss
 s0d9524a0e4	a1	Wo geht‘s hier bitte zur Autobahn?	실례지만 여기서 고속도로로 어떻게 가나요?	no_gloss
-sb76f1b7ff1	a1	Darf ich mit dem Motorroller auf der Autobahn fahren?	스쿠터로 고속도로를 달려도 되나요?	no_gloss
-scb9799768a	a1	Das Dorf liegt direkt an der Autobahn.	그 마을은 고속도로 바로 옆에 있어요.	no_gloss
-sf2a3457584	a1	Die Fahrkarten gibt es nur am Automaten.	승차권은 자동판매기에서만 살 수 있어요.	no_gloss
-s130b92343d	a1	Fahrkarten gibt es nur am Automaten.	승차권은 자동판매기에서만 살 수 있어요.	no_gloss
-s143e401e25	a1	In Berlin ist der Fahrkartenautomat auf dem Bahnsteig.	베를린에서는 승차권 판매기가 승강장에 있어요.	no_gloss
-s127c988248	a1	Zigaretten bekommst du am Automaten.	담배는 자동판매기에서 살 수 있어.	no_gloss
-sb5ec72b1c7	a1	Der Fahrkartenautomat ist auf dem Bahnsteig.	승차권 판매기는 승강장에 있어요.	no_gloss
-s4e399faabb	a1	Du musst nichts machen. Das geht automatisch.	넌 아무것도 안 해도 돼. 그건 자동으로 돼.	no_gloss
-s6c502a4f17	a1	Achtung, die Türen schließen automatisch!	주의하세요, 문이 자동으로 닫힙니다!	no_gloss
-sc1412e4137	a1	Die Tür schließt automatisch.	문은 자동으로 닫혀요.	no_gloss
-s7991ec96d3	a1	Das Zeugnis bekommen Sie automatisch zugeschickt.	성적표는 자동으로 우편 발송됩니다.	no_gloss
+sf2a3457584	a1	Die Fahrkarten gibt es nur am Automaten.	승차권은 자동판매기에서만 살 수 있어요.	multiword
+s130b92343d	a1	Fahrkarten gibt es nur am Automaten.	승차권은 자동판매기에서만 살 수 있어요.	multiword
 se83e5f986e	a1	Mein Kind ist noch ein Baby.	제 아이는 아직 아기예요.	no_gloss
-s6bf33fd060	a1	Wir haben ein Baby. Es ist sechs Wochen alt.	우리는 아기가 있어요. 태어난 지 6주 됐어요.	no_gloss
-s98154542e8	a1	Ich geh mal schnell zur Bäckerei.	저 빵집에 잠깐 다녀올게요.	no_gloss
-s0fa57391ff	a1	Wir kaufen unser Brot immer in der Bäckerei am Markt.	우리는 빵을 항상 시장에 있는 빵집에서 사요.	no_gloss
-s98302e1a87	a1	Wir haben kein großes Bad.	우리 집은 욕실이 크지 않아요.	no_gloss
-s8880a3d8d9	a1	Das Haus ist sehr alt. Es hat kein Bad.	그 집은 아주 낡았어요. 욕실이 없어요.	no_gloss
-s25eff8d685	a1	Im Winter nehme ich gern ein warmes Bad.	겨울에는 따뜻한 목욕을 즐겨 해요.	no_gloss
-s6498adad78	a1	Nach einem warmen Bad fühlt man sich gleich viel besser.	따뜻하게 목욕하고 나면 곧바로 훨씬 기분이 좋아져요.	no_gloss
-sedb92c6abe	a1	Ich möchte ein Zimmer mit Bad.	욕실이 있는 방으로 주세요.	no_gloss
-s7027c1c518	a1	Ich bade nicht so gern, ich dusche lieber.	저는 목욕을 별로 안 좋아하고 샤워를 더 좋아해요.	no_gloss
-s8820378bc3	a1	hat gebadet	목욕했습니다	no_gloss
-s09442d61f6	a1	Wenn du baden möchtest: Das Badezimmer ist dort hinten links.	목욕하고 싶으면, 욕실은 저기 뒤쪽 왼편에 있어.	no_gloss
-s063e1e8ec7	a1	Hier ist Baden verboten!	여기서 수영 금지!	no_gloss
 sdedefb0c17	a1	Wir fahren lieber mit der Bahn.	우리는 기차로 가는 게 더 좋아요.	no_gloss
-sef632ac527	a1	Ich nehme die nächste Bahn.	저는 다음 기차를 탈게요.	no_gloss
 sd62076988f	a1	Wir fahren lieber mit der Bahn als mit dem Bus.	우리는 버스보다 기차로 가는 게 더 좋아요.	no_gloss
-se375f6c9e4	a1	Ich nehme die nächste S-Bahn.	저는 다음 S반을 탈게요.	no_gloss
 s1be66855b9	a1	Ich komme mit der Bahn.	저는 기차로 갈게요.	no_gloss
-s9c6d14e22f	a1	Komme ich hier zum Bahnhof?	이쪽으로 가면 기차역이 나오나요?	no_gloss
-s4b676dde28	a1	Entschuldigung, komme ich hier zum Bahnhof?	실례합니다, 여기서 역으로 갈 수 있나요?	no_gloss
-s5bb6da167b	a1	Ich bringe Sie zum Bahnhof.	제가 역까지 모셔다 드릴게요.	no_gloss
 sd5e9df53b8	a1	Auf welchem Bahnsteig fährt der Zug?	기차는 몇 번 승강장에서 출발해요?	no_gloss
-s52a3614422	a1	Auf Hauptbahnhöfen gibt es meist viele Bahnsteige.	중앙역에는 보통 승강장이 많아요.	no_gloss
-s6f93363119	a1	Ich komme bald.	곧 갈게요.	no_gloss
-s58201fd88a	a1	Auf Wiedersehen! Bis bald!	안녕히 가세요! 곧 또 봐요!	no_gloss
-sdc80271823	a1	Besuchen Sie uns doch bald mal.	곧 저희를 한번 방문해 주세요.	no_gloss
-s25f0b2f62a	a1	Geben Sie mir bitte so bald wie möglich Bescheid.	가능한 한 빨리 알려 주세요.	no_gloss
-s27a17e582d	a1	Auf Wiedersehen, bis bald!	안녕히 가세요, 곧 봐요!	no_gloss
-s4d484b8cf1	a1	Die Wohnung hat auch einen kleinen Balkon.	그 집에는 작은 발코니도 있어요.	no_gloss
-s268aaf0fb7	a1	Drei Bananen, bitte!	바나나 세 개 주세요!	no_gloss
-s014af09c60	a1	1 Kilo Bananen, bitte.	바나나 1킬로 주세요.	no_gloss
+s52a3614422	a1	Auf Hauptbahnhöfen gibt es meist viele Bahnsteige.	중앙역에는 보통 승강장이 많아요.	multiword
+s58201fd88a	a1	Auf Wiedersehen! Bis bald!	안녕히 가세요! 곧 또 봐요!	multiword
+s25f0b2f62a	a1	Geben Sie mir bitte so bald wie möglich Bescheid.	가능한 한 빨리 알려 주세요.	multiword
+s27a17e582d	a1	Auf Wiedersehen, bis bald!	안녕히 가세요, 곧 봐요!	multiword
 s78122d7637	a1	Die Bank schließt schon um vier Uhr.	은행은 벌써 네 시에 문을 닫아요.	no_gloss
 s25eda3050e	a1	Er sitzt im Park auf einer Bank und liest.	그는 공원 벤치에 앉아서 책을 읽어요.	no_gloss
 s46b9f83ada	a1	Bei welcher Bank haben Sie Ihr Konto?	어느 은행에 계좌가 있으세요?	no_gloss
-sc3aec66246	a1	Kommt, wir setzen uns auf diese Bank.	자, 우리 이 벤치에 앉아요.	no_gloss
 s387d83d4db	a1	Kommt, wir setzen uns auf die Bank da vorne.	자, 우리 저 앞 벤치에 앉아요.	no_gloss
 sd203808951	a1	Muss ich bar zahlen oder geht‘s auch mit Karte?	현금으로 내야 하나요, 아니면 카드도 되나요?	no_gloss
 sae3166ea01	a1	Seit gestern tut mir der Bauch weh.	어제부터 배가 아파요.	no_gloss
 s9530b88a46	a1	Mir tut der Bauch weh.	저는 배가 아파요.	no_gloss
-s97e85215e3	a1	Vorsicht, fahr nicht an den Baum!	조심해, 나무에 부딪히지 마!	no_gloss
-s5345026f7a	a1	Der Baum ist über hundert Jahre alt.	그 나무는 백 년이 넘었어요.	no_gloss
 seeec62377f	a1	Wir haben zwei Apfelbäume im Garten.	우리는 정원에 사과나무가 두 그루 있어요.	no_gloss
 safbd5e97f9	a1	Wir haben zwei Bäume im Garten.	우리는 정원에 나무가 두 그루 있어요.	no_gloss
 se62527fe1b	a1	Fragen Sie die Beamtin am Schalter acht!	8번 창구의 직원에게 물어보세요!	no_gloss
 s1f261db6fe	a1	Meine Frau ist Beamtin bei der Polizei.	제 아내는 경찰 공무원이에요.	no_gloss
-seea4290029	a1	Was bedeutet das Wort?	그 단어는 무슨 뜻이에요?	no_gloss
-s617c16a39f	a1	bedeutet	의미하다	no_gloss
-s32292f50cc	a1	hat bedeutet	의미했다	no_gloss
-s6f3333f180	a1	Was bedeutet dieses Wort?	이 단어는 무슨 뜻이에요?	no_gloss
+s32292f50cc	a1	hat bedeutet	의미했다	multiword
 s5a4e2037c5	a1	Ich bin krank. Das bedeutet, dass ich heute nicht arbeiten kann.	저는 아파요. 그건 오늘 일할 수 없다는 뜻이에요.	no_gloss
 se3f158c669	a1	Das Spiel beginnt um 15.30 Uhr.	경기는 15시 30분에 시작해요.	no_gloss
-s9564b57e6f	a1	beginnt	시작하다	no_gloss
 se06a827473	a1	hat begonnen	시작했다	no_gloss
-s1b78800063	a1	In zwei Wochen beginnen die Sommerferien.	2주 후에 여름 방학이 시작돼요.	no_gloss
-s5adb2f3cf1	a1	Offenbach liegt bei Frankfurt.	오펜바흐는 프랑크푸르트 근처에 있어요.	no_gloss
-sacb8f5614f	a1	Ich wohne bei meinen Eltern.	저는 부모님과 함께 살아요.	no_gloss
-s162d88b6f3	a1	Bei uns regnet es heute.	저희 쪽은 오늘 비가 와요.	no_gloss
-scd8b5f3059	a1	Er arbeitet bei der Polizei.	그는 경찰에서 일해요.	no_gloss
-s8edd28c74d	a1	Bei uns ist das anders als hier.	저희 쪽은 여기와 달라요.	no_gloss
-s7a36e50462	a1	Er arbeitet bei Siemens.	그는 지멘스에서 일해요.	no_gloss
 s2845ff5bef	a1	Ich möchte euch nicht beim Essen stören.	식사하는데 방해하고 싶지 않아요.	no_gloss
-s9b5ed91fc6	a1	Potsdam liegt bei Berlin.	포츠담은 베를린 근처에 있어요.	no_gloss
 sc51ffe1913	a1	Bei uns ist das anders als bei euch. Wir essen kein Fleisch.	저희 쪽은 너희와 달라요. 저희는 고기를 안 먹어요.	no_gloss
 sab1db94f2e	a1	Ich habe kein Geld bei mir.	저는 돈을 가지고 있지 않아요.	no_gloss
 s21be0fb589	a1	Wir wollen euch nicht beim Essen stören.	저희는 너희 식사를 방해하고 싶지 않아요.	no_gloss
-s2b8d7384e1	a1	Beide Eltern arbeiten.	부모님 두 분 다 일하세요.	no_gloss
-sf3a6554364	a1	Wir kommen beide.	저희 둘 다 갈게요.	no_gloss
-s38ad3b6eae	a1	Welche Bluse möchten Sie, die rote oder die grüne? - Ich nehme beide.	어느 블라우스를 원하세요, 빨간 거요 아니면 초록 거요? - 둘 다 살게요.	no_gloss
 s46c3d70179	a1	Mein rechtes Bein tut weh.	제 오른쪽 다리가 아파요.	no_gloss
-s1c7ee6e00c	a1	Andreas hat sich das Bein gebrochen.	안드레아스는 다리가 부러졌어요.	no_gloss
-sadbdf52a81	a1	Kannst du mir ein Beispiel sagen?	예를 하나 들어 줄 수 있어?	no_gloss
-s82afe529cf	a1	Können Sie mir ein Beispiel sagen?	예를 하나 들어 주실 수 있으세요?	no_gloss
 sac771a6898	a1	Mein Freund hat viele Hobbys wie zum Beispiel Kochen, Tanzen, Fußballspielen.	제 친구는 요리, 춤, 축구 같은 취미가 많아요.	no_gloss
 s1a64c33eb9	a1	Hier gibt’s so viele Sachen: beispielsweise Wurst, Obst, Brot …	여기엔 물건이 정말 많아요. 예를 들어 소시지, 과일, 빵…	no_gloss
 sb5ebfaac9c	a1	Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier.	제 친척 중 많은 사람이, 예를 들어 제 두 형이 여기서 일해요.	no_gloss
-s881eca92d5	a1	Mein Freund hat viele Hobbys, zum Beispiel Kochen, Lesen und Tanzen.	제 친구는 취미가 많아요, 예를 들어 요리, 독서, 춤이요.	no_gloss
-seadb4b6c14	a1	Picasso ist sehr bekannt.	피카소는 아주 유명해요.	no_gloss
+s881eca92d5	a1	Mein Freund hat viele Hobbys, zum Beispiel Kochen, Lesen und Tanzen.	제 친구는 취미가 많아요, 예를 들어 요리, 독서, 춤이요.	multiword
 s88cd5fce45	a1	Picasso ist sehr bekannt. Er ist ein bekannter Maler.	피카소는 아주 유명해요. 그는 유명한 화가예요.	no_gloss
-s774a5612a8	a1	Ein Bekannter von mir heißt Klaus.	제 지인 중 한 명은 이름이 클라우스예요.	no_gloss
 s904e9dfb26	a1	Ein Onkel von mir ist ein bekannter Politiker.	제 삼촌 중 한 분은 유명한 정치인이에요.	no_gloss
-s6f2b8a30eb	a1	Dieses Lied ist sehr bekannt.	이 노래는 아주 유명해요.	no_gloss
-sdaa3588c26	a1	Ich nehme das da.	저는 저기 저걸로 할게요.	no_gloss
 sa64f8239f4	a1	Hier ist der Brief, den du suchst.	여기 네가 찾는 편지가 있어.	no_gloss
-s982af0a014	a1	Die Fahrkarte bekommst du am Bahnhof.	차표는 역에서 살 수 있어.	no_gloss
-s9846cfefdb	a1	Ich schreibe einen Blog über Mode.	저는 패션에 관한 블로그를 써요.	no_gloss
-s3650a8b6a6	a1	Mein Sohn liest immer nur Comics.	제 아들은 늘 만화책만 읽어요.	no_gloss
-sa763710c44	a1	Viele Jugendliche hören den ganzen Tag Musik.	많은 청소년들이 하루 종일 음악을 들어요.	no_gloss
-s02c12585fc	a1	Der Eintritt für Kinder und Jugendliche bis 16 Jahre ist frei.	16세까지 어린이와 청소년은 입장이 무료예요.	no_gloss
 s3666af5334	a1	Ich brauche einen neuen Laptop.	저는 새 노트북이 필요해요.	no_gloss
 s6f9e26cb9c	a1	Haben Sie meinen Brief bekommen?	제 편지 받으셨어요?	no_gloss
 s504d58f2c6	a1	Was bekommen Sie?	무엇을 드릴까요?	no_gloss

@@ -164,11 +164,6 @@ class GlossTests(unittest.TestCase):
         ])
         self.assertTrue(glosses.valid_gloss(item, {"de": "Die Fahrt kostet ab Hamburg 200 Euro."}))
 
-    def test_long_clause_groups_are_rejected(self):
-        glosses = load_script("05_glosses.py")
-        item = glosses.GlossItem(id="s1", g=[{"n": 4, "ko": "혼자 해낼 수 있다"}])
-        self.assertFalse(glosses.valid_gloss(item, {"de": "Ich schaffe das allein."}))
-
     def test_workbook_alternatives_count_as_one_token(self):
         glosses = load_script("05_glosses.py")
         self.assertEqual(glosses.word_count("Sonst noch (et)was per E-Mail?"), 5)

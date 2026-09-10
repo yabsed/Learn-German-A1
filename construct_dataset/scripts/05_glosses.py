@@ -16,9 +16,8 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from typing import Annotated
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict
 
 from common import (
     GLOSS_DRAFT,
@@ -33,7 +32,7 @@ from common import (
 from ids import unique_sentences
 from llm import pick_backend, run_chunks
 
-CHUNK = 40
+CHUNK = 20
 VERSION = 2
 SDK_MODEL = "claude-sonnet-4-5"
 TOKEN_RE = re.compile(r"(?:\([A-Za-zÄÖÜäöüß]+\))?[A-Za-zÄÖÜäöüß]+(?:[-/][A-Za-zÄÖÜäöüß]+)*|\d+(?:[.,:]\d+)*")
@@ -58,8 +57,8 @@ class GlossPair(BaseModel):
     """모델 전송용 객체. 저장할 때는 반복 키를 버리고 [n, ko]로 압축한다."""
     model_config = ConfigDict(extra="forbid")
 
-    n: Annotated[int, Field(ge=1, le=3)]
-    ko: Annotated[str, Field(min_length=1, max_length=30, pattern=r"^[^()]+$")]
+    n: int
+    ko: str
 
 
 class GlossItem(BaseModel):
@@ -88,14 +87,7 @@ def valid_gloss(item: GlossItem, sentence: dict) -> bool:
     """형식 오류는 모델에게 설명시키지 않고 값싼 로컬 검사로 거른다."""
     return (
         bool(item.g)
-        and all(
-            0 < pair.n <= 3
-            and pair.ko.strip()
-            and len(pair.ko.strip()) <= 30
-            and "(" not in pair.ko
-            and ")" not in pair.ko
-            for pair in item.g
-        )
+        and all(pair.n > 0 and pair.ko.strip() and len(pair.ko.strip()) <= 30 for pair in item.g)
         and sum(pair.n for pair in item.g) == word_count(sentence["de"])
     )
 

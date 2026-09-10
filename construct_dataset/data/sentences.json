@@ -982,11 +982,11 @@
    ],
    [
     1,
-    "할 수 있나요"
+    "~할 수 있다"
    ],
    [
     1,
-    "제가"
+    "내가"
    ],
    [
     1,
@@ -997,12 +997,8 @@
     "장을"
    ],
    [
-    1,
-    "(사람)에게서"
-   ],
-   [
-    1,
-    "너에게서"
+    2,
+    "네 집에서"
    ],
    [
     1,
@@ -1056,11 +1052,11 @@
    ],
    [
     1,
-    "할 수 있나요"
+    "~할 수 있다"
    ],
    [
     1,
-    "제가"
+    "내가"
    ],
    [
     1,
@@ -1071,12 +1067,8 @@
     "물건들을"
    ],
    [
-    1,
-    "(사람)에게서"
-   ],
-   [
-    1,
-    "너에게서"
+    2,
+    "네 집에서"
    ],
    [
     1,
@@ -2108,133 +2100,619 @@
   "de": "Er hat Zeit, also kann er uns helfen.",
   "en": "He has time, so he can help us.",
   "ko": "그는 시간이 있어요, 그러니까 우리를 도와줄 수 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "가지고 있어요"
+   ],
+   [
+    1,
+    "시간을"
+   ],
+   [
+    1,
+    "그러니까"
+   ],
+   [
+    1,
+    "할 수 있어요"
+   ],
+   [
+    1,
+    "그가"
+   ],
+   [
+    1,
+    "우리를"
+   ],
+   [
+    1,
+    "돕다"
+   ]
+  ]
  },
  {
   "id": "s0cdeb28aa9",
   "de": "Irina hat Urlaub. Sie kann uns also helfen.",
   "en": "Irina is on vacation. So she can help us.",
   "ko": "이리나는 휴가예요. 그러니까 우리를 도와줄 수 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "이리나는"
+   ],
+   [
+    1,
+    "가지고 있어요"
+   ],
+   [
+    1,
+    "휴가를"
+   ],
+   [
+    1,
+    "그녀는"
+   ],
+   [
+    1,
+    "할 수 있어요"
+   ],
+   [
+    1,
+    "우리를"
+   ],
+   [
+    1,
+    "그러니까"
+   ],
+   [
+    1,
+    "돕다"
+   ]
+  ]
  },
  {
   "id": "sfec0b08737",
   "de": "Also wirklich, jetzt reicht es.",
   "en": "Really, that’s enough now.",
   "ko": "정말이지, 이제 그만하면 됐어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "정말이지"
+   ],
+   [
+    1,
+    "이제"
+   ],
+   [
+    1,
+    "충분해요"
+   ],
+   [
+    1,
+    "그것은"
+   ]
+  ]
  },
  {
   "id": "s04517b600c",
   "de": "Wie alt sind Sie?",
   "en": "How old are you?",
   "ko": "연세가 어떻게 되세요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "몇 살"
+   ],
+   [
+    1,
+    "나이 든"
+   ],
+   [
+    1,
+    "있으세요"
+   ],
+   [
+    1,
+    "당신은"
+   ]
+  ]
  },
  {
   "id": "s10675f0a83",
   "de": "Sie sehen aber nicht so alt aus.",
   "en": "But you don't look that old.",
   "ko": "그런데 그렇게 나이 들어 보이지는 않으세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "보여요"
+   ],
+   [
+    1,
+    "그런데"
+   ],
+   [
+    1,
+    "않다"
+   ],
+   [
+    1,
+    "그렇게"
+   ],
+   [
+    1,
+    "나이 든"
+   ],
+   [
+    1,
+    "보이다"
+   ]
+  ]
  },
  {
   "id": "se6ef0cf092",
   "de": "Mein Auto ist schon sehr alt.",
   "en": "My car is already very old.",
   "ko": "제 차는 벌써 아주 오래됐어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "제"
+   ],
+   [
+    1,
+    "차는"
+   ],
+   [
+    1,
+    "이에요"
+   ],
+   [
+    1,
+    "벌써"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "오래된"
+   ]
+  ]
  },
  {
   "id": "sfbdba3d99d",
   "de": "Wir wohnen in einem sehr alten Haus.",
   "en": "We live in a very old house.",
   "ko": "우리는 아주 오래된 집에 살아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "살아요"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "오래된"
+   ],
+   [
+    1,
+    "집"
+   ]
+  ]
  },
  {
   "id": "s8ba3b6a5ac",
   "de": "Köln ist eine alte Stadt.",
   "en": "Cologne is an old city.",
   "ko": "쾰른은 오래된 도시예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "쾰른은"
+   ],
+   [
+    1,
+    "이에요"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "오래된"
+   ],
+   [
+    1,
+    "도시"
+   ]
+  ]
  },
  {
   "id": "s80aa589f32",
   "de": "Mein Computer ist schon sehr alt.",
   "en": "My computer is already very old.",
   "ko": "제 컴퓨터는 벌써 아주 오래됐어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "제"
+   ],
+   [
+    1,
+    "컴퓨터는"
+   ],
+   [
+    1,
+    "이에요"
+   ],
+   [
+    1,
+    "벌써"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "오래된"
+   ]
+  ]
  },
  {
   "id": "sfaa099aa70",
   "de": "Wir wohnen in einem ganz alten Haus.",
   "en": "We live in a very old house.",
   "ko": "우리는 아주 오래된 집에 살아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "살아요"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "오래된"
+   ],
+   [
+    1,
+    "집"
+   ]
+  ]
  },
  {
   "id": "s9b766dcf8f",
   "de": "Alter: 26 Jahre.",
   "en": "Age: 26 years.",
   "ko": "나이: 26세.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나이"
+   ],
+   [
+    1,
+    "26"
+   ],
+   [
+    1,
+    "년"
+   ]
+  ]
  },
  {
   "id": "s0904765441",
   "de": "Alter: 18 Jahre.",
   "en": "Age: 18 years.",
   "ko": "나이: 18세.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나이"
+   ],
+   [
+    1,
+    "18"
+   ],
+   [
+    1,
+    "년"
+   ]
+  ]
  },
  {
   "id": "s2b765e6312",
   "de": "Maria ist eine alte Freundin von mir.",
   "en": "Maria is an old friend of mine.",
   "ko": "마리아는 제 오랜 친구예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "마리아는"
+   ],
+   [
+    1,
+    "이에요"
+   ],
+   [
+    1,
+    "한 명의"
+   ],
+   [
+    1,
+    "오랜"
+   ],
+   [
+    1,
+    "친구"
+   ],
+   [
+    1,
+    "~의"
+   ],
+   [
+    1,
+    "나"
+   ]
+  ]
  },
  {
   "id": "s3906f124df",
   "de": "Wir sind etwa im gleichen Alter.",
   "en": "We are about the same age.",
   "ko": "우리는 나이가 거의 비슷해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "있어요"
+   ],
+   [
+    1,
+    "대략"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "같은"
+   ],
+   [
+    1,
+    "나이"
+   ]
+  ]
  },
  {
   "id": "s42c00d012b",
   "de": "Alter: 26 Jahre",
   "en": "Age: 26 years",
   "ko": "나이: 26세",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나이"
+   ],
+   [
+    1,
+    "26"
+   ],
+   [
+    1,
+    "년"
+   ]
+  ]
  },
  {
   "id": "sb9d077dcc1",
   "de": "Fahren Sie an der nächsten Straße nach rechts.",
   "en": "Turn right at the next street.",
   "ko": "다음 길에서 오른쪽으로 가세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "가세요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다음"
+   ],
+   [
+    1,
+    "길"
+   ],
+   [
+    1,
+    "~을 향해"
+   ],
+   [
+    1,
+    "오른쪽"
+   ]
+  ]
  },
  {
   "id": "s8f45810895",
   "de": "Wir treffen uns am Bahnhof.",
   "en": "We meet at the train station.",
   "ko": "우리는 역에서 만나요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "만나요"
+   ],
+   [
+    1,
+    "서로"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "역"
+   ]
+  ]
  },
  {
   "id": "s61d4c37263",
   "de": "Am nächsten Montag geht es leider nicht.",
   "en": "Sorry, it won't work next Monday.",
   "ko": "다음 주 월요일은 아쉽지만 안 돼요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에는"
+   ],
+   [
+    1,
+    "다음"
+   ],
+   [
+    1,
+    "월요일"
+   ],
+   [
+    1,
+    "가요"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "아쉽게도"
+   ],
+   [
+    1,
+    "않다"
+   ]
+  ]
  },
  {
   "id": "s32317a2f23",
   "de": "Fahren Sie an der nächsten Kreuzung nach rechts.",
   "en": "Turn right at the next intersection.",
   "ko": "다음 교차로에서 오른쪽으로 가세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "가세요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다음"
+   ],
+   [
+    1,
+    "교차로"
+   ],
+   [
+    1,
+    "~을 향해"
+   ],
+   [
+    1,
+    "오른쪽"
+   ]
+  ]
  },
  {
   "id": "s3ec26ba8ef",
@@ -2255,14 +2733,78 @@
   "de": "Ich ziehe (mir) eine Jacke an.",
   "en": "I am putting on a jacket.",
   "ko": "저는 재킷을 입어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "입는다"
+   ],
+   [
+    1,
+    "나에게"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "재킷을"
+   ],
+   [
+    1,
+    "입는다"
+   ]
+  ]
  },
  {
   "id": "sf43e00557b",
   "de": "Er hat sein T-Shirt ausgezogen und ein Hemd angezogen.",
   "en": "He took off his T-shirt and put on a shirt.",
   "ko": "그는 티셔츠를 벗고 셔츠를 입었어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "가지고"
+   ],
+   [
+    1,
+    "그의"
+   ],
+   [
+    1,
+    "티셔츠를"
+   ],
+   [
+    1,
+    "벗었다"
+   ],
+   [
+    1,
+    "그리고"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "셔츠를"
+   ],
+   [
+    1,
+    "입었다"
+   ]
+  ]
  },
  {
   "id": "sf90b8708dc",
@@ -2276,7 +2818,29 @@
   "de": "Am Anfang war alles sehr schwierig.",
   "en": "At the beginning, everything was very difficult.",
   "ko": "처음에는 모든 게 아주 어려웠어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "처음에는"
+   ],
+   [
+    1,
+    "였다"
+   ],
+   [
+    1,
+    "모든 것이"
+   ],
+   [
+    1,
+    "아주"
+   ],
+   [
+    1,
+    "어려운"
+   ]
+  ]
  },
  {
   "id": "sbee0582aef",
@@ -2304,49 +2868,175 @@
   "de": "Was darf ich dir anbieten?",
   "en": "What can I offer you?",
   "ko": "뭘 줄까?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "무엇을"
+   ],
+   [
+    1,
+    "~해도 되나요"
+   ],
+   [
+    1,
+    "내가"
+   ],
+   [
+    1,
+    "너에게"
+   ],
+   [
+    1,
+    "권하다"
+   ]
+  ]
  },
  {
   "id": "se08d075a72",
   "de": "Darf ich Ihnen/dir ein Stück Kuchen anbieten?",
   "en": "May I offer you a piece of cake?",
   "ko": "케이크 한 조각 드릴까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~해도 되나요"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "당신께/너에게"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "조각"
+   ],
+   [
+    1,
+    "케이크를"
+   ],
+   [
+    1,
+    "권하다"
+   ]
+  ]
  },
  {
   "id": "s4e74f30cdb",
   "de": "bietet an",
   "en": "offers.",
   "ko": "제공해요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "제공해요"
+   ]
+  ]
  },
  {
   "id": "s87bf805261",
   "de": "hat angeboten",
   "en": "has offered.",
   "ko": "제공했어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "제공했어요"
+   ]
+  ]
  },
  {
   "id": "s18e54cad06",
   "de": "Darf ich Ihnen etwas zu trinken anbieten?",
   "en": "May I offer you something to drink?",
   "ko": "마실 것 좀 드릴까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~해도 되나요"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "당신께"
+   ],
+   [
+    1,
+    "무언가를"
+   ],
+   [
+    2,
+    "마실 것"
+   ],
+   [
+    1,
+    "권하다"
+   ]
+  ]
  },
  {
   "id": "se3210e8ad2",
   "de": "Heute sind Sportschuhe im Angebot.",
   "en": "Today, sports shoes are on sale.",
   "ko": "오늘은 운동화가 특가예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "오늘"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "운동화는"
+   ],
+   [
+    2,
+    "특가로 판매 중"
+   ]
+  ]
  },
  {
   "id": "sc77b9b67a7",
   "de": "Heute sind Bananen im Angebot.",
   "en": "Today, bananas are on sale.",
   "ko": "오늘은 바나나가 특가예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "오늘"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "바나나는"
+   ],
+   [
+    2,
+    "특가로 판매 중"
+   ]
+  ]
  },
  {
   "id": "sbed835fd3f",
@@ -2367,196 +3057,980 @@
   "de": "Der Käse ist heute im Angebot.",
   "en": "The cheese is on sale today.",
   "ko": "치즈가 오늘 특가예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "치즈는"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "오늘"
+   ],
+   [
+    2,
+    "특가로 판매 중"
+   ]
+  ]
  },
  {
   "id": "s8d8552a392",
   "de": "Willst du diese Jacke?",
   "en": "Do you want this jacket?",
   "ko": "이 재킷 원해?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "원하니"
+   ],
+   [
+    1,
+    "너"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "재킷을"
+   ]
+  ]
  },
  {
   "id": "sf3721e0562",
   "de": "– Nein, ich möchte die andere.",
   "en": "– No, I want the other one.",
   "ko": "– 아니요, 다른 걸로 할게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "아니"
+   ],
+   [
+    1,
+    "나"
+   ],
+   [
+    1,
+    "원한다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다른 것을"
+   ]
+  ]
  },
  {
   "id": "s2d7a8f10f9",
   "de": "Willst du diesen Mantel? – Nein, ich möchte den anderen.",
   "en": "Do you want this coat? - No, I would like the other one.",
   "ko": "이 코트 원해? – 아니, 다른 걸로 할래.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "원하니"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "코트를"
+   ],
+   [
+    1,
+    "아니"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "원해"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다른 것을"
+   ]
+  ]
  },
  {
   "id": "s69d2028799",
   "de": "Die anderen sind schon nach Hause gegangen.",
   "en": "The others have already gone home.",
   "ko": "다른 사람들은 벌써 집에 갔어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다른 사람들"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "벌써"
+   ],
+   [
+    2,
+    "집에"
+   ],
+   [
+    1,
+    "갔다"
+   ]
+  ]
  },
  {
   "id": "s1774cdc8d7",
   "de": "Bitte nicht alle auf einmal! Einer nach dem anderen.",
   "en": "Please don’t all come at once! One at a time.",
   "ko": "한꺼번에 다 오지 마세요! 한 명씩요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "부디"
+   ],
+   [
+    1,
+    "~하지 마세요"
+   ],
+   [
+    1,
+    "모두"
+   ],
+   [
+    2,
+    "한꺼번에"
+   ],
+   [
+    1,
+    "한 명"
+   ],
+   [
+    3,
+    "차례로"
+   ]
+  ]
  },
  {
   "id": "sd1954f6de3",
   "de": "Ich hätte gern ein anderes Auto.",
   "en": "I would like another car.",
   "ko": "저는 다른 차를 갖고 싶어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "갖고"
+   ],
+   [
+    1,
+    "싶어요"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "다른"
+   ],
+   [
+    1,
+    "차를"
+   ]
+  ]
  },
  {
   "id": "s3169d58e5f",
   "de": "Natascha hat unter anderem Chinesisch und Spanisch gelernt.",
   "en": "Natascha has learned, among other things, Chinese and Spanish.",
   "ko": "나타샤는 무엇보다도 중국어와 스페인어를 배웠어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나타샤"
+   ],
+   [
+    1,
+    "했다"
+   ],
+   [
+    2,
+    "무엇보다도"
+   ],
+   [
+    1,
+    "중국어"
+   ],
+   [
+    1,
+    "그리고"
+   ],
+   [
+    1,
+    "스페인어"
+   ],
+   [
+    1,
+    "배웠다"
+   ]
+  ]
  },
  {
   "id": "sbd3433fa48",
   "de": "Hier fängt die Bahnhofstraße an.",
   "en": "Here, Bahnhofstraße starts.",
   "ko": "여기서 반호프 거리가 시작돼요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "여기서"
+   ],
+   [
+    1,
+    "시작돼요"
+   ],
+   [
+    1,
+    "반호프"
+   ],
+   [
+    1,
+    "거리가"
+   ],
+   [
+    1,
+    "시작돼요"
+   ]
+  ]
  },
  {
   "id": "s0f45fa5f44",
   "de": "Der Unterricht fängt gleich an.",
   "en": "The class is about to start.",
   "ko": "수업이 곧 시작돼요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "수업"
+   ],
+   [
+    1,
+    "시작된다"
+   ],
+   [
+    1,
+    "곧"
+   ],
+   [
+    1,
+    "~하기 시작하다"
+   ]
+  ]
  },
  {
   "id": "s8e4e083e81",
   "de": "Würden Sie bitte anfangen?",
   "en": "Could you please start?",
   "ko": "시작해 주시겠어요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "하시겠어요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "부디"
+   ],
+   [
+    1,
+    "시작해"
+   ]
+  ]
  },
  {
   "id": "sd1ba7e17eb",
   "de": "Ich fange im Herbst meine Ausbildung an.",
   "en": "I will start my training in the fall.",
   "ko": "저는 가을에 직업 교육을 시작해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "시작한다"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "가을"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "직업 교육"
+   ],
+   [
+    1,
+    "시작하다"
+   ]
+  ]
  },
  {
   "id": "s8041ca41ae",
   "de": "Wann fängst du mit der Arbeit an?",
   "en": "When do you start work?",
   "ko": "너는 언제 일을 시작해?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "언제"
+   ],
+   [
+    1,
+    "시작해"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "~와"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "일"
+   ],
+   [
+    1,
+    "시작하다"
+   ]
+  ]
  },
  {
   "id": "sa0810e6761",
   "de": "Sie wohnt am Anfang der Straße.",
   "en": "She lives at the beginning of the street.",
   "ko": "그녀는 길 초입에 살아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그녀는"
+   ],
+   [
+    1,
+    "살아요"
+   ],
+   [
+    2,
+    "초입에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "길의"
+   ]
+  ]
  },
  {
   "id": "sf2ea0f72fe",
   "de": "Wir machen Anfang Juli Urlaub.",
   "en": "We're going on vacation in early July.",
   "ko": "우리는 7월 초에 휴가를 가요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "해요"
+   ],
+   [
+    2,
+    "7월 초에"
+   ],
+   [
+    1,
+    "휴가를"
+   ]
+  ]
  },
  {
   "id": "seed08a95be",
   "de": "Wie war der Film? – Ich habe nur den Anfang gesehen.",
   "en": "How was the movie? – I only saw the beginning.",
   "ko": "영화 어땠어요? – 저는 앞부분만 봤어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "어떻게"
+   ],
+   [
+    1,
+    "였다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "영화"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "보았다"
+   ],
+   [
+    1,
+    "단지"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "앞부분"
+   ],
+   [
+    1,
+    "보았다"
+   ]
+  ]
  },
  {
   "id": "sd871b5cbb6",
   "de": "Am Anfang habe ich bei der Arbeit viele Fragen gestellt.",
   "en": "In the beginning, I asked many questions at work.",
   "ko": "처음에는 직장에서 질문을 많이 했어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "처음에"
+   ],
+   [
+    1,
+    "처음"
+   ],
+   [
+    1,
+    "했다"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "일"
+   ],
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "질문"
+   ],
+   [
+    1,
+    "했다"
+   ]
+  ]
  },
  {
   "id": "sef30414420",
   "de": "Mein Chef ist Anfang fünfzig.",
   "en": "My boss is in his early fifties.",
   "ko": "제 상사는 50대 초반이에요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "상사"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    2,
+    "50대 초반"
+   ]
+  ]
  },
  {
   "id": "s85f978acfd",
   "de": "Meine Mutter war von Anfang an dagegen, dass ich nach Berlin ziehe.",
   "en": "My mother was against me moving to Berlin from the start.",
   "ko": "어머니는 제가 베를린으로 이사하는 걸 처음부터 반대하셨어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "어머니"
+   ],
+   [
+    1,
+    "였다"
+   ],
+   [
+    3,
+    "처음부터"
+   ],
+   [
+    1,
+    "반대였다"
+   ],
+   [
+    1,
+    "~라는 것"
+   ],
+   [
+    1,
+    "내가"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "베를린"
+   ],
+   [
+    1,
+    "이사하다"
+   ]
+  ]
  },
  {
   "id": "s7ed65621f7",
   "de": "Wir machen Anfang Juli Ferien.",
   "en": "We’re going on vacation at the beginning of July.",
   "ko": "우리는 7월 초에 휴가를 가요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "해요"
+   ],
+   [
+    2,
+    "7월 초에"
+   ],
+   [
+    1,
+    "휴가를"
+   ]
+  ]
  },
  {
   "id": "sc17ad4896e",
   "de": "Meine Freundin wohnt am Anfang der Straße.",
   "en": "My friend lives at the beginning of the street.",
   "ko": "제 여자친구는 길 초입에 살아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "여자친구는"
+   ],
+   [
+    2,
+    "초입에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "길의"
+   ],
+   [
+    1,
+    "살아요"
+   ]
+  ]
  },
  {
   "id": "sa909015bd8",
   "de": "Da musst du dieses Wort anklicken.",
   "en": "You need to click on this word.",
   "ko": "거기서 이 단어를 클릭해야 해.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "거기서"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "단어"
+   ],
+   [
+    1,
+    "클릭하다"
+   ]
+  ]
  },
  {
   "id": "s8df7aee783",
   "de": "Du musst das Bild anklicken. Dann wird es größer.",
   "en": "You need to click on the picture. Then it will get bigger.",
   "ko": "그 그림을 클릭해야 해. 그러면 더 커져.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "그림"
+   ],
+   [
+    1,
+    "클릭하다"
+   ],
+   [
+    1,
+    "그러면"
+   ],
+   [
+    1,
+    "~되다"
+   ],
+   [
+    1,
+    "그것이"
+   ],
+   [
+    1,
+    "더 크게"
+   ]
+  ]
  },
  {
   "id": "sef9e6d79ad",
   "de": "Wann kommt dieser Zug in Hamburg an?",
   "en": "When does this train arrive in Hamburg?",
   "ko": "이 기차는 함부르크에 언제 도착해요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "언제"
+   ],
+   [
+    1,
+    "도착하다"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "기차"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "함부르크"
+   ],
+   [
+    1,
+    "도착하다"
+   ]
+  ]
  },
  {
   "id": "s2ae939ce71",
   "de": "Auf diesem Fahrplan steht nur die Ankunft der Züge.",
   "en": "This timetable only shows the arrival of the trains.",
   "ko": "이 운행 시간표에는 기차의 도착만 나와 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "운행 시간표"
+   ],
+   [
+    1,
+    "나와 있다"
+   ],
+   [
+    1,
+    "단지"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "도착"
+   ],
+   [
+    1,
+    "~의"
+   ],
+   [
+    1,
+    "기차들"
+   ]
+  ]
  },
  {
   "id": "sd3e6385a06",
   "de": "ist angekommen",
   "en": "has arrived.",
   "ko": "도착했어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "도착했어요"
+   ],
+   [
+    1,
+    "도착했어요"
+   ]
+  ]
  },
  {
   "id": "s08cbade8ee",
   "de": "Wann kommt der Zug in Hamburg an?",
   "en": "When does the train arrive in Hamburg?",
   "ko": "그 기차는 함부르크에 언제 도착해요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "언제"
+   ],
+   [
+    1,
+    "도착하다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "기차"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "함부르크"
+   ],
+   [
+    1,
+    "도착하다"
+   ]
+  ]
  },
  {
   "id": "s8e614ac274",
   "de": "Bei dem Spiel kommt es darauf an, schneller zu laufen als die anderen.",
   "en": "In the game, it depends on running faster than the others.",
   "ko": "이 놀이에서는 다른 사람들보다 빨리 달리는 것이 중요해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "놀이에서"
+   ],
+   [
+    1,
+    "달려야"
+   ],
+   [
+    1,
+    "해요"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "달려"
+   ],
+   [
+    1,
+    "더"
+   ],
+   [
+    1,
+    "빨리"
+   ],
+   [
+    1,
+    "달리는"
+   ],
+   [
+    1,
+    "것에"
+   ],
+   [
+    1,
+    "비해"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다른 사람들보다"
+   ]
+  ]
  },
  {
   "id": "s43dd29a64e",
@@ -2570,49 +4044,247 @@
   "de": "Gehen wir morgen zusammen in die Ausstellung?",
   "en": "Are we going to the exhibition together tomorrow?",
   "ko": "우리 내일 같이 전시회에 갈까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "같이"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "전시회"
+   ]
+  ]
  },
  {
   "id": "s3178f79d33",
   "de": "Die Abfahrt ist um 0.55 Uhr, die Ankunft um 8.07 Uhr.",
   "en": "The departure is at 0:55, the arrival at 8:07.",
   "ko": "출발은 0시 55분, 도착은 8시 7분이에요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "출발"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "0시 55분"
+   ],
+   [
+    1,
+    "시"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "도착"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "8시 7분"
+   ],
+   [
+    1,
+    "시"
+   ]
+  ]
  },
  {
   "id": "sd6780d76dd",
   "de": "Gleich nach der Ankunft habe ich meine Eltern angerufen.",
   "en": "Right after arrival, I called my parents.",
   "ko": "도착하자마자 부모님께 전화했어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "곧"
+   ],
+   [
+    1,
+    "~ 후에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "도착"
+   ],
+   [
+    1,
+    "했다"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "부모님"
+   ],
+   [
+    1,
+    "전화했다"
+   ]
+  ]
  },
  {
   "id": "s73333d7c00",
   "de": "Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.",
   "en": "On the form, you need to check several places.",
   "ko": "양식의 여러 곳에 표시를 하셔야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "양식"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "여러"
+   ],
+   [
+    1,
+    "곳"
+   ],
+   [
+    1,
+    "무언가를"
+   ],
+   [
+    1,
+    "표시하다"
+   ]
+  ]
  },
  {
   "id": "s89283da8af",
   "de": "Mach bitte das Licht an!",
   "en": "Please turn on the light.",
   "ko": "불 좀 켜 줘!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "해"
+   ],
+   [
+    1,
+    "제발"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "불을"
+   ],
+   [
+    1,
+    "켜"
+   ]
+  ]
  },
  {
   "id": "sd307fa3852",
   "de": "macht an",
   "en": "turns on.",
   "ko": "켜요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "켜요"
+   ],
+   [
+    1,
+    "켜요"
+   ]
+  ]
  },
  {
   "id": "sa42a1ea879",
   "de": "hat angemacht",
   "en": "has turned on.",
   "ko": "켰어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "켰어요"
+   ],
+   [
+    1,
+    "켰어요"
+   ]
+  ]
  },
  {
   "id": "s558c0617bb",
@@ -2626,14 +4298,62 @@
   "de": "Eine Anmeldung für diesen Kurs ist nicht mehr möglich.",
   "en": "Registration for this course is no longer possible.",
   "ko": "이 강좌는 더 이상 등록할 수 없어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "등록"
+   ],
+   [
+    1,
+    "~을 위한"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "강좌"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "않다"
+   ],
+   [
+    1,
+    "더 이상"
+   ],
+   [
+    1,
+    "가능하다"
+   ]
+  ]
  },
  {
   "id": "s8454cb608b",
   "de": "hat angemeldet",
   "en": "has registered.",
   "ko": "등록했어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "등록했어요"
+   ],
+   [
+    1,
+    "등록했어요"
+   ]
+  ]
  },
  {
   "id": "s95a3b7cbbd",
@@ -2647,91 +4367,453 @@
   "de": "Wo bekomme ich das Formular für die Anmeldung?",
   "en": "Where can I get the form for registration?",
   "ko": "등록 양식은 어디에서 받을 수 있어요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "어디에서"
+   ],
+   [
+    1,
+    "받을 수 있어요"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "양식을"
+   ],
+   [
+    1,
+    "위해서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "등록"
+   ]
+  ]
  },
  {
   "id": "s72f309d077",
   "de": "Wo bekomme ich die Formulare für die Anmeldung?",
   "en": "Where can I get the forms for registration?",
   "ko": "등록 양식들은 어디에서 받을 수 있어요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "어디에서"
+   ],
+   [
+    1,
+    "받을 수 있어요"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "양식들을"
+   ],
+   [
+    1,
+    "위해서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "등록"
+   ]
+  ]
  },
  {
   "id": "s0a96b63368",
   "de": "Die Anmeldung ist im Erdgeschoss, Zimmer 55.",
   "en": "Registration is on the ground floor, room 55.",
   "ko": "접수처는 1층 55호실이에요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "등록"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "1층"
+   ],
+   [
+    1,
+    "방"
+   ],
+   [
+    1,
+    "55"
+   ]
+  ]
  },
  {
   "id": "sa59ebbfdb8",
   "de": "Schreiben Sie auch eine Anrede und einen Gruß.",
   "en": "Also, write a salutation and a closing.",
   "ko": "호칭과 인사말도 쓰세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "쓰세요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "또한"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "호칭"
+   ],
+   [
+    1,
+    "그리고"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "인사말"
+   ]
+  ]
  },
  {
   "id": "sf555497ffe",
   "de": "Du darfst im Brief die Anrede nicht vergessen.",
   "en": "You must not forget the salutation in the letter.",
   "ko": "편지에서 호칭을 잊으면 안 돼.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "~해도 된다"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "편지"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "호칭"
+   ],
+   [
+    1,
+    "않다"
+   ],
+   [
+    1,
+    "잊다"
+   ]
+  ]
  },
  {
   "id": "s8e1c09bcae",
   "de": "Kann man Sie anrufen?",
   "en": "Can one call you?",
   "ko": "당신에게 전화해도 될까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~할 수 있다"
+   ],
+   [
+    1,
+    "사람은"
+   ],
+   [
+    1,
+    "당신에게"
+   ],
+   [
+    1,
+    "전화하다"
+   ]
+  ]
  },
  {
   "id": "s701cf9e262",
   "de": "Peter ruft kurz seine Freundin an.",
   "en": "Peter quickly calls his girlfriend.",
   "ko": "페터는 여자친구에게 잠깐 전화해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "페터는"
+   ],
+   [
+    1,
+    "전화하다"
+   ],
+   [
+    1,
+    "잠깐"
+   ],
+   [
+    1,
+    "자신의"
+   ],
+   [
+    1,
+    "여자친구에게"
+   ],
+   [
+    1,
+    "전화하다"
+   ]
+  ]
  },
  {
   "id": "s0515429e29",
   "de": "Kann ich Sie heute Abend anrufen?",
   "en": "Can I call you this evening?",
   "ko": "오늘 저녁에 전화드려도 될까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~할 수 있다"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "당신에게"
+   ],
+   [
+    1,
+    "오늘"
+   ],
+   [
+    1,
+    "저녁에"
+   ],
+   [
+    1,
+    "전화하다"
+   ]
+  ]
  },
  {
   "id": "sa3aae32af3",
   "de": "hat angerufen",
   "en": "has called.",
   "ko": "전화했어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "전화했어요"
+   ]
+  ]
  },
  {
   "id": "sf70620b0b3",
   "de": "Ich rufe Sie heute Abend an.",
   "en": "I will call you this evening.",
   "ko": "오늘 저녁에 전화드릴게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "전화하다"
+   ],
+   [
+    1,
+    "당신에게"
+   ],
+   [
+    1,
+    "오늘"
+   ],
+   [
+    1,
+    "저녁에"
+   ],
+   [
+    1,
+    "전화하다"
+   ]
+  ]
  },
  {
   "id": "sb52e14638a",
   "de": "Sie bekommt viele Anrufe auf ihrem Handy.",
   "en": "She receives many calls on her cell phone.",
   "ko": "그녀는 휴대폰으로 전화를 많이 받아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그녀는"
+   ],
+   [
+    1,
+    "받다"
+   ],
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "전화"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "그녀의"
+   ],
+   [
+    1,
+    "휴대폰"
+   ]
+  ]
  },
  {
   "id": "s12ffbbabc1",
   "de": "Eva bekommt viele Anrufe von ihrem Freund Juan.",
   "en": "Eva receives many calls from her friend Juan.",
   "ko": "에바는 친구 후안에게서 전화를 많이 받아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "에바"
+   ],
+   [
+    1,
+    "받다"
+   ],
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "전화"
+   ],
+   [
+    1,
+    "~에게서"
+   ],
+   [
+    1,
+    "그녀의"
+   ],
+   [
+    1,
+    "친구"
+   ],
+   [
+    1,
+    "후안"
+   ]
+  ]
  },
  {
   "id": "sc9cd0406f0",
   "de": "Ich warte auf einen Anruf aus Berlin.",
   "en": "I’m waiting for a call from Berlin.",
   "ko": "저는 베를린에서 오는 전화를 기다리고 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "기다리다"
+   ],
+   [
+    1,
+    "~을"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "전화"
+   ],
+   [
+    1,
+    "~에서 온"
+   ],
+   [
+    1,
+    "베를린"
+   ]
+  ]
  },
  {
   "id": "s1f7acb9f3e",
@@ -2745,70 +4827,374 @@
   "de": "Ich habe dir eine Nachricht auf den Anrufbeantworter gesprochen.",
   "en": "I left you a message on the answering machine.",
   "ko": "네 자동응답기에 메시지를 남겼어.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "가지다"
+   ],
+   [
+    1,
+    "너에게"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "메시지"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "자동응답기"
+   ],
+   [
+    1,
+    "말해 두었다"
+   ]
+  ]
  },
  {
   "id": "s866d2d7539",
   "de": "Hören Sie die Ansagen.",
   "en": "Listen to the announcements.",
   "ko": "안내 방송을 들으세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "들으세요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "안내 방송들"
+   ]
+  ]
  },
  {
   "id": "s9288be2ecc",
   "de": "Achten Sie auf die Ansage am Bahnsteig.",
   "en": "Pay attention to the announcement at the platform.",
   "ko": "승강장의 안내 방송에 주의하세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "주의하세요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "안내 방송"
+   ],
+   [
+    1,
+    "~에 있는"
+   ],
+   [
+    1,
+    "승강장"
+   ]
+  ]
  },
  {
   "id": "sa59b3c0495",
   "de": "In Mannheim haben Sie Anschluss nach Saarbrücken.",
   "en": "In Mannheim, you have a connection to Saarbrücken.",
   "ko": "만하임에서 자르브뤼켄행으로 갈아탈 수 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "만하임"
+   ],
+   [
+    1,
+    "가지다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "연결편을"
+   ],
+   [
+    1,
+    "~행"
+   ],
+   [
+    1,
+    "자르브뤼켄"
+   ]
+  ]
  },
  {
   "id": "s2a2e7d1999",
   "de": "Ist das die Anmeldung für einen Telefonanschluss?",
   "en": "Is this the registration for a telephone connection?",
   "ko": "이게 전화 회선 신청인가요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~인가요"
+   ],
+   [
+    1,
+    "그것"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "등록"
+   ],
+   [
+    1,
+    "~을 위한"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "전화 회선"
+   ]
+  ]
  },
  {
   "id": "s04eae17f03",
   "de": "In Stuttgart erreichen Sie alle Anschlüsse. Auch der Zug nach Paris wartet.",
   "en": "In Stuttgart, you can reach all connections. The train to Paris is also waiting.",
   "ko": "슈투트가르트에서 모든 연결편을 탈 수 있어요. 파리행 기차도 기다려요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "슈투트가르트"
+   ],
+   [
+    1,
+    "탈 수 있다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "모든"
+   ],
+   [
+    1,
+    "연결편"
+   ],
+   [
+    1,
+    "또한"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "기차"
+   ],
+   [
+    1,
+    "~행"
+   ],
+   [
+    1,
+    "파리"
+   ],
+   [
+    1,
+    "기다리다"
+   ]
+  ]
  },
  {
   "id": "sc2da866d74",
   "de": "Gibt es in der Wohnung einen Waschmaschinenanschluss?",
   "en": "Is there a washing machine connection in the apartment?",
   "ko": "그 집에 세탁기 연결부가 있나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "있나요"
+   ],
+   [
+    1,
+    "~이"
+   ],
+   [
+    1,
+    "~안에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "집"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "세탁기 연결부"
+   ]
+  ]
  },
  {
   "id": "s022afd167a",
   "de": "Ich brauche in meiner Wohnung einen Telefonanschluss.",
   "en": "I need a phone connection in my apartment.",
   "ko": "저는 집에 전화 회선이 필요해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "필요로 하다"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "집"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "전화 회선"
+   ]
+  ]
  },
  {
   "id": "s697be21523",
   "de": "Heute Nacht war das Licht an.",
   "en": "The light was on last night.",
   "ko": "어젯밤에 불이 켜져 있었어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "오늘"
+   ],
+   [
+    1,
+    "밤"
+   ],
+   [
+    1,
+    "이었다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "불빛"
+   ],
+   [
+    1,
+    "켜져"
+   ]
+  ]
  },
  {
   "id": "s319bc5912e",
   "de": "Das Licht ist noch an.",
   "en": "The light is still on.",
   "ko": "불이 아직 켜져 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "불빛"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "켜져"
+   ]
+  ]
  },
  {
   "id": "s7911539147",
@@ -2822,21 +5208,63 @@
   "de": "Er antwortet nicht.",
   "en": "He does not answer.",
   "ko": "그는 대답하지 않아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "대답하다"
+   ],
+   [
+    1,
+    "~하지 않다"
+   ]
+  ]
  },
  {
   "id": "s26c8259321",
   "de": "hat geantwortet",
   "en": "has responded.",
   "ko": "대답했어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "대답했어요"
+   ]
+  ]
  },
  {
   "id": "s1f9bba924e",
   "de": "Er gibt leider keine Antwort.",
   "en": "Unfortunately, he gives no answer.",
   "ko": "그는 유감스럽게도 대답을 하지 않아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "주다"
+   ],
+   [
+    1,
+    "유감스럽게도"
+   ],
+   [
+    1,
+    "아무런"
+   ],
+   [
+    1,
+    "대답을"
+   ]
+  ]
  },
  {
   "id": "sd014e2f040",
@@ -2850,56 +5278,204 @@
   "de": "Ich muss mich noch anziehen.",
   "en": "I still need to get dressed.",
   "ko": "저는 아직 옷을 입어야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "나 자신을"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "입다"
+   ]
+  ]
  },
  {
   "id": "sf32680b17f",
   "de": "Wir haben ein Apartment gemietet.",
   "en": "We rented an apartment.",
   "ko": "우리는 아파트를 하나 빌렸어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "가지다"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "아파트를"
+   ],
+   [
+    1,
+    "임대하다"
+   ]
+  ]
  },
  {
   "id": "s9f66d624cb",
   "de": "Ein Pfund Äpfel bitte.",
   "en": "A pound of apples, please.",
   "ko": "사과 한 파운드 주세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "파운드"
+   ],
+   [
+    1,
+    "사과"
+   ],
+   [
+    1,
+    "부디"
+   ]
+  ]
  },
  {
   "id": "sb5637beb90",
   "de": "Ein Kilo Äpfel, bitte.",
   "en": "A kilo of apples, please.",
   "ko": "사과 1킬로 주세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "킬로"
+   ],
+   [
+    1,
+    "사과"
+   ],
+   [
+    1,
+    "부디"
+   ]
+  ]
  },
  {
   "id": "s8af8b72afe",
   "de": "Guten Appetit!",
   "en": "Enjoy your meal!",
   "ko": "맛있게 드세요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "맛있게 드세요"
+   ]
+  ]
  },
  {
   "id": "s0436e3db0f",
   "de": "Wo arbeiten Sie?",
   "en": "Where do you work?",
   "ko": "어디에서 일하세요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "어디에서"
+   ],
+   [
+    1,
+    "일하다"
+   ],
+   [
+    1,
+    "당신은"
+   ]
+  ]
  },
  {
   "id": "se1e9c1fdfb",
   "de": "Ich arbeite als Krankenschwester in einem Krankenhaus.",
   "en": "I work as a nurse in a hospital.",
   "ko": "저는 병원에서 간호사로 일해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "일하다"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "간호사"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "병원"
+   ]
+  ]
  },
  {
   "id": "s9a32106ddb",
   "de": "Mein Bruder sucht Arbeit.",
   "en": "My brother is looking for work.",
   "ko": "제 형은 일자리를 찾고 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "형제는"
+   ],
+   [
+    1,
+    "찾다"
+   ],
+   [
+    1,
+    "일자리"
+   ]
+  ]
  },
  {
   "id": "s7f7465c2cc",
@@ -2913,42 +5489,186 @@
   "de": "Seit wann ist er schon arbeitslos?",
   "en": "How long has he been unemployed?",
   "ko": "그는 언제부터 실업 상태예요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~부터"
+   ],
+   [
+    1,
+    "언제"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "이미"
+   ],
+   [
+    1,
+    "실업 상태"
+   ]
+  ]
  },
  {
   "id": "s6bbe69490b",
   "de": "An meinem Arbeitsplatz fehlt ein Drucker.",
   "en": "A printer is missing at my workplace.",
   "ko": "제 일하는 자리에는 프린터가 없어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "일터"
+   ],
+   [
+    1,
+    "빠져 있다"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "프린터"
+   ]
+  ]
  },
  {
   "id": "seb1627bdbd",
   "de": "Mein Arm tut weh.",
   "en": "My arm hurts.",
   "ko": "팔이 아파요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "팔"
+   ],
+   [
+    2,
+    "아프다"
+   ]
+  ]
  },
  {
   "id": "s2f1f93ec4e",
   "de": "Morgen habe ich einen Termin bei meiner Ärztin.",
   "en": "I have an appointment with my doctor tomorrow.",
   "ko": "내일 의사 선생님께 진료 예약이 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "가지다"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "예약을"
+   ],
+   [
+    1,
+    "~에게"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "여자 의사"
+   ]
+  ]
  },
  {
   "id": "s1b26f1c1fb",
   "de": "Ich bin auch Spanier.",
   "en": "I am also Spanish.",
   "ko": "저도 스페인 사람이에요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "또한"
+   ],
+   [
+    1,
+    "스페인 사람"
+   ]
+  ]
  },
  {
   "id": "s50edbdcd82",
   "de": "Maria muss auch am Wochenende arbeiten.",
   "en": "Maria also has to work on the weekend.",
   "ko": "마리아는 주말에도 일해야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "마리아는"
+   ],
+   [
+    1,
+    "해야 한다"
+   ],
+   [
+    1,
+    "또한"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "주말"
+   ],
+   [
+    1,
+    "일하다"
+   ]
+  ]
  },
  {
   "id": "s46b14df98c",
@@ -2962,35 +5682,153 @@
   "de": "Auf Wiedersehen.",
   "en": "Goodbye.",
   "ko": "안녕히 가세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "안녕히 가세요"
+   ]
+  ]
  },
  {
   "id": "s0f4a310fce",
   "de": "Das Wörterbuch liegt auf dem Tisch.",
   "en": "The dictionary is on the table.",
   "ko": "사전이 책상 위에 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "사전이"
+   ],
+   [
+    1,
+    "놓여 있다"
+   ],
+   [
+    1,
+    "~ 위에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "책상"
+   ]
+  ]
  },
  {
   "id": "s43fd495e5b",
   "de": "Am Samstag gehen wir auf eine Party.",
   "en": "On Saturday, we are going to a party.",
   "ko": "토요일에 우리는 파티에 가요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "토요일"
+   ],
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "파티"
+   ]
+  ]
  },
  {
   "id": "s342ca3e5c3",
   "de": "Meine Eltern wohnen auf dem Land.",
   "en": "My parents live in the countryside.",
   "ko": "부모님은 시골에 사세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "부모님이"
+   ],
+   [
+    1,
+    "살다"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "시골"
+   ]
+  ]
  },
  {
   "id": "s43710630a9",
   "de": "Auf dem Foto ist auch meine Schwester.",
   "en": "My sister is also in the photo.",
   "ko": "사진에 제 여동생도 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "사진"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "또한"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "여동생"
+   ]
+  ]
  },
  {
   "id": "s37146620a8",
@@ -3004,14 +5842,58 @@
   "de": "Hat das Geschäft noch auf?",
   "en": "Is the store still open?",
   "ko": "가게가 아직 열려 있나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "가지고 있나요"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "가게"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "열려 있다"
+   ]
+  ]
  },
  {
   "id": "se6ded63c0d",
   "de": "Wie heißt das auf Deutsch?",
   "en": "What is this called in German?",
   "ko": "이것은 독일어로 뭐라고 해요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "어떻게"
+   ],
+   [
+    1,
+    "불리다"
+   ],
+   [
+    1,
+    "그것"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "독일어"
+   ]
+  ]
  },
  {
   "id": "s025447b8ec",
@@ -3025,112 +5907,488 @@
   "de": "Das Fenster ist noch auf.",
   "en": "The window is still open.",
   "ko": "창문이 아직 열려 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "창문이"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "열려 있다"
+   ]
+  ]
  },
  {
   "id": "s1a09c472ca",
   "de": "Ich muss immer um vier Uhr aufstehen.",
   "en": "I always have to get up at four o'clock.",
   "ko": "저는 항상 4시에 일어나야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "해야 한다"
+   ],
+   [
+    1,
+    "항상"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "넷"
+   ],
+   [
+    1,
+    "시"
+   ],
+   [
+    1,
+    "일어나다"
+   ]
+  ]
  },
  {
   "id": "sc5258c79bb",
   "de": "Soll ich aufstehen?",
   "en": "Should I get up?",
   "ko": "제가 일어날까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~해야 할까요"
+   ],
+   [
+    1,
+    "내가"
+   ],
+   [
+    1,
+    "일어나다"
+   ]
+  ]
  },
  {
   "id": "s89c788d0bc",
   "de": "Ich stehe jeden Morgen um sieben Uhr auf.",
   "en": "I get up every morning at seven o'clock.",
   "ko": "저는 매일 아침 7시에 일어나요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "일어나다"
+   ],
+   [
+    1,
+    "매일"
+   ],
+   [
+    1,
+    "아침"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "일곱"
+   ],
+   [
+    1,
+    "시"
+   ],
+   [
+    1,
+    "일어나다"
+   ]
+  ]
  },
  {
   "id": "s8104b0fde1",
   "de": "steht auf",
   "en": "gets up.",
   "ko": "일어나요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "일어나다"
+   ],
+   [
+    1,
+    "일어나다"
+   ]
+  ]
  },
  {
   "id": "s70a68804c3",
   "de": "ist aufgestanden",
   "en": "has gotten up.",
   "ko": "일어났어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "일어난"
+   ]
+  ]
  },
  {
   "id": "s5fe3ab4582",
   "de": "Ich stehe jeden Morgen um sechs Uhr auf.",
   "en": "I get up every morning at six o'clock.",
   "ko": "저는 매일 아침 6시에 일어나요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "일어나다"
+   ],
+   [
+    1,
+    "매일"
+   ],
+   [
+    1,
+    "아침"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "여섯"
+   ],
+   [
+    1,
+    "시"
+   ],
+   [
+    1,
+    "일어나다"
+   ]
+  ]
  },
  {
   "id": "see822bd2b6",
   "de": "Sie brauchen nicht aufzustehen. Sie können sitzen bleiben.",
   "en": "You don’t need to get up. You can stay seated.",
   "ko": "일어나실 필요 없어요. 앉아 계셔도 돼요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그들은"
+   ],
+   [
+    1,
+    "필요로 하다"
+   ],
+   [
+    1,
+    "않다"
+   ],
+   [
+    1,
+    "일어나다"
+   ],
+   [
+    1,
+    "그들은"
+   ],
+   [
+    1,
+    "할 수 있다"
+   ],
+   [
+    1,
+    "앉다"
+   ],
+   [
+    1,
+    "계속 있다"
+   ]
+  ]
  },
  {
   "id": "s8f9204a755",
   "de": "In diesem Haus gibt es keinen Aufzug.",
   "en": "There is no elevator in this building.",
   "ko": "이 건물에는 엘리베이터가 없어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "건물"
+   ],
+   [
+    2,
+    "있다"
+   ],
+   [
+    1,
+    "없는"
+   ],
+   [
+    1,
+    "엘리베이터"
+   ]
+  ]
  },
  {
   "id": "s55ff7ea634",
   "de": "Der Aufzug ist leider kaputt.",
   "en": "The elevator is unfortunately broken.",
   "ko": "유감스럽게도 엘리베이터가 고장 났어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "엘리베이터는"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "유감스럽게"
+   ],
+   [
+    1,
+    "고장 난"
+   ]
+  ]
  },
  {
   "id": "sf895f09685",
   "de": "Im Büro ist leider der Aufzug kaputt.",
   "en": "Unfortunately, the elevator is broken in the office.",
   "ko": "유감스럽게도 사무실 엘리베이터가 고장 났어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~ 안에"
+   ],
+   [
+    1,
+    "사무실"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "유감스럽게"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "엘리베이터는"
+   ],
+   [
+    1,
+    "고장 난"
+   ]
+  ]
  },
  {
   "id": "s1562b71452",
   "de": "Er hat blaue Augen.",
   "en": "He has blue eyes.",
   "ko": "그는 파란 눈을 가지고 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "파란"
+   ],
+   [
+    1,
+    "눈"
+   ]
+  ]
  },
  {
   "id": "s7f1d51b7b4",
   "de": "Mein rechtes Auge tut seit Sonntag weh.",
   "en": "My right eye has been hurting since Sunday.",
   "ko": "일요일부터 오른쪽 눈이 아파요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "내"
+   ],
+   [
+    1,
+    "오른쪽"
+   ],
+   [
+    1,
+    "눈"
+   ],
+   [
+    1,
+    "아프다"
+   ],
+   [
+    1,
+    "부터"
+   ],
+   [
+    1,
+    "일요일"
+   ],
+   [
+    1,
+    "아프게"
+   ]
+  ]
  },
  {
   "id": "s5b307138f4",
   "de": "Meine beiden Kinder haben blaue Augen.",
   "en": "My two children have blue eyes.",
   "ko": "제 두 아이는 파란 눈이에요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "두"
+   ],
+   [
+    1,
+    "아이들은"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "파란"
+   ],
+   [
+    1,
+    "눈"
+   ]
+  ]
  },
  {
   "id": "s333cf75f88",
   "de": "Er kommt aus Brasilien.",
   "en": "He comes from Brazil.",
   "ko": "그는 브라질에서 왔어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "오다"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "브라질"
+   ]
+  ]
  },
  {
   "id": "s62797a4be0",
   "de": "Michele kommt aus Brasilien.",
   "en": "Michele comes from Brazil.",
   "ko": "미셸은 브라질에서 왔어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "미셸은"
+   ],
+   [
+    1,
+    "오다"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "브라질"
+   ]
+  ]
  },
  {
   "id": "s3cc4351d67",
@@ -3144,14 +6402,66 @@
   "de": "Der Tisch ist aus Glas.",
   "en": "The table is made of glass.",
   "ko": "그 탁자는 유리로 되어 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "탁자는"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "~로 된"
+   ],
+   [
+    1,
+    "유리"
+   ]
+  ]
  },
  {
   "id": "sd152ea212f",
   "de": "Ich sehe nichts. Das Licht ist aus.",
   "en": "I can’t see anything. The light is off.",
   "ko": "아무것도 안 보여요. 불이 꺼져 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "보다"
+   ],
+   [
+    1,
+    "아무것도"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "빛은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "꺼져 있다"
+   ]
+  ]
  },
  {
   "id": "sf3bd4b3726",
@@ -3172,91 +6482,433 @@
   "de": "Die Möbel sind noch aus der Zeit um 1900.",
   "en": "The furniture is from around 1900.",
   "ko": "그 가구는 아직 1900년경 시대의 것이에요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "가구는"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "아직"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "시대"
+   ],
+   [
+    1,
+    "~경"
+   ],
+   [
+    1,
+    "1900"
+   ]
+  ]
  },
  {
   "id": "scd686f37b8",
   "de": "Ich trage nur Pullover aus reiner Wolle.",
   "en": "I only wear sweaters made of pure wool.",
   "ko": "저는 순모로 된 스웨터만 입어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "입다"
+   ],
+   [
+    1,
+    "오직"
+   ],
+   [
+    1,
+    "스웨터"
+   ],
+   [
+    1,
+    "~로 된"
+   ],
+   [
+    1,
+    "순수한"
+   ],
+   [
+    1,
+    "양모"
+   ]
+  ]
  },
  {
   "id": "s10c3e06140",
   "de": "Wir haben aus Liebe geheiratet.",
   "en": "We married out of love.",
   "ko": "우리는 사랑해서 결혼했어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "사랑"
+   ],
+   [
+    1,
+    "결혼하다"
+   ]
+  ]
  },
  {
   "id": "s54c2defc48",
   "de": "Wann ist der Kurs aus?",
   "en": "When does the course end?",
   "ko": "수업은 언제 끝나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "언제"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "수업"
+   ],
+   [
+    1,
+    "끝나다"
+   ]
+  ]
  },
  {
   "id": "sc6176cffa8",
   "de": "Ich seh‘ nichts! Das Licht ist aus!",
   "en": "I can’t see anything! The light is off!",
   "ko": "아무것도 안 보여요! 불이 꺼져 있어요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "보다"
+   ],
+   [
+    1,
+    "아무것도"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "빛은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "꺼져 있다"
+   ]
+  ]
  },
  {
   "id": "s50714fd0d9",
   "de": "Morgen machen wir einen Ausflug nach Heidelberg.",
   "en": "Tomorrow we are going on a trip to Heidelberg.",
   "ko": "내일 우리는 하이델베르크로 소풍을 가요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "하다"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "소풍"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "하이델베르크"
+   ]
+  ]
  },
  {
   "id": "s87f926d325",
   "de": "Morgen machen wir einen Ausflug nach Heidelberg/an die Ostsee.",
   "en": "Tomorrow we are going on a trip to Heidelberg/the Baltic Sea.",
   "ko": "내일 우리는 하이델베르크로, 발트해로 소풍을 가요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "내일"
+   ],
+   [
+    1,
+    "하다"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "소풍"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "하이델베르크"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "발트해"
+   ]
+  ]
  },
  {
   "id": "s196c5e5748",
   "de": "Am Wochenende machen wir mit Freunden einen Ausflug nach Heidelberg.",
   "en": "On the weekend, we’re taking a trip to Heidelberg with friends.",
   "ko": "주말에 우리는 친구들과 하이델베르크로 소풍을 가요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "주말"
+   ],
+   [
+    1,
+    "하다"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "~와 함께"
+   ],
+   [
+    1,
+    "친구들"
+   ],
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "소풍"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "하이델베르크"
+   ]
+  ]
  },
  {
   "id": "sb0066b2673",
   "de": "Füllen Sie bitte dieses Formular aus.",
   "en": "Please fill out this form.",
   "ko": "이 양식을 작성해 주세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "채우-"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "부디"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "양식"
+   ],
+   [
+    1,
+    "완료"
+   ]
+  ]
  },
  {
   "id": "sf92455f49d",
   "de": "Füllen Sie/Füll bitte dieses Formular aus!",
   "en": "Please fill out this form!",
   "ko": "이 양식을 작성해 주세요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "채우-"
+   ],
+   [
+    1,
+    "당신은/작성해"
+   ],
+   [
+    1,
+    "부디"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "양식"
+   ],
+   [
+    1,
+    "완료"
+   ]
+  ]
  },
  {
   "id": "sbe191277d6",
   "de": "füllt aus",
   "en": "fills out.",
   "ko": "작성해요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "작성하다"
+   ]
+  ]
  },
  {
   "id": "s24df9a146c",
   "de": "hat ausgefüllt",
   "en": "has filled out.",
   "ko": "작성했어요",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "작성했다"
+   ]
+  ]
  },
  {
   "id": "sd7a87c0775",
   "de": "Füllen Sie bitte dieses Formular aus!",
   "en": "Please fill out this form.",
   "ko": "이 양식을 작성해 주세요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "채우-"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "부디"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "양식"
+   ],
+   [
+    1,
+    "완료"
+   ]
+  ]
  },
  {
   "id": "s1389a8521a",
@@ -3284,7 +6936,29 @@
   "de": "Können Sie mir eine Auskunft geben?",
   "en": "Can you give me information?",
   "ko": "정보를 좀 알려주실 수 있나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "할 수 있나요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "저에게"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    2,
+    "정보를 알려주다"
+   ]
+  ]
  },
  {
   "id": "sad6f3da492",
@@ -3298,14 +6972,62 @@
   "de": "Können Sie mir bitte eine Auskunft geben?",
   "en": "Could you please give me some information?",
   "ko": "정보를 좀 알려주실 수 있을까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "할 수 있다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "저에게"
+   ],
+   [
+    1,
+    "부디"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "정보"
+   ],
+   [
+    1,
+    "알려 주다"
+   ]
+  ]
  },
  {
   "id": "s5f8f20b095",
   "de": "Ich hätte gern eine Auskunft.",
   "en": "I would like some information.",
   "ko": "정보를 좀 알고 싶어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    2,
+    "원하다"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "정보"
+   ]
+  ]
  },
  {
   "id": "s6f1f295d30",
@@ -3319,42 +7041,202 @@
   "de": "Fahren Sie ins Ausland?",
   "en": "Are you going abroad?",
   "ko": "외국에 가시나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "~으로"
+   ],
+   [
+    1,
+    "외국"
+   ]
+  ]
  },
  {
   "id": "sf0dd7e9c73",
   "de": "Wir fahren im Urlaub meistens ins Ausland.",
   "en": "We usually go abroad on vacation.",
   "ko": "우리는 휴가 때 보통 외국에 가요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리는"
+   ],
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "~때"
+   ],
+   [
+    1,
+    "휴가"
+   ],
+   [
+    1,
+    "대개"
+   ],
+   [
+    1,
+    "~으로"
+   ],
+   [
+    1,
+    "외국"
+   ]
+  ]
  },
  {
   "id": "s1579ff2fcf",
   "de": "Sind Sie Ausländerin?",
   "en": "Are you a foreigner?",
   "ko": "외국인이세요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "인가요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "외국인 여성"
+   ]
+  ]
  },
  {
   "id": "s039c7cfe94",
   "de": "Viele Ausländer und Ausländerinnen lernen in der Volkshochschule Deutsch.",
   "en": "Many foreigners learn German at the adult education center.",
   "ko": "많은 외국인들이 시민대학에서 독일어를 배워요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "외국인 남성"
+   ],
+   [
+    1,
+    "그리고"
+   ],
+   [
+    1,
+    "외국인 여성"
+   ],
+   [
+    1,
+    "배우다"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "시민대학"
+   ],
+   [
+    1,
+    "독일어"
+   ]
+  ]
  },
  {
   "id": "s2144511955",
   "de": "Leider habe ich nur ausländisches Geld.",
   "en": "Unfortunately, I only have foreign money.",
   "ko": "아쉽게도 저는 외국 돈밖에 없어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "아쉽게도"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "단지"
+   ],
+   [
+    1,
+    "외국의"
+   ],
+   [
+    1,
+    "돈"
+   ]
+  ]
  },
  {
   "id": "sfc3897ea8b",
   "de": "Die ausländischen Studenten müssen zuerst einen Deutschkurs besuchen.",
   "en": "The foreign students must first attend a German course.",
   "ko": "외국인 학생들은 먼저 독일어 강좌를 들어야 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "외국인"
+   ],
+   [
+    1,
+    "학생들"
+   ],
+   [
+    1,
+    "해야 한다"
+   ],
+   [
+    1,
+    "먼저"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "독일어 강좌"
+   ],
+   [
+    1,
+    "수강하다"
+   ]
+  ]
  },
  {
   "id": "s793e8731c9",
@@ -3368,14 +7250,26 @@
   "de": "macht aus",
   "en": "turns off.",
   "ko": "끕니다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "끄다"
+   ]
+  ]
  },
  {
   "id": "s01949ed906",
   "de": "hat ausgemacht",
   "en": "has turned off.",
   "ko": "껐습니다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "껐다"
+   ]
+  ]
  },
  {
   "id": "s90151f80f7",
@@ -3396,21 +7290,103 @@
   "de": "Wir hatten doch ausgemacht, dass du die Getränke besorgst.",
   "en": "We had agreed that you would get the drinks.",
   "ko": "네가 음료를 사 오기로 약속했잖아.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    2,
+    "약속했었다"
+   ],
+   [
+    1,
+    "잖아"
+   ],
+   [
+    1,
+    "~라는 것"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "음료들"
+   ],
+   [
+    1,
+    "마련하다"
+   ]
+  ]
  },
  {
   "id": "sdf6bd569a2",
   "de": "Haben Sie einen Termin ausgemacht?",
   "en": "Did you make an appointment?",
   "ko": "예약을 하셨나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "했나요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "예약"
+   ],
+   [
+    1,
+    "약속하다"
+   ]
+  ]
  },
  {
   "id": "s055a7ac247",
   "de": "Ist die Aussage richtig oder falsch?",
   "en": "Is the statement correct or incorrect?",
   "ko": "이 진술은 맞나요, 틀리나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "인가요"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "진술"
+   ],
+   [
+    1,
+    "맞는"
+   ],
+   [
+    1,
+    "또는"
+   ],
+   [
+    1,
+    "틀린"
+   ]
+  ]
  },
  {
   "id": "s756eb72e48",
@@ -3424,35 +7400,157 @@
   "de": "Wie sieht er aus? - Groß und blond.",
   "en": "What does he look like? - Tall and blond.",
   "ko": "그는 어떻게 생겼어요? - 키가 크고 금발이에요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "어떻게"
+   ],
+   [
+    3,
+    "생기다"
+   ],
+   [
+    1,
+    "키가 크다"
+   ],
+   [
+    1,
+    "그리고"
+   ],
+   [
+    1,
+    "금발이다"
+   ]
+  ]
  },
  {
   "id": "s8807f3cb24",
   "de": "Sie sieht wie ihre Mutter aus.",
   "en": "She looks like her mother.",
   "ko": "그녀는 어머니를 닮았어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그녀는"
+   ],
+   [
+    1,
+    "보다"
+   ],
+   [
+    1,
+    "~처럼"
+   ],
+   [
+    1,
+    "그녀의"
+   ],
+   [
+    1,
+    "어머니"
+   ],
+   [
+    1,
+    "~하게 보이다"
+   ]
+  ]
  },
  {
   "id": "scb142c838a",
   "de": "hat ausgesehen",
   "en": "has looked.",
   "ko": "보였습니다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "보였습니다"
+   ]
+  ]
  },
  {
   "id": "sc9236d729d",
   "de": "Sie sehen wieder besser aus. Sind Sie wieder gesund?",
   "en": "You look better again. Are you healthy again?",
   "ko": "다시 좋아 보이시네요. 이제 건강해지셨어요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그들은"
+   ],
+   [
+    1,
+    "보다"
+   ],
+   [
+    1,
+    "다시"
+   ],
+   [
+    1,
+    "더 낫게"
+   ],
+   [
+    1,
+    "보이다"
+   ],
+   [
+    1,
+    "~인가요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "다시"
+   ],
+   [
+    1,
+    "건강한"
+   ]
+  ]
  },
  {
   "id": "s538def6560",
   "de": "Er sieht genauso aus wie sein Vater.",
   "en": "He looks just like his father.",
   "ko": "그는 아버지와 똑같이 생겼어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "보다"
+   ],
+   [
+    1,
+    "똑같이"
+   ],
+   [
+    1,
+    "보이다"
+   ],
+   [
+    1,
+    "~처럼"
+   ],
+   [
+    1,
+    "그의"
+   ],
+   [
+    1,
+    "아버지"
+   ]
+  ]
  },
  {
   "id": "s7de40a6499",
@@ -3466,14 +7564,50 @@
   "de": "Das Licht ist aus.",
   "en": "The light is off.",
   "ko": "불이 꺼져 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "빛"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "꺼진"
+   ]
+  ]
  },
  {
   "id": "sc18ce203da",
   "de": "Die Schule ist aus.",
   "en": "The school is over.",
   "ko": "학교가 끝났어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "학교"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "끝난"
+   ]
+  ]
  },
  {
   "id": "s3001d7e545",
@@ -3494,21 +7628,51 @@
   "de": "steigt aus",
   "en": "gets off.",
   "ko": "내립니다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "내립니다"
+   ]
+  ]
  },
  {
   "id": "s028821e63f",
   "de": "ist ausgestiegen",
   "en": "has gotten off.",
   "ko": "내렸습니다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "내렸습니다"
+   ]
+  ]
  },
  {
   "id": "s8f33e65f13",
   "de": "Hier ist mein Ausweis.",
   "en": "Here is my ID.",
   "ko": "여기 제 신분증이요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "여기"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "신분증"
+   ]
+  ]
  },
  {
   "id": "saa5006b8ab",
@@ -3522,14 +7686,62 @@
   "de": "Darf ich mal Ihren Ausweis sehen?",
   "en": "May I see your ID, please?",
   "ko": "신분증 좀 볼 수 있을까요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~해도 되나요"
+   ],
+   [
+    1,
+    "저"
+   ],
+   [
+    1,
+    "좀"
+   ],
+   [
+    1,
+    "당신의"
+   ],
+   [
+    1,
+    "신분증"
+   ],
+   [
+    1,
+    "보다"
+   ]
+  ]
  },
  {
   "id": "s124a0bf121",
   "de": "Zieh die Schuhe aus, bitte!",
   "en": "Take off your shoes, please!",
   "ko": "신발 좀 벗어!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "벗다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "신발"
+   ],
+   [
+    1,
+    "벗다"
+   ],
+   [
+    1,
+    "부탁해"
+   ]
+  ]
  },
  {
   "id": "sdc264e0f4d",
@@ -3543,7 +7755,37 @@
   "de": "Müllers sind schon vor vier Wochen ausgezogen.",
   "en": "The Müllers moved out four weeks ago.",
   "ko": "뮐러네는 벌써 4주 전에 이사 나갔어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "뮐러 가족은"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "이미"
+   ],
+   [
+    1,
+    "~전에"
+   ],
+   [
+    1,
+    "네"
+   ],
+   [
+    1,
+    "주"
+   ],
+   [
+    1,
+    "이사 나가다"
+   ]
+  ]
  },
  {
   "id": "s274e29bb82",
@@ -3578,77 +7820,371 @@
   "de": "Darf ich mit dem Motorroller auf der Autobahn fahren?",
   "en": "May I drive the motorbike on the highway?",
   "ko": "스쿠터로 고속도로를 달려도 되나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~해도 되나요"
+   ],
+   [
+    1,
+    "내가"
+   ],
+   [
+    1,
+    "~와 함께"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "스쿠터"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "고속도로"
+   ],
+   [
+    1,
+    "달리다"
+   ]
+  ]
  },
  {
   "id": "scb9799768a",
   "de": "Das Dorf liegt direkt an der Autobahn.",
   "en": "The village is right on the highway.",
   "ko": "그 마을은 고속도로 바로 옆에 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "마을"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "바로"
+   ],
+   [
+    1,
+    "~옆에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "고속도로"
+   ]
+  ]
  },
  {
   "id": "sf2a3457584",
   "de": "Die Fahrkarten gibt es nur am Automaten.",
   "en": "Tickets are only available at the vending machine.",
   "ko": "승차권은 자동판매기에서만 살 수 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "승차권들"
+   ],
+   [
+    2,
+    "있다"
+   ],
+   [
+    1,
+    "오직"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "자동판매기"
+   ]
+  ]
  },
  {
   "id": "s130b92343d",
   "de": "Fahrkarten gibt es nur am Automaten.",
   "en": "Tickets are only available from the machine.",
   "ko": "승차권은 자동판매기에서만 살 수 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "승차권들"
+   ],
+   [
+    2,
+    "있다"
+   ],
+   [
+    1,
+    "오직"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "자동판매기"
+   ]
+  ]
  },
  {
   "id": "s143e401e25",
   "de": "In Berlin ist der Fahrkartenautomat auf dem Bahnsteig.",
   "en": "In Berlin, the ticket machine is on the platform.",
   "ko": "베를린에서는 승차권 판매기가 승강장에 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "베를린"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "승차권 판매기"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "승강장"
+   ]
+  ]
  },
  {
   "id": "s127c988248",
   "de": "Zigaretten bekommst du am Automaten.",
   "en": "You can get cigarettes from the vending machine.",
   "ko": "담배는 자동판매기에서 살 수 있어.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "담배들"
+   ],
+   [
+    1,
+    "살 수 있다"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "자동판매기"
+   ]
+  ]
  },
  {
   "id": "sb5ec72b1c7",
   "de": "Der Fahrkartenautomat ist auf dem Bahnsteig.",
   "en": "The ticket machine is on the platform.",
   "ko": "승차권 판매기는 승강장에 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "승차권 판매기"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "승강장"
+   ]
+  ]
  },
  {
   "id": "s4e399faabb",
   "de": "Du musst nichts machen. Das geht automatisch.",
   "en": "You don't have to do anything. It happens automatically.",
   "ko": "넌 아무것도 안 해도 돼. 그건 자동으로 돼.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "~해야 한다"
+   ],
+   [
+    1,
+    "아무것도"
+   ],
+   [
+    1,
+    "하다"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "작동한다"
+   ],
+   [
+    1,
+    "자동으로"
+   ]
+  ]
  },
  {
   "id": "s6c502a4f17",
   "de": "Achtung, die Türen schließen automatisch!",
   "en": "Attention, the doors close automatically!",
   "ko": "주의하세요, 문이 자동으로 닫힙니다!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "주의"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "문들"
+   ],
+   [
+    1,
+    "닫히다"
+   ],
+   [
+    1,
+    "자동으로"
+   ]
+  ]
  },
  {
   "id": "sc1412e4137",
   "de": "Die Tür schließt automatisch.",
   "en": "The door closes automatically.",
   "ko": "문은 자동으로 닫혀요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "문"
+   ],
+   [
+    1,
+    "닫히다"
+   ],
+   [
+    1,
+    "자동으로"
+   ]
+  ]
  },
  {
   "id": "s7991ec96d3",
   "de": "Das Zeugnis bekommen Sie automatisch zugeschickt.",
   "en": "You will automatically receive the certificate by mail.",
   "ko": "성적표는 자동으로 우편 발송됩니다.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "성적표"
+   ],
+   [
+    1,
+    "받다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "자동으로"
+   ],
+   [
+    1,
+    "발송되다"
+   ]
+  ]
  },
  {
   "id": "se83e5f986e",
@@ -3662,84 +8198,456 @@
   "de": "Wir haben ein Baby. Es ist sechs Wochen alt.",
   "en": "We have a baby. It is six weeks old.",
   "ko": "우리는 아기가 있어요. 태어난 지 6주 됐어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "아기"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "여섯"
+   ],
+   [
+    1,
+    "주"
+   ],
+   [
+    1,
+    "나이 든"
+   ]
+  ]
  },
  {
   "id": "s98154542e8",
   "de": "Ich geh mal schnell zur Bäckerei.",
   "en": "I'll quickly go to the bakery.",
   "ko": "저 빵집에 잠깐 다녀올게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "내가"
+   ],
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "잠깐"
+   ],
+   [
+    1,
+    "빨리"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "빵집"
+   ]
+  ]
  },
  {
   "id": "s0fa57391ff",
   "de": "Wir kaufen unser Brot immer in der Bäckerei am Markt.",
   "en": "We always buy our bread at the bakery at the market.",
   "ko": "우리는 빵을 항상 시장에 있는 빵집에서 사요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "사다"
+   ],
+   [
+    1,
+    "우리의"
+   ],
+   [
+    1,
+    "빵"
+   ],
+   [
+    1,
+    "항상"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "빵집"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "시장"
+   ]
+  ]
  },
  {
   "id": "s98302e1a87",
   "de": "Wir haben kein großes Bad.",
   "en": "We don't have a big bathroom.",
   "ko": "우리 집은 욕실이 크지 않아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "어떤"
+   ],
+   [
+    1,
+    "큰"
+   ],
+   [
+    1,
+    "욕실"
+   ]
+  ]
  },
  {
   "id": "s8880a3d8d9",
   "de": "Das Haus ist sehr alt. Es hat kein Bad.",
   "en": "The house is very old. It doesn’t have a bathroom.",
   "ko": "그 집은 아주 낡았어요. 욕실이 없어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "집"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "매우"
+   ],
+   [
+    1,
+    "낡은"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "어떤"
+   ],
+   [
+    1,
+    "욕실"
+   ]
+  ]
  },
  {
   "id": "s25eff8d685",
   "de": "Im Winter nehme ich gern ein warmes Bad.",
   "en": "In winter, I like to take a warm bath.",
   "ko": "겨울에는 따뜻한 목욕을 즐겨 해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "겨울"
+   ],
+   [
+    1,
+    "취하다"
+   ],
+   [
+    1,
+    "내가"
+   ],
+   [
+    1,
+    "즐겨"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "따뜻한"
+   ],
+   [
+    1,
+    "목욕"
+   ]
+  ]
  },
  {
   "id": "s6498adad78",
   "de": "Nach einem warmen Bad fühlt man sich gleich viel besser.",
   "en": "After a warm bath, you feel much better.",
   "ko": "따뜻하게 목욕하고 나면 곧바로 훨씬 기분이 좋아져요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~ 후에"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "따뜻한"
+   ],
+   [
+    1,
+    "목욕"
+   ],
+   [
+    1,
+    "느끼다"
+   ],
+   [
+    1,
+    "사람은"
+   ],
+   [
+    1,
+    "자신을"
+   ],
+   [
+    1,
+    "곧"
+   ],
+   [
+    1,
+    "훨씬"
+   ],
+   [
+    1,
+    "더 좋게"
+   ]
+  ]
  },
  {
   "id": "sedb92c6abe",
   "de": "Ich möchte ein Zimmer mit Bad.",
   "en": "I would like a room with a bath.",
   "ko": "욕실이 있는 방으로 주세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "~하고 싶다"
+   ],
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "방"
+   ],
+   [
+    1,
+    "~이 딸린"
+   ],
+   [
+    1,
+    "욕실"
+   ]
+  ]
  },
  {
   "id": "s7027c1c518",
   "de": "Ich bade nicht so gern, ich dusche lieber.",
   "en": "I don't like bathing much; I prefer showering.",
   "ko": "저는 목욕을 별로 안 좋아하고 샤워를 더 좋아해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "목욕하다"
+   ],
+   [
+    1,
+    "~않다"
+   ],
+   [
+    1,
+    "그렇게"
+   ],
+   [
+    1,
+    "좋아해서"
+   ],
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "샤워하다"
+   ],
+   [
+    1,
+    "더 좋아하다"
+   ]
+  ]
  },
  {
   "id": "s8820378bc3",
   "de": "hat gebadet",
   "en": "has bathed.",
   "ko": "목욕했습니다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "완료 조동사"
+   ],
+   [
+    1,
+    "목욕했다"
+   ]
+  ]
  },
  {
   "id": "s09442d61f6",
   "de": "Wenn du baden möchtest: Das Badezimmer ist dort hinten links.",
   "en": "If you want to bathe: The bathroom is back there on the left.",
   "ko": "목욕하고 싶으면, 욕실은 저기 뒤쪽 왼편에 있어.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~하면"
+   ],
+   [
+    1,
+    "너는"
+   ],
+   [
+    1,
+    "목욕하다"
+   ],
+   [
+    1,
+    "~하고 싶다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "욕실"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "저기"
+   ],
+   [
+    1,
+    "뒤쪽에"
+   ],
+   [
+    1,
+    "왼쪽에"
+   ]
+  ]
  },
  {
   "id": "s063e1e8ec7",
   "de": "Hier ist Baden verboten!",
   "en": "Bathing is prohibited here!",
   "ko": "여기서 수영 금지!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "여기"
+   ],
+   [
+    1,
+    "~이다"
+   ],
+   [
+    1,
+    "수영"
+   ],
+   [
+    1,
+    "금지된"
+   ]
+  ]
  },
  {
   "id": "sdedefb0c17",
@@ -3753,7 +8661,29 @@
   "de": "Ich nehme die nächste Bahn.",
   "en": "I'll take the next train.",
   "ko": "저는 다음 기차를 탈게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "타다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다음"
+   ],
+   [
+    1,
+    "기차"
+   ]
+  ]
  },
  {
   "id": "sd62076988f",
@@ -3767,7 +8697,29 @@
   "de": "Ich nehme die nächste S-Bahn.",
   "en": "I’ll take the next S-Bahn.",
   "ko": "저는 다음 S반을 탈게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "타다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다음"
+   ],
+   [
+    1,
+    "도시철도"
+   ]
+  ]
  },
  {
   "id": "s1be66855b9",
@@ -3781,21 +8733,91 @@
   "de": "Komme ich hier zum Bahnhof?",
   "en": "Am I here for the train station?",
   "ko": "이쪽으로 가면 기차역이 나오나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "여기"
+   ],
+   [
+    1,
+    "~으로"
+   ],
+   [
+    1,
+    "역"
+   ]
+  ]
  },
  {
   "id": "s4b676dde28",
   "de": "Entschuldigung, komme ich hier zum Bahnhof?",
   "en": "Excuse me, how do I get to the train station from here?",
   "ko": "실례합니다, 여기서 역으로 갈 수 있나요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "실례합니다"
+   ],
+   [
+    1,
+    "가다"
+   ],
+   [
+    1,
+    "제가"
+   ],
+   [
+    1,
+    "여기"
+   ],
+   [
+    1,
+    "~으로"
+   ],
+   [
+    1,
+    "역"
+   ]
+  ]
  },
  {
   "id": "s5bb6da167b",
   "de": "Ich bringe Sie zum Bahnhof.",
   "en": "I will take you to the train station.",
   "ko": "제가 역까지 모셔다 드릴게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "모셔다 드리다"
+   ],
+   [
+    1,
+    "당신을"
+   ],
+   [
+    1,
+    "~으로"
+   ],
+   [
+    1,
+    "역"
+   ]
+  ]
  },
  {
   "id": "sd5e9df53b8",
@@ -3809,63 +8831,241 @@
   "de": "Auf Hauptbahnhöfen gibt es meist viele Bahnsteige.",
   "en": "Main train stations usually have many platforms.",
   "ko": "중앙역에는 보통 승강장이 많아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에"
+   ],
+   [
+    1,
+    "중앙역들"
+   ],
+   [
+    2,
+    "있다"
+   ],
+   [
+    1,
+    "보통"
+   ],
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "승강장들"
+   ]
+  ]
  },
  {
   "id": "s6f93363119",
   "de": "Ich komme bald.",
   "en": "I'll come soon.",
   "ko": "곧 갈게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "오다"
+   ],
+   [
+    1,
+    "곧"
+   ]
+  ]
  },
  {
   "id": "s58201fd88a",
   "de": "Auf Wiedersehen! Bis bald!",
   "en": "Goodbye! See you soon!",
   "ko": "안녕히 가세요! 곧 또 봐요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "안녕히 가세요"
+   ],
+   [
+    2,
+    "곧 또 봐요"
+   ]
+  ]
  },
  {
   "id": "sdc80271823",
   "de": "Besuchen Sie uns doch bald mal.",
   "en": "Do visit us soon.",
   "ko": "곧 저희를 한번 방문해 주세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "방문하다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "저희를"
+   ],
+   [
+    1,
+    "그러세요"
+   ],
+   [
+    1,
+    "곧"
+   ],
+   [
+    1,
+    "한번"
+   ]
+  ]
  },
  {
   "id": "s25f0b2f62a",
   "de": "Geben Sie mir bitte so bald wie möglich Bescheid.",
   "en": "Please let me know as soon as possible.",
   "ko": "가능한 한 빨리 알려 주세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "알려 주세요"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "저에게"
+   ],
+   [
+    1,
+    "부디"
+   ],
+   [
+    2,
+    "되도록 빨리"
+   ],
+   [
+    2,
+    "가능한 만큼"
+   ],
+   [
+    1,
+    "알려 줌"
+   ]
+  ]
  },
  {
   "id": "s27a17e582d",
   "de": "Auf Wiedersehen, bis bald!",
   "en": "Goodbye, see you soon!",
   "ko": "안녕히 가세요, 곧 봐요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "안녕히 가세요"
+   ],
+   [
+    2,
+    "곧 봐요"
+   ]
+  ]
  },
  {
   "id": "s4d484b8cf1",
   "de": "Die Wohnung hat auch einen kleinen Balkon.",
   "en": "The apartment also has a small balcony.",
   "ko": "그 집에는 작은 발코니도 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "집은"
+   ],
+   [
+    1,
+    "또한"
+   ],
+   [
+    1,
+    "가지고 있다"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "작은"
+   ],
+   [
+    1,
+    "발코니를"
+   ]
+  ]
  },
  {
   "id": "s268aaf0fb7",
   "de": "Drei Bananen, bitte!",
   "en": "Three bananas, please!",
   "ko": "바나나 세 개 주세요!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "세"
+   ],
+   [
+    1,
+    "바나나"
+   ],
+   [
+    1,
+    "부탁해요"
+   ]
+  ]
  },
  {
   "id": "s014af09c60",
   "de": "1 Kilo Bananen, bitte.",
   "en": "1 kilogram of bananas, please.",
   "ko": "바나나 1킬로 주세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "1"
+   ],
+   [
+    1,
+    "킬로"
+   ],
+   [
+    1,
+    "바나나"
+   ],
+   [
+    1,
+    "부탁해요"
+   ]
+  ]
  },
  {
   "id": "s78122d7637",
@@ -3893,7 +9093,37 @@
   "de": "Kommt, wir setzen uns auf diese Bank.",
   "en": "Come on, let’s sit on this bench.",
   "ko": "자, 우리 이 벤치에 앉아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "자"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "앉아요"
+   ],
+   [
+    1,
+    "우리 자신을"
+   ],
+   [
+    1,
+    "위에"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "벤치"
+   ]
+  ]
  },
  {
   "id": "s387d83d4db",
@@ -3928,14 +9158,70 @@
   "de": "Vorsicht, fahr nicht an den Baum!",
   "en": "Careful, don’t drive into the tree!",
   "ko": "조심해, 나무에 부딪히지 마!",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "조심"
+   ],
+   [
+    1,
+    "운전해"
+   ],
+   [
+    1,
+    "하지 마"
+   ],
+   [
+    1,
+    "~로"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "나무"
+   ]
+  ]
  },
  {
   "id": "s5345026f7a",
   "de": "Der Baum ist über hundert Jahre alt.",
   "en": "The tree is over a hundred years old.",
   "ko": "그 나무는 백 년이 넘었어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "나무는"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "~을 넘은"
+   ],
+   [
+    1,
+    "백"
+   ],
+   [
+    1,
+    "년"
+   ],
+   [
+    1,
+    "된"
+   ]
+  ]
  },
  {
   "id": "seeec62377f",
@@ -3970,28 +9256,76 @@
   "de": "Was bedeutet das Wort?",
   "en": "What does the word mean?",
   "ko": "그 단어는 무슨 뜻이에요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "무엇을"
+   ],
+   [
+    1,
+    "의미하다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "단어"
+   ]
+  ]
  },
  {
   "id": "s617c16a39f",
   "de": "bedeutet",
   "en": "means.",
   "ko": "의미하다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "의미하다"
+   ]
+  ]
  },
  {
   "id": "s32292f50cc",
   "de": "hat bedeutet",
   "en": "has meant.",
   "ko": "의미했다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    2,
+    "의미했다"
+   ]
+  ]
  },
  {
   "id": "s6f3333f180",
   "de": "Was bedeutet dieses Wort?",
   "en": "What does this word mean?",
   "ko": "이 단어는 무슨 뜻이에요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "무엇을"
+   ],
+   [
+    1,
+    "뜻하다"
+   ],
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "단어"
+   ]
+  ]
  },
  {
   "id": "s5a4e2037c5",
@@ -4012,7 +9346,13 @@
   "de": "beginnt",
   "en": "begins.",
   "ko": "시작하다",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "시작하다"
+   ]
+  ]
  },
  {
   "id": "se06a827473",
@@ -4026,49 +9366,207 @@
   "de": "In zwei Wochen beginnen die Sommerferien.",
   "en": "The summer holidays begin in two weeks.",
   "ko": "2주 후에 여름 방학이 시작돼요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~안에"
+   ],
+   [
+    1,
+    "두"
+   ],
+   [
+    1,
+    "주"
+   ],
+   [
+    1,
+    "시작하다"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "여름 방학"
+   ]
+  ]
  },
  {
   "id": "s5adb2f3cf1",
   "de": "Offenbach liegt bei Frankfurt.",
   "en": "Offenbach is near Frankfurt.",
   "ko": "오펜바흐는 프랑크푸르트 근처에 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "오펜바흐"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "~근처에"
+   ],
+   [
+    1,
+    "프랑크푸르트"
+   ]
+  ]
  },
  {
   "id": "sacb8f5614f",
   "de": "Ich wohne bei meinen Eltern.",
   "en": "I live with my parents.",
   "ko": "저는 부모님과 함께 살아요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "살다"
+   ],
+   [
+    1,
+    "~와 함께"
+   ],
+   [
+    1,
+    "나의"
+   ],
+   [
+    1,
+    "부모님"
+   ]
+  ]
  },
  {
   "id": "s162d88b6f3",
   "de": "Bei uns regnet es heute.",
   "en": "It’s raining here today.",
   "ko": "저희 쪽은 오늘 비가 와요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "비가 오다"
+   ],
+   [
+    1,
+    "그것은"
+   ],
+   [
+    1,
+    "오늘"
+   ]
+  ]
  },
  {
   "id": "scd8b5f3059",
   "de": "Er arbeitet bei der Polizei.",
   "en": "He works at the police station.",
   "ko": "그는 경찰에서 일해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "일하다"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "경찰"
+   ]
+  ]
  },
  {
   "id": "s8edd28c74d",
   "de": "Bei uns ist das anders als hier.",
   "en": "With us, it’s different from here.",
   "ko": "저희 쪽은 여기와 달라요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "그것"
+   ],
+   [
+    1,
+    "다른"
+   ],
+   [
+    1,
+    "~보다"
+   ],
+   [
+    1,
+    "여기"
+   ]
+  ]
  },
  {
   "id": "s7a36e50462",
   "de": "Er arbeitet bei Siemens.",
   "en": "He works at Siemens.",
   "ko": "그는 지멘스에서 일해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그는"
+   ],
+   [
+    1,
+    "일하다"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "지멘스"
+   ]
+  ]
  },
  {
   "id": "s2845ff5bef",
@@ -4082,7 +9580,25 @@
   "de": "Potsdam liegt bei Berlin.",
   "en": "Potsdam is near Berlin.",
   "ko": "포츠담은 베를린 근처에 있어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "포츠담"
+   ],
+   [
+    1,
+    "있다"
+   ],
+   [
+    1,
+    "~근처에"
+   ],
+   [
+    1,
+    "베를린"
+   ]
+  ]
  },
  {
   "id": "sc51ffe1913",
@@ -4110,21 +9626,99 @@
   "de": "Beide Eltern arbeiten.",
   "en": "Both parents work.",
   "ko": "부모님 두 분 다 일하세요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "두 분 모두"
+   ],
+   [
+    1,
+    "부모님"
+   ],
+   [
+    1,
+    "일하다"
+   ]
+  ]
  },
  {
   "id": "sf3a6554364",
   "de": "Wir kommen beide.",
   "en": "We are both coming.",
   "ko": "저희 둘 다 갈게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "우리"
+   ],
+   [
+    1,
+    "오다"
+   ],
+   [
+    1,
+    "둘 다"
+   ]
+  ]
  },
  {
   "id": "s38ad3b6eae",
   "de": "Welche Bluse möchten Sie, die rote oder die grüne? - Ich nehme beide.",
   "en": "Which blouse would you like, the red one or the green one? - I’ll take both.",
   "ko": "어느 블라우스를 원하세요, 빨간 거요 아니면 초록 거요? - 둘 다 살게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "어느"
+   ],
+   [
+    1,
+    "블라우스"
+   ],
+   [
+    1,
+    "원하다"
+   ],
+   [
+    1,
+    "당신은"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "빨간색"
+   ],
+   [
+    1,
+    "아니면"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "초록색"
+   ],
+   [
+    1,
+    "나는"
+   ],
+   [
+    1,
+    "고르다"
+   ],
+   [
+    1,
+    "둘 다"
+   ]
+  ]
  },
  {
   "id": "s46c3d70179",
@@ -4138,21 +9732,99 @@
   "de": "Andreas hat sich das Bein gebrochen.",
   "en": "Andreas broke his leg.",
   "ko": "안드레아스는 다리가 부러졌어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "안드레아스는"
+   ],
+   [
+    1,
+    "가지고"
+   ],
+   [
+    1,
+    "스스로"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "다리를"
+   ],
+   [
+    1,
+    "부러뜨렸어요"
+   ]
+  ]
  },
  {
   "id": "sadbdf52a81",
   "de": "Kannst du mir ein Beispiel sagen?",
   "en": "Can you give me an example?",
   "ko": "예를 하나 들어 줄 수 있어?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~할 수 있어"
+   ],
+   [
+    1,
+    "너"
+   ],
+   [
+    1,
+    "나에게"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "예를"
+   ],
+   [
+    1,
+    "말해"
+   ]
+  ]
  },
  {
   "id": "s82afe529cf",
   "de": "Können Sie mir ein Beispiel sagen?",
   "en": "Can you give me an example?",
   "ko": "예를 하나 들어 주실 수 있으세요?",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "~할 수 있으세요"
+   ],
+   [
+    1,
+    "당신"
+   ],
+   [
+    1,
+    "나에게"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "예를"
+   ],
+   [
+    1,
+    "말해"
+   ]
+  ]
  },
  {
   "id": "sac771a6898",
@@ -4180,14 +9852,74 @@
   "de": "Mein Freund hat viele Hobbys, zum Beispiel Kochen, Lesen und Tanzen.",
   "en": "My friend has many hobbies, for example, cooking, reading, and dancing.",
   "ko": "제 친구는 취미가 많아요, 예를 들어 요리, 독서, 춤이요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "제"
+   ],
+   [
+    1,
+    "친구는"
+   ],
+   [
+    1,
+    "가지고"
+   ],
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "취미를"
+   ],
+   [
+    2,
+    "예를 들어"
+   ],
+   [
+    1,
+    "요리를"
+   ],
+   [
+    1,
+    "독서를"
+   ],
+   [
+    1,
+    "그리고"
+   ],
+   [
+    1,
+    "춤을"
+   ]
+  ]
  },
  {
   "id": "seadb4b6c14",
   "de": "Picasso ist sehr bekannt.",
   "en": "Picasso is very well known.",
   "ko": "피카소는 아주 유명해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "피카소는"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "매우"
+   ],
+   [
+    1,
+    "유명한"
+   ]
+  ]
  },
  {
   "id": "s88cd5fce45",
@@ -4201,7 +9933,33 @@
   "de": "Ein Bekannter von mir heißt Klaus.",
   "en": "A person I know is named Klaus.",
   "ko": "제 지인 중 한 명은 이름이 클라우스예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "한"
+   ],
+   [
+    1,
+    "지인이"
+   ],
+   [
+    1,
+    "제"
+   ],
+   [
+    1,
+    "~의"
+   ],
+   [
+    1,
+    "이름은"
+   ],
+   [
+    1,
+    "클라우스예요"
+   ]
+  ]
  },
  {
   "id": "s904e9dfb26",
@@ -4215,14 +9973,54 @@
   "de": "Dieses Lied ist sehr bekannt.",
   "en": "This song is very well-known.",
   "ko": "이 노래는 아주 유명해요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "이"
+   ],
+   [
+    1,
+    "노래는"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "매우"
+   ],
+   [
+    1,
+    "유명한"
+   ]
+  ]
  },
  {
   "id": "sdaa3588c26",
   "de": "Ich nehme das da.",
   "en": "I’ll take that one there.",
   "ko": "저는 저기 저걸로 할게요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "선택할게요"
+   ],
+   [
+    1,
+    "그걸"
+   ],
+   [
+    1,
+    "저기"
+   ]
+  ]
  },
  {
   "id": "sa64f8239f4",
@@ -4236,35 +10034,189 @@
   "de": "Die Fahrkarte bekommst du am Bahnhof.",
   "en": "You get the ticket at the station.",
   "ko": "차표는 역에서 살 수 있어.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "차표는"
+   ],
+   [
+    1,
+    "살 수 있어"
+   ],
+   [
+    1,
+    "너"
+   ],
+   [
+    1,
+    "~에서"
+   ],
+   [
+    1,
+    "역"
+   ]
+  ]
  },
  {
   "id": "s9846cfefdb",
   "de": "Ich schreibe einen Blog über Mode.",
   "en": "I write a blog about fashion.",
   "ko": "저는 패션에 관한 블로그를 써요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "저는"
+   ],
+   [
+    1,
+    "써요"
+   ],
+   [
+    1,
+    "하나의"
+   ],
+   [
+    1,
+    "블로그를"
+   ],
+   [
+    1,
+    "~에 관한"
+   ],
+   [
+    1,
+    "패션"
+   ]
+  ]
  },
  {
   "id": "s3650a8b6a6",
   "de": "Mein Sohn liest immer nur Comics.",
   "en": "My son always reads comics.",
   "ko": "제 아들은 늘 만화책만 읽어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "제"
+   ],
+   [
+    1,
+    "아들은"
+   ],
+   [
+    1,
+    "읽어요"
+   ],
+   [
+    1,
+    "늘"
+   ],
+   [
+    1,
+    "오직"
+   ],
+   [
+    1,
+    "만화책만"
+   ]
+  ]
  },
  {
   "id": "sa763710c44",
   "de": "Viele Jugendliche hören den ganzen Tag Musik.",
   "en": "Many young people listen to music all day.",
   "ko": "많은 청소년들이 하루 종일 음악을 들어요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "많은"
+   ],
+   [
+    1,
+    "청소년들이"
+   ],
+   [
+    1,
+    "들어요"
+   ],
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "전체"
+   ],
+   [
+    1,
+    "하루"
+   ],
+   [
+    1,
+    "음악을"
+   ]
+  ]
  },
  {
   "id": "s02c12585fc",
   "de": "Der Eintritt für Kinder und Jugendliche bis 16 Jahre ist frei.",
   "en": "Admission is free for children and teenagers up to 16 years old.",
   "ko": "16세까지 어린이와 청소년은 입장이 무료예요.",
-  "level": "A1"
+  "level": "A1",
+  "g": [
+   [
+    1,
+    "그"
+   ],
+   [
+    1,
+    "입장은"
+   ],
+   [
+    1,
+    "~을 위한"
+   ],
+   [
+    1,
+    "어린이들"
+   ],
+   [
+    1,
+    "그리고"
+   ],
+   [
+    1,
+    "청소년들"
+   ],
+   [
+    1,
+    "~까지"
+   ],
+   [
+    1,
+    "16"
+   ],
+   [
+    1,
+    "년"
+   ],
+   [
+    1,
+    "이다"
+   ],
+   [
+    1,
+    "무료"
+   ]
+  ]
  },
  {
   "id": "s3666af5334",

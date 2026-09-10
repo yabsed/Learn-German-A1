@@ -67,6 +67,9 @@
                 </span>
               {/each}
             </div>
+            {#if veiled}
+              <button class="ex-reveal" type="button" onclick={() => revealMeaning(id)}>예문 풀이 보기</button>
+            {/if}
           {:else}
             <div class="ex-de">
               {#each sentenceParts(sentence.de, currentId, surfaces) as part}
@@ -82,13 +85,13 @@
                 {:else}{part.text}{/if}
               {/each}
             </div>
+            {#if veiled}
+              <button class="ex-reveal" type="button" onclick={() => revealMeaning(id)}>예문 풀이 보기</button>
+            {:else}
+              <div class="ex-ko">{sentence.ko}</div>
+            {/if}
+            {#if settings.english && sentence.en}<div class="ex-en">{sentence.en}</div>{/if}
           {/if}
-          {#if veiled}
-            <button class="ex-reveal" type="button" onclick={() => revealMeaning(id)}>예문 풀이 보기</button>
-          {:else}
-            <div class="ex-ko">{sentence.ko}</div>
-          {/if}
-          {#if settings.english && sentence.en}<div class="ex-en">{sentence.en}</div>{/if}
         </div>
       </div>
     {/if}

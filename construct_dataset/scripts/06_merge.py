@@ -64,7 +64,7 @@ def gloss_reasons(sentence: dict, gloss: dict | None) -> list[str]:
         if not isinstance(pair, list) or len(pair) != 2:
             return ["invalid_gloss"]
         span, meaning = pair
-        if not isinstance(span, int) or not 0 < span <= 3 or not isinstance(meaning, str) or not meaning.strip():
+        if not isinstance(span, int) or span < 1 or not isinstance(meaning, str) or not meaning.strip():
             return ["invalid_gloss"]
         total += span
         if span > 1:

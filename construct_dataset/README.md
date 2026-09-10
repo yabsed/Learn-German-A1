@@ -114,6 +114,7 @@ make sentences SENTENCE_ARGS="--levels a1 --backend codex --workers 4"
 
 ```bash
 make glosses GLOSS_ARGS="--levels a1 --model sonnet --workers 4"
+make glosses GLOSS_ARGS="--levels a1 --backend codex --model gpt-5.6-luna --workers 4 --chunk 20"
 ```
 
 이미 만든 자연스러운 한국어 번역을 다시 번역하지 않고, 독일어의 연속된
