@@ -16,6 +16,7 @@ from datetime import date
 from pathlib import Path
 
 from common import AUDIO, LEVELS, ROOT, SENTENCES, WORDS, log
+from gloss_audio import unique_gloss_audio
 
 SITE = ROOT.parent / "app"
 
@@ -74,6 +75,7 @@ def link_audio(ids: list[str], out: Path) -> tuple[int, int, int]:
         if not source.exists():
             missing += 1
             continue
+        target.parent.mkdir(parents=True, exist_ok=True)
         if target.exists():
             # 같은 inode 면 이미 같은 파일이다. 크기로 견주면 다시 만든 mp3 가
             # 우연히 같은 크기일 때 옛 링크가 남는다.
@@ -108,6 +110,20 @@ def main() -> int:
         if not data["words"]:
             log(f"site: {level} 단어가 없다. 건너뛴다.")
             continue
+        if not args.no_audio:
+            gloss_ids = [f"gloss/{item_id}" for item_id, _ in unique_gloss_audio(
+                [s for s in sentences if s["id"] in data["sentences"]], {level}
+            )]
+            ids = [w["id"] for w in data["words"]] + list(data["sentences"]) + gloss_ids
+            linked, kept, missing = link_audio(ids, args.out / "audio")
+            log(f"  오디오 {len(ids)}개 중 새로 {linked}, 그대로 {kept}, 원본 없음 {missing}")
+            if missing:
+                raise SystemExit(f"사이트가 참조하는 오디오 {missing}개가 없다. 먼저 make audio를 실행할 것.")
+            data["audio"] = {
+                "files": len(ids),
+                "bytes": sum((args.out / "audio" / f"{item_id}.mp3").stat().st_size for item_id in ids),
+            }
+
         path = args.out / "data" / f"{level}.json"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -115,16 +131,12 @@ def main() -> int:
         log(f"site: {path.relative_to(args.out)} — 단어 {len(data['words'])}, 예문 {len(data['sentences'])}, {size:.0f} KB")
         built.append(data)
 
-        if not args.no_audio:
-            ids = [w["id"] for w in data["words"]] + list(data["sentences"])
-            linked, kept, missing = link_audio(ids, args.out / "audio")
-            log(f"  오디오 {len(ids)}개 중 새로 {linked}, 그대로 {kept}, 원본 없음 {missing}")
-
     if not built:
         raise SystemExit("만든 것이 없다.")
     manifest = args.out / "data" / "levels.json"
     manifest.write_text(json.dumps(
-        [{"level": d["level"], "words": len(d["words"]), "sentences": len(d["sentences"])} for d in built],
+        [{"level": d["level"], "words": len(d["words"]), "sentences": len(d["sentences"]),
+          "audio": d.get("audio")} for d in built],
         ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"site: {args.out}")
     return 0

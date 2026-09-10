@@ -13,16 +13,14 @@
     settings: Settings;
     sentences: Record<string, Sentence>;
     surfaces: Map<string, string>;
-    wordById: Map<string, Word>;
     playingId?: string;
     onReveal: () => void;
     onGrade: (ok: boolean) => void;
     onMore: () => void;
     onPlay: (id: string, button: HTMLButtonElement) => void;
-    onWord: (id: string) => void;
   }
 
-  let { word, index, queueLength, doneToday, remaining, revealed, settings, sentences, surfaces, wordById, playingId, onReveal, onGrade, onMore, onPlay, onWord }: Props = $props();
+  let { word, index, queueLength, doneToday, remaining, revealed, settings, sentences, surfaces, playingId, onReveal, onGrade, onMore, onPlay }: Props = $props();
 </script>
 
 <section class="view">
@@ -38,7 +36,7 @@
       </button>
       {#if revealed}
         <div class="back">
-          <WordDetails {word} {sentences} {surfaces} {wordById} {settings} {playingId} exampleLimit={EXAMPLES_AT_FIRST} {onPlay} {onWord} />
+          <WordDetails {word} {sentences} {surfaces} {settings} {playingId} exampleLimit={EXAMPLES_AT_FIRST} {onPlay} />
         </div>
       {/if}
     </article>

@@ -1,19 +1,27 @@
 <script lang="ts">
   import { progressSummary } from '../lib/scheduler';
-  import type { Progress, Sentence, Word } from '../lib/types';
+  import type { Dataset, Progress, Sentence, Word } from '../lib/types';
 
   interface Props {
     words: Word[];
     sentences: Record<string, Sentence>;
     progress: Progress;
+    audio?: Dataset['audio'];
     onReset: () => void;
   }
 
-  let { words, sentences, progress, onReset }: Props = $props();
+  let { words, sentences, progress, audio, onReset }: Props = $props();
   let status = $state('');
   let downloading = $state(false);
   let summary = $derived(progressSummary(words, progress));
   let peak = $derived(Math.max(1, ...summary.boxes));
+  let audioUrls = $derived([
+    ...words.map((word) => `audio/${word.id}.mp3`),
+    ...Object.keys(sentences).map((id) => `audio/${id}.mp3`),
+    ...new Set(Object.values(sentences).flatMap((sentence) =>
+      (sentence.g || []).map(([, , id]) => `audio/gloss/${id}.mp3`)
+    )),
+  ]);
   const boxNames = ['처음', '1일 뒤', '3일 뒤', '1주 뒤', '2주 뒤', '한 달 뒤'];
 
   async function downloadAll() {
@@ -21,8 +29,7 @@
       status = '이 브라우저는 오프라인 저장을 지원하지 않습니다.';
       return;
     }
-    const urls = words.map((word) => `audio/${word.id}.mp3`)
-      .concat(Object.keys(sentences).map((id) => `audio/${id}.mp3`));
+    const urls = audioUrls;
     const cache = await caches.open('lgv-audio-v2');
     const queue = [...urls];
     let done = 0;
@@ -59,7 +66,7 @@
     {/each}
   </div>
   <h2 class="h2">오프라인</h2>
-  <p class="hint">A1 오디오 3,264개는 약 26 MB입니다. 한 번 받아 두면 인터넷 없이도 소리가 납니다.</p>
+  <p class="hint">A1 오디오 {(audio?.files ?? audioUrls.length).toLocaleString()}개{audio ? `는 약 ${Math.ceil(audio.bytes / 1024 / 1024)} MB` : ''}입니다. 한 번 받아 두면 인터넷 없이도 소리가 납니다.</p>
   <button class="btn wide" disabled={downloading} onclick={downloadAll}>오디오 전부 내려받기</button>
   <p class="hint">{status}</p>
   <h2 class="h2">되돌리기</h2>

@@ -41,10 +41,10 @@ from common import (
     read_tsv,
     write_tsv,
 )
+from gloss_audio import GLOSS_TOKEN_RE, attach_gloss_audio
 from ids import sentence_id, unique_sentences
 
 FORM_RE = re.compile(r"[A-Za-zÄÖÜäöüß]+")
-GLOSS_TOKEN_RE = re.compile(r"(?:\([A-Za-zÄÖÜäöüß]+\))?[A-Za-zÄÖÜäöüß]+(?:[-/][A-Za-zÄÖÜäöüß]+)*|\d+(?:[.,:]\d+)*")
 
 
 def optional_jsonl(path) -> list[dict]:
@@ -211,7 +211,7 @@ def main() -> None:
             "level": level.upper(),
         }
         if valid_gloss:
-            output["g"] = gloss["g"]
+            output["g"] = attach_gloss_audio(sentence["de"], gloss["g"])
         sentences.append(output)
         if gloss_issues:
             gloss_review.append({

@@ -12,6 +12,7 @@ export interface SentencePart {
 export interface GlossPart {
   de: string;
   ko: string;
+  audioId: string;
   parts: SentencePart[];
 }
 
@@ -48,26 +49,26 @@ export function sentenceParts(text: string, currentId: string, surfaces: Map<str
 
 export function glossParts(
   text: string,
-  gloss: Array<[number, string]> | undefined,
+  gloss: Array<[number, string, string]> | undefined,
   currentId: string,
   surfaces: Map<string, string>,
 ): GlossPart[] {
   if (!gloss?.length) return [];
   const words = [...text.matchAll(GLOSS_TOKEN_RE)];
   if (
-    gloss.some(([span, meaning]) => !Number.isInteger(span) || span < 1 || !meaning.trim())
+    gloss.some(([span, meaning, audioId]) => !Number.isInteger(span) || span < 1 || !meaning.trim() || !audioId)
     || gloss.reduce((total, [span]) => total + span, 0) !== words.length
   ) return [];
 
   const groups: GlossPart[] = [];
   let wordAt = 0;
-  for (const [span, meaning] of gloss) {
+  for (const [span, meaning, audioId] of gloss) {
     const first = words[wordAt];
     const next = words[wordAt + span];
     const start = wordAt === 0 ? 0 : (first.index ?? 0);
     const end = next ? (next.index ?? text.length) : text.length;
     const de = text.slice(start, end).trim();
-    groups.push({ de, ko: meaning.trim(), parts: sentenceParts(de, currentId, surfaces) });
+    groups.push({ de, ko: meaning.trim(), audioId, parts: sentenceParts(de, currentId, surfaces) });
     wordAt += span;
   }
   return groups;

@@ -5,13 +5,13 @@
 이 디렉터리에는 학습 앱이 없다. 앱이 먹을 재료를 만드는 공장이 있다.
 괴테 인스티투트의 A1·A2·B1 단어 목록을 읽고, 독일어판 위키낱말사전에서
 발음 기호를 찾고, 언어 모델로 한국어 뜻과 예문 번역을 쓴다. 마지막에는
-Piper가 단어와 문장을 mp3로 읽는다.
+Piper가 단어와 문장, 예문 아래의 문맥 표현을 mp3로 읽는다.
 
 텍스트 완성품은 둘이다. `data/words.json`에는 단어 3,005개가,
 `data/sentences.json`에는 중복을 걷어낸 예문 6,417개가 들어간다. 소리는 두
-파일이 정해 준 id를 그대로 이름 삼아 `data/audio/{id}.mp3`에 놓인다. 텍스트에서
-파일명을 다시 만들지 않으므로, 문장부호 하나가 다른 두 문장이 같은 소리를
-덮어쓸 일도 없다.
+파일이 정해 준 id를 이름 삼아 `data/audio/{id}.mp3`에 놓인다. 문맥 표현은
+발음할 철자와 합성 profile의 내용 해시를 `data/audio/gloss/{id}.mp3`에 놓아,
+같은 *ich*가 여러 문장에 나와도 한 파일만 만든다.
 
 ```text
 괴테 TSV ──→ 단어 목록 ──→ IPA ──→ 단어 뜻 ──→ 예문 번역 ──→ JSON 두 개
@@ -135,7 +135,7 @@ make merge
 단어와 예문은 `data/review_queue.tsv`, `data/gloss_review_queue.tsv`에 적히고,
 등급별 통계는 `data/stats.json`에 적힌다.
 
-### 7. 단어와 문장을 mp3로 읽는다
+### 7. 단어와 문맥 표현, 문장을 mp3로 읽는다
 
 ```bash
 make audio
@@ -144,7 +144,9 @@ make audio
 별도 환경인 `tts_poc/.venv`와 Piper 음성 모델을 준비하고 A1 오디오를 만든다.
 단어는 화면의 관사나 괄호 표현이 아니라 정리된 `lemma`를 보통 속도로 한 번,
 0.5초 뒤 느린 속도로 한 번 더 읽는다. 예문은 원문을 보통 속도로 한 번만 읽는다.
-결과는 mp3 32k 모노 파일이다.
+행간 주석의 독일어 표현도 1.25 속도로 한 번만 읽는다. A1의 화면 쌍 14,850개는
+철자와 대소문자가 같은 표현을 합쳐 2,510개 파일, 8.80 MiB가 된다. 결과는 모두
+mp3 32k 모노 파일이다.
 
 `length_scale`은 1.0으로 읽히면 초당 18자가 된다. 이 음성 모델의 원본 화자가
 같은 문장을 읽은 속도는 16.3자였다. 단어와 예문은 일부러 다른 값을 쓴다.
@@ -162,6 +164,13 @@ make audio AUDIO_ARGS="--levels a1 --word-scale 1.25 --slow 1.8 --sentence-scale
 
 ```bash
 make audio AUDIO_ARGS="--levels a1 --only sentences --force"
+```
+
+문맥 표현만 만들거나 다시 만들 수도 있다.
+
+```bash
+make audio AUDIO_ARGS="--levels a1 --only glosses"
+make audio AUDIO_ARGS="--levels a1 --only glosses --force"
 ```
 
 A2와 B1까지 만들거나 기존 파일을 다시 만들려면 범위를 명시한다.
@@ -208,9 +217,10 @@ tts_poc/.venv/bin/python tools/say.py "Auf Wiedersehen!" --once
 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-테스트는 id 규칙, 예문 중복 제거, 등급별 문장 수, 오디오 id 충돌, 병합된 예문
-참조와 LLM 재시도를 확인한다. 현재 기준은 단어 3,005개, 문장 6,417개, 서로
-겹치지 않는 오디오 id 9,422개다.
+테스트는 id 규칙, 예문 중복 제거, 등급별 문장 수, 문맥 표현의 중복 제거와
+대소문자 보존, 오디오 id 충돌, 병합된 예문 참조와 LLM 재시도를 확인한다.
+현재 기준은 단어·문장의 서로 겹치지 않는 id 9,422개와 A1 문맥 표현 오디오
+id 2,510개다.
 
 `make clean`은 다시 만들기 싼 중간 산출물과 최종 JSON만 지운다. 돈을 들여
 만든 번역 초안, 303MB 원본 덤프와 합성된 오디오는 남긴다.
@@ -226,7 +236,7 @@ tts_poc/.venv/bin/python tools/say.py "Auf Wiedersehen!" --once
 | 4 | `scripts/04_sentences.py` | 단어 목록의 예문 | `data/sentence_draft.tsv` |
 | 5 | `scripts/05_glosses.py` | 독일어 예문·한국어 번역 | `data/gloss_draft.jsonl` |
 | 6 | `scripts/06_merge.py` | 앞 단계 출력·수동 수정 | `data/words.json`, `data/sentences.json` |
-| 7 | `scripts/07_audio.py` | 최종 JSON 두 개 | `data/audio/{id}.mp3` |
+| 7 | `scripts/07_audio.py`, `scripts/gloss_audio.py` | 최종 JSON 두 개 | `data/audio/{id}.mp3`, `data/audio/gloss/{id}.mp3` |
 | 8 | `scripts/08_site.py` | 최종 JSON·오디오 | `../app/data/{등급}.json`, `../app/audio/` |
 
 ```text

@@ -15,6 +15,7 @@ SCRIPTS = ROOT / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 
 from ids import sentence_id, unique_sentences, word_id  # noqa: E402
+from gloss_audio import attach_gloss_audio, gloss_audio_id, unique_gloss_audio  # noqa: E402
 from llm import run_chunks  # noqa: E402
 
 
@@ -73,6 +74,29 @@ class AudioTests(unittest.TestCase):
         self.assertEqual(
             [row[0] for row in audio.work_items(words, sentences, {"a1"}, only="sentences")],
             ["s123"],
+        )
+
+    def test_gloss_audio_uses_visible_forms_and_deduplicates_them(self):
+        sentences = [
+            {"id": "s1", "de": "Ich gehe.", "level": "A1",
+             "g": attach_gloss_audio("Ich gehe.", [[1, "나는"], [1, "간다"]])},
+            {"id": "s2", "de": "Ich komme.", "level": "A1",
+             "g": attach_gloss_audio("Ich komme.", [[1, "나는"], [1, "온다"]])},
+        ]
+        items = unique_gloss_audio(sentences, {"a1"})
+        self.assertEqual(dict(items)[gloss_audio_id("Ich")], "Ich")
+        self.assertEqual(len(items), 3)
+
+    def test_gloss_audio_preserves_pronunciation_significant_case(self):
+        self.assertNotEqual(gloss_audio_id("Weg"), gloss_audio_id("weg"))
+
+    def test_audio_work_items_put_glosses_in_their_own_directory(self):
+        audio = load_script("07_audio.py")
+        sentence = {"id": "s1", "de": "Guten Tag!", "level": "A1",
+                    "g": attach_gloss_audio("Guten Tag!", [[2, "안녕하세요"]])}
+        self.assertEqual(
+            list(audio.work_items([], [sentence], {"a1"}, only="glosses")),
+            [(f"gloss/{gloss_audio_id('Guten Tag')}", "Guten Tag", (1.25,))],
         )
 
     def test_final_word_examples_reference_sentences(self):

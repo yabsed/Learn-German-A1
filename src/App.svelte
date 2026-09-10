@@ -13,6 +13,7 @@
 
   let words = $state<Word[]>([]);
   let sentences = $state<Record<string, Sentence>>({});
+  let audioInfo = $state<Dataset['audio']>();
   let byId = $state(new Map<string, Word>());
   let surfaces = $state(new Map<string, string>());
   let progress = $state<Progress>(readStorage<Progress>(KEY_PROGRESS, {}));
@@ -65,8 +66,13 @@
       player.pause();
       return;
     }
+    if (!player.paused) player.pause();
     player.src = `${contentBase}audio/${id}.mp3`;
-    player.play().then(() => playingId = id).catch(() => stopPlaying());
+    playingId = id;
+    player.play()
+      .catch(() => {
+        if (playingId === id) stopPlaying();
+      });
   }
 
   function stopPlaying() {
@@ -173,6 +179,7 @@
         const data = await response.json() as Dataset;
         words = data.words;
         sentences = data.sentences;
+        audioInfo = data.audio;
         byId = new Map(words.map((word) => [word.id, word]));
         surfaces = buildSurfaceIndex(words);
         startSession();
@@ -210,16 +217,16 @@
   {#if loading}<p class="loading">단어를 불러오는 중…</p>
   {:else if error}<p class="loading">{error}</p>
   {:else if view === 'practice'}
-    <Practice word={currentWord} {index} queueLength={queue.length} {doneToday} {remaining} {revealed} {settings} {sentences} {surfaces} wordById={byId} {playingId} onReveal={reveal} onGrade={grade} onMore={startSession} onPlay={play} onWord={openWord} />
+    <Practice word={currentWord} {index} queueLength={queue.length} {doneToday} {remaining} {revealed} {settings} {sentences} {surfaces} {playingId} onReveal={reveal} onGrade={grade} onMore={startSession} onPlay={play} />
   {:else if view === 'browse'}
     <Browse {words} {progress} onWord={openWord} />
   {:else}
-    <Stats {words} {sentences} {progress} onReset={resetProgress} />
+    <Stats {words} {sentences} {progress} audio={audioInfo} onReset={resetProgress} />
   {/if}
 </main>
 
 {#if sheetWord}
-  <WordSheet word={sheetWord} {sentences} {surfaces} wordById={byId} {settings} {playingId} onClose={closeSheet} onPlay={play} onWord={openWord} />
+  <WordSheet word={sheetWord} {sentences} {surfaces} {settings} {playingId} onClose={closeSheet} onPlay={play} />
 {/if}
 
 <audio bind:this={player} preload="none" onended={stopPlaying} onpause={stopPlaying} onerror={stopPlaying}></audio>

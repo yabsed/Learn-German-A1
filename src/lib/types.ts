@@ -2,8 +2,8 @@ export interface Sentence {
   de: string;
   ko: string;
   en?: string;
-  /** [연속된 독일어 낱말 수, 그 범위의 문맥상 한국어 뜻]. */
-  g?: Array<[number, string]>;
+  /** [독일어 낱말 수, 문맥상 한국어 뜻, 해당 독일어 표현의 오디오 id]. */
+  g?: Array<[number, string, string]>;
 }
 
 export interface Word {
@@ -26,6 +26,7 @@ export interface Dataset {
   built: string;
   words: Word[];
   sentences: Record<string, Sentence>;
+  audio?: { files: number; bytes: number };
 }
 
 export interface ProgressCard {

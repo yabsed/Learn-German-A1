@@ -1,7 +1,8 @@
 """7단계: words.json·sentences.json의 id로 mp3를 만든다.
 
 단어는 lemma를 보통 속도와 느린 속도로 두 번 읽고, 예문은 보통 속도로 한
-번 읽는다. 파일명은 텍스트에서 만들지 않고 데이터셋의 id를 그대로 쓴다.
+번 읽는다. 문맥 주석의 독일어 표현은 중복을 없애고 한 번 읽는다. 단어와
+문장은 데이터셋 id, 문맥 표현은 내용 기반 id를 파일명으로 쓴다.
 
 속도가 1.0 이 아닌 이유는 Piper 가 그 값에서 초당 18자로 읽기 때문이다.
 같은 문장을 읽은 실제 화자(Thorsten, 이 음성 모델의 원본)는 16.3자였다.
@@ -15,6 +16,7 @@
 실행  python scripts/07_audio.py --levels a1
       python scripts/07_audio.py --levels a1,a2 --force
       python scripts/07_audio.py --levels a1 --only sentences --force
+      python scripts/07_audio.py --levels a1 --only glosses
 """
 from __future__ import annotations
 
@@ -25,6 +27,7 @@ import time
 from pathlib import Path
 
 from common import AUDIO, LEVELS, ROOT, SENTENCES, WORDS, log
+from gloss_audio import GLOSS_AUDIO_BITRATE, GLOSS_AUDIO_SCALE, unique_gloss_audio
 from piper_tts import DEFAULT_VOICE, prepare_voice, synthesize, to_mp3, write_wav
 
 DEFAULT_VOICES_DIR = ROOT / "tts_poc" / "voices"
@@ -55,6 +58,13 @@ def work_items(words: list[dict], sentences: list[dict], levels: set[str],
                     raise ValueError(f"duplicate audio id: {item_id}")
                 seen.add(item_id)
                 yield item_id, sentence["de"], (sentence_scale,)
+    if only in ("all", "glosses"):
+        for item_id, spoken in unique_gloss_audio(sentences, levels):
+            path_id = f"gloss/{item_id}"
+            if path_id in seen:
+                raise ValueError(f"duplicate audio id: {path_id}")
+            seen.add(path_id)
+            yield path_id, spoken, (GLOSS_AUDIO_SCALE,)
 
 
 def read_json(path: Path) -> list[dict]:
@@ -72,7 +82,7 @@ def main() -> int:
     ap.add_argument("--word-scale", type=float, default=1.25, help="단어 첫 읽기의 길이 계수")
     ap.add_argument("--slow", type=float, default=1.8, help="단어의 느린 읽기 길이 계수")
     ap.add_argument("--sentence-scale", type=float, default=1.6, help="예문의 길이 계수")
-    ap.add_argument("--only", choices=("all", "words", "sentences"), default="all",
+    ap.add_argument("--only", choices=("all", "words", "sentences", "glosses"), default="all",
                     help="일부만 다시 만들 때 쓴다")
     ap.add_argument("--gap", type=float, default=0.5, help="단어의 두 읽기 사이 무음 초")
     ap.add_argument("--bitrate", default="32k")
@@ -86,6 +96,13 @@ def main() -> int:
         ap.error(f"알 수 없는 등급: {','.join(sorted(unknown))}")
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg이 없다. 데이터셋 오디오는 mp3로 만들어야 하므로 ffmpeg을 설치할 것.")
+    if args.only in ("all", "glosses") and (
+        args.voice != DEFAULT_VOICE or args.bitrate != GLOSS_AUDIO_BITRATE
+    ):
+        ap.error(
+            "문맥 표현 오디오 id에는 기본 voice와 32k profile이 포함된다. "
+            "설정을 바꾸려면 gloss_audio.py의 profile 버전도 함께 바꿀 것."
+        )
 
     items = list(work_items(read_json(WORDS), read_json(SENTENCES), levels,
                             word_scale=args.word_scale, slow=args.slow,
@@ -110,9 +127,10 @@ def main() -> int:
     started = time.perf_counter()
     for index, (item_id, text, scales) in enumerate(pending, 1):
         pcm = silence.join(synthesize(voice, text, scale)[0] for scale in scales)
-        wav = args.out / f".{item_id}.wav"
-        encoded = args.out / f".{item_id}.mp3"
         final = args.out / f"{item_id}.mp3"
+        final.parent.mkdir(parents=True, exist_ok=True)
+        wav = final.with_name(f".{final.stem}.wav")
+        encoded = final.with_name(f".{final.stem}.mp3")
         try:
             write_wav(wav, pcm, rate)
             to_mp3(wav, encoded, args.bitrate)

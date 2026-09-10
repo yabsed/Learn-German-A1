@@ -6,15 +6,13 @@
     word: Word;
     sentences: Record<string, Sentence>;
     surfaces: Map<string, string>;
-    wordById: Map<string, Word>;
     settings: Settings;
     playingId?: string;
     exampleLimit?: number;
     onPlay: (id: string, button: HTMLButtonElement) => void;
-    onWord: (id: string) => void;
   }
 
-  let { word, sentences, surfaces, wordById, settings, playingId, exampleLimit = 0, onPlay, onWord }: Props = $props();
+  let { word, sentences, surfaces, settings, playingId, exampleLimit = 0, onPlay }: Props = $props();
   let plural = $derived(word.plural?.replace(/^(die|der|das) /, '') || '');
   let pluralArticle = $derived(word.plural?.match(/^(die|der|das) /)?.[1] || '');
 </script>
@@ -31,4 +29,4 @@
 </div>
 <p class="ko">{word.ko}</p>
 {#if word.note}<p class="note">{word.note}</p>{/if}
-<Examples ids={word.ex} {sentences} currentId={word.id} {surfaces} {wordById} {settings} {playingId} limit={exampleLimit} {onPlay} {onWord} />
+<Examples ids={word.ex} {sentences} currentId={word.id} {surfaces} {settings} {playingId} limit={exampleLimit} {onPlay} />

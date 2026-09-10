@@ -6,15 +6,13 @@
     word: Word;
     sentences: Record<string, Sentence>;
     surfaces: Map<string, string>;
-    wordById: Map<string, Word>;
     settings: Settings;
     playingId?: string;
     onClose: () => void;
     onPlay: (id: string, button: HTMLButtonElement) => void;
-    onWord: (id: string) => void;
   }
 
-  let { word, sentences, surfaces, wordById, settings, playingId, onClose, onPlay, onWord }: Props = $props();
+  let { word, sentences, surfaces, settings, playingId, onClose, onPlay }: Props = $props();
 </script>
 
 <div class="sheet-wrap" role="presentation" onclick={(event) => event.target === event.currentTarget && onClose()}>
@@ -24,7 +22,7 @@
     </div>
     <div class="lemma sheet-lemma">{word.lemma}</div>
     <div class="sheet-details">
-      <WordDetails {word} {sentences} {surfaces} {wordById} {settings} {playingId} {onWord} {onPlay} />
+      <WordDetails {word} {sentences} {surfaces} {settings} {playingId} {onPlay} />
     </div>
   </div>
 </div>

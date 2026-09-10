@@ -1,4 +1,4 @@
-# construct_dataset — 단어·예문 텍스트와 로컬 발음 오디오를 만드는 8단계 파이프라인
+# construct_dataset — 단어·예문·문맥 표현의 텍스트와 로컬 발음 오디오를 만드는 8단계 파이프라인
 #
 #   make setup      텍스트 파이프라인 가상환경·의존성·서브모듈
 #   make all        1~6단계 (3~5단계는 API 키 또는 claude CLI 필요)
@@ -59,7 +59,7 @@ $(AUDIO_READY): requirements-audio.txt
 
 setup-audio: $(AUDIO_READY)    ## Piper 전용 가상환경·음성 모델. 텍스트 환경과 합치지 않는다
 
-audio: merge $(AUDIO_READY)    ## 7단계: words/sentences의 id.mp3 (기본 A1, mp3 32k)
+audio: merge $(AUDIO_READY)    ## 7단계: 단어·문장·문맥 표현 mp3 (기본 A1, mp3 32k)
 	$(AUDIO_PY) scripts/07_audio.py $(AUDIO_ARGS)
 
 site: merge                    ## 8단계: ../app/data/{등급}.json 과 ../app/audio/ (하드링크)

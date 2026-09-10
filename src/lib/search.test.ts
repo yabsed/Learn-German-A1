@@ -35,29 +35,30 @@ describe('interlinear glosses', () => {
   it('reconstructs German groups and keeps punctuation on the preceding group', () => {
     const groups = glossParts(
       'Ab morgen muss ich arbeiten.',
-      [[2, '내일부터'], [1, '~해야 한다'], [1, '나는'], [1, '일하다']],
+      [[2, '내일부터', 'g1'], [1, '~해야 한다', 'g2'], [1, '나는', 'g3'], [1, '일하다', 'g4']],
       'arbeiten',
       buildSurfaceIndex(words),
     );
     expect(groups.map(({ de, ko }) => [de, ko])).toEqual([
       ['Ab morgen', '내일부터'], ['muss', '~해야 한다'], ['ich', '나는'], ['arbeiten.', '일하다'],
     ]);
+    expect(groups.map((group) => group.audioId)).toEqual(['g1', 'g2', 'g3', 'g4']);
     expect(groups.at(-1)?.parts.find((part) => part.text === 'arbeiten')?.current).toBe(true);
   });
 
   it('rejects a gloss whose spans do not cover the sentence', () => {
-    expect(glossParts('Guten Tag!', [[1, '안녕하세요']], '', new Map())).toEqual([]);
+    expect(glossParts('Guten Tag!', [[1, '안녕하세요', 'g1']], '', new Map())).toEqual([]);
   });
 
   it('counts a number as a visible gloss token', () => {
-    const groups = glossParts('Das kostet 200 Euro.', [[2, '그것은 가격이'], [1, '200'], [1, '유로이다']], '', new Map());
+    const groups = glossParts('Das kostet 200 Euro.', [[2, '그것은 가격이', 'g1'], [1, '200', 'g2'], [1, '유로이다', 'g3']], '', new Map());
     expect(groups.map((group) => group.de)).toEqual(['Das kostet', '200', 'Euro.']);
   });
 
   it('keeps workbook alternatives and hyphenated words as single tokens', () => {
     const groups = glossParts(
       'Sonst noch (et)was per E-Mail?',
-      [[1, '그 밖에'], [1, '더'], [1, '무엇인가'], [1, '~로'], [1, '이메일']],
+      [[1, '그 밖에', 'g1'], [1, '더', 'g2'], [1, '무엇인가', 'g3'], [1, '~로', 'g4'], [1, '이메일', 'g5']],
       '',
       new Map(),
     );

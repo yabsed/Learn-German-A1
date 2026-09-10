@@ -11,6 +11,10 @@
 속도로 한 번, 0.5초 쉬고 느린 속도로 한 번 더 난다. *Vater* 의 V 가 F 로 들리는
 자리는 두 번째 재생에서 또렷해진다.
 
+예문의 독일어·한국어 쌍을 누르면 다른 단어 카드로 이동하지 않고, 화면에 적힌
+독일어 표현을 그대로 한 번 읽는다. 왼쪽 ▶는 문장 전체를 읽고, 작은 쌍은
+*habe*나 *geht es*처럼 지금 확인할 표현만 읽는다.
+
 ## 띄우기
 
 저장소 루트에서 한 줄이면 된다.
@@ -48,10 +52,10 @@ npm run dev
 이때 필요한 것은 `manifest.webmanifest` 와 `sw.js` 두 파일뿐이다.
 
 소리까지 오프라인으로 쓰려면 진도 화면에서 **오디오 전부 내려받기** 를 누른다.
-A1 오디오 3,264개, 약 26 MB다. 화면과 단어 파일은 처음 열 때 이미 저장되므로
+A1 오디오 5,774개, 약 44 MiB다. 화면과 단어 파일은 처음 열 때 이미 저장되므로
 이 단추를 누르지 않아도 글자는 비행기 안에서 나온다. 소리만 나지 않을 뿐이다.
 
-캐시를 둘로 나눈 이유가 여기 있다. 26 MB를 첫 방문에 받게 하지 않으려는 것이다.
+캐시를 둘로 나눈 이유가 여기 있다. 44 MiB를 첫 방문에 받게 하지 않으려는 것이다.
 누르지 않아도 한 번 재생한 소리는 그때그때 저장된다.
 
 ## 어디에 무엇이 남는가
@@ -108,9 +112,10 @@ app/
 ├── manifest.webmanifest    홈 화면 설치
 ├── icon.svg · icon-192.png · icon-512.png
 ├── data/                   make site 가 만든다
-│   ├── a1.json             단어 679, 예문 2,585. 548 KB
+│   ├── a1.json             단어 679, 예문 2,585. 약 1 MB
 │   └── levels.json
-└── audio/                  make site 가 하드링크한다. mp3 3,264개, 26 MB
+└── audio/                  make site 가 하드링크한다. mp3 5,774개, 약 44 MiB
+    └── gloss/              중복을 뺀 A1 문맥 표현 mp3 2,510개
 ```
 
 | 파일 | 만드는 것 |
@@ -118,6 +123,7 @@ app/
 | `construct_dataset/scripts/05_glosses.py` | 예문의 행간 문맥 뜻 |
 | `construct_dataset/scripts/06_merge.py` | `words.json`, `sentences.json` |
 | `construct_dataset/scripts/07_audio.py` | `data/audio/{id}.mp3` |
+| `construct_dataset/scripts/gloss_audio.py` | 문맥 표현 추출·중복 제거·내용 기반 오디오 id |
 | `construct_dataset/scripts/08_site.py` | `app/data/{등급}.json`, `app/audio/` |
 
 </details>
