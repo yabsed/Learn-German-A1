@@ -45,5 +45,5 @@ export interface Settings {
   session: number;
 }
 
-export type View = 'practice' | 'browse' | 'stats';
+export type View = 'practice' | 'browse' | 'stats' | 'notes';
 export type WordFilter = 'all' | 'new' | 'learning' | 'known';

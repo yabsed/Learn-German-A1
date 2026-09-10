@@ -24,7 +24,7 @@
     <button class="icon-btn" aria-label="설정" aria-expanded={settingsOpen} onclick={() => settingsOpen = !settingsOpen}>⚙</button>
   </div>
   <nav class="tabs" aria-label="주요 화면">
-    {#each [['practice', '연습'], ['browse', '단어장'], ['stats', '진도']] as tab}
+    {#each [['practice', '연습'], ['browse', '단어장'], ['stats', '진도'], ['notes', '해설서']] as tab}
       <button
         class="tab"
         aria-current={view === tab[0] ? 'page' : undefined}

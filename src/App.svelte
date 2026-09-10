@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import Browse from './components/Browse.svelte';
   import Header from './components/Header.svelte';
+  import Notes from './components/Notes.svelte';
   import Practice from './components/Practice.svelte';
   import Stats from './components/Stats.svelte';
   import WordSheet from './components/WordSheet.svelte';
@@ -110,7 +111,7 @@
     }
     if (sheetWord) pauseAudio();
     sheetWord = undefined;
-    if (parts[0] === 'practice' || parts[0] === 'browse' || parts[0] === 'stats') {
+    if (parts[0] === 'practice' || parts[0] === 'browse' || parts[0] === 'stats' || parts[0] === 'notes') {
       if (view !== parts[0]) window.scrollTo(0, 0);
       view = parts[0];
     } else {
@@ -220,6 +221,8 @@
     <Practice word={currentWord} {index} queueLength={queue.length} {doneToday} {remaining} {revealed} {settings} {sentences} {surfaces} {playingId} onReveal={reveal} onGrade={grade} onMore={startSession} onPlay={play} />
   {:else if view === 'browse'}
     <Browse {words} {progress} onWord={openWord} />
+  {:else if view === 'notes'}
+    <Notes />
   {:else}
     <Stats {words} {sentences} {progress} audio={audioInfo} onReset={resetProgress} />
   {/if}
