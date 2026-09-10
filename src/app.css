@@ -378,13 +378,8 @@ main {
   font-size: 13px;
 }
 
-/* 이 예문이 왜 여기 붙어 있는지 보이게 지금 보는 단어를 짚어 둔다. */
 .ex-here {
   color: var(--accent);
-  background: var(--accent-soft);
-  border-radius: 3px;
-  padding: 0 2px;
-  margin: 0 -2px;
 }
 
 .more {
